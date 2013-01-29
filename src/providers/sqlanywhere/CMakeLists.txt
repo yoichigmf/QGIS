@@ -3,8 +3,14 @@
 
 ADD_SUBDIRECTORY(sqlanyconnection)
 
-SET (SA_SRCS qgssqlanywhereprovider.cpp)
-SET (SA_MOC_HDRS qgssqlanywhereprovider.h)
+SET (SA_SRCS 
+  qgssqlanywhereprovider.cpp
+  qgssqlanywherefeatureiterator.cpp
+)
+SET (SA_MOC_HDRS 
+  qgssqlanywhereprovider.h
+  qgssqlanywherefeatureiterator.h
+)
 
 ADD_DEFINITIONS("-DSACONN_EXPORT=${DLLEXPORT}")
 
