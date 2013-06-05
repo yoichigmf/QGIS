@@ -1940,6 +1940,7 @@ bool QgsVectorLayer::readSymbology( const QDomNode& node, QString& errorMessage 
           break;
 
         case Photo:
+        case WebView:
           mWidgetSize[ name ] = QSize( editTypeElement.attribute( "widgetWidth" ).toInt(), editTypeElement.attribute( "widgetHeight" ).toInt() );
           break;
 
@@ -1953,7 +1954,6 @@ bool QgsVectorLayer::readSymbology( const QDomNode& node, QString& errorMessage 
         case UniqueValues:
         case UniqueValuesEditable:
         case UuidGenerator:
-        case WebView:
         case Color:
           break;
       }
@@ -2246,6 +2246,7 @@ bool QgsVectorLayer::writeSymbology( QDomNode& node, QDomDocument& doc, QString&
           break;
 
         case Photo:
+        case WebView:
           editTypeElement.setAttribute( "widgetWidth", mWidgetSize[ it.key()].width() );
           editTypeElement.setAttribute( "widgetHeight", mWidgetSize[ it.key()].height() );
           break;
@@ -2260,7 +2261,6 @@ bool QgsVectorLayer::writeSymbology( QDomNode& node, QDomDocument& doc, QString&
         case Enumeration:
         case Immutable:
         case UuidGenerator:
-        case WebView:
         case Color:
           break;
       }
@@ -2592,6 +2592,11 @@ bool QgsVectorLayer::commitChanges()
     QgsMessageLog::logMessage( tr( "Commit errors:\n  %1" ).arg( mCommitErrors.join( "\n  " ) ) );
   }
 
+  if ( mCache )
+  {
+    mCache->deleteCachedGeometries();
+  }
+
   updateFields();
   mDataProvider->updateExtents();
 
@@ -2633,6 +2638,11 @@ bool QgsVectorLayer::rollBack( bool deleteBuffer )
     undoStack()->clear();
   }
   emit editingStopped();
+
+  if ( mCache )
+  {
+    mCache->deleteCachedGeometries();
+  }
 
   // invalidate the cache so the layer updates properly to show its original
   // after the rollback
