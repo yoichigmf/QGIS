@@ -48306,7 +48306,7 @@ SQL Anywhereエラーコード %2
     <message>
         <location filename="../python/console/console_settings.ui" line="386"/>
         <source>Using preloaded APIs file</source>
-        <translation>事前のロードされたAPIファイルを利用している</translation>
+        <translation>事前にロードされたAPIファイルを利用する</translation>
     </message>
     <message>
         <location filename="../python/console/console_settings.ui" line="380"/>
