@@ -35839,12 +35839,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="557"/>
         <source>Installed version of this plugin is higher than any version found in repository</source>
-        <translation type="unfinished"></translation>
+        <translation>このプラグインのインストールされているバージョンはりポジトリにあるバージョンより高いです</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="565"/>
         <source>This plugin is experimental</source>
-        <translation type="unfinished"></translation>
+        <translation>このプラグインは実験的なものです</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="587"/>
@@ -35865,47 +35865,47 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="603"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>詳細情報</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="606"/>
         <source>homepage</source>
-        <translation type="unfinished"></translation>
+        <translation>ホームページ</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="610"/>
         <source>tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>トラッカー</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="614"/>
         <source>code_ repository</source>
-        <translation type="unfinished"></translation>
+        <translation>コードリポジトリ</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="627"/>
         <source>&lt;br/&gt;%1 rating vote(s)&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br/&gt;%1 格付け投票&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="631"/>
         <source>%1 downloads&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ダウンロード&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="640"/>
         <source>Installed version: %1 (in %2)&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールされているバージョン: %1 ( %2 内)&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="644"/>
         <source>Available version: %1 (in %2)&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能バージョン: %1 ( %2 内)&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="650"/>
         <source>changelog:&lt;br/&gt;%1 &lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>チェンジログ: :&lt;br/&gt;%1 &lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="661"/>
@@ -35940,7 +35940,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="757"/>
         <source>The repository is connected</source>
-        <translation type="unfinished"></translation>
+        <translation>リポジトリは接続されています</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="761"/>
@@ -35950,7 +35950,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="763"/>
         <source>The repository is enabled, but unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>リポジトリは有効ですが利用できません</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="768"/>
@@ -35965,7 +35965,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="776"/>
         <source>The repository is blocked due to incompatibility with your QGIS version</source>
-        <translation type="unfinished"></translation>
+        <translation>リポジトリにブロックされました.なぜならあなたのQGISバージョンとは互換性が無いからです</translation>
     </message>
     <message>
         <source>&amp;Select All</source>
@@ -36023,22 +36023,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="124"/>
         <source>Get more</source>
-        <translation type="unfinished"></translation>
+        <translation>さらに取得する</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="127"/>
         <source>Uninstalled plugins available for download</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロード可能なインストールされていないプラグイン</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="139"/>
         <source>Upgradeable</source>
-        <translation type="unfinished"></translation>
+        <translation>アップグレード可能</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="142"/>
         <source>Installed plugins with newer version available</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールされているプラグインで新しいバージョンが利用可能です</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="154"/>
@@ -36058,7 +36058,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="172"/>
         <source>Broken or uncompatible installed plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールされているプラグインが壊れているか互換性がありません</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="184"/>
@@ -36075,37 +36075,37 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="282"/>
         <source>&amp;Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルター(&amp;F)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="324"/>
         <source>Search in:</source>
-        <translation type="unfinished"></translation>
+        <translation>検索:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="331"/>
         <source>names</source>
-        <translation type="unfinished"></translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="338"/>
         <source>descriptions</source>
-        <translation type="unfinished"></translation>
+        <translation>説明</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="345"/>
         <source>tags</source>
-        <translation type="unfinished"></translation>
+        <translation>タグ</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="352"/>
         <source>authors</source>
-        <translation type="unfinished"></translation>
+        <translation>作者</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="452"/>
         <source>Upgrade all upgradeable plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>更新可能なすべてのプラグインを更新する</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="455"/>
@@ -36179,7 +36179,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="645"/>
         <source>Show also experimental plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>実験的プラグインも表示する</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="669"/>
