@@ -35819,7 +35819,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="531"/>
         <source>This plugin requires a missing module</source>
-        <translation>このプラグインに必要なモジュールが足りません</translation>
+        <translation>このプラグインに必要なモジュールがありません</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="535"/>
@@ -50638,7 +50638,166 @@ that will be automatically deleted after running.&lt;/li&gt;
 	from the close button. This allows you to save the geometry to be restored to the next start.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;style&gt;
+	#toolbarConsole td{
+		background: #f6f6f6;
+	}
+&lt;/style&gt;
+&lt;h3&gt;Pythonコンソール for QGIS&lt;/h3&gt;
+&lt;a href=&quot;#console&quot;&gt;コンソール&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#editor&quot;&gt;エディタ&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#settings&quot;&gt;設定&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;p align=&apos;justify&apos;&gt;
+				QGIS PythonコンソールはPythonコマンドを実行するための対話型シェルです.
+				それはあなたのPythonスクリプトを編集して保存することができるファイルエディタも持っています.
+				コンソールとエディタの両方ともPyQScintilla2パッケージをもとに作成されています.&lt;br&gt;
+				コンソールは上下に2つのメインパネルに分けられており、水平スプリッタを使用してサイズ変更が可能です.
+				出力領域パネルはコマンド出力を表示する読み取り専用のウィジェットです.
+				入力領域にはテキストをドラッグ&amp;ドロップしたりコピー&amp;ペーストしたりすることができます. 出力パネルのテキストを選択してコンテキストメニューから&lt;label&gt;選択の入力&lt;/label&gt;コマンドをクリックすることによってもコードスニペットを実行することができます. 
+				選択されたテキストにインタプリタのプロンプト(&gt;&gt;&gt;や...)が含まれていても構いません.
+				入力領域パネルはコマンドを入力するための対話型のPythonシェルです.&lt;br&gt;
+				Pythonファイルエディタにアクセスするにはツールバーの&lt;label&gt;エディタの表示&lt;/label&gt;ボタンを使います.
+				エディタではPythonファイルを編集して保存することができ、あなたのコードを管理するための基本的な機能を提供しています
+				(コードのコメントやコメント解除、構文チェック、codepad.orgを通じたコードの共有など).
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;console&quot;&gt;
+&lt;h4&gt;コンソール&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;主な特徴:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;次のAPIでコード補完と構文ハイライト、コールチップスが利用できます:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Alt+Space&lt;/label&gt;で自動補完リストを表示します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Shift+Space&lt;/label&gt;でコマンド履歴リストを表示します.&lt;/li&gt;
+			&lt;br&gt;
+                        &lt;li&gt;出力パネルの&lt;label&gt;選択を入力&lt;/label&gt;コマンドでコードスニペットが実行できます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;QGIS API ドキュメントを開くには&lt;label&gt;_api&lt;/label&gt;とタイプします.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;PyQGIS Cookbookを開くには&lt;label&gt;_pyqgis&lt;/label&gt;とタイプします.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;コマンド履歴の保存やクリアは入力パネルのコンテキストメニューからアクセスします.
+			履歴は ~/.qgis2/console_history.txt ファイルに保存されます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+		&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;b&gt;&lt;i&gt;ツールバー:&lt;/i&gt;&lt;/b&gt;
+	&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;Pythonコンソールをクリアします&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSextanteConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;Sextanteクラスをインポートします&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtCoreクラスをインポートします&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtGuiクラスをインポートします&lt;/td&gt;
+		&lt;/tr&gt;
+                &lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;コマンドの実行 (Enterキーを押すのと同様)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;設定&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;ヘルプ&lt;/td&gt;
+		&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;editor&quot;&gt;
+&lt;h4&gt;エディタ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;主な特徴:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;次のAPIでコード補完と構文ハイライト、コールチップスが利用できます:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Space&lt;/label&gt;で自動補完リストを表示します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;codepad.orgを通じてコードスニペットを共有できます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+4&lt;/label&gt; 構文チェック.&lt;/li&gt; 
+			&lt;br&gt;
+			&lt;li&gt;オブジェクトインスペクタ: クラスと関数のブラウザ.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;マウスをクリックでオブジェクト定義を表示します(オブジェクトインスペクタから).&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;選択を入力&lt;/label&gt;コマンドでコードスニペットを実行します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;スクリプト実行&lt;/label&gt;コマンドでスクリプト全部を実行します.
+			(拡張子が.pycのバイトコンパイルファイルを生成します)&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;settings&quot;&gt;
+&lt;h4&gt;設定&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;Pythonコンソールの追加設定:&lt;/i&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;自動入力補完:&lt;/label&gt; チェックした場合、コード補完が有効になります.
+あなたは現在のドキュメントやインストールされたAPIやそれらの両方から自動入力補完を得ることができます&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;オートコンプリートのしきい値:&lt;/label&gt; オートコンプリートリストを表示するしきい値を設定します (タイプされた文字数)&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;自動括弧挿入:&lt;/label&gt; チェックしている場合、括弧が自動で閉じられます.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;実行前にスクリプトを自動保存する:&lt;/label&gt; 変更後に保存しなくてもよいように実行されるスクリプトを自動で保存するようにします.
+このアクションはシステムの一時ディレクトリに一時ファイルを保存します. それは実行後に自動的に削除されます.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;事前にロードされたAPIファイルを利用する:&lt;/label&gt; 事前にロードされたAPIファイルを使うかあなたのシステムに保存されたAPIファイルをロードするか選択できます.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&apos;border: 1px solid; background:#f6f6f6;&apos; align=&apos;justify&apos;&gt;
+	&lt;b&gt;注意:&lt;/b&gt; 閉じるボタンでPythonコンソールを閉じるとコンソールのウィジェットの状態を保存できます. これによって次回起動時に復元されるジオメトリを保存できます.
+&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1193"/>
