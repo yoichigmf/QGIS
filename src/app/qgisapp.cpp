@@ -629,11 +629,11 @@ QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, 
 
   if ( mPythonUtils && mPythonUtils->isEnabled() )
   {
-    // pass the python utils to the plugin manager
-    mPluginManager -> setPythonUtils( mPythonUtils );
     // initialize the plugin installer to start fetching repositories in background
     QgsPythonRunner::run( "import pyplugin_installer" );
     QgsPythonRunner::run( "pyplugin_installer.initPluginInstaller()" );
+    // enable Python in the Plugin Manager and pass the PythonUtils to it
+    mPluginManager -> setPythonUtils( mPythonUtils );
   }
 
   mSplash->showMessage( tr( "Initializing file filters" ), Qt::AlignHCenter | Qt::AlignBottom );
@@ -804,6 +804,7 @@ void QgisApp::dragEnterEvent( QDragEnterEvent *event )
 
 void QgisApp::dropEvent( QDropEvent *event )
 {
+  mMapCanvas->freeze();
   // get the file list
   QList<QUrl>::iterator i;
   QList<QUrl>urls = event->mimeData()->urls();
@@ -817,6 +818,7 @@ void QgisApp::dropEvent( QDropEvent *event )
       openFile( fileName );
     }
   }
+
   if ( QgsMimeDataUtils::isUriList( event->mimeData() ) )
   {
     QgsMimeDataUtils::UriList lst = QgsMimeDataUtils::decodeUriList( event->mimeData() );
@@ -832,7 +834,8 @@ void QgisApp::dropEvent( QDropEvent *event )
       }
     }
   }
-
+  mMapCanvas->freeze( false );
+  mMapCanvas->refresh();
   event->acceptProposedAction();
 }
 
@@ -2477,6 +2480,7 @@ void QgisApp::addVectorLayer()
   }
 
   mMapCanvas->freeze( false );
+  mMapCanvas->refresh();
 
   delete ovl;
   // update UI
@@ -2486,6 +2490,7 @@ void QgisApp::addVectorLayer()
 
 bool QgisApp::addVectorLayers( QStringList const & theLayerQStringList, const QString& enc, const QString dataSourceType )
 {
+  bool wasfrozen = mMapCanvas->isFrozen();
   QList<QgsMapLayer *> myList;
   foreach ( QString src, theLayerQStringList )
   {
@@ -2590,10 +2595,13 @@ bool QgisApp::addVectorLayers( QStringList const & theLayerQStringList, const QS
   // update UI
   qApp->processEvents();
 
-  // draw the map
-  mMapCanvas->freeze( false );
-  mMapCanvas->refresh();
-
+  // Only update the map if we frozen in this method
+  // Let the caller do it otherwise
+  if ( !wasfrozen )
+  {
+    mMapCanvas->freeze( false );
+    mMapCanvas->refresh();
+  }
 // Let render() do its own cursor management
 //  QApplication::restoreOverrideCursor();
 
@@ -6743,6 +6751,8 @@ QgsVectorLayer* QgisApp::addVectorLayer( QString vectorLayerPath, QString baseNa
     return NULL;
   }
 
+  bool wasfrozen = mMapCanvas->isFrozen();
+
   mMapCanvas->freeze();
 
 // Let render() do its own cursor management
@@ -6797,9 +6807,13 @@ QgsVectorLayer* QgisApp::addVectorLayer( QString vectorLayerPath, QString baseNa
   // update UI
   qApp->processEvents();
 
-  // draw the map
-  mMapCanvas->freeze( false );
-  mMapCanvas->refresh();
+  // Only update the map if we frozen in this method
+  // Let the caller do it otherwise
+  if ( !wasfrozen )
+  {
+    mMapCanvas->freeze( false );
+    mMapCanvas->refresh();
+  }
 
 // Let render() do its own cursor management
 //  QApplication::restoreOverrideCursor();
@@ -7995,8 +8009,9 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
   {
     QgsVectorLayer* vlayer = qobject_cast<QgsVectorLayer *>( layer );
     QgsVectorDataProvider* dprovider = vlayer->dataProvider();
+
     bool isEditable = vlayer->isEditable();
-    bool layerHasSelection = vlayer->selectedFeatureCount() != 0;
+    bool layerHasSelection = vlayer->selectedFeatureCount() > 0;
     bool layerHasActions = vlayer->actions()->size() > 0;
 
     bool canChangeAttributes = dprovider->capabilities() & QgsVectorDataProvider::ChangeAttributeValues;
@@ -8032,7 +8047,7 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
 
     if ( dprovider )
     {
-      mActionLayerSubsetString->setEnabled( dprovider->supportsSubsetString() && !isEditable );
+      mActionLayerSubsetString->setEnabled( !isEditable && dprovider->supportsSubsetString() );
 
       mActionToggleEditing->setEnabled( canSupportEditing && !vlayer->isReadOnly() );
       mActionToggleEditing->setChecked( canSupportEditing && isEditable );
@@ -8047,8 +8062,8 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
         updateUndoActions();
       }
 
-      mActionPasteFeatures->setEnabled( canAddAttributes && isEditable && !clipboard()->empty() );
-      mActionAddFeature->setEnabled( canAddAttributes && isEditable );
+      mActionPasteFeatures->setEnabled( isEditable && canAddFeatures && !clipboard()->empty() );
+      mActionAddFeature->setEnabled( isEditable && canAddFeatures );
 
       //does provider allow deleting of features?
       mActionDeleteSelected->setEnabled( isEditable && canDeleteFeatures && layerHasSelection );
@@ -8057,10 +8072,7 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
       //merge tool needs editable layer and provider with the capability of adding and deleting features
       if ( isEditable && canChangeAttributes )
       {
-        mActionMergeFeatures->setEnabled( layerHasSelection &&
-                                          canDeleteFeatures &&
-                                          canAddAttributes );
-
+        mActionMergeFeatures->setEnabled( layerHasSelection && canDeleteFeatures && canAddFeatures );
         mActionMergeFeatureAttributes->setEnabled( layerHasSelection );
       }
       else
@@ -8076,8 +8088,6 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
       mActionRotateFeature->setEnabled( isEditable && canChangeGeometry );
       mActionNodeTool->setEnabled( isEditable && canChangeGeometry );
 
-      mActionOffsetCurve->setEnabled( false );
-
       if ( vlayer->geometryType() == QGis::Point )
       {
         mActionAddFeature->setIcon( QgsApplication::getThemeIcon( "/mActionCapturePoint.png" ) );
@@ -8088,6 +8098,7 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
         mActionSimplifyFeature->setEnabled( false );
         mActionDeleteRing->setEnabled( false );
         mActionRotatePointSymbols->setEnabled( false );
+        mActionOffsetCurve->setEnabled( false );
 
         if ( isEditable && canChangeAttributes )
         {
@@ -8096,6 +8107,7 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
             mActionRotatePointSymbols->setEnabled( true );
           }
         }
+
         return;
       }
       else if ( vlayer->geometryType() == QGis::Line )
@@ -8119,9 +8131,10 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
         mActionSplitFeatures->setEnabled( isEditable && canAddFeatures );
         mActionSimplifyFeature->setEnabled( isEditable && canAddFeatures );
         mActionDeleteRing->setEnabled( isEditable && canAddFeatures );
+        mActionOffsetCurve->setEnabled( false );
       }
 
-      mActionOpenFieldCalc->setEnabled(( canChangeAttributes || canAddAttributes ) && isEditable );
+      mActionOpenFieldCalc->setEnabled( isEditable && ( canChangeAttributes || canAddAttributes ) );
 
       return;
     }
@@ -8132,10 +8145,8 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
       mActionRedo->setEnabled( false );
     }
 
-
-
     mActionLayerSubsetString->setEnabled( false );
-  }//end vector layer block
+  } //end vector layer block
   /*************Raster layers*************/
   else if ( layer->type() == QgsMapLayer::RasterLayer )
   {
