@@ -1644,46 +1644,53 @@ This may cause unexpected results.</source>
     <message>
         <source>Defined Projection For:
 %s.shp</source>
-        <translation type="unfinished"></translation>
+        <translation>%s.shp用に
+定義された投影法</translation>
     </message>
     <message>
         <source>Selected features: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>選択された地物: %s</translation>
     </message>
     <message>
         <source>Can&apos;t delete file %s</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル%s を削除できません</translation>
     </message>
     <message>
         <source>Commit error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>コミットエラー:
+  %s</translation>
     </message>
     <message>
         <source>Could not replace geometry of feature with id %s</source>
-        <translation type="unfinished"></translation>
+        <translation>id %s のジオメトリの地物を置き換えできませんでした</translation>
     </message>
     <message>
         <source>Could not eliminate features with these ids:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>以下のidの地物を除去できませんでした:
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力シェープファイルを作成しました
+%s</translation>
     </message>
     <message>
         <source>Created output point shapefile:
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>以下の出力ポイントシェープファイルが作成されました:
+%s
+これを新しいレイヤとしてTOCに追加しますか?</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力シェープファイルローディング中のエラー
+%s</translation>
     </message>
     <message>
         <source>Count Points In Polygon</source>
@@ -1702,12 +1709,15 @@ Would you like to add the new layer to the TOC?</source>
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>以下の出力シェープファイルが作成されました:
+%s
+これを新しいレイヤとしてTOCに追加しますか?</translation>
     </message>
     <message>
         <source>There were %d vertices in original dataset which
 were reduced to %d vertices after simplification</source>
-        <translation type="unfinished"></translation>
+        <translation>データセット内の%d個の頂点は
+簡素化処理で%d個の頂点になりました</translation>
     </message>
     <message>
         <source>Processing of the following layers/files ended with error:&lt;br&gt;&lt;br&gt;</source>
