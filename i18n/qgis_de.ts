@@ -439,91 +439,91 @@
         <translation>SQL-Abfrage:</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="55"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="59"/>
         <source>Store</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="62"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="66"/>
         <source>Delete</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="90"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="94"/>
         <source>&amp;Execute (F5)</source>
         <translation>&amp;Ausführen (F5)</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="93"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="97"/>
         <source>F5</source>
         <translation>F5</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="120"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="124"/>
         <source>&amp;Clear</source>
         <translation>&amp;Löschen</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="133"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="137"/>
         <source>Result:</source>
         <translation>Ergebnis:</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="173"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="177"/>
         <source>Load as new layer</source>
         <translation>Als neuen Layer laden</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="193"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="197"/>
         <source>Column with unique 
 integer values</source>
         <translation>Spalte mit eindeutigen 
 ganzzahligen Werten</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="217"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="221"/>
         <source>Geometry column</source>
         <translation>Geometriespalte</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="259"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="263"/>
         <source>Retrieve 
 columns</source>
         <translation>Spalten 
 laden</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="271"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="275"/>
         <source>Layer name (prefix)</source>
         <translation>Layername (Präfix)</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="294"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="298"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="304"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="308"/>
         <source>Vector</source>
         <translation>Vektor</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="314"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="318"/>
         <source>Raster</source>
         <translation>Raster</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="340"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="344"/>
         <source>Load now!</source>
         <translation>Jetzt laden!</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="352"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Avoid selecting feature by id.  Sometimes - especially when running expensive queries/views - fetching the data sequentially instead of fetching features by id can be much quicker.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Auswahl von Objekten nach ID vermeiden.  Manchmal- besonders, wenn teure Abfragen durchgeführt/Sichten abgefragt werden - kann das sequentielle Laden der Objekte deutlich schneller als die Abfrage nach ID sein.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="355"/>
+        <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="359"/>
         <source>Avoid selecting by feature id</source>
         <translation>Objektabfrage nach ID vermeiden</translation>
     </message>
@@ -1208,6 +1208,36 @@ laden</translation>
         <translation>Bitte Ausgabeshapedatei angeben</translation>
     </message>
     <message>
+        <source>Created output point shapefile:
+%s
+
+Would you like to add the new layer to the TOC?</source>
+        <translation>Ausgabepunktshapedatei erzeugt:
+%s
+
+Soll es als neuer Layer hinzugefügt werden?</translation>
+    </message>
+    <message>
+        <source>Created output shapefile:
+%s
+
+Would you like to add the new layer to the TOC?</source>
+        <translation>Ausgabeshapedatei erzeugt:
+%s
+
+Soll sie dem Projekt als neuer Layer hinzugefügt werden?</translation>
+    </message>
+    <message>
+        <source>Can&apos;t delete file %s</source>
+        <translation>Kann Datei %s nicht löschen</translation>
+    </message>
+    <message>
+        <source>There were %d vertices in original dataset which
+were reduced to %d vertices after simplification</source>
+        <translation>%d Stützpunkte des ursprünglichen Datenbestands
+wurden auf %d Stützpunkte vereinfacht</translation>
+    </message>
+    <message>
         <source>Define current projection</source>
         <translation>Aktuelle Projektion definieren</translation>
     </message>
@@ -1269,12 +1299,6 @@ laden</translation>
         <translation>Kann Projektionsdaten für PostGIS-Daten nicht definieren...noch!</translation>
     </message>
     <message>
-        <source>Defined Projection For:
-%1.shp</source>
-        <translation>Definierte Projektion für:
-%1.shp</translation>
-    </message>
-    <message>
         <source>Please select the projection system that defines the current layer.</source>
         <translation>Bitte Projektionssystem für den aktuellen Layer wählen.</translation>
     </message>
@@ -1287,14 +1311,18 @@ laden</translation>
         <translation>Mittlere Koordinaten</translation>
     </message>
     <message>
-        <source>Commit error:
- %1</source>
-        <translation>Commit-Fehler:
-%1</translation>
-    </message>
-    <message>
         <source>Could not delete features</source>
         <translation>Konnte Objekte nicht löschen</translation>
+    </message>
+    <message>
+        <source>Could not replace geometry of feature with id %s</source>
+        <translation>Konnte die Geometrie des Objektes %s nicht ersetzen</translation>
+    </message>
+    <message>
+        <source>Could not eliminate features with these ids:
+%s</source>
+        <translation>Konnte Objekte mit folgenden Dateien nicht eliminieren:
+%s</translation>
     </message>
     <message>
         <source>Could not add features</source>
@@ -1319,16 +1347,6 @@ laden</translation>
     <message>
         <source>No input vector layer specified</source>
         <translation>Keinen Eingabevektorlayer angegeben</translation>
-    </message>
-    <message>
-        <source>Created output point shapefile:
-%1
-
-Would you like to add the new layer to the TOC?</source>
-        <translation>Ausgabepunktshapedatei erzeugt:
-%1
-
-Soll es als neuer Layer hinzugefügt werden?</translation>
     </message>
     <message>
         <source>Please select a raster layer</source>
@@ -1375,18 +1393,24 @@ Soll es als neuer Layer hinzugefügt werden?</translation>
         <translation>Ergebnisse vereinfachen</translation>
     </message>
     <message>
-        <source>There were %1 vertices in original dataset which
-were reduced to %2 vertices after simplification</source>
-        <translation>%1 Stützpunkte des ursprünglichen Datenbestands
-wurden auf %2 Stützpunkte vereinfacht</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
+        <source>Error loading output shapefile:
+%s</source>
+        <translation>Fehler beim Laden der Ausgabeshapedatei:
+%s</translation>
+    </message>
+    <message>
         <source>Missing or invalid CRS</source>
         <translation>Fehlendes oder ungültiges KBS</translation>
+    </message>
+    <message>
+        <source>Defined Projection For:
+%s.shp</source>
+        <translation>Definierte Projektion für:
+%s.shp</translation>
     </message>
     <message>
         <source>Create Point Distance Matrix</source>
@@ -1417,18 +1441,16 @@ wurden auf %2 Stützpunkte vereinfacht</translation>
         <translation>Es gibt keine Shapedatei des gegebenen Geometrietyps. Bitte wählen einen verfügbaren Geometrietyp wählen.</translation>
     </message>
     <message>
+        <source>Processing of the following layers/files ended with error:&lt;br&gt;&lt;br&gt;</source>
+        <translation>Verarbeitung der folgenden Layer/Dateien endete mit Fehler:&lt;br&gt;&lt;br&gt;</translation>
+    </message>
+    <message>
         <source>Please specify target vector layer</source>
         <translation>Bitte Zielvektorlayer angeben</translation>
     </message>
     <message>
         <source>Please specify join vector layer</source>
         <translation>Bitte zusammenzuführenden Vektorlayer angeben</translation>
-    </message>
-    <message>
-        <source>Error loading output shapefile:
-%1</source>
-        <translation>Fehler beim Laden der Ausgabeshapdatei:
-%1</translation>
     </message>
     <message>
         <source>Identical output spatial reference system chosen
@@ -1495,10 +1517,6 @@ Soll wirklich fortgefahren werden?</translation>
         <translation>Fehler beim Löschen</translation>
     </message>
     <message>
-        <source>Can&apos;t delete file %1</source>
-        <translation>Kann Datei %1 nicht löschen</translation>
-    </message>
-    <message>
         <source>Cancel</source>
         <translation>Abbruch</translation>
     </message>
@@ -1511,22 +1529,8 @@ Soll wirklich fortgefahren werden?</translation>
         <translation>Ungültige Feldnamen</translation>
     </message>
     <message>
-        <source>No output will be created.
-Following field names are longer than 10 characters:
-%1</source>
-        <translation>Es wird keine Ausgabedatei erzeugt.
-Folgende Feldnamen sind länger als 10 Zeichen:
-%1</translation>
-    </message>
-    <message>
         <source>Error deleting shapefile</source>
         <translation>Fehler beim Löschen der Shapedatei</translation>
-    </message>
-    <message>
-        <source>Can&apos;t delete existing shapefile
-%1</source>
-        <translation>Kann vorhandene Shapedateien nicht löschen
-%1</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="26"/>
@@ -1617,6 +1621,20 @@ Dies kann zu unerwarteten Ergebnissen führen.</translation>
         <translation>Zusammenfassungsfeld</translation>
     </message>
     <message>
+        <source>No output will be created.
+Following field names are longer than 10 characters:
+%s</source>
+        <translation>Es wird keine Ausgabedatei erzeugt.
+Folgende Feldnamen sind länger als 10 Zeichen:
+%s</translation>
+    </message>
+    <message>
+        <source>Can&apos;t delete existing shapefile
+%s</source>
+        <translation>Kann vorhandene Shapedateien nicht löschen
+%s</translation>
+    </message>
+    <message>
         <source>Random Points</source>
         <translation>Zufällige Punkte</translation>
     </message>
@@ -1645,6 +1663,22 @@ Dies kann zu unerwarteten Ergebnissen führen.</translation>
         <translation>Vektorlayer teilen</translation>
     </message>
     <message>
+        <source>Created output shapefiles in folder:
+%s</source>
+        <translation>Ausgabeshapedateien erzeugt im Ordner:
+%s</translation>
+    </message>
+    <message>
+        <source>Selected features: %s</source>
+        <translation>Gewählte Objekte: %s</translation>
+    </message>
+    <message>
+        <source>Created output shapefile:
+%s</source>
+        <translation>Ausgabeshapedatei erzeugt:
+%s</translation>
+    </message>
+    <message>
         <location filename="../python/plugins/fTools/tools/frmVectorSplit.ui" line="17"/>
         <source>Vector Split</source>
         <translation>Vektorteilung</translation>
@@ -1652,16 +1686,6 @@ Dies kann zu unerwarteten Ergebnissen führen.</translation>
     <message>
         <source>No input shapefile specified</source>
         <translation>Keine Eingabeshapedatei angegeben</translation>
-    </message>
-    <message>
-        <source>Created output shapefiles in folder:
-%1</source>
-        <translation>Ausgabeshapedateien erzeugt im Ordner:
-%1</translation>
-    </message>
-    <message>
-        <source>Selected features: %1</source>
-        <translation>Gewählte Objekte: %1</translation>
     </message>
     <message>
         <source>Eliminate</source>
@@ -1672,20 +1696,14 @@ Dies kann zu unerwarteten Ergebnissen führen.</translation>
         <translation>Keine Auswahl auf Eingabelayer</translation>
     </message>
     <message>
+        <source>Commit error:
+%s</source>
+        <translation>Commit-Fehler:
+%s</translation>
+    </message>
+    <message>
         <source>Error creating output file</source>
         <translation>Fehler beim Erzeugen des Ausgabelayers</translation>
-    </message>
-    <message>
-        <source>Created output shapefile:
-%1</source>
-        <translation>Ausgabeshapedatei erzeugt:
-%1</translation>
-    </message>
-    <message>
-        <source>Could not eliminate features with these ids:
-%1</source>
-        <translation>Konnte Objekte mit folgenden Dateien nicht eliminieren:
-%1</translation>
     </message>
     <message>
         <source>Count Points In Polygon</source>
@@ -1748,10 +1766,6 @@ die Zwischenablage zu kopieren</translation>
         <translation>Zufällige Auswahl in Untermengen</translation>
     </message>
     <message>
-        <source>Could not replace geometry of feature with id %1</source>
-        <translation>Konnte die Geometrie des Objektes %1 nicht ersetzen</translation>
-    </message>
-    <message>
         <source>Please specify input vector layer</source>
         <translation>Bitte Eingabevektorlayer angeben</translation>
     </message>
@@ -1770,16 +1784,6 @@ die Zwischenablage zu kopieren</translation>
     <message>
         <source>Please specify output length field</source>
         <translation>Bitte Ausgabelängenfeld angeben</translation>
-    </message>
-    <message>
-        <source>Created output shapefile:
-%1
-
-Would you like to add the new layer to the TOC?</source>
-        <translation>Ausgabeshapedatei erzeugt:
-%1
-
-Soll sie dem Projekt als neuer Layer hinzugefügt werden?</translation>
     </message>
     <message>
         <source>length field</source>
@@ -2393,10 +2397,6 @@ Do you want terminate it anyway?</source>
         <translation>Der Befehl läuft noch immer. 
 Wollen Sie ihn trotzdem abbrechen?</translation>
     </message>
-    <message>
-        <source>Invalid parameters.</source>
-        <translation>Ungültige Parameter.</translation>
-    </message>
 </context>
 <context>
     <name>GdalToolsBasePluginWidget</name>
@@ -2417,8 +2417,8 @@ Wollen Sie ihn trotzdem abbrechen?</translation>
         <translation>Verarbeitung abgeschlossen.</translation>
     </message>
     <message>
-        <source>%1 not created.</source>
-        <translation>%1 nicht erzeugt.</translation>
+        <source>%s not created.</source>
+        <translation>%s nicht erzeugt.</translation>
     </message>
 </context>
 <context>
@@ -2528,6 +2528,10 @@ Wollen Sie ihn trotzdem abbrechen?</translation>
     <message>
         <source>The output file doesn&apos;t exist. You must set up the output size or resolution to create it.</source>
         <translation>Die Ausgabedatei ist nicht vorhanden. Eine Ausgabegröße oder -auflösung muß zum Anlegen angegeben werden.</translation>
+    </message>
+    <message>
+        <source>[select levels]</source>
+        <translation>[gewählte Ebenen]</translation>
     </message>
     <message>
         <source>Select the output directory to save the results to</source>
@@ -3013,7 +3017,7 @@ GDAL-Dokumentation statt der Onlinehilfe zu öffnen.</translation>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetConvert.ui" line="26"/>
         <location filename="../python/plugins/GdalTools/tools/widgetFillNodata.ui" line="26"/>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="26"/>
+        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="29"/>
         <location filename="../python/plugins/GdalTools/tools/widgetProjection.ui" line="26"/>
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="26"/>
         <location filename="../python/plugins/GdalTools/tools/widgetWarp.ui" line="26"/>
@@ -3025,7 +3029,7 @@ GDAL-Dokumentation statt der Onlinehilfe zu öffnen.</translation>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="28"/>
         <location filename="../python/plugins/GdalTools/tools/widgetInfo.ui" line="28"/>
         <location filename="../python/plugins/GdalTools/tools/widgetNearBlack.ui" line="28"/>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="35"/>
+        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="38"/>
         <location filename="../python/plugins/GdalTools/tools/widgetProjection.ui" line="42"/>
         <location filename="../python/plugins/GdalTools/tools/widgetProximity.ui" line="28"/>
         <location filename="../python/plugins/GdalTools/tools/widgetSieve.ui" line="28"/>
@@ -3361,115 +3365,14 @@ GDAL-Dokumentation statt der Onlinehilfe zu öffnen.</translation>
         <translation>Übersichten erzeugen (Pyramiden)</translation>
     </message>
     <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="64"/>
-        <source>old</source>
-        <translation>alt</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="173"/>
-        <source>Resampling method</source>
-        <translation>Abtastmethode</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="181"/>
-        <source>nearest</source>
-        <translation>nächste</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="186"/>
-        <source>average</source>
-        <translation>mittlere</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="191"/>
-        <source>gauss</source>
-        <translation>Gauß</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="196"/>
-        <source>cubic</source>
-        <translation>kubisch</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="201"/>
-        <source>average_mp</source>
-        <translation>mittlere_mp</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="206"/>
-        <source>average_magphase</source>
-        <translation>mittlere_magphase</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="211"/>
-        <source>mode</source>
-        <translation>Modus</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="220"/>
-        <source>new</source>
-        <translation>neu</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="70"/>
-        <source>Levels (space delimited)</source>
-        <translation>Ebenen (durch Leerzeichen getrennt)</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="50"/>
+        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="53"/>
         <source>Remove all overviews.</source>
         <translation>Alle Übersichten entfernen.</translation>
     </message>
     <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="53"/>
+        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="56"/>
         <source>Clean</source>
         <translation>Löschen</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="163"/>
-        <source>In order to generate external overview (for GeoTIFF especially).</source>
-        <translation>Im externe Übersichten zu erzeugen (insbesondere für GeoTIFF).</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="166"/>
-        <source>Open in read-only mode</source>
-        <translation>Schreibgeschützt öffnen</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="153"/>
-        <source>Create external overviews in TIFF format, compressed using JPEG.</source>
-        <translation>Externe Übersichten im TIFF-Format, komprimiert mit JPEG.</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="156"/>
-        <source>Overviews in TIFF format with JPEG compression</source>
-        <translation>Übersichten im TIFF-Format mit JPEG-Kompression</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="116"/>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="136"/>
-        <source>For JPEG compressed external overviews, 
-the JPEG quality can be set.</source>
-        <translation>Für JPEG-komprimierte externe Übersichten kann die JPEG-Qualität eingestellt werden.</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="120"/>
-        <source>JPEG Quality (1-100)</source>
-        <translation>JPEG-Qualität (1-100)</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="77"/>
-        <source>Alternate overview format using Erdas Imagine format, 
-placing the overviews in an associated .aux file 
-suitable for direct use with Imagine,ArcGIS, GDAL.</source>
-        <translation>Alternatives Übersichtenformat im Erdas-Imagine-Format, 
-bei dem die Übersichten in einer zugeordneten .aux-Datei 
-direkt in Imagine, ArcGIS, GDAL direkt nutzbar.</translation>
-    </message>
-    <message>
-        <location filename="../python/plugins/GdalTools/tools/widgetOverview.ui" line="82"/>
-        <source>Use Imagine format (.aux file)</source>
-        <translation>Imagine-Format benutzen (.aux-Datei)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetPolygonize.ui" line="20"/>
@@ -4121,6 +4024,26 @@ Bitte eine größere Toleranz wählen...</translation>
         <translation>Schneiden</translation>
     </message>
     <message>
+        <source>No output created. File creation error:
+%s</source>
+        <translation>Keine Ausgabe erzeugt. Fehler beim Anlegen der Datei:
+%s</translation>
+    </message>
+    <message>
+        <source>Created output shapefile:
+%s
+%s%s</source>
+        <translation>Ausgabeshapedatei erzeugt:
+%s
+%s%s</translation>
+    </message>
+    <message>
+        <source>Error loading output shapefile:
+%s</source>
+        <translation>Fehler beim Laden der Ausgabeshapedatei:
+%s</translation>
+    </message>
+    <message>
         <source>Difference layer</source>
         <translation>Differenzlayer</translation>
     </message>
@@ -4163,12 +4086,6 @@ Bitte eine größere Toleranz wählen...</translation>
     <message>
         <source>Close</source>
         <translation>Schließen</translation>
-    </message>
-    <message>
-        <source>No output created. File creation error:
-%1</source>
-        <translation>Keine Ausgabe erzeugt. Fehler beim Anlegen der Datei:
-%1</translation>
     </message>
     <message>
         <source>
@@ -4216,20 +4133,6 @@ Objektgeometriefehler: Eine oder mehrere Ausgabeobjekte mit ungültiger Geometri
 GEOS geoprocessing error: One or more input features have invalid geometry.</source>
         <translation>
 GEOS-Verarbeitungsfehler: Eine oder mehrere Objekte haben ungültige Geometrie.</translation>
-    </message>
-    <message>
-        <source>Created output shapefile:
-%1
-%2%3</source>
-        <translation>Ausgabeshapedatei erzeugt:
-%1
-%2%3</translation>
-    </message>
-    <message>
-        <source>Error loading output shapefile:
-%1</source>
-        <translation>Fehler beim Laden der Ausgabeshapdatei:
-%1</translation>
     </message>
 </context>
 <context>
@@ -5939,24 +5842,24 @@ Falsche Zeile: %1</translation>
         <translation>Python-Fehler</translation>
     </message>
     <message>
-        <source>Couldn&apos;t load plugin &apos;%1&apos; from [&apos;%2&apos;]</source>
-        <translation>Konnte Erweiterung &apos;%1&apos; von [&apos;%2&apos;] nicht laden</translation>
+        <source>Couldn&apos;t load plugin &apos;%s&apos; from [&apos;%s&apos;]</source>
+        <translation>Konnte Erweiterung &apos;%s&apos; von [&apos;%s&apos;] nicht laden</translation>
     </message>
     <message>
-        <source>Couldn&apos;t load plugin %1</source>
-        <translation>Konnte Erweiterung %1 nicht laden</translation>
+        <source>Couldn&apos;t load plugin %s</source>
+        <translation>Konnte Erweiterung %s nicht laden</translation>
     </message>
     <message>
-        <source>%1 due an error when calling its classFactory() method</source>
-        <translation>%1 wegen eines Fehler beim Aufruf seiner classFactory()-Methode</translation>
+        <source>%s due an error when calling its classFactory() method</source>
+        <translation>%s wegen eines Fehler beim Aufruf seiner classFactory()-Methode</translation>
     </message>
     <message>
-        <source>%1 due an error when calling its initGui() method</source>
-        <translation>%1 wegen eines Fehler beim Aufruf seiner initGui()-Methode</translation>
+        <source>%s due an error when calling its initGui() method</source>
+        <translation>%s wegen eines Fehler beim Aufruf seiner initGui()-Methode</translation>
     </message>
     <message>
-        <source>Error while unloading plugin %1</source>
-        <translation>Fehler beim Entladen der Erweiterung %1</translation>
+        <source>Error while unloading plugin %s</source>
+        <translation>Fehler beim Entladen der Erweiterung %s</translation>
     </message>
 </context>
 <context>
@@ -6074,10 +5977,6 @@ Falsche Zeile: %1</translation>
         <translation>Fehler speichern</translation>
     </message>
     <message>
-        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be saved. Error: %2</source>
-        <translation>Die Datei &lt;b&gt;%1&lt;/b&gt; kann nicht gespeichert werden. Fehler: %2</translation>
-    </message>
-    <message>
         <source>Save File As</source>
         <translation>Datei speichern als</translation>
     </message>
@@ -6146,10 +6045,6 @@ Falsche Zeile: %1</translation>
         <translation>Die Datei muß vor der Ausführung gespeichert werden.</translation>
     </message>
     <message>
-        <source>The file &lt;b&gt;&apos;%1&apos;&lt;/b&gt; has been modified, save changes?</source>
-        <translation>Die Datei &lt;b&gt;&apos;%1&apos;&lt;/b&gt; wurde geändert. Änderungen speichern?</translation>
-    </message>
-    <message>
         <source>Run Script</source>
         <translation>Skript ausführen</translation>
     </message>
@@ -6174,10 +6069,6 @@ Falsche Zeile: %1</translation>
         <translation>Alle wählen</translation>
     </message>
     <message>
-        <source>&lt;b&gt;&quot;%1&quot;&lt;/b&gt; was not found.</source>
-        <translation>&lt;b&gt;&quot;%1&quot;&lt;/b&gt; wurde nicht gefunden.</translation>
-    </message>
-    <message>
         <source>URL copied to clipboard.</source>
         <translation>URL in Zwischenablage kopiert.</translation>
     </message>
@@ -6186,37 +6077,8 @@ Falsche Zeile: %1</translation>
         <translation>Verbindungfehler: </translation>
     </message>
     <message>
-        <source> [Temporary file saved in %1]</source>
-        <translation> [Temporärdatei gespeichert in %1]</translation>
-    </message>
-    <message>
-        <source>## Script error: %1</source>
-        <translation>## Skriptfehler: %1</translation>
-    </message>
-    <message>
-        <source>## Script executed successfully: %1</source>
-        <translation>## Skript erfolgreich ausgeführt: %1</translation>
-    </message>
-    <message>
-        <source>Cannot execute file %1. Error: %2
-</source>
-        <translation>Kann Datei %1 nicht ausführen. Fehler: %2</translation>
-    </message>
-    <message>
         <source>Syntax ok</source>
         <translation>Syntax ok</translation>
-    </message>
-    <message>
-        <source>The file &lt;b&gt;&quot;%1&quot;&lt;/b&gt; has been deleted or is not accessible</source>
-        <translation>Die Datei &lt;b&gt;&quot;%1&quot;&lt;/b&gt; wurde gelöscht oder ist nicht zugreifbar</translation>
-    </message>
-    <message>
-        <source>The file &lt;b&gt;&quot;%1&quot;&lt;/b&gt; has been changed and reloaded</source>
-        <translation>Die Datei &lt;b&gt;&quot;%1&quot;&lt;/b&gt; wurde geändert und neugeladen</translation>
-    </message>
-    <message>
-        <source>The file &lt;b&gt;&quot;%1&quot;&lt;/b&gt; is read only, please save to different file first.</source>
-        <translation>Die Datei &lt;b&gt;&quot;%1&quot;&lt;/b&gt; ist schreibgeschützt, bitte zuerst als andere Datei speichern.</translation>
     </message>
     <message>
         <source>Python Console: Save file</source>
@@ -6247,33 +6109,8 @@ Falsche Zeile: %1</translation>
         <translation>Neuer Editor</translation>
     </message>
     <message>
-        <source>The file %1 could not be opened. Error: %2
-</source>
-        <translation>Die Datei %1 konnte nicht geöffnet werden. Fehler: %2</translation>
-    </message>
-    <message>
-        <source>Untitled-%1</source>
-        <translation>Unbenannt-%1</translation>
-    </message>
-    <message>
         <source>Python Console: Save File</source>
         <translation>Python-Konsole: Datei speichern</translation>
-    </message>
-    <message>
-        <source>Unable to restore the file: 
-%1
-</source>
-        <translation>Konnte Datei nicht wiederherstellen: 
-%1
-</translation>
-    </message>
-    <message>
-        <source>Python %1 on %2
-## Type help(iface) for more info and list of methods.
-</source>
-        <translation>Python %1 auf %2
-## help(iface) um mehr Informationen und eine Methodenliste zu erhalten.
-</translation>
     </message>
     <message>
         <source>Hide/Show Toolbar</source>
@@ -7233,44 +7070,50 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="92"/>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="100"/>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="107"/>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="115"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="104"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="113"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="120"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="128"/>
         <source>Python support will be disabled.</source>
         <translation>Die Python-Unterstützung wird abgeschaltet.</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="100"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="104"/>
+        <source>Couldn&apos;t set SIP API versions.</source>
+        <translation>Konnte SIP-API-Version nicht setzen.</translation>
+    </message>
+    <message>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="113"/>
         <source>Couldn&apos;t load PyQt4.</source>
         <translation>PyQt4 konnte nicht geladen werden.</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="107"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="120"/>
         <source>Couldn&apos;t load PyQGIS.</source>
         <translation>PyQGIS konnte nicht geladen werden.</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="115"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="128"/>
         <source>Couldn&apos;t load QGIS utils.</source>
         <translation>Konnte QGIS-Utils nicht öffnen.</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="201"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="214"/>
         <source>Python version:</source>
         <translation>Python-Version:</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="202"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="215"/>
         <source>QGIS version:</source>
         <translation>QGIS-Version:</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="203"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="216"/>
         <source>Python path:</source>
         <translation>Python-Pfad:</translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="190"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="203"/>
         <source>An error occured during execution of following code:</source>
         <translation>Fehler bei der Ausführung folgenden Codes:</translation>
     </message>
@@ -7543,7 +7386,7 @@ Sie wird deaktiviert.</translation>
         <translation>Kann Raster nicht abfragen </translation>
     </message>
     <message>
-        <location filename="../src/python/qgspythonutilsimpl.cpp" line="207"/>
+        <location filename="../src/python/qgspythonutilsimpl.cpp" line="220"/>
         <source>Python error</source>
         <translation>Python-Fehler</translation>
     </message>
@@ -9844,6 +9687,7 @@ Bitte nehmen Sie Kontakt zu den Entwicklern auf.</translation>
         <translation>Alle geöffneten Fenster vorholen</translation>
     </message>
     <message>
+        <location filename="../src/app/qgisapp.cpp" line="1152"/>
         <location filename="../src/app/qgisapp.cpp" line="1158"/>
         <source>Failed to open Python console:</source>
         <translation>Konnte Python-Konsole nicht öffnen:</translation>
@@ -34919,24 +34763,24 @@ Fehler: %2</translation>
         <translation>Suche nach neuen Erweiterungen...</translation>
     </message>
     <message>
-        <source>QGIS Plugin Installer update</source>
-        <translation>QGIS-Erweiterungsinstallationsaktualisierung</translation>
-    </message>
-    <message>
-        <source>The Plugin Installer has been updated. Please restart QGIS prior to using it</source>
-        <translation>Die Erweiterungsinstallation wurde aktualisiert. Bitte QGIS vor deren Verwendung neu starten</translation>
-    </message>
-    <message>
-        <source>QGIS Plugin Conflict:</source>
-        <translation>QGIS-Erweiterungskonflikt:</translation>
-    </message>
-    <message>
-        <source>The Plugin Installer has detected an obsolete plugin which masks a newer version shipped with this QGIS version. This is likely due to files associated with a previous installation of QGIS. Please use the Plugin Installer to remove that older plugin in order to unmask the newer version shipped with this copy of QGIS.</source>
-        <translation>Die Erweiterungsinstallation hat eine veraltete Erweiterung festgestellt, die eine neuere mit QGIS ausgelieferte Version ausblendet. Die hängt wahrscheinlich mit einer vorherigen QGIS-Installation zusammen. Bitte benutzen Sie die Erweiterungsinstallation, um die alte Erweiterung zu entfernen und die neuere mit dieser QGIS-Installation ausgelieferte Version sichtbar zu machen.</translation>
-    </message>
-    <message>
         <source>QGIS Python Plugin Installer</source>
         <translation>QGIS-Python-Erweiterungsinstallation</translation>
+    </message>
+    <message>
+        <source>Uninstall (recommended)</source>
+        <translation>Deinstallieren (empfohlen)</translation>
+    </message>
+    <message>
+        <source>I will uninstall it later</source>
+        <translation>Wird später deinstalliert</translation>
+    </message>
+    <message>
+        <source>Obsolete plugin:</source>
+        <translation>Überflüssige Erweiterung:</translation>
+    </message>
+    <message>
+        <source>QGIS has detected an obsolete plugin that masks its more recent version shipped with this copy of QGIS. This is likely due to files associated with a previous installation of QGIS. Do you want to remove the old plugin right now and unmask the more recent version?</source>
+        <translation>QGIS hat eine veraltete Erweiterung festgestellt, die eine neuere mit QGIS ausgelieferte Version ausblendet. Die hängt wahrscheinlich mit einer vorherigen QGIS-Installation zusammen. Wollen Sie die alte Erweiterung entfernen und die aktuellere Version sichtbar zu machen?</translation>
     </message>
     <message>
         <source>Error reading repository:</source>
@@ -35005,10 +34849,6 @@ QGIS muß neugestartet werden, um sie erneut zu laden.</translation>
     <message>
         <source>Warning: this plugin isn&apos;t available in any accessible repository!</source>
         <translation>Warnung: Diese Erweiterung ist in keinem erreichbaren Repositorium verfügbar!</translation>
-    </message>
-    <message>
-        <source>Plugin Installer update uninstalled. Plugin Installer will now close and revert to its primary version. You can find it in the Plugins menu and continue operation.</source>
-        <translation>Erweiterungsinstallationsaktualiserung deinstalliert. Die Erweiterungsinstallation wird nun geschlossen und auf die Hauptversion zurückgesetzt. Zum Fortfahren ist es im Erweiterungsmenü zu finden.</translation>
     </message>
     <message>
         <source>Plugin uninstalled successfully</source>
@@ -35168,39 +35008,6 @@ QGIS muß neugestartet werden, um sie erneut zu laden.</translation>
     </message>
 </context>
 <context>
-    <name>QgsPluginInstallerOldReposBase</name>
-    <message>
-        <location filename="../python/pyplugin_installer/qgsplugininstalleroldreposbase.ui" line="21"/>
-        <source>Plugin Installer</source>
-        <translation>Erweiterungsinstallation</translation>
-    </message>
-    <message>
-        <location filename="../python/pyplugin_installer/qgsplugininstalleroldreposbase.ui" line="33"/>
-        <source>The Plugin Installer has detected that your copy of QGIS is configured to use a number of plugin repositories around the world. It was a typical situation in older versions of the program, but from the version 1.5, external plugins are collected in one central Contributed Repository, and all the old repositories are not necessary any more. Do you want to drop them now? If you&apos;re unsure what to do, probably you don&apos;t need them. However, if you choose to keep them in use, you will be able to remove them manually later.</source>
-        <translation>Die Erweiterungsinstallation hat festgestellt, dass Ihre QGIS-Kopie einige Erweiterungsrepositorien rund um die Welt benutzt. Dies war typisch für ältere Versionen des Programms, ab der Version 1.5 werden externe Erweiterung in einem zentralen Beitragsrepositorium gesammelt und alle alten Repositorien sind nicht mehr nötig. Wollen Sie sie jetzt entfernen?  Wenn Sie unsicher sind, brauchen Sie sie wahrscheinlich nicht. Falls Sie sie trotzdem behalten wollen, können Sie sie auch später manuell entfernen.</translation>
-    </message>
-    <message>
-        <location filename="../python/pyplugin_installer/qgsplugininstalleroldreposbase.ui" line="48"/>
-        <source>Remove</source>
-        <translation>Entfernen</translation>
-    </message>
-    <message>
-        <location filename="../python/pyplugin_installer/qgsplugininstalleroldreposbase.ui" line="55"/>
-        <source>Disable</source>
-        <translation>Abschalten</translation>
-    </message>
-    <message>
-        <location filename="../python/pyplugin_installer/qgsplugininstalleroldreposbase.ui" line="62"/>
-        <source>Keep</source>
-        <translation>Behalten</translation>
-    </message>
-    <message>
-        <location filename="../python/pyplugin_installer/qgsplugininstalleroldreposbase.ui" line="69"/>
-        <source>Ask me later</source>
-        <translation>Später fragen</translation>
-    </message>
-</context>
-<context>
     <name>QgsPluginInstallerPluginErrorDialog</name>
     <message>
         <source>no error message received</source>
@@ -35269,209 +35076,229 @@ QGIS muß neugestartet werden, um sie erneut zu laden.</translation>
 <context>
     <name>QgsPluginManager</name>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="79"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="140"/>
         <source>sort by name</source>
         <translation>sortieren nach Namen</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="80"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="141"/>
         <source>sort by downloads</source>
         <translation>Sortieren nach Downloads</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="81"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="142"/>
         <source>sort by vote</source>
         <translation>Sortieren nach Stimmen</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="82"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="143"/>
         <source>sort by status</source>
         <translation>Sortieren nach Status</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="83"/>
-        <source>sort by repository</source>
-        <translation>Sortieren nach Repositorium</translation>
-    </message>
-    <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="114"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="85"/>
         <source>To enable or disable plugin, click its checkbox or doubleclick its name...</source>
         <translation>Kontrollkästchen an- oder Beschriftung doppelklicken, um eine Erweiterungen zu (de-)aktivieren...</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="251"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="276"/>
         <source>No Plugins</source>
         <translation>Keine Erweiterungen</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="528"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="515"/>
+        <source>Only locally available</source>
+        <comment>category: plugins that are only locally available</comment>
+        <translation>Nur lokal verfügbare Erweiterungen</translation>
+    </message>
+    <message>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="580"/>
         <source>This plugin is incompatible with this version of QGIS</source>
         <translation>Diese Erweiterung läuft mit der dieser QGIS-Version nicht</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="528"/>
-        <source>Compatible versions:</source>
-        <translation>Kompatible Versionen:</translation>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="580"/>
+        <source>Plugin designed for QGIS %1</source>
+        <comment>compatible QGIS version(s)</comment>
+        <translation>Erweiterung für QGIS %1</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="532"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="584"/>
         <source>This plugin requires a missing module</source>
         <translation>Diese Erweiterung benötigt ein fehlendes Modul</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="536"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="588"/>
         <source>This plugin is broken</source>
         <translation>Diese Erweiterung ist defekt</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="546"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="598"/>
         <source>There is a new version available</source>
         <translation>Es gibt eine neue Version</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="552"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="604"/>
         <source>This is a new plugin</source>
         <translation>Dies ist eine neue Erweiterung</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="558"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="610"/>
         <source>Installed version of this plugin is higher than any version found in repository</source>
         <translation>Installierte Erweiterungsversion ist neuer als alle im Repositorium verfügbarenen Versionen</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="566"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="618"/>
         <source>This plugin is experimental</source>
         <translation>Diese Erweiterung ist experimentel</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="588"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="656"/>
         <source>Category</source>
         <translation>Kategorie</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="592"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="660"/>
         <source>Tags</source>
         <translation>Elemente</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="596"/>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="600"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="664"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="668"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="604"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="672"/>
         <source>More info</source>
         <translation>Weitere Informationen</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="607"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="675"/>
         <source>homepage</source>
         <translation>Homepage</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="611"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="679"/>
         <source>tracker</source>
         <translation>Fehlerverfolgung</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="615"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="683"/>
         <source>code_ repository</source>
         <translation>Coderepositorium</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="628"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="646"/>
         <source>&lt;br/&gt;%1 rating vote(s)&lt;br/&gt;</source>
         <translation>&lt;br/&gt;%1 Bewertungsstimme(n)&lt;br/&gt;</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="632"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="513"/>
+        <source>Reinstallable</source>
+        <comment>category: plugins that are installed and available</comment>
+        <translation>Wiederinstallierbar</translation>
+    </message>
+    <message>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="514"/>
+        <source>Upgradeable</source>
+        <comment>category: plugins that are installed and there is a newer version available</comment>
+        <translation>Aktualisierbar</translation>
+    </message>
+    <message>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="516"/>
+        <source>Downgradeable</source>
+        <comment>category: plugins that are installed and there is an OLDER version available</comment>
+        <translation>Frühere Version verfügbar</translation>
+    </message>
+    <message>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="650"/>
         <source>%1 downloads&lt;br/&gt;</source>
         <translation>%1 Downloads&lt;br/&gt;</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="641"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="694"/>
         <source>Installed version: %1 (in %2)&lt;br/&gt;</source>
         <translation>Installierte Version %1 (in %2)&lt;br/&gt;</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="645"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="698"/>
         <source>Available version: %1 (in %2)&lt;br/&gt;</source>
         <translation>Verfügbare Version %1 (in %2)&lt;br/&gt;</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="651"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="704"/>
         <source>changelog:&lt;br/&gt;%1 &lt;br/&gt;</source>
         <translation>Anderungsliste:&lt;br/&gt;%1&lt;br/&gt;</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="662"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="715"/>
         <source>Upgrade plugin</source>
         <translation>Erweiterung aktualisieren</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="666"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="719"/>
         <source>Downgrade plugin</source>
         <translation>Frühere Version der Erweiterung installieren</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="670"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="728"/>
         <source>Reinstall plugin</source>
         <translation>Erweiterung erneut installieren</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="674"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="800"/>
+        <source>Enable selected repository only</source>
+        <translation>Nur gewähltes Repositorium aktivieren</translation>
+    </message>
+    <message>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="723"/>
         <source>Install plugin</source>
         <translation>Erweiterung installieren</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="678"/>
-        <source>Install/upgrade plugin</source>
-        <translation>Erweiterung installieren/aktualisieren</translation>
-    </message>
-    <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="756"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="817"/>
         <source>connected</source>
         <translation>verbunden</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="758"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="819"/>
         <source>The repository is connected</source>
         <translation>Repositorium ist verbunden</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="762"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="823"/>
         <source>unavailable</source>
         <translation>nicht verfügbar</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="764"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="825"/>
         <source>The repository is enabled, but unavailable</source>
         <translation>Dieses Repositorium ist aktiv, aber nicht verfügbar</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="769"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="830"/>
         <source>disabled</source>
         <translation>deaktiviert</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="773"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="834"/>
         <source>The repository is disabled</source>
         <translation>Dieses Repositorium ist deaktiviert</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="777"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="838"/>
         <source>The repository is blocked due to incompatibility with your QGIS version</source>
         <translation>Diese Repositorium wurde wegen Inkompatibilität zu Ihrer QGIS-Version blockiert</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="367"/>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="1140"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="392"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="1257"/>
         <source>Plugins</source>
         <translation>Erweiterungen</translation>
     </message>
     <message>
-        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="251"/>
+        <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="276"/>
         <source>No QGIS plugins found in %1</source>
         <translation>Keine QGIS-Erweiterung in %1 gefunden</translation>
     </message>
@@ -35536,7 +35363,7 @@ QGIS muß neugestartet werden, um sie erneut zu laden.</translation>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="184"/>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="187"/>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="529"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="550"/>
         <source>Settings</source>
         <translation>Einstellungen</translation>
     </message>
@@ -35576,72 +35403,72 @@ QGIS muß neugestartet werden, um sie erneut zu laden.</translation>
         <translation>Autoren</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="452"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="467"/>
         <source>Upgrade all upgradeable plugins</source>
         <translation>Alle aktualiserbaren Erweiterungen aktualiseren</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="455"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="470"/>
         <source>Upgrade all</source>
         <translation>Alle aktualisieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="478"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="512"/>
         <source>Install, reinstall or upgrade the selected plugin</source>
         <translation>Gewählte Erweiterung installieren, neu installieren oder aktualisieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="481"/>
-        <source>Install/upgrade plugin</source>
-        <translation>Erweiterung installieren/aktualisieren</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="491"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="493"/>
         <source>Uninstall the selected plugin</source>
         <translation>Die gewählte Erweiterung deinstallieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="494"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="496"/>
         <source>Uninstall plugin</source>
         <translation>Gewählte Erweiterung deinstallieren</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="545"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="515"/>
+        <source>Reinstall plugin</source>
+        <translation>Erweiterung neuinstallieren</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="566"/>
         <source>Check for updates on startup</source>
         <translation>Beim Start nach Aktualisierungen suchen</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="567"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="588"/>
         <source>every time QGIS starts</source>
         <translation>bei jedem QGIS-Start</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="572"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="593"/>
         <source>once a day</source>
         <translation>einmal am Tag</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="577"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="598"/>
         <source>every 3 days</source>
         <translation>alle drei Tage</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="582"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="603"/>
         <source>every week</source>
         <translation>jede Woche</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="587"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="608"/>
         <source>every 2 weeks</source>
         <translation>alle zwei Wochen</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="592"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="613"/>
         <source>every month</source>
         <translation>jeden Monat</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="612"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="633"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -35654,12 +35481,12 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hinweis:&lt;/span&gt; Wenn diese Funktion aktiv ist, wird QGIS Sie immer informieren, wenn eine neue Erweiterung oder ein Erweiterungsupdate verfügbar ist. Anderenfalls erfolgt die Repositorienabfrage beim Öffnen des Erweiterungsinstallationsfensters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="645"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="666"/>
         <source>Show also experimental plugins</source>
         <translation>Auch experimentelle Erweiterungen anzeigen</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="669"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="690"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -35672,60 +35499,60 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hinweis:&lt;/span&gt; Experimentelle Erweiterungen sind grundsätzlich für den Produktiveinsatz ungeeignet. Diese Erweiterungen in einer frühen Entwicklungsphase und sollten als &apos;unvollständig&apos; oder &apos;Machbarkeitsstudie&apos; angesehen werden. QGIS empfiehlt die Installation dieser Erweiterungen außer zu Testzwecken nicht.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="708"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="729"/>
         <source>Plugin repositories</source>
         <translation>Erweiterungsrepositorien</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="737"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="758"/>
         <source>Status</source>
         <translation>Status</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="742"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="763"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="747"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="768"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="773"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="794"/>
         <source>Reload all repositories</source>
         <translation>Alle Repositorien neu laden</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="793"/>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="796"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="814"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="817"/>
         <source>Add a new plugin repository</source>
         <translation>Ein neues Erweiterungsrepository ergänzen</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="799"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="820"/>
         <source>Add...</source>
         <translation>Hinzufügen...</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="812"/>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="815"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="833"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="836"/>
         <source>Edit the selected repository</source>
         <translation>Gewähltes Repositorium bearbeiten</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="818"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="839"/>
         <source>Edit...</source>
         <translation>Bearbeiten...</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="825"/>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="828"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="846"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="849"/>
         <source>Remove the selected repository</source>
         <translation>Gewähltes Repositorium entfernen</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspluginmanagerbase.ui" line="831"/>
+        <location filename="../src/ui/qgspluginmanagerbase.ui" line="852"/>
         <source>Delete</source>
         <translation>Löschen</translation>
     </message>
@@ -38031,194 +37858,194 @@ Auf Hilfeknopf klicken um die gültigen Erzeugungsoptionen diese Formats zu erfa
         <translation>Nicht gesetzt</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="305"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="312"/>
         <source>Could not reproject view extent: %1</source>
         <translation>Konnte Anzeigegrenzen nicht transformieren: %1</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="315"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="322"/>
         <source>Could not reproject layer extent: %1</source>
         <translation>Konnte Layergrenzen nicht transformieren: %1</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="597"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="604"/>
         <source>Band</source>
         <translation>Kanal</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="604"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="611"/>
         <source>Band No</source>
         <translation>Kanal Nr</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="616"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="623"/>
         <source>No Stats</source>
         <translation>Keine Statistik</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="619"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="626"/>
         <source>No stats collected yet</source>
         <translation>Noch keine Statistik gesammelt</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="629"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="636"/>
         <source>Min Val</source>
         <translation>Minimalwert</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="637"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="644"/>
         <source>Max Val</source>
         <translation>Maximalwert</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="645"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="652"/>
         <source>Range</source>
         <translation>Bereich</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="653"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="660"/>
         <source>Mean</source>
         <translation>Durchschnitt</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="661"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="668"/>
         <source>Sum of squares</source>
         <translation>Summe der Quadrate</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="669"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="676"/>
         <source>Standard Deviation</source>
         <translation>Standardabweichung</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="677"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="684"/>
         <source>Sum of all cells</source>
         <translation>Summe aller Zellen</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="685"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="692"/>
         <source>Cell Count</source>
         <translation>Zellenanzahl</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="822"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="829"/>
         <source>Cannot instantiate the &apos;%1&apos; data provider</source>
         <translation>Konnte Datenlieferanten &apos;%1&apos; nicht erzeugen</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="832"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="839"/>
         <source>Provider is not valid (provider: %1, URI: %2</source>
         <translation>Datenlieferant ist ungültig (Lieferant: %1, URI: %2)</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="305"/>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="315"/>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1599"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="312"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="322"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1606"/>
         <source>Raster</source>
         <translation>Raster</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="488"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="495"/>
         <source>Driver</source>
         <translation>Treiber</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="514"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="521"/>
         <source>Data Type</source>
         <translation>Datentyp</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="521"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="528"/>
         <source>Byte - Eight bit unsigned integer</source>
         <translation>Byte - Acht Bit vorzeichenlose Ganzzahl</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="524"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="531"/>
         <source>UInt16 - Sixteen bit unsigned integer </source>
         <translation>UInt16 - 16 Bit vorzeichenlose Ganzzahl </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="527"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="534"/>
         <source>Int16 - Sixteen bit signed integer </source>
         <translation>Int16 - 16 Bit vorzeichenbehaftete Ganzzahl </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="530"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="537"/>
         <source>UInt32 - Thirty two bit unsigned integer </source>
         <translation>UInt32 - 32 Bit vorzeichenlose Ganzzahl </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="533"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="540"/>
         <source>Int32 - Thirty two bit signed integer </source>
         <translation>Int32 - 32 Bit vorzeichenbehaftete Ganzzahl  </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="536"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="543"/>
         <source>Float32 - Thirty two bit floating point </source>
         <translation>Float32 - 32 Bit Fließkommazahl </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="539"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="546"/>
         <source>Float64 - Sixty four bit floating point </source>
         <translation>Float32 - 64 Bit Fließkommazahl </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="542"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="549"/>
         <source>CInt16 - Complex Int16 </source>
         <translation>CInt16 - Komplexes Int16 </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="545"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="552"/>
         <source>CInt32 - Complex Int32 </source>
         <translation>CInt32 - Komplexe Int32 </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="548"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="555"/>
         <source>CFloat32 - Complex Float32 </source>
         <translation>CFloat32 - Komplexe Float32 </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="551"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="558"/>
         <source>CFloat64 - Complex Float64 </source>
         <translation>CFloat64 - Komplexe Float64 </translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="559"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="566"/>
         <source>Pyramid overviews</source>
         <translation>Pyramidenübersichten</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="564"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="571"/>
         <source>Layer Spatial Reference System</source>
         <translation>Räumliches Bezugssystem des Layers</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="571"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="578"/>
         <source>Layer Extent (layer original source projection)</source>
         <translation>Layerausdehnung (in urspünglicher Projektion des Layers)</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="581"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="588"/>
         <source>Project Spatial Reference System</source>
         <translation>Projektkoordinatenbezugssystem</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1599"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1606"/>
         <source>&lt;maplayer&gt; not found.</source>
         <translation>&lt;maplayer&gt; nicht gefunden.</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="554"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="561"/>
         <source>Could not determine raster data type.</source>
         <translation>Konnte Rasterdatentyp nicht erkennen.</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="498"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="505"/>
         <source>No Data Value</source>
         <translation>Leerwert</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="508"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="515"/>
         <source>NoDataValue not set</source>
         <translation>Leerwert nicht gesetzt</translation>
     </message>
@@ -48062,21 +47889,21 @@ SEXTANTE zu erfahren</translation>
     </message>
     <message>
         <source>Created output shapefile:
-%1
-%2
+%s
+%s
 
 Would you like to add the new layer to the TOC?</source>
         <translation>Ausgabeshapedatei erzeugt:
-%1
-%2
+%s
+%s
 
 Soll sie dem Projekt als neuer Layer hinzugefügt werden?</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
-%1</source>
+%s</source>
         <translation>Fehler beim Laden der Ausgabeshapedatei:
-%1</translation>
+%s</translation>
     </message>
     <message>
         <source>Feature</source>
@@ -56478,6 +56305,15 @@ Wandelt eine Zeichenkette in eine Qt-Datumstyp um.
     <message>
         <source>Point y ordinate</source>
         <translation>Y-Punktordinate</translation>
+    </message>
+</context>
+<context>
+    <name>geoprocessingThread</name>
+    <message>
+        <source>Following field names are longer than 10 characters:
+%s</source>
+        <translation>Folgende Feldnamen sind länger als 10 Zeichen:
+%s</translation>
     </message>
 </context>
 <context>
