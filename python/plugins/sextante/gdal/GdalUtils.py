@@ -79,8 +79,7 @@ class GdalUtils:
             driver = gdal.GetDriver(i)
             if driver == None:
                 continue
-
-            shortName = str(QString(driver.ShortName).remove( QRegExp( '\(.*$' ) ).trimmed())
+            shortName = driver.ShortName#.remove( QRegExp( '\(.*$' ) ).trimmed())
             metadata = driver.GetMetadata()
             if not metadata.has_key(gdal.DCAP_CREATE) or metadata[gdal.DCAP_CREATE] != 'YES':
                 continue
