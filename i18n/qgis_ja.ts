@@ -1726,18 +1726,22 @@ were reduced to %d vertices after simplification</source>
     <message>
         <source>Created output shapefiles in folder:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>以下のフォルダに出力シェープファイルが作成されました
+%s</translation>
     </message>
     <message>
         <source>No output will be created.
 Following field names are longer than 10 characters:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力は作成されません.
+以下のフィールド名が10文字より長いです:
+%s</translation>
     </message>
     <message>
         <source>Can&apos;t delete existing shapefile
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>シェープファイルを削除できません
+%s</translation>
     </message>
     <message>
         <source>Please select a raster layer</source>
@@ -2503,7 +2507,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>%s not created.</source>
-        <translation type="unfinished"></translation>
+        <translation>%sは作成されませんでした.</translation>
     </message>
     <message>
         <source>%1 not created.</source>
@@ -2640,7 +2644,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>[select levels]</source>
-        <translation type="unfinished"></translation>
+        <translation>[レベルの選択]</translation>
     </message>
     <message>
         <source>Select the input file for Contour</source>
@@ -4238,12 +4242,15 @@ Please choose larger tolerance...</source>
         <source>Created output shapefile:
 %s
 %s%s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力シェープファイルを作成しました
+%s
+%s%s</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力シェープファイルローディング中のエラー:
+%s</translation>
     </message>
     <message>
         <source>Dissolve all</source>
@@ -4252,7 +4259,8 @@ Please choose larger tolerance...</source>
     <message>
         <source>No output created. File creation error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力は作成されませんでした.ファイル作成エラー:
+%s</translation>
     </message>
     <message>
         <source>
@@ -6039,23 +6047,23 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Couldn&apos;t load plugin &apos;%s&apos; from [&apos;%s&apos;]</source>
-        <translation type="unfinished"></translation>
+        <translation>[&apos;%s&apos;]からプラグイン&apos;%s&apos;をロードできませんでした</translation>
     </message>
     <message>
         <source>Couldn&apos;t load plugin %s</source>
-        <translation type="unfinished"></translation>
+        <translation>%sプラグインをロードできませｎでした</translation>
     </message>
     <message>
         <source>%s due an error when calling its classFactory() method</source>
-        <translation type="unfinished"></translation>
+        <translation>%sは内部でclassFactory()メソッドを呼び出し中にエラーが発生しました</translation>
     </message>
     <message>
         <source>%s due an error when calling its initGui() method</source>
-        <translation type="unfinished"></translation>
+        <translation>%sは内部でinitGui()メソッドを呼び出し中にエラーが発生しました</translation>
     </message>
     <message>
         <source>Error while unloading plugin %s</source>
-        <translation type="unfinished"></translation>
+        <translation>%sプラグインをアンロード時にエラーが発生しました</translation>
     </message>
     <message>
         <source>Couldn&apos;t load plugin &apos;%1&apos; from [&apos;%2&apos;]</source>
@@ -7119,7 +7127,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="104"/>
         <source>Couldn&apos;t set SIP API versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>SIP APIバージョンを設定できませんでした.</translation>
     </message>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="113"/>
@@ -16614,7 +16622,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscompositionwidgetbase.ui" line="242"/>
         <source>Export resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>解像度の出力</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscompositionwidgetbase.ui" line="369"/>
@@ -34416,7 +34424,7 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="160"/>
         <source>Enter...</source>
-        <translation type="unfinished">入力...</translation>
+        <translation>入力...</translation>
     </message>
 </context>
 <context>
@@ -34465,19 +34473,19 @@ Error: %2</source>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="64"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="266"/>
         <source>Specify a geometry type</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオメトリタイプの指定</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="68"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="274"/>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRIDの入力</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="73"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="280"/>
         <source>Select a primary key</source>
-        <translation type="unfinished"></translation>
+        <translation>プライマリキーの選択</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="77"/>
@@ -35070,7 +35078,7 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="148"/>
         <source>Enter...</source>
-        <translation type="unfinished">入力...</translation>
+        <translation>入力...</translation>
     </message>
 </context>
 <context>
@@ -35104,13 +35112,13 @@ Error: %2</source>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="65"/>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="269"/>
         <source>Specify a geometry type</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオメトリタイプの指定</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="69"/>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="277"/>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRIDの入力</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="73"/>
@@ -35125,7 +35133,7 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="284"/>
         <source>Select a primary key</source>
-        <translation type="unfinished"></translation>
+        <translation>プライマリキーの選択</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="31"/>
@@ -35157,19 +35165,19 @@ Error: %2</source>
     <name>QgsPluginInstaller</name>
     <message>
         <source>Couldn&apos;t open the local plugin directory</source>
-        <translation type="unfinished">ローカルのプラグインディレクトリを開けません</translation>
+        <translation>ローカルのプラグインディレクトリを開けません</translation>
     </message>
     <message>
         <source>Nothing to remove! Plugin directory doesn&apos;t exist:</source>
-        <translation type="unfinished">削除するものはありません！プラグインディレクトリが存在しません:</translation>
+        <translation>削除するものはありません！プラグインディレクトリが存在しません:</translation>
     </message>
     <message>
         <source>Uninstall (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>アンインストール(推奨)</translation>
     </message>
     <message>
         <source>I will uninstall it later</source>
-        <translation type="unfinished"></translation>
+        <translation>後でアンインストールするつもりです</translation>
     </message>
     <message>
         <source>Obsolete plugin:</source>
@@ -35181,34 +35189,34 @@ Error: %2</source>
     </message>
     <message>
         <source>Are you sure you want to downgrade the plugin to the latest available version? The installed one is newer!</source>
-        <translation type="unfinished">プラグインをもっとも新しい利用可能バージョンからダウングレードしますか? インストールされているものが新しいです!</translation>
+        <translation>プラグインをもっとも新しい利用可能バージョンからダウングレードしますか? インストールされているものが新しいです!</translation>
     </message>
     <message>
         <source>Plugin installation failed</source>
-        <translation type="unfinished">プラグインのインストールに失敗しました</translation>
+        <translation>プラグインのインストールに失敗しました</translation>
     </message>
     <message>
         <source>Plugin has disappeared</source>
-        <translation type="unfinished">プラグインが消失しました</translation>
+        <translation>プラグインが消失しました</translation>
     </message>
     <message>
         <source>The plugin seems to have been installed but I don&apos;t know where. Probably the plugin package contained a wrong named directory.
 Please search the list of installed plugins. I&apos;m nearly sure you&apos;ll find the plugin there, but I just can&apos;t determine which of them it is. It also means that I won&apos;t be able to determine if this plugin is installed and inform you about available updates. However the plugin may work. Please contact the plugin author and submit this issue.</source>
-        <translation type="unfinished">このプラグインは多分インストールされているけど、どこにあるのか不明です.多分プラグインパッケージが不正な名前のディレクトリ名を含んでいます
+        <translation>このプラグインは多分インストールされているけど、どこにあるのか不明です.多分プラグインパッケージが不正な名前のディレクトリ名を含んでいます
 インストールされているプラグインのリストを調べて下さい.多分そこでプラグインを見つけることができるでしょう.しかしどれが不正な名前を含むプラグインなのかはわかりません.もしプラグインがインストールされていて利用可能な更新情報が伝えられているならば問題はわかりません.プラグインは動くはずですから.プラグインの作者に連絡してこの問題を伝えて下さい.</translation>
     </message>
     <message>
         <source>Plugin installed successfully</source>
-        <translation type="unfinished">プラグインのインストールは成功しました</translation>
+        <translation>プラグインのインストールは成功しました</translation>
     </message>
     <message>
         <source>Plugin reinstalled successfully</source>
-        <translation type="unfinished">プラグインは上手く再インストールされました</translation>
+        <translation>プラグインは上手く再インストールされました</translation>
     </message>
     <message>
         <source>Python plugin reinstalled.
 You need to restart QGIS in order to reload it.</source>
-        <translation type="unfinished">Pythonプラグインが再インストールされました。
+        <translation>Pythonプラグインが再インストールされました。
 これをリロードするためにQGISを再起動させる必要があります。</translation>
     </message>
     <message>
@@ -35217,47 +35225,47 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>The plugin depends on some components missing on your system. You need to install the following Python module in order to enable it:</source>
-        <translation type="unfinished">プラグインはシステムにないコンポーネントに依存しています。利用するためには以下のPythonモジュールをインストールする必要があります:</translation>
+        <translation>プラグインはシステムにないコンポーネントに依存しています。利用するためには以下のPythonモジュールをインストールする必要があります:</translation>
     </message>
     <message>
         <source>The plugin is broken. Python said:</source>
-        <translation type="unfinished">プライグインは壊れています。Pythonからの出力:</translation>
+        <translation>プライグインは壊れています。Pythonからの出力:</translation>
     </message>
     <message>
         <source>Plugin uninstall failed</source>
-        <translation type="unfinished">プラグインのアンインストール失敗</translation>
+        <translation>プラグインのアンインストール失敗</translation>
     </message>
     <message>
         <source>Are you sure you want to uninstall the following plugin?</source>
-        <translation type="unfinished">本当に以下のプラグインをアンインストールしますか?</translation>
+        <translation>本当に以下のプラグインをアンインストールしますか?</translation>
     </message>
     <message>
         <source>Warning: this plugin isn&apos;t available in any accessible repository!</source>
-        <translation type="unfinished">警告 このプラグインはアクセスできるリポジトリ内で有効ではありません!</translation>
+        <translation>警告 このプラグインはアクセスできるリポジトリ内で有効ではありません!</translation>
     </message>
     <message>
         <source>Plugin uninstalled successfully</source>
-        <translation type="unfinished">プラグインは上手くアンインストールされました</translation>
+        <translation>プラグインは上手くアンインストールされました</translation>
     </message>
     <message>
         <source>Unable to add another repository with the same URL!</source>
-        <translation type="unfinished">別のリポジトリを同じURLで登録できません!</translation>
+        <translation>別のリポジトリを同じURLで登録できません!</translation>
     </message>
     <message>
         <source>This repository is blocked due to incompatibility with your QGIS version</source>
-        <translation type="unfinished">このリポジトリはあなたのQGISのバージョンと互換性がないのでブロックされました</translation>
+        <translation>このリポジトリはあなたのQGISのバージョンと互換性がないのでブロックされました</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the following repository?</source>
-        <translation type="unfinished">以下のリポジトリを本当に削除しますか?</translation>
+        <translation>以下のリポジトリを本当に削除しますか?</translation>
     </message>
     <message>
         <source>Failed to remove the directory:</source>
-        <translation type="unfinished">ディレクトリの削除失敗:</translation>
+        <translation>ディレクトリの削除失敗:</translation>
     </message>
     <message>
         <source>Check permissions or remove it manually</source>
-        <translation type="unfinished">権限を確認するか手動で削除して下さい</translation>
+        <translation>権限を確認するか手動で削除して下さい</translation>
     </message>
     <message>
         <source>Fetch Python Plugins...</source>
@@ -35269,7 +35277,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Looking for new plugins...</source>
-        <translation type="unfinished">新しいプラグインを探しています...</translation>
+        <translation>新しいプラグインを探しています...</translation>
     </message>
     <message>
         <source>QGIS Plugin Installer update</source>
@@ -35289,19 +35297,19 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>There is a new plugin available</source>
-        <translation type="unfinished">新しいプラグインが使用可能です</translation>
+        <translation>新しいプラグインが使用可能です</translation>
     </message>
     <message>
         <source>There is a plugin update available</source>
-        <translation type="unfinished">更新されたプラグインが使用可能です</translation>
+        <translation>更新されたプラグインが使用可能です</translation>
     </message>
     <message>
         <source>QGIS Python Plugin Installer</source>
-        <translation type="unfinished">QGIS Pythonプラグインインストーラ</translation>
+        <translation>QGIS Pythonプラグインインストーラ</translation>
     </message>
     <message>
         <source>Error reading repository:</source>
-        <translation type="unfinished">リポジトリの読み込みエラー:</translation>
+        <translation>リポジトリの読み込みエラー:</translation>
     </message>
 </context>
 <context>
@@ -35806,35 +35814,35 @@ p, li { white-space: pre-wrap; }
     <name>QgsPluginInstallerFetchingDialog</name>
     <message>
         <source>Success</source>
-        <translation type="unfinished">成功</translation>
+        <translation>成功</translation>
     </message>
     <message>
         <source>Resolving host name...</source>
-        <translation type="unfinished">ホスト名を解決中...</translation>
+        <translation>ホスト名を解決中...</translation>
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished">接続...</translation>
+        <translation>接続中...</translation>
     </message>
     <message>
         <source>Host connected. Sending request...</source>
-        <translation type="unfinished">ホストに接続。リクエストを送信中...</translation>
+        <translation>ホストに接続。リクエストを送信中...</translation>
     </message>
     <message>
         <source>Downloading data...</source>
-        <translation type="unfinished">データダウンロード中...</translation>
+        <translation>データダウンロード中...</translation>
     </message>
     <message>
         <source>Idle</source>
-        <translation type="unfinished">待機</translation>
+        <translation>待機</translation>
     </message>
     <message>
         <source>Closing connection...</source>
-        <translation type="unfinished">接続を閉じています...</translation>
+        <translation>接続を閉じています...</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
 </context>
 <context>
@@ -35869,43 +35877,43 @@ p, li { white-space: pre-wrap; }
     <name>QgsPluginInstallerInstallingDialog</name>
     <message>
         <source>Installing...</source>
-        <translation type="unfinished">インストール中...</translation>
+        <translation>インストール中...</translation>
     </message>
     <message>
         <source>Resolving host name...</source>
-        <translation type="unfinished">ホスト名を解決中...</translation>
+        <translation>ホスト名を解決中...</translation>
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished">接続...</translation>
+        <translation>接続...</translation>
     </message>
     <message>
         <source>Host connected. Sending request...</source>
-        <translation type="unfinished">ホストに接続。リクエストを送信中...</translation>
+        <translation>ホストに接続。リクエストを送信中...</translation>
     </message>
     <message>
         <source>Downloading data...</source>
-        <translation type="unfinished">データダウンロード中...</translation>
+        <translation>データダウンロード中...</translation>
     </message>
     <message>
         <source>Idle</source>
-        <translation type="unfinished">待機</translation>
+        <translation>待機</translation>
     </message>
     <message>
         <source>Closing connection...</source>
-        <translation type="unfinished">接続を閉じています...</translation>
+        <translation>接続を閉じています...</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <source>Failed to unzip the plugin package. Probably it&apos;s broken or missing from the repository. You may also want to make sure that you have write permission to the plugin directory:</source>
-        <translation type="unfinished">プラグインパッケージの解凍に失敗しました。多分ファイルが壊れているかリポジトリで欠損していると思われます。またプラグインディレクトリに書き込み権限があるかどうか確認してください:</translation>
+        <translation>プラグインパッケージの解凍に失敗しました。多分ファイルが壊れているかリポジトリで欠損していると思われます。またプラグインディレクトリに書き込み権限があるかどうか確認してください:</translation>
     </message>
     <message>
         <source>Aborted by user</source>
-        <translation type="unfinished">ユーザーにより中断</translation>
+        <translation>ユーザーにより中断</translation>
     </message>
 </context>
 <context>
@@ -35957,7 +35965,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsPluginInstallerPluginErrorDialog</name>
     <message>
         <source>no error message received</source>
-        <translation type="unfinished">エラーメッセージはありません</translation>
+        <translation>エラーメッセージはありません</translation>
     </message>
 </context>
 <context>
@@ -36150,7 +36158,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="514"/>
         <source>Upgradeable</source>
         <comment>category: plugins that are installed and there is a newer version available</comment>
-        <translation type="unfinished">アップグレード可能</translation>
+        <translation>アップグレード可能</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="515"/>
@@ -36416,7 +36424,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="515"/>
         <source>Reinstall plugin</source>
-        <translation type="unfinished">プラグインを再インストール</translation>
+        <translation>プラグインを再インストール</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="566"/>
@@ -48870,12 +48878,17 @@ about SEXTANTE</source>
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>以下の出力シェープファイルが作成されました:
+%s
+%s
+これを新しいレイヤとしてTOCに追加しますか
+?</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>出力シェープファイルローディング中のエラー
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -57951,7 +57964,8 @@ Convert a string into Qt data type.
     <message>
         <source>Following field names are longer than 10 characters:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>以下のフィールド名が10文字より長いです:
+%s</translation>
     </message>
 </context>
 <context>
