@@ -114,7 +114,7 @@ def compareElements(s1,s2):
 
 # ------------------------------------------------------------------------ #
 def compareVersions(a,b):
-  """ Compare two version numbers. Return 0 if a==b or error, 1 if a<b and 2 if b>a """
+  """ Compare two version numbers. Return 0 if a==b or error, 1 if a>b and 2 if b>a """
   if not a or not b:
     return 0
   a = normalizeVersion(a)
@@ -124,6 +124,18 @@ def compareVersions(a,b):
   # convert the strings to the lists
   v1 = chopString(a)
   v2 = chopString(b)
+
+  # !! ensure the version contains at least 3 segments. Fill to "x.y.z with "999" segments if needed.
+  # 999 must me unicode because of isnumeric method used.
+  if len(v1) == 2:
+    v1 += [u"999"]
+  elif len(v1) == 1:
+    v1 += [u"999",u"999"]
+  if len(v2) == 2:
+    v2 += [u"999"]
+  elif len(v2) == 1:
+    v2 += [u"999",u"999"]
+
   # set the shorter string as a base
   l = len(v1)
   if l > len(v2):
@@ -143,3 +155,52 @@ def compareVersions(a,b):
     return 1
   else:
     return 2
+
+
+
+
+
+
+## COMPARE CURRENT QGIS VERSION WITH qgisMinimumVersion AND qgisMaximumVersion """
+
+def splitVersion(s):
+  """ split string into 2 or 3 numerical segments """
+  if not s or type(s) not in [str, unicode]:
+    return None
+  l = unicode(s).split('.')
+  for c in l:
+    if not c.isnumeric():
+      return None
+    if int(c)>999:
+      return None
+  if len(l) not in [2,3]:
+    return None
+  return l
+
+
+def isCompatible(curVer, minVer, maxVer=None):
+  """ Compare current QGIS version with qgisMinVersion and qgisMaxVersion """
+  minVer = splitVersion(minVer)
+  maxVer = splitVersion(maxVer)
+  curVer = splitVersion( curVer.split("-")[0] )
+
+  if not minVer or not curVer:
+    return False
+
+  if not maxVer:
+    maxVer = [minVer[0], "999", "999"]
+
+  if len(minVer)<3:
+    minVer += ["0"]
+
+  if len(curVer)<3:
+    curVer += ["0"]
+
+  if len(maxVer)<3:
+    maxVer += ["999"]
+
+  minVer = "%03d%03d%03d" % ( int(minVer[0]), int(minVer[1]), int(minVer[2]) )
+  maxVer = "%03d%03d%03d" % ( int(maxVer[0]), int(maxVer[1]), int(maxVer[2]) )
+  curVer = "%03d%03d%03d" % ( int(curVer[0]), int(curVer[1]), int(curVer[2]) )
+
+  return ( minVer <= curVer and maxVer >= curVer)
