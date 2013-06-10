@@ -289,7 +289,7 @@ Query:
     </message>
     <message>
         <source>Really delete all items from table %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にテーブル %sの全アイテムを削除しますか?</translation>
     </message>
     <message>
         <source>Select a TABLE/VIEW.</source>
@@ -2663,11 +2663,11 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>field name must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド名は空白ではいけません</translation>
     </message>
     <message>
         <source>field type must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドタイプは空白ではいけません</translation>
     </message>
 </context>
 <context>
@@ -2705,36 +2705,37 @@ Are you sure you want to proceed?</source>
     <name>DlgImportVector</name>
     <message>
         <source>Choose the file to import</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートするファイルを選択して下さい</translation>
     </message>
     <message>
         <source>Import to database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースへのインポート</translation>
     </message>
     <message>
         <source>Input layer missing or not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>入力レイヤが無いまたは不正です</translation>
     </message>
     <message>
         <source>Output table name is required</source>
-        <translation type="unfinished"></translation>
+        <translation>出力テーブル名が必要です</translation>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>ソースsridが不正です.整数値でなければいけません</translation>
     </message>
     <message>
         <source>Invalid target srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>ターゲットsridが不正です.整数値でなければいけません</translation>
     </message>
     <message>
         <source>Error %d
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー %d
+%s</translation>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートは成功しました.</translation>
     </message>
 </context>
 <context>
@@ -2787,7 +2788,7 @@ Are you sure you want to proceed?</source>
     <name>DlgSqlWindow</name>
     <message>
         <source>%d rows, %.1f seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 行, %.1f 秒</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -2808,39 +2809,39 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>何も選択されていません</translation>
     </message>
     <message>
         <source>Are you sure</source>
-        <translation type="unfinished"></translation>
+        <translation>よろしいですか</translation>
     </message>
     <message>
         <source>really delete column &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にカラム%sを削除しますか?</translation>
     </message>
     <message>
         <source>really delete constraint &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当に制約%sを削除しますか?</translation>
     </message>
     <message>
         <source>The selected table has no geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>選択テーブルにはジオメトリがありません</translation>
     </message>
     <message>
         <source>Create?</source>
-        <translation type="unfinished"></translation>
+        <translation>作成しますか?</translation>
     </message>
     <message>
         <source>Create spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド%sの空間インデックスを作成しますか?</translation>
     </message>
     <message>
         <source>Nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>何も選択されていません</translation>
     </message>
     <message>
         <source>really delete index &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にインデックス%sを削除しますか?</translation>
     </message>
 </context>
 <context>
@@ -6755,7 +6756,7 @@ Wrong line: %1</source>
     <name>NotSupportedDbType</name>
     <message>
         <source>%s is not supported yet</source>
-        <translation type="unfinished"></translation>
+        <translation>%sはまだサポートされていません</translation>
     </message>
 </context>
 <context>
@@ -6804,7 +6805,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>ヴァキューム解析の実行(&amp;V)</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -6812,14 +6813,14 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Select a TABLE for vacuum analyze.</source>
-        <translation type="unfinished"></translation>
+        <translation>ヴァキューム解析をするテーブルの選択.</translation>
     </message>
 </context>
 <context>
     <name>PGTable</name>
     <message>
         <source>Table rule</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルルール</translation>
     </message>
 </context>
 <context>
@@ -6833,15 +6834,15 @@ Wrong line: %1</source>
     <name>PostGisDBPlugin</name>
     <message>
         <source>There is no defined database connection &quot;%s&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース接続が定義されていません &quot;%s&quot;.</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワードの入力</translation>
     </message>
     <message>
         <source>Enter password for connection &quot;%s&quot;:</source>
-        <translation type="unfinished"></translation>
+        <translation>接続&quot;%s&quot;のためのパスワードを入力して下さい:</translation>
     </message>
 </context>
 <context>
@@ -11278,7 +11279,7 @@ Always ignore these errors?</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4285"/>
         <source>Default system font substituted.</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトシステムフォントが代わりに使われました.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4288"/>
@@ -11288,12 +11289,12 @@ Always ignore these errors?</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4289"/>
         <source>Font for layer &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; was not found (&lt;i&gt;%2&lt;/i&gt;). %3</source>
-        <translation type="unfinished"></translation>
+        <translation>レイヤ &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; のフォントが見つかりません (&lt;i&gt;%2&lt;/i&gt;). %3</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4302"/>
         <source>Open labeling dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>ラべリングダイアログのオープン</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4344"/>
@@ -23191,13 +23192,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="297"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="300"/>
         <source>Link Georeferencer to QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオリファレンサをQGISにリンクする</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="308"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="311"/>
         <source>Link QGIS to Georeferencer</source>
-        <translation type="unfinished"></translation>
+        <translation>QGISをジオリファレンサにリンクする</translation>
     </message>
     <message>
         <source>Link Georeferencer to QGis</source>
@@ -23802,7 +23803,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="422"/>
         <source>Remove the selected layer(s) from canvas before continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>継続する前に選択レイヤをQGISキャンバスから削除します.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="475"/>
@@ -27376,12 +27377,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="372"/>
         <source>%1 not found. Default substituted.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1がみつかりません.デフォルトシステムフォントが代わりに使われました.</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="373"/>
         <source>Chosen font</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントの選択</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="791"/>
@@ -37012,12 +37013,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="803"/>
         <source>Only show plugins from selected repository</source>
-        <translation type="unfinished"></translation>
+        <translation>選択リポジトリのプラグインのみを表示する</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="807"/>
         <source>Clear filter</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルタのクリア</translation>
     </message>
     <message>
         <source>Enable selected repository only</source>
@@ -48948,7 +48949,7 @@ Tried URL: %1</source>
     <name>SLDatabase</name>
     <message>
         <source>Run &amp;Vacuum</source>
-        <translation type="unfinished"></translation>
+        <translation>実行とヴァキューム(&amp;V)</translation>
     </message>
     <message>
         <source>&amp;Database</source>
@@ -48960,18 +48961,18 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースが選択されていないまたはデータベースに接続していません.</translation>
     </message>
 </context>
 <context>
     <name>SLDatabaseInfo</name>
     <message>
         <source>Filename:</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル名:</translation>
     </message>
     <message>
         <source>SQLite version</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLiteバージョン</translation>
     </message>
 </context>
 <context>
@@ -49624,7 +49625,7 @@ about SEXTANTE</source>
     <name>SpatiaLiteDBConnector</name>
     <message>
         <source>&quot;%s&quot; not found</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%s&quot; が見つかりません</translation>
     </message>
 </context>
 <context>
