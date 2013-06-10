@@ -30,7 +30,7 @@
     <name>ConnectionItem</name>
     <message>
         <source>Unable to connect</source>
-        <translation type="unfinished"></translation>
+        <translation>接続できません</translation>
     </message>
 </context>
 <context>
@@ -94,7 +94,7 @@
     <name>DBManager</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
@@ -110,19 +110,19 @@
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">情報</translation>
+        <translation>情報</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">テーブル</translation>
+        <translation>テーブル</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished">プレビュー</translation>
+        <translation>プレビュー</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">データベース(&amp;D)</translation>
+        <translation>データベース(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
@@ -157,11 +157,11 @@
     <name>DBManagerPlugin</name>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">コピー</translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>Unable to find a valid unique field</source>
@@ -169,11 +169,11 @@
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">タイプ</translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <source>Column(s)</source>
@@ -197,7 +197,7 @@ Query:
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">データベース(&amp;D)</translation>
+        <translation>データベース(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Create schema</source>
@@ -213,7 +213,7 @@ Query:
     </message>
     <message>
         <source>Delete selected item</source>
-        <translation type="unfinished">選択したアイテムを削除</translation>
+        <translation>選択したアイテムを削除</translation>
     </message>
     <message>
         <source>&amp;Create table</source>
@@ -313,23 +313,23 @@ Query:
     </message>
     <message>
         <source>Spatial Index</source>
-        <translation type="unfinished">空間インデックス</translation>
+        <translation>空間インデックス</translation>
     </message>
     <message>
         <source>Check</source>
-        <translation type="unfinished"></translation>
+        <translation>チェック</translation>
     </message>
     <message>
         <source>Primary key</source>
-        <translation type="unfinished">主キー</translation>
+        <translation>主キー</translation>
     </message>
     <message>
         <source>Foreign key</source>
-        <translation type="unfinished"></translation>
+        <translation>外部キー</translation>
     </message>
     <message>
         <source>Unique</source>
-        <translation type="unfinished">ユニーク</translation>
+        <translation>ユニーク</translation>
     </message>
     <message>
         <source>Exclusion</source>
@@ -337,7 +337,7 @@ Query:
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>&amp;Versioning</source>
@@ -349,11 +349,11 @@ Query:
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">ビュー</translation>
+        <translation>ビュー</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">テーブル</translation>
+        <translation>テーブル</translation>
     </message>
     <message>
         <source>Owner:</source>
@@ -428,7 +428,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">長さ</translation>
+        <translation>長さ</translation>
     </message>
     <message>
         <source>Null</source>
@@ -436,7 +436,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">既定</translation>
+        <translation>既定</translation>
     </message>
     <message>
         <source>Function</source>
@@ -444,15 +444,15 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="unfinished">利用可にする</translation>
+        <translation>利用可にする</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">はい</translation>
+        <translation>はい</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished">いいえ</translation>
+        <translation>いいえ</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;action:triggers/enable&quot;&gt;Enable all triggers&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Disable all triggers&lt;/a&gt;</source>
@@ -488,11 +488,11 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished">接続していません</translation>
+        <translation>接続していません</translation>
     </message>
     <message>
         <source>Connection details</source>
-        <translation type="unfinished">接続の詳細</translation>
+        <translation>接続の詳細</translation>
     </message>
     <message>
         <source>General info</source>
@@ -536,15 +536,15 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished">フィールド</translation>
+        <translation>フィールド</translation>
     </message>
     <message>
         <source>Constraints</source>
-        <translation type="unfinished">制約</translation>
+        <translation>制約</translation>
     </message>
     <message>
         <source>Indexes</source>
-        <translation type="unfinished">インデックス</translation>
+        <translation>インデックス</translation>
     </message>
     <message>
         <source>Triggers</source>
@@ -568,7 +568,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished">未定義</translation>
+        <translation>未定義</translation>
     </message>
     <message>
         <source>Spatial ref:</source>
@@ -603,7 +603,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     <name>DBModel</name>
     <message>
         <source>Databases</source>
-        <translation type="unfinished">データベース</translation>
+        <translation>データベース</translation>
     </message>
     <message>
         <source>Invalid MIME uri</source>
@@ -615,7 +615,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Invalid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>無効なレイヤ</translation>
     </message>
     <message>
         <source>Unable to load the layer %s</source>
@@ -626,19 +626,19 @@ This table is essential for many GIS applications for enumeration of tables.</so
     <name>DBTree</name>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>改名</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">削除</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Add to canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンバスに追加する</translation>
     </message>
     <message>
         <source>Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>再接続</translation>
     </message>
 </context>
 <context>
@@ -2522,7 +2522,7 @@ Are you sure you want to proceed?</source>
     <name>DlgAddGeometryColumn</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2556,7 +2556,7 @@ Are you sure you want to proceed?</source>
     <name>DlgCreateIndex</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <source>Please enter some name for the index</source>
@@ -2571,7 +2571,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>no field selected</source>
@@ -2622,11 +2622,11 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished">Shapefiles</translation>
+        <translation>Shapefiles</translation>
     </message>
     <message>
         <source>Export to file</source>
-        <translation type="unfinished">ファイルにエクスポート</translation>
+        <translation>ファイルにエクスポート</translation>
     </message>
     <message>
         <source>Output table name is required</source>
@@ -2654,7 +2654,7 @@ Are you sure you want to proceed?</source>
     <name>DlgFieldProperties</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2799,7 +2799,7 @@ geometry column - column with unique integer values</source>
     <name>DlgTableProperties</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>nothing selected</source>
@@ -5397,7 +5397,7 @@ GEOS空間演算エラー:1個またはそれ以上の数の地物のジオメ�
     <name>InfoViewer</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DBマネージャ</translation>
     </message>
 </context>
 <context>
@@ -6795,7 +6795,7 @@ Wrong line: %1</source>
     <name>PGDatabase</name>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;T)</translation>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
@@ -6803,7 +6803,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>Select a TABLE for vacuum analyze.</source>
@@ -10319,7 +10319,7 @@ SQL: %1</translation>
         <location filename="../src/app/qgisapp.cpp" line="3732"/>
         <location filename="../src/app/qgisapp.cpp" line="3791"/>
         <source>QGIS files</source>
-        <translation type="unfinished"></translation>
+        <translation>QGISファイル</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4660"/>
@@ -11278,7 +11278,7 @@ Always ignore these errors?</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4288"/>
         <source>Labeling</source>
-        <translation type="unfinished">ラベリング</translation>
+        <translation>ラベリング</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4289"/>
@@ -33004,7 +33004,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="833"/>
         <source>QGIS files</source>
-        <translation type="unfinished"></translation>
+        <translation>QGISファイル</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1342"/>
@@ -37288,7 +37288,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="20"/>
         <source>Plugin Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグインマネージャ</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="493"/>
@@ -38187,7 +38187,7 @@ Choose ignore to continue loading without the missing layers. Choose cancel to r
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="112"/>
         <source>QGIS files</source>
-        <translation type="unfinished"></translation>
+        <translation>QGISファイル</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="143"/>
@@ -48947,11 +48947,11 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">データベース(&amp;D)</translation>
+        <translation>データベース(&amp;D)</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">すいません</translation>
+        <translation>すいません</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
