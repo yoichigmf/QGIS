@@ -98,15 +98,15 @@
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースが無いまたはデータベースに接続していません.</translation>
     </message>
     <message>
         <source>Select the table you want export to file.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルにエキスポートしたいテーブルを選択して下さい.</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DBマネージャ</translation>
     </message>
     <message>
         <source>Info</source>
@@ -126,31 +126,31 @@
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマ(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>リフレッシュ(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;SQL window</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLウィンドウ(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>終了(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Import layer/file</source>
-        <translation type="unfinished"></translation>
+        <translation>レイヤ/ファイルのインポート(&amp;I)</translation>
     </message>
     <message>
         <source>&amp;Export to file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルにエキスポートする(&amp;E)</translation>
     </message>
 </context>
 <context>
@@ -165,7 +165,7 @@
     </message>
     <message>
         <source>Unable to find a valid unique field</source>
-        <translation type="unfinished"></translation>
+        <translation>正しいユニークフィールドが見つかりません</translation>
     </message>
     <message>
         <source>Name</source>
@@ -177,23 +177,27 @@
     </message>
     <message>
         <source>Column(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム</translation>
     </message>
     <message>
         <source>Error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー:
+%s</translation>
     </message>
     <message>
         <source>
 
 Query:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+クエリ:
+%s</translation>
     </message>
     <message>
         <source>&amp;Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>再接続(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Database</source>
@@ -201,15 +205,15 @@ Query:
     </message>
     <message>
         <source>&amp;Create schema</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマの作成(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマ(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Delete (empty) schema</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマ(空白の)の削除(&amp;D)</translation>
     </message>
     <message>
         <source>Delete selected item</source>
@@ -217,23 +221,23 @@ Query:
     </message>
     <message>
         <source>&amp;Create table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルの作成(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Edit table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルの編集(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Delete table/view</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル/ビューの削除(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Empty table</source>
-        <translation type="unfinished"></translation>
+        <translation>空のテーブル(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Move to schema</source>
@@ -241,19 +245,19 @@ Query:
     </message>
     <message>
         <source>Cannot delete the selected item.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したアイテムを削除できません.</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースが選択されていないまたはデータベースに接続していません.</translation>
     </message>
     <message>
         <source>New schema</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいスキーマ</translation>
     </message>
     <message>
         <source>Enter new schema name</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいスキーマ名の入力</translation>
     </message>
     <message>
         <source>Select an empty SCHEMA for deletion.</source>
@@ -265,7 +269,7 @@ Query:
     </message>
     <message>
         <source>Really delete schema %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にスキーマ%sを削除しますか?</translation>
     </message>
     <message>
         <source>Select a TABLE for editation.</source>
@@ -277,7 +281,7 @@ Query:
     </message>
     <message>
         <source>Really delete table/view %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にテーブル/ビュー%sを削除しますか?</translation>
     </message>
     <message>
         <source>Select a TABLE to empty it.</source>
@@ -289,7 +293,7 @@ Query:
     </message>
     <message>
         <source>Select a TABLE/VIEW.</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル/ビューの選択.</translation>
     </message>
     <message>
         <source>Do you want to %s all triggers?</source>
@@ -297,7 +301,7 @@ Query:
     </message>
     <message>
         <source>Table triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルトリガー</translation>
     </message>
     <message>
         <source>Do you want to %s trigger %s?</source>
@@ -305,7 +309,7 @@ Query:
     </message>
     <message>
         <source>Table trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルトリガー</translation>
     </message>
     <message>
         <source>Do you want to %s spatial index for field %s?</source>
@@ -345,7 +349,7 @@ Query:
     </message>
     <message>
         <source>Relation type:</source>
-        <translation type="unfinished"></translation>
+        <translation>リレーションタイプ:</translation>
     </message>
     <message>
         <source>View</source>
@@ -357,15 +361,15 @@ Query:
     </message>
     <message>
         <source>Owner:</source>
-        <translation type="unfinished"></translation>
+        <translation>オーナー::</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>コメント:</translation>
     </message>
     <message>
         <source>Pages:</source>
-        <translation type="unfinished"></translation>
+        <translation>ページ:</translation>
     </message>
     <message>
         <source>Rows (estimation):</source>
@@ -440,7 +444,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>関数</translation>
     </message>
     <message>
         <source>Enabled</source>
@@ -464,27 +468,27 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Rules</source>
-        <translation type="unfinished"></translation>
+        <translation>ルール</translation>
     </message>
     <message>
         <source>Server version: </source>
-        <translation type="unfinished"></translation>
+        <translation>サーバーバージョン:</translation>
     </message>
     <message>
         <source>Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>ホスト:</translation>
     </message>
     <message>
         <source>User:</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザ:</translation>
     </message>
     <message>
         <source>create new schemas</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいスキーマの作成</translation>
     </message>
     <message>
         <source>create temporary tables</source>
-        <translation type="unfinished"></translation>
+        <translation>一時テーブルの作成</translation>
     </message>
     <message>
         <source>Not connected</source>
@@ -496,7 +500,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>General info</source>
-        <translation type="unfinished"></translation>
+        <translation>一般情報</translation>
     </message>
     <message>
         <source>&lt;warning&gt; %s support not enabled!</source>
@@ -504,23 +508,23 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>User has privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザは権限を持っています:</translation>
     </message>
     <message>
         <source>Privileges</source>
-        <translation type="unfinished"></translation>
+        <translation>権限</translation>
     </message>
     <message>
         <source>create new objects</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいオブジェクトの作成</translation>
     </message>
     <message>
         <source>access objects</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクトへのアクセス</translation>
     </message>
     <message>
         <source>Schema details</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマの詳細</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges to access this schema!</source>
@@ -528,11 +532,11 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>行:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This is not a spatial table.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;警告&gt;これは空間情報テーブルではありません.</translation>
     </message>
     <message>
         <source>Fields</source>
@@ -548,23 +552,23 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>トリガー</translation>
     </message>
     <message>
         <source>View definition</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューの定義</translation>
     </message>
     <message>
         <source>Column:</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム:</translation>
     </message>
     <message>
         <source>Geometry:</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオメトリ:</translation>
     </message>
     <message>
         <source>Dimension:</source>
-        <translation type="unfinished"></translation>
+        <translation>次元:</translation>
     </message>
     <message>
         <source>Undefined</source>
@@ -572,11 +576,11 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Spatial ref:</source>
-        <translation type="unfinished"></translation>
+        <translation>空間参照:</translation>
     </message>
     <message>
         <source>Estimated extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>推定された領域:</translation>
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
@@ -584,19 +588,19 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>領域:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; There isn&apos;t entry in geometry_columns!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;警告&gt; ジオメトリカラムにエントリがありません!</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No spatial index defined (&lt;a href=&quot;action:spatialindex/create&quot;&gt;create it&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;警告&gt;　空間インデックスが定義されていません (&lt;a href=&quot;action:spatialindex/create&quot;&gt;作成して下さい&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DBマネージャ</translation>
     </message>
 </context>
 <context>
@@ -607,11 +611,11 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Invalid MIME uri</source>
-        <translation type="unfinished"></translation>
+        <translation>不正なMIME uri</translation>
     </message>
     <message>
         <source>The dropped object is not a valid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>削除されたオブジェクトは正しいレイヤではありません</translation>
     </message>
     <message>
         <source>Invalid layer</source>
@@ -619,7 +623,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Unable to load the layer %s</source>
-        <translation type="unfinished"></translation>
+        <translation>レイヤ%sをロードできません</translation>
     </message>
 </context>
 <context>
@@ -2526,7 +2530,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>field name must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド名は空白ではいけません</translation>
     </message>
 </context>
 <context>
@@ -2560,14 +2564,14 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Please enter some name for the index</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスの名前をなにか入力して下さい</translation>
     </message>
 </context>
 <context>
     <name>DlgCreateTable</name>
     <message>
         <source>&amp;Create</source>
-        <translation type="unfinished"></translation>
+        <translation>作成(&amp;C)</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -2575,50 +2579,50 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>no field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド選択されていません</translation>
     </message>
     <message>
         <source>field is at top already</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドはすでにトップにあります</translation>
     </message>
     <message>
         <source>No field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド選択されていません</translation>
     </message>
     <message>
         <source>field is at bottom already</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドはすでに一番下にあります</translation>
     </message>
     <message>
         <source>select schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマの選択!</translation>
     </message>
     <message>
         <source>enter table name!</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル名を入力して下さい!</translation>
     </message>
     <message>
         <source>add some fields!</source>
-        <translation type="unfinished"></translation>
+        <translation>いくつかのフィールドを追加して下さい!</translation>
     </message>
     <message>
         <source>set geometry column name</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオメトリカラム名を設定して下さい</translation>
     </message>
     <message>
         <source>Good</source>
-        <translation type="unfinished"></translation>
+        <translation>いいです</translation>
     </message>
     <message>
         <source>everything went fine</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてがうまくいっています</translation>
     </message>
 </context>
 <context>
     <name>DlgExportVector</name>
     <message>
         <source>Choose where to save the file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルを保存する場所を選択して下さい</translation>
     </message>
     <message>
         <source>Shapefiles</source>
@@ -2630,7 +2634,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Output table name is required</source>
-        <translation type="unfinished"></translation>
+        <translation>出力テーブル名が必要です</translation>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
@@ -2643,11 +2647,12 @@ Are you sure you want to proceed?</source>
     <message>
         <source>Error %d
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー %d
+%s</translation>
     </message>
     <message>
         <source>Export finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>エキスポートが終了しました.</translation>
     </message>
 </context>
 <context>
