@@ -1721,7 +1721,7 @@ were reduced to %d vertices after simplification</source>
     </message>
     <message>
         <source>Processing of the following layers/files ended with error:&lt;br&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>以下のレイヤ/ファイルの処理がエラーで終了しました&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Created output shapefiles in folder:
@@ -35181,11 +35181,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Obsolete plugin:</source>
-        <translation type="unfinished"></translation>
+        <translation>廃止されたプラグイン:</translation>
     </message>
     <message>
         <source>QGIS has detected an obsolete plugin that masks its more recent version shipped with this copy of QGIS. This is likely due to files associated with a previous installation of QGIS. Do you want to remove the old plugin right now and unmask the more recent version?</source>
-        <translation type="unfinished"></translation>
+        <translation>QGISは廃止されたプラグインを検出しました.これによってこのQGISのコピーより新しいバージョンを隠しています.このことは以前のQGISインストレーションのファイル構成によるものです.古いプラグインを今すぐ削除して新しいバージョンを表示しますか?</translation>
     </message>
     <message>
         <source>Are you sure you want to downgrade the plugin to the latest available version? The installed one is newer!</source>
@@ -35221,7 +35221,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>The plugin is not compatible with this version of QGIS. It&apos;s designed for QGIS versions:</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグインはこのQGISのバージョンでは利用できません.これは次のQGISバージョン用に設計されています:</translation>
     </message>
     <message>
         <source>The plugin depends on some components missing on your system. You need to install the following Python module in order to enable it:</source>
@@ -36141,7 +36141,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="800"/>
         <source>Enable selected repository only</source>
-        <translation type="unfinished"></translation>
+        <translation>選択リポジトリのみを有効にする</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="646"/>
@@ -36152,7 +36152,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="513"/>
         <source>Reinstallable</source>
         <comment>category: plugins that are installed and available</comment>
-        <translation type="unfinished"></translation>
+        <translation>再インストール可能</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="514"/>
@@ -36164,19 +36164,19 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="515"/>
         <source>Only locally available</source>
         <comment>category: plugins that are only locally available</comment>
-        <translation type="unfinished"></translation>
+        <translation>ローカルでのみ利用可能</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="516"/>
         <source>Downgradeable</source>
         <comment>category: plugins that are installed and there is an OLDER version available</comment>
-        <translation type="unfinished"></translation>
+        <translation>ダウングレード可能</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="580"/>
         <source>Plugin designed for QGIS %1</source>
         <comment>compatible QGIS version(s)</comment>
-        <translation type="unfinished"></translation>
+        <translation>QGIS%1用に設計されたプラグイン</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="650"/>
