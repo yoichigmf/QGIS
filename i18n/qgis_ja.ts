@@ -241,7 +241,7 @@ Query:
     </message>
     <message>
         <source>&amp;Move to schema</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマへの移動(&amp;M)</translation>
     </message>
     <message>
         <source>Cannot delete the selected item.</source>
@@ -261,11 +261,11 @@ Query:
     </message>
     <message>
         <source>Select an empty SCHEMA for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>空白スキーマを削除のために選択する.</translation>
     </message>
     <message>
         <source>hey!</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘイ!</translation>
     </message>
     <message>
         <source>Really delete schema %s?</source>
@@ -273,11 +273,11 @@ Query:
     </message>
     <message>
         <source>Select a TABLE for editation.</source>
-        <translation type="unfinished"></translation>
+        <translation>編集テーブルの選択.</translation>
     </message>
     <message>
         <source>Select a TABLE/VIEW for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>削除テーブル/ビューの選択.</translation>
     </message>
     <message>
         <source>Really delete table/view %s?</source>
@@ -285,7 +285,7 @@ Query:
     </message>
     <message>
         <source>Select a TABLE to empty it.</source>
-        <translation type="unfinished"></translation>
+        <translation>空にするテーブルを選ぶ.</translation>
     </message>
     <message>
         <source>Really delete all items from table %s?</source>
@@ -313,7 +313,7 @@ Query:
     </message>
     <message>
         <source>Do you want to %s spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>%sをフィールド%sの空間インデックスにしますか?</translation>
     </message>
     <message>
         <source>Spatial Index</source>
@@ -337,7 +337,7 @@ Query:
     </message>
     <message>
         <source>Exclusion</source>
-        <translation type="unfinished"></translation>
+        <translation>除外</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -345,7 +345,7 @@ Query:
     </message>
     <message>
         <source>&amp;Versioning</source>
-        <translation type="unfinished"></translation>
+        <translation>バージョニング(&amp;V)</translation>
     </message>
     <message>
         <source>Relation type:</source>
@@ -377,7 +377,7 @@ Query:
     </message>
     <message>
         <source>Privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>権限:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have usage privileges for this schema!</source>
@@ -409,11 +409,11 @@ Query:
     </message>
     <message>
         <source>Library:</source>
-        <translation type="unfinished"></translation>
+        <translation>ライブラリ:</translation>
     </message>
     <message>
         <source>Scripts:</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリプト:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; Version of installed scripts doesn&apos;t match version of released scripts!
@@ -436,7 +436,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Null</source>
-        <translation type="unfinished"></translation>
+        <translation>ヌル</translation>
     </message>
     <message>
         <source>Default</source>
@@ -464,7 +464,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Definition</source>
-        <translation type="unfinished"></translation>
+        <translation>定義</translation>
     </message>
     <message>
         <source>Rules</source>
