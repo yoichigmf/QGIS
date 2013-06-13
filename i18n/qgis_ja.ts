@@ -373,7 +373,7 @@ Query:
     </message>
     <message>
         <source>Rows (estimation):</source>
-        <translation type="unfinished"></translation>
+        <translation>行数（推定値）</translation>
     </message>
     <message>
         <source>Privileges:</source>
@@ -381,31 +381,31 @@ Query:
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have usage privileges for this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; このユーザーはこのスキーマを使用する権限がありません!</translation>
     </message>
     <message>
         <source>Rows (counted):</source>
-        <translation type="unfinished"></translation>
+        <translation>行数（カウント値）</translation>
     </message>
     <message>
         <source>Unknown (&lt;a href=&quot;action:rows/count&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>見つかりません (&lt;a href=&quot;action:rows/count&quot;&gt;検索する&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; このユーザーには権限がありません!</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has read-only privileges.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; このユーザーは読み取り専用です.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; There&apos;s a significant difference between estimated and real row count. Consider running &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; 推測値と実際の行数がかなり違います.&lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;の実行を検討してください.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No primary key defined for this table!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; このテーブルにはプライマリキーが定義されてません!</translation>
     </message>
     <message>
         <source>Library:</source>
@@ -418,17 +418,20 @@ Query:
     <message>
         <source>&lt;warning&gt; Version of installed scripts doesn&apos;t match version of released scripts!
 This is probably a result of incorrect PostGIS upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; インストールされたスクリプトはリリースされたスクリプトとバージョンが一致しません!
+おそらくPostGISが正しくアップグレードできていません.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; geometry_columns table doesn&apos;t exist!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; geometry_columnsテーブルが存在しません!
+このテーブルは多くのGISソフトにとってテーブルを列挙するために不可欠です.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have privileges to read contents of geometry_columns table!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; このユーザーはgeometry_columnsテーブルの内容を読む権限がありません!
+このテーブルは多くのGISソフトにとってテーブルを列挙するために不可欠です.</translation>
     </message>
     <message>
         <source>Length</source>
@@ -460,7 +463,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;a href=&quot;action:triggers/enable&quot;&gt;Enable all triggers&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Disable all triggers&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;action:triggers/enable&quot;&gt;すべてのトリガを可能にする&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;すべてのトリガを不可能にする&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Definition</source>
@@ -504,7 +507,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; %s support not enabled!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; %sはサポートされません!</translation>
     </message>
     <message>
         <source>User has privileges:</source>
@@ -528,7 +531,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges to access this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; このユーザーはこのスキーマにアクセスする権限がありません!</translation>
     </message>
     <message>
         <source>Rows:</source>
@@ -584,7 +587,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>(見つかりません) (&lt;a href=&quot;action:extent/get&quot;&gt;検索する&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Extent:</source>
@@ -2638,11 +2641,11 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>ソースsridが不正です.整数値でなければいけません</translation>
     </message>
     <message>
         <source>Invalid target srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>ターゲットsridが不正です.整数値でなければいけません</translation>
     </message>
     <message>
         <source>Error %d
