@@ -161,7 +161,7 @@ class QgsPluginInstaller(QObject):
         tabIndex = 2 # tab 2 contains upgradeable plugins
     # finally set the notify label
     if status:
-      self.statusLabel.setText(u' <a href="#%d">%s</a>  ' % (tabIndex,status) )
+      self.statusLabel.setText(u' <a href="%d">%s</a>  ' % (tabIndex,status) )
     else:
       iface.mainWindow().statusBar().removeWidget(self.statusLabel)
       self.statusLabel = None
@@ -256,7 +256,7 @@ class QgsPluginInstaller(QObject):
     if len( params ) == 1:
       indx = unicode(params[0])
       if indx.isdigit() and int(indx) > -1 and int(indx) < 7:
-        tabIndex = indx
+        tabIndex = int(indx)
     iface.pluginManagerInterface().showPluginManager( tabIndex )
 
 
@@ -312,14 +312,13 @@ class QgsPluginInstaller(QObject):
       loadPlugin(plugin["id"])
       plugins.getAllInstalled(testLoad=True)
       plugins.rebuild()
-      self.exportPluginsToManager()
       plugin = plugins.all()[key]
       if not plugin["error"]:
         if previousStatus in ["not installed", "new"]:
           infoString = (self.tr("Plugin installed successfully"), self.tr("Plugin installed successfully"))
-          settings = QSettings()
-          settings.setValue("/PythonPlugins/"+plugin["id"], True)
-          startPlugin(plugin["id"])
+          if startPlugin(plugin["id"]):
+            settings = QSettings()
+            settings.setValue("/PythonPlugins/"+plugin["id"], True)
         else:
           settings = QSettings()
           if settings.value("/PythonPlugins/"+key, False, type=bool): # plugin will be reloaded on the fly only if currently loaded
@@ -344,9 +343,6 @@ class QgsPluginInstaller(QObject):
         dlg.exec_()
         if dlg.result():
           # revert installation
-          plugins.getAllInstalled()
-          plugins.rebuild()
-          self.exportPluginsToManager()
           pluginDir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/" + plugin["id"]
           removeDir(pluginDir)
           if QDir(pluginDir).exists():
@@ -364,7 +360,8 @@ class QgsPluginInstaller(QObject):
               pass
           plugins.getAllInstalled()
           plugins.rebuild()
-          self.exportPluginsToManager()
+
+      self.exportPluginsToManager()
 
     if infoString[0]:
       QMessageBox.information(iface.mainWindow(), infoString[0], infoString[1])
@@ -485,12 +482,15 @@ class QgsPluginInstaller(QObject):
     """ delete repository connection """
     if not reposName:
       return
+    settings = QSettings()
+    settings.beginGroup(reposGroup)
+    if settings.value(reposName+"/url", "", type=unicode) == officialRepo[1]:
+      QMessageBox.warning(iface.mainWindow(), self.tr("QGIS Python Plugin Installer"), self.tr("You can't remove the official QGIS Plugin Repository. You can disable it if needed."))
+      return
     warning = self.tr("Are you sure you want to remove the following repository?") + "\n" + reposName
     if QMessageBox.warning(iface.mainWindow(), self.tr("QGIS Python Plugin Installer"), warning , QMessageBox.Yes, QMessageBox.No) == QMessageBox.No:
       return
     # delete from the settings, refresh data and repopulate all the widgets
-    settings = QSettings()
-    settings.beginGroup(reposGroup)
     settings.remove(reposName)
     repositories.remove(reposName)
     plugins.removeRepository(reposName)
