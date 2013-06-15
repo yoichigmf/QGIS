@@ -185,7 +185,7 @@ class Editor(QsciScintilla):
         self.setLexers()
         threshold = self.settings.value("pythonConsole/autoCompThresholdEditor", 2, type=int)
         radioButtonSource = self.settings.value("pythonConsole/autoCompleteSourceEditor", 'fromAPI')
-        autoCompEnabled = self.settings.value("pythonConsole/autoCompleteEnabledEditor", True)
+        autoCompEnabled = self.settings.value("pythonConsole/autoCompleteEnabledEditor", True, type=bool)
         self.setAutoCompletionThreshold(threshold)
         if autoCompEnabled:
             if radioButtonSource == 'fromDoc':
@@ -198,8 +198,8 @@ class Editor(QsciScintilla):
             self.setAutoCompletionSource(self.AcsNone)
 
     def autoCompleteKeyBinding(self):
-        radioButtonSource = self.settings.value("pythonConsole/autoCompleteSourceEditor")
-        autoCompEnabled = self.settings.value("pythonConsole/autoCompleteEnabledEditor")
+        radioButtonSource = self.settings.value("pythonConsole/autoCompleteSourceEditor", 'fromAPI')
+        autoCompEnabled = self.settings.value("pythonConsole/autoCompleteEnabledEditor", True, type=bool)
         if autoCompEnabled:
             if radioButtonSource == 'fromDoc':
                 self.autoCompleteFromDocument()
@@ -237,10 +237,13 @@ class Editor(QsciScintilla):
 
         self.api = QsciAPIs(self.lexer)
         chekBoxAPI = self.settings.value("pythonConsole/preloadAPI", True, type=bool)
+        chekBoxPreparedAPI = self.settings.value("pythonConsole/usePreparedAPIFile", False, type=bool)
         if chekBoxAPI:
-            self.api.loadPrepared( QgsApplication.pkgDataPath() + "/python/qsci_apis/pyqgis_master.pap" )
+            self.api.loadPrepared(QgsApplication.pkgDataPath() + "/python/qsci_apis/pyqgis_master.pap")
+        elif chekBoxPreparedAPI:
+            self.api.loadPrepared(self.settings.value("pythonConsole/preparedAPIFile"))
         else:
-            apiPath = self.settings.value("pythonConsole/userAPI")
+            apiPath = self.settings.value("pythonConsole/userAPI", [])
             for i in range(0, len(apiPath)):
                 self.api.load(unicode(apiPath[i]))
             self.api.prepare()
@@ -372,7 +375,7 @@ class Editor(QsciScintilla):
         if QApplication.clipboard().text():
             pasteAction.setEnabled(True)
         if self.settings.value("pythonConsole/enableObjectInsp",
-                                False):
+                                False, type=bool):
             showCodeInspection.setEnabled(True)
         action = menu.exec_(self.mapToGlobal(e.pos()))
 
@@ -642,13 +645,30 @@ class Editor(QsciScintilla):
             return True
 
     def keyPressEvent(self, e):
-        if self.settings.value("pythonConsole/autoCloseBracketEditor", True):
+        if self.settings.value("pythonConsole/autoCloseBracketEditor", True, type=bool):
+            startLine, _, endLine, _ = self.getSelection()
             t = unicode(e.text())
             ## Close bracket automatically
             if t in self.opening:
                 i = self.opening.index(t)
-                self.insert(self.closing[i])
-        QsciScintilla.keyPressEvent(self, e)
+                if self.hasSelectedText():
+                    self.beginUndoAction()
+                    selText = self.selectedText()
+                    self.removeSelectedText()
+                    if startLine == endLine:
+                        self.insert(self.opening[i] + selText + self.closing[i])
+                        return
+                    elif startLine < endLine and self.opening[i] in ("'", '"'):
+                        self.insert("'''" + selText + "'''")
+                        return
+                    else:
+                        self.insert(self.closing[i])
+                    self.endUndoAction()
+                else:
+                    self.insert(self.closing[i])
+            QsciScintilla.keyPressEvent(self, e)
+        else:
+            QsciScintilla.keyPressEvent(self, e)
 
     def focusInEvent(self, e):
         pathfile = self.parent.path
@@ -852,7 +872,7 @@ class EditorTabWidget(QTabWidget):
 
         # Restore script of the previuos session
         self.settings = QSettings()
-        tabScripts = self.settings.value("pythonConsole/tabScripts")
+        tabScripts = self.settings.value("pythonConsole/tabScripts", [])
         self.restoreTabList = tabScripts
 
         if self.restoreTabList:

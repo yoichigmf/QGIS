@@ -72,7 +72,7 @@ class QgsPluginManager : public QgsOptionsDialogBase, private Ui::QgsPluginManag
     void addPluginMetadata( QString key, QMap<QString, QString> metadata );
 
     //! Return metadata of given plugin
-    QMap<QString, QString> * pluginMetadata( QString key );
+    const QMap<QString, QString> * pluginMetadata( QString key ) const;
 
     //! Select one of the vertical tabs programatically
     void selectTabItem( int idx );
@@ -163,11 +163,18 @@ class QgsPluginManager : public QgsOptionsDialogBase, private Ui::QgsPluginManag
     void clearRepositoryFilter( );
 
   private:
+
+    //! Load translated descriptions. Source strings implemented in external qgspluginmanager_texts.cpp
+    void initTabDescriptions();
+
     //! Return true if given plugin is present in QgsPluginRegistry (c++ plugins) or is enabled in QSettings (Python plugins)
     bool isPluginLoaded( QString key );
 
     //! Return true if there are plugins available for download in the metadata registry
     bool hasAvailablePlugins( );
+
+    //! Return true if there are installed plugins also available for download in the metadata registry
+    bool hasReinstallablePlugins( );
 
     //! Return true if there are upgradeable plugins in metadata the registry
     bool hasUpgradeablePlugins( );
@@ -186,6 +193,8 @@ class QgsPluginManager : public QgsOptionsDialogBase, private Ui::QgsPluginManag
     QgsPluginSortFilterProxyModel * mModelProxy;
 
     QgsPythonUtils* mPythonUtils;
+
+    QMap<QString, QString> mTabDescriptions;
 
     QMap< QString, QMap< QString, QString > > mPlugins;
 

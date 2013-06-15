@@ -40,9 +40,10 @@ Data structure:
 mRepositories = dict of dicts: {repoName : {"url" unicode,
                                             "enabled" bool,
                                             "valid" bool,
-                                            "QPHttp" QPHttp,
+                                            "QPNAME" QPNetworkAccessManager,
                                             "Relay" Relay, # Relay object for transmitting signals from QPHttp with adding the repoName information
-                                            "xmlData" QBuffer,
+                                            "Request" QNetworkRequest,
+                                            "xmlData" QNetworkReply,
                                             "state" int,   (0 - disabled, 1-loading, 2-loaded ok, 3-error (to be retried), 4-rejected)
                                             "error" unicode}}
 
@@ -96,7 +97,7 @@ mPlugins = dict of dicts {id : {
 
 
 
-
+translatableAttributes = ["name", "description", "tags"]
 
 reposGroup = "/Qgis/plugin-repos"
 settingsGroup = "/Qgis/plugin-installer"
@@ -104,7 +105,7 @@ seenPluginGroup = "/Qgis/plugin-seen"
 
 
 # Repositories: (name, url, possible depreciated url)
-officialRepo = ("QGIS Official Repository", "http://plugins.qgis.org/plugins/plugins.xml","http://plugins.qgis.org/plugins")
+officialRepo = ( QCoreApplication.translate("QgsPluginInstaller", "QGIS Official Plugin Repository"), "http://plugins.qgis.org/plugins/plugins.xml","http://plugins.qgis.org/plugins")
 depreciatedRepos = [
     ("Old QGIS Official Repository",   "http://pyqgis.org/repo/official"),
     ("Old QGIS Contributed Repository","http://pyqgis.org/repo/contributed"),
@@ -169,17 +170,17 @@ def removeDir(path):
 
 
 
-# --- class QPHttp  ----------------------------------------------------------------------- #
+# --- class QPNetworkAccessManager  ----------------------------------------------------------------------- #
 # --- It's a temporary workaround for broken proxy handling in Qt ------------------------- #
-class QPHttp(QHttp):
+class QPNetworkAccessManager(QNetworkAccessManager):
   def __init__(self,*args):
-    QHttp.__init__(self,*args)
+    QNetworkAccessManager.__init__(self,)
     settings = QSettings()
     settings.beginGroup("proxy")
     if settings.value("/proxyEnabled", False, type=bool):
       self.proxy=QNetworkProxy()
       proxyType = settings.value( "/proxyType", "0", type=unicode)
-      if len(args)>0 and settings.value("/proxyExcludedUrls","", type=unicode).contains(args[0]):
+      if len(args) > 0 and settings.value("/proxyExcludedUrls","", type=unicode).find(args[0]) > -1:
         proxyType = "NoProxy"
       if proxyType in ["1","Socks5Proxy"]: self.proxy.setType(QNetworkProxy.Socks5Proxy)
       elif proxyType in ["2","NoProxy"]: self.proxy.setType(QNetworkProxy.NoProxy)
@@ -188,13 +189,17 @@ class QPHttp(QHttp):
       elif proxyType in ["5","FtpCachingProxy"] and QT_VERSION >= 0X040400: self.proxy.setType(QNetworkProxy.FtpCachingProxy)
       else: self.proxy.setType(QNetworkProxy.DefaultProxy)
       self.proxy.setHostName(settings.value("/proxyHost","", type=unicode))
-      self.proxy.setPort(settings.value("/proxyPort", 0, type=int))
+      try:
+		# QSettings may contain non-int value...
+        self.proxy.setPort(settings.value("/proxyPort", 0, type=int))
+      except:
+	    pass
       self.proxy.setUser(settings.value("/proxyUser", "", type=unicode))
       self.proxy.setPassword(settings.value("/proxyPassword", "", type=unicode))
       self.setProxy(self.proxy)
     settings.endGroup()
     return None
-# --- /class QPHttp  ---------------------------------------------------------------------- #
+# --- /class QPNetworkAccessManager  ---------------------------------------------------------------------- #
 
 
 
@@ -216,7 +221,7 @@ class Relay(QObject):
   # ----------------------------------------- #
   def dataReadProgress(self, done, total):
     state = 4
-    if total:
+    if total > 0:
       progress = int(float(done)/float(total)*100)
     else:
       progress = 0
@@ -319,7 +324,12 @@ class Repositories(QObject):
   def checkingOnStartInterval(self):
     """ return checking for news and updates interval """
     settings = QSettings()
-    i = settings.value(settingsGroup+"/checkOnStartInterval", 1, type=int)
+    try:
+      # QSettings may contain non-int value...
+      i = settings.value(settingsGroup+"/checkOnStartInterval", 1, type=int)
+    except:
+      # fallback do 1 day by default
+      i = 1
     if i < 0: i = 1
     # allowed values: 0,1,3,7,14,30 days
     interval = 0
@@ -349,7 +359,11 @@ class Repositories(QObject):
     if self.checkingOnStartInterval() == 0:
       return True
     settings = QSettings()
-    interval = settings.value(settingsGroup+"/checkOnStartLastDate",type=QDate).daysTo(QDate.currentDate())
+    try:
+      # QSettings may contain ivalid value...
+      interval = settings.value(settingsGroup+"/checkOnStartLastDate",type=QDate).daysTo(QDate.currentDate())
+    except:
+      interval = 0
     if interval >= self.checkingOnStartInterval():
       return True
     else:
@@ -379,9 +393,10 @@ class Repositories(QObject):
       self.mRepositories[key]["url"] = settings.value(key+"/url", "", type=unicode)
       self.mRepositories[key]["enabled"] = settings.value(key+"/enabled", True, type=bool)
       self.mRepositories[key]["valid"] = settings.value(key+"/valid", True, type=bool)
-      self.mRepositories[key]["QPHttp"] = QPHttp()
+      self.mRepositories[key]["QPNAM"] = QPNetworkAccessManager()
+
       self.mRepositories[key]["Relay"] = Relay(key)
-      self.mRepositories[key]["xmlData"] = QBuffer()
+      self.mRepositories[key]["xmlData"] = None
       self.mRepositories[key]["state"] = 0
       self.mRepositories[key]["error"] = ""
     settings.endGroup()
@@ -392,20 +407,15 @@ class Repositories(QObject):
     """ start fetching the repository given by key """
     self.mRepositories[key]["state"] = 1
     url = QUrl(self.mRepositories[key]["url"])
-    path = url.toPercentEncoding(url.path(), "!$&'()*+,;=:@/")
-    path = unicode(path)
     v=str(QGis.QGIS_VERSION_INT)
-    path += "?qgis=%d.%d" % ( int(v[0]), int(v[1:3]) )
-    port = url.port()
-    if port < 0:
-      port = 80
-    self.mRepositories[key]["QPHttp"] = QPHttp(url.host(), port)
-    self.mRepositories[key]["QPHttp"].requestFinished.connect(self.xmlDownloaded)
-    self.mRepositories[key]["QPHttp"].stateChanged.connect(self.mRepositories[key]["Relay"].stateChanged)
-    self.mRepositories[key]["QPHttp"].dataReadProgress.connect(self.mRepositories[key]["Relay"].dataReadProgress)
-    self.connect(self.mRepositories[key]["Relay"], SIGNAL("anythingChanged(unicode, int, int)"), self, SIGNAL("anythingChanged (unicode, int, int)"))
-    i = self.mRepositories[key]["QPHttp"].get(path, self.mRepositories[key]["xmlData"])
-    self.httpId[i] = key
+    url.addQueryItem('qgis', '.'.join([str(int(s)) for s in [v[0], v[1:3]]]) ) # don't include the bugfix version!
+
+    self.mRepositories[key]["QRequest"] = QNetworkRequest(url)
+    self.mRepositories[key]["QRequest"].setAttribute( QNetworkRequest.User, key)
+    self.mRepositories[key]["xmlData"] = self.mRepositories[key]["QPNAM"].get( self.mRepositories[key]["QRequest"] )
+    self.mRepositories[key]["xmlData"].setProperty( 'reposName', key)
+    self.mRepositories[key]["xmlData"].downloadProgress.connect( self.mRepositories[key]["Relay"].dataReadProgress )
+    self.mRepositories[key]["QPNAM"].finished.connect( self.xmlDownloaded )
 
 
   # ----------------------------------------- #
@@ -420,23 +430,22 @@ class Repositories(QObject):
   # ----------------------------------------- #
   def killConnection(self, key):
     """ kill the fetching on demand """
-    if self.mRepositories[key]["QPHttp"].state():
-      self.mRepositories[key]["QPHttp"].abort()
+    if self.mRepositories[key]["xmlData"] and self.mRepositories[key]["xmlData"].isRunning():
+      self.mRepositories[key]["QPNAM"].finished.disconnect()
+      self.mRepositories[key]["xmlData"].abort()
 
 
   # ----------------------------------------- #
-  def xmlDownloaded(self,nr,state):
+  def xmlDownloaded(self, reply):
     """ populate the plugins object with the fetched data """
-    if not self.httpId.has_key(nr):
-      return
-    reposName = self.httpId[nr]
-    if state:                             # fetching failed
+    reposName = reply.property( 'reposName' )
+    if reply.error() != QNetworkReply.NoError:                             # fetching failed
       self.mRepositories[reposName]["state"] =  3
-      self.mRepositories[reposName]["error"] = self.mRepositories[reposName]["QPHttp"].errorString()
+      self.mRepositories[reposName]["error"] = str(reply.error())
     else:
       repoData = self.mRepositories[reposName]["xmlData"]
       reposXML = QDomDocument()
-      reposXML.setContent(repoData.data())
+      reposXML.setContent(repoData.readAll())
       pluginNodes = reposXML.elementsByTagName("pyqgis_plugin")
       if pluginNodes.size():
         for i in range(pluginNodes.size()):
@@ -587,7 +596,7 @@ class Plugins(QObject):
   # ----------------------------------------- #
   def getInstalledPlugin(self, key, readOnly, testLoad=True):
     """ get the metadata of an installed plugin """
-    def pluginMetadata(fct):
+    def metadataParser(fct):
         """ plugin metadata parser reimplemented from qgis.utils
             for better control on wchich module is examined
             in case there is an installed plugin masking a core one """
@@ -600,6 +609,17 @@ class Plugins(QObject):
           return cp.get('general', fct)
         except:
           return ""
+
+    def pluginMetadata(fct):
+        """ calls metadataParser for current l10n.
+            If failed, fallbacks to the standard metadata """
+        locale = QLocale.system().name()
+        if locale and fct in translatableAttributes:
+          value = metadataParser( "%s[%s]" % (fct, locale ) )
+          if value: return value
+          value = metadataParser( "%s[%s]" % (fct, locale.split("_")[0] ) )
+          if value: return value
+        return metadataParser( fct )
 
     if readOnly:
       path = QDir.cleanPath( QgsApplication.pkgDataPath() ) + "/python/plugins/" + key
@@ -618,13 +638,13 @@ class Plugins(QObject):
       qgisMinimumVersion = pluginMetadata("qgisMinimumVersion").strip()
       if not qgisMinimumVersion: qgisMinimumVersion = "0"
       qgisMaximumVersion = pluginMetadata("qgisMaximumVersion").strip()
-      if not qgisMaximumVersion: qgisMaximumVersion = qgisMinimumVersion[0] + ".999"
+      if not qgisMaximumVersion: qgisMaximumVersion = qgisMinimumVersion[0] + ".99"
       #if compatible, add the plugin to the list
       if not isCompatible(QGis.QGIS_VERSION, qgisMinimumVersion, qgisMaximumVersion):
         error = "incompatible"
         errorDetails = "%s - %s" % (qgisMinimumVersion, qgisMaximumVersion)
-
-      if testLoad:
+      elif testLoad:
+        # only testLoad if compatible version
         try:
           exec "import %s" % key in globals(), locals()
           exec "reload (%s)" % key in globals(), locals()
@@ -729,7 +749,8 @@ class Plugins(QObject):
     settings = QSettings()
     allowExperimental = settings.value(settingsGroup+"/allowExperimental", False, type=bool)
     for i in self.repoCache.values():
-      for plugin in i:
+      for j in i:
+        plugin=j.copy() # do not update repoCache elements!
         key = plugin["id"]
         # check if the plugin is allowed and if there isn't any better one added already.
         if (allowExperimental or not plugin["experimental"]) \
@@ -740,13 +761,15 @@ class Plugins(QObject):
             self.mPlugins[key] = plugin   # just add a new plugin
           else:
             # update local plugin with remote metadata
-            # only use remote icon if local one is not available
-            if self.mPlugins[key]["icon"] == key and plugin["icon"]:
-                self.mPlugins[key]["icon"] = plugin["icon"]
+            # name, description, icon: only use remote data if local one is not available (because of i18n and to not download the icon)
+            for attrib in translatableAttributes + ["icon"]:
+                if not self.mPlugins[key][attrib] and plugin[attrib]:
+                    self.mPlugins[key][attrib] = plugin[attrib]
             # other remote metadata is preffered:
             for attrib in ["name", "description", "category", "tags", "changelog", "author_name", "author_email", "homepage",
                            "tracker", "code_repository", "experimental", "version_available", "zip_repository",
                            "download_url", "filename", "downloads", "average_vote", "rating_votes"]:
+              if not attrib in translatableAttributes:
                 if plugin[attrib]:
                     self.mPlugins[key][attrib] = plugin[attrib]
           # set status
