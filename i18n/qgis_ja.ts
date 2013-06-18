@@ -27573,7 +27573,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1009"/>
         <source>Value &amp;lt; 0 represents a scale closer than 1:1, e.g. -10 = 10:1&lt;br&gt;Value of 0 disables the specific limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>値 &amp;lt; 0 は1:1より近いスケールを表します, 例. -10 = 10:1&lt;br&gt; 0 の値は制限の指定を無効にします.</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1025"/>
