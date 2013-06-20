@@ -37370,7 +37370,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="75"/>
         <source>&lt;h3&gt;Invalid plugins&lt;/h3&gt;&lt;p&gt;Plugins in this list here are &lt;b&gt;broken or incompatible&lt;/b&gt; with your version of QGIS.&lt;/p&gt;&lt;p&gt;Click on an individual plugin; if possible QGIS shows you more information.&lt;/p&gt;&lt;p&gt;The main reasons to have invalid plugins is that this plugin is not build for this version of QGIS. Maybe you can download an other version from &lt;a href=&quot;http://plugins.qgis.org&quot;&gt;plugins.qgis.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Another common reason is that a python plugin needs some external python libraries (dependencies). You can install them yourself, depending on your operating system. After a correct install the plugin should work.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;不正なプラグイン&lt;/h3&gt;&lt;p&gt;ここにあるプラグインはあなたのバージョンのQGISでは&lt;b&gt;壊れているか互換性がない&lt;/b&gt;ものです.&lt;/p&gt;&lt;p&gt;個別のプラグインをクリックすると可能ならば QGISはさらに情報を表示します.&lt;/p&gt;&lt;p&gt;不正なプラグインが存在する主な理由はそのプラグインがこのバージョンのQGIS用に作成されていないことです. 多分あなたは他のバージョンを &lt;a href=&quot;http://plugins.qgis.org&quot;&gt;plugins.qgis.org&lt;/a&gt;からダウンロードできます.&lt;/p&gt;&lt;p&gt;その他の共通的な原因としてはpythonプラグインが外部のpythonライブラリを必要とする場合があります (依存関係). それらはあなたのオペレーティングシステムに依存した方法であなた自身でインストールできます. 正しくインストールするとプラグインは動作するでしょう.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -54602,7 +54602,87 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;h3&gt;プラグインの管理とインストール&lt;/h3&gt;
+
+&lt;p&gt;
+プラグインの管理とインストール.
+&lt;/p&gt;
+
+
+&lt;a href=&quot;#installedtab&quot;&gt;インストールされたプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#getmoretab&quot;&gt;さらなるプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#newtab&quot;&gt;新しいプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#upgradabletab&quot;&gt;アップグレード可能プラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#invalidtab&quot;&gt;不正なプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#settingstab&quot;&gt;設定タブ&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;installedtab&quot;&gt;
+&lt;h4&gt;インストールされたプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブでは現状のシステムにインストールされているプラグインのリストを表示します. 
+python と C++ 両方のプラグインがリストされます. 
+&lt;/p&gt;
+&lt;p&gt;
+名前の前にあるチェックボックスをクリックすることでブラグインの有効,無効を切り替えることができます.&lt;br/&gt;
+選択されているプラグインの情報が詳細ペインに表示されます.
+&lt;/p&gt;
+&lt;p&gt;
+ソート方法を変えるためにコンテキストメニュー(右ボタンクリック)が利用できます:
+名前,ダウンロード数,投票と状態でソートできます.
+&lt;/p&gt;
+
+
+&lt;a name=&quot;getmoretab&quot;&gt;
+&lt;h4&gt;さらなるプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブではリモートリポジトリにある利用可能なプラグインのリストが表示されます.
+これは起動時に１回ダウンロードされます.しかしこの設定は変えることができます
+&lt;/p&gt;
+&lt;p&gt;
+選択されているプラグインの情報が詳細ペインに表示されます.
+&lt;/p&gt;
+
+&lt;a name=&quot;newtab&quot;&gt;
+&lt;h4&gt;新しいプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブには利用可能になった新しいプラグインが表示されます.ここに表示されるのは1回のみです.
+&lt;/p&gt;
+
+&lt;a name=&quot;upgradabletab&quot;&gt;
+&lt;h4&gt;アップグレード可能プラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブにはあなたがインストールしているプラグインでリモートりポジトリからアップグレード可能なもんが表示されます.
+
+&lt;/p&gt;
+
+&lt;a name=&quot;Invalid tab&quot;&gt;
+&lt;h4&gt;不正なプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブは不正なプラグインがある場合有効になります. それはプラグインをロード中にエラーが発生した場合です.
+&lt;/p&gt;
+
+&lt;a name=&quot;settingstab&quot;&gt;
+&lt;h4&gt;設定タブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブでプラグインマネージャの設定を変更することができます.
+&lt;/p&gt;
+&lt;p&gt;
+QGISがリポジトリからリストのダウンロードと情報の更新を行う頻度を設定できます.
+&lt;/p&gt;
+&lt;p&gt;
+&apos;Show experimental plugins&apos; チェックボックスをチェックすると, 全てのプラグインがリストに表示されます,そこには作者が&apos;実験的&apos;とみなしているプラグインも含みます.
+
+&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
+注記: 実験的プラグインは業務利用には不向きです. それらのプラグインは開発の初期段階で&quot;不完全な&quot;または&quot;検証目的の&quot;ツールと見なされるべきです. The QGIS開発チームはテスト目的以外でそれらのプラグインをインストールすることを推奨しません.
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1407"/>
