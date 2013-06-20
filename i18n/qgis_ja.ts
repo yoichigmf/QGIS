@@ -297,7 +297,7 @@ Query:
     </message>
     <message>
         <source>Do you want to %s all triggers?</source>
-        <translation type="unfinished"></translation>
+        <translation>%s を全部トリガーにしたいですか?</translation>
     </message>
     <message>
         <source>Table triggers</source>
@@ -305,7 +305,7 @@ Query:
     </message>
     <message>
         <source>Do you want to %s trigger %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>%s を%s のトリガーにしあいですか?</translation>
     </message>
     <message>
         <source>Table trigger</source>
