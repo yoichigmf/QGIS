@@ -72,7 +72,7 @@ class VisualDialog( QDialog, Ui_Dialog ):
       else:
         for rec in range( self.tblUnique.rowCount() ):
           items.append( self.tblUnique.item( rec, 0 ).text() + ":" + self.tblUnique.item( rec, 1 ).text() + "\n" )
-      if not items.isEmpty():
+      if items:
         clip_board = QApplication.clipboard()
         clip_board.setText( items )
     else:
@@ -245,7 +245,7 @@ class visualThread( QThread ):
     for item in unique:
       nElement += 1
       self.emit( SIGNAL( "runStatus(PyQt_PyObject)" ), nElement )
-      lstUnique.append(item.strip())
+      lstUnique.append(unicode(item).strip())
     lstCount = len( unique )
     return ( lstUnique, lstCount )
 
@@ -271,8 +271,10 @@ class visualThread( QThread ):
           self.emit( SIGNAL( "runStatus(PyQt_PyObject)" ), 0 )
           self.emit( SIGNAL( "runRange(PyQt_PyObject)" ), ( 0, nFeat ) )
         for f in selection:
-          atMap = f.attributes()
-          lenVal = float( len( atMap[ index ] ) )
+          try:
+            lenVal = float( len( f[ index ] ) )
+          except TypeError:
+            lenVal = 0
           if first:
             minVal = lenVal
             maxVal = lenVal
@@ -295,8 +297,10 @@ class visualThread( QThread ):
           self.emit( SIGNAL( "runRange(PyQt_PyObject)" ), ( 0, nFeat ) )
         fit = vprovider.getFeatures()
         while fit.nextFeature( feat ):
-          atMap = feat.attributes()
-          lenVal = float( len( atMap[ index ] ) )
+          try:
+            lenVal = float( len( feat[ index ] ) )
+          except TypeError:
+            lenVal = 0
           if first:
             minVal = lenVal
             maxVal = lenVal
@@ -340,8 +344,7 @@ class visualThread( QThread ):
           self.emit( SIGNAL( "runStatus(PyQt_PyObject)" ), 0 )
           self.emit( SIGNAL( "runRange(PyQt_PyObject)" ), ( 0, nFeat ) )
         for f in selection:
-          atMap = f.attributes()
-          value = float( atMap[ index ] )
+          value = float( f[ index ] )
           if first:
             minVal = value
             maxVal = value
@@ -361,8 +364,7 @@ class visualThread( QThread ):
           self.emit( SIGNAL( "runRange(PyQt_PyObject)" ), ( 0, nFeat ) )
         fit = vprovider.getFeatures()
         while fit.nextFeature( feat ):
-          atMap = feat.attributes()
-          value = float( atMap[ index ] )
+          value = float( feat[ index ] )
           if first:
             minVal = value
             maxVal = value
@@ -412,7 +414,6 @@ class visualThread( QThread ):
     A = vlayer.extent()
     A = float( A.width() * A.height() )
     index = ftools_utils.createIndex( vprovider )
-    vprovider.rewind()
     nFeat = vprovider.featureCount()
     nElement = 0
     if nFeat > 0:
