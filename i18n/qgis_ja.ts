@@ -37360,12 +37360,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="43"/>
         <source>&lt;h3&gt;Get more plugins&lt;/h3&gt;&lt;p&gt;Here you see the list of all plugins available in the repositories, but which are &lt;b&gt;not yet installed&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Click on the name to see details.&lt;/p&gt;&lt;p&gt;You can change the sorting via the context menu (right click).&lt;/p&gt;&lt;p&gt;A plugin can be downloaded and installed by clicking on it&apos;s name, and then click the &apos;Install plugin&apos; button.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;さらにプラグインをゲットする&lt;/h3&gt;&lt;p&gt;ここにはリポジトリ内で&lt;b&gt;インストールされていない&lt;/b&gt;すべてのプラグインがリストされます.&lt;/p&gt;&lt;p&gt;詳細情報をみる場合は名前をクリックして下さい.&lt;/p&gt;&lt;p&gt;コンテキストメニュー（マウス右ボタン）を使ってソートを変更できます.&lt;/p&gt;&lt;p&gt;名前をクリックした後で &apos;Install plugin&apos; ボタンをクリックするとプラグインをダウンロードできます.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="64"/>
         <source>&lt;h3&gt;New plugins&lt;/h3&gt;&lt;p&gt;Here you see brand &lt;b&gt;new&lt;/b&gt; plugins which can be installed.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;新プラグイン&lt;/h3&gt;&lt;p&gt;ここにはインストール可能な &lt;b&gt;新しい&lt;/b&gt; プラグインがあります.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="75"/>
