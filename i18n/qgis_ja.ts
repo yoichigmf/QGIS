@@ -4942,7 +4942,7 @@ Please choose another field...</source>
 %2
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">以下の出力シェープファイルが作成されました:
+        <translation>以下の出力シェープファイルが作成されました:
 %1
 これを新しいレイヤとしてTOCに追加しますか
 %2
@@ -4950,7 +4950,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Layer &apos;%1&apos; updated</source>
-        <translation type="obsolete">レイヤ &apos;%1&apos;は更新されています</translation>
+        <translation>レイヤ &apos;%1&apos;は更新されています</translation>
     </message>
     <message>
         <source>Error writing output shapefile.</source>
@@ -4965,7 +4965,7 @@ Please choose larger tolerance...</source>
     <message>
         <source>Error loading output shapefile:
 %1</source>
-        <translation type="obsolete">出力シェープファイルローディング中のエラー
+        <translation>出力シェープファイルローディング中のエラー
 %1</translation>
     </message>
 </context>
@@ -12687,7 +12687,7 @@ SVG検索パス	%8
 <context>
     <name>QgsAttributeTableDialog</name>
     <message numerus="yes">
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="127"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="125"/>
         <source>Attribute table - %1 (%n Feature(s))</source>
         <comment>feature count</comment>
         <translation>
@@ -12695,62 +12695,62 @@ SVG検索パス	%8
         </translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="589"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="582"/>
         <source>Parsing error</source>
         <translation>構文解析エラー</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="595"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="588"/>
         <source>Evaluation error</source>
         <translation>評価エラー</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="204"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="202"/>
         <source>Attribute table - %1 :: Features total: %2, filtered: %3, selected: %4</source>
         <translation>属性テーブル - %1 :: 総地物数: %2, フィルター数: %3, 選択数: %4</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="274"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="272"/>
         <source>Expression based filter</source>
         <translation>式に基づくフィルタ</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="476"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="469"/>
         <source>Attribute added</source>
         <translation>追加された属性</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="483"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="476"/>
         <source>Attribute Error</source>
         <translation>属性エラー</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="483"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="476"/>
         <source>The attribute could not be added to the layer</source>
         <translation>このレイヤにはこの属性を追加できませんでした</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="510"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="503"/>
         <source>Deleted attribute</source>
         <translation>削除された属性</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="517"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="510"/>
         <source>The attribute(s) could not be deleted</source>
         <translation>属性は削除できませんでした</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="517"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="510"/>
         <source>Attribute error</source>
         <translation>属性エラー</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="632"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="625"/>
         <source>Error filtering</source>
         <translation>エラーフィルター</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsattributetabledialog.cpp" line="382"/>
+        <location filename="../src/app/qgsattributetabledialog.cpp" line="380"/>
         <source>Geometryless feature added</source>
         <translation>ジオメトリが無い地物が追加されました</translation>
     </message>
@@ -51152,6 +51152,7 @@ Run topology check again.</source>
 <context>
     <name>context_help</name>
     <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="726"/>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="728"/>
         <source>&lt;h3&gt;Project Properties&lt;/h3&gt;
 This dialog allows you to set a number of properties related to the &lt;label&gt;Project&lt;/label&gt;. A Project is a saved set of layers and their settings, as well as other information required to restore the project from disk.&lt;p&gt;
@@ -51230,7 +51231,7 @@ On this tab you can choose on which layers the identify tool will work.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="565"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="563"/>
         <source>&lt;h3&gt;Export a QGIS Project to MapServer Map File&lt;/h3&gt;
 &lt;p&gt;
 This tool allows you to export a saved QGIS project file to a MapServer map. Only the &lt;b&gt;Map file&lt;/b&gt; and &lt;b&gt;QGIS project file&lt;/b&gt; inputs are required.
@@ -51393,7 +51394,7 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1470"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1468"/>
         <source>&lt;h3&gt;Create a New PostgreSQL Connection&lt;/h3&gt;
 This dialog allows you to define the settings for a connection to a PostgreSQL database.
 &lt;p&gt;
@@ -51472,7 +51473,7 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1557"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1555"/>
         <source>&lt;h3&gt;Create New Vector Layer&lt;/h3&gt;
 To create a new layer for editing, choose &lt;label&gt;New Vector Layer&lt;/label&gt; from the &lt;label&gt;Layer&lt;/label&gt; menu.&lt;br/&gt;
 With this dialog you can create a shape file layer.
@@ -51784,7 +51785,7 @@ QGISでは地物の属性にもとづいたアクションを提供できます.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="617"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="615"/>
         <source>&lt;h3&gt;Create a New SpatiaLite Layer&lt;/h3&gt;
 You can use this dialog to create a new SpatiaLite database and/or an empty SpatiaLite layer for editing. See below for an explanation of the dialog inputs.
 &lt;h4&gt;Database&lt;/h4&gt;
@@ -51833,7 +51834,7 @@ Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1288"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1286"/>
         <source>&lt;h3&gt;Attribute table&lt;/h3&gt;
 The attribute table displays features of a selected layer. Each row in the table represents one map feature with its attributes shown in several columns. The features in the table can be searched, selected, moved or even edited.  By default the attribute table is a separate window. If you opened it and cannot see it anymore, it is most likely hidden under the main QGIS window. You can make it also a docked window, by checking &lt;label&gt;Open attribute table in a dock window&lt;/label&gt; in &lt;label&gt;Settings &gt; Options &gt; General&lt;/label&gt;.&lt;p&gt;
 
@@ -51945,7 +51946,7 @@ The vector layer needs to be in editing mode, before you can click on the &lt;la
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="763"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="761"/>
         <source>&lt;h3&gt;Create a new WMS connection&lt;/h3&gt;
 WMS layers can be added quite simply, as long as you know the URL to access the WMS server, you have a serviceable connection to that server, and the server understands HTTP as the data transport mechanism.&lt;p&gt;
 QGIS currently can act as a WMS client that understands WMS 1.1, 1.1.1 and 1.3 servers.
@@ -52024,13 +52025,14 @@ WMSサーバからデータをダウンロードしている間WMSプラグイ�
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="640"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="638"/>
         <source>&lt;h3&gt;Database connection&lt;/h3&gt;
 </source>
         <translation>&lt;h3&gt;データベースコネクション&lt;/h3&gt;
 </translation>
     </message>
     <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="397"/>
         <source>&lt;style&gt;
 	#toolbarConsole td{
 		background: #f6f6f6;
@@ -52437,7 +52439,7 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1553"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1551"/>
         <source>&lt;h3&gt;Add SpatiaLite Tables&lt;/h3&gt;
 To define a new connection, click on &lt;label&gt;New&lt;/label&gt; button and use the file browser to point to your SpatiaLite database, which is a file with a &lt;i&gt;.sqlite&lt;/i&gt; extension.&lt;p&gt;
 The connections you define will be remembered for further use and available to choose from the drop down menu.
@@ -52526,7 +52528,7 @@ To update the extent of a bookmark, click on it then click the &lt;label&gt;Upda
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="696"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="694"/>
         <source>&lt;h3&gt;Copyright Label Plugin&lt;/h3&gt;
 Draws a copyright label with information.&lt;br/&gt;
 You can add any random text to the map not only a copyright label.
@@ -52716,7 +52718,7 @@ The field calculator allows you to update fields with expressions.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1543"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1541"/>
         <source>&lt;h3&gt;Identify Features&lt;/h3&gt;
 &lt;p&gt;
 The results dialog shows all the features identified within the search tolerance. To see the results details, expand the feature information on the left of each feature.
@@ -52740,7 +52742,7 @@ Identifiable layers can be set in the Project Properties dialog &lt;label&gt;Set
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="598"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="596"/>
         <source>&lt;h3&gt;Scale bar Plugin&lt;/h3&gt;
 Draws a scale bar on the map.
 &lt;p&gt;
@@ -52779,7 +52781,7 @@ QGISでは地図フレームと同じ単位でのみ縮尺を表示できます.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1441"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1439"/>
         <source>&lt;h3&gt;Finding shortest path&lt;/h3&gt;
 &lt;p&gt;Road graph is a C++ plugin for QGIS, that calculates the shortest path between two points on any line layer and plots this path over the road network. Before using the plugin to configure it. This can be done in the menu &lt;label&gt;Plugins &amp;rarr; Road graph &amp;rarr; Settings&lt;/label&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -52817,7 +52819,7 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="801"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="799"/>
         <source>&lt;h3&gt;Delimited Text File Layer&lt;/h3&gt;
 Loads and displays delimited text files
 &lt;p&gt;
@@ -53439,7 +53441,7 @@ if layer.isValid():
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1340"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1338"/>
         <source>&lt;h3&gt;Python Plugin Installer&lt;/h3&gt;
 Downloads and installs plugins from remote repositories.
 &lt;br/&gt;&lt;br/&gt;
@@ -53590,7 +53592,7 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1189"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1187"/>
         <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
 There are two measure tools: length and area. With them, you can measure both distances and areas on the map canvas. Currently the tools provide results in metric units only. A single right mouse click stops the measuring, while two right mouse clicks starts measuring anew.
 &lt;h4&gt;Measuring Lengths&lt;/h4&gt;
@@ -54028,7 +54030,7 @@ To measure areas, select the tool and click to create the area. The total area i
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1282"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1280"/>
         <source>&lt;h3&gt; North Arrow Plugin&lt;/h3&gt;
 Displays a north arrow overlayed onto the map.
 &lt;p&gt;
@@ -54039,7 +54041,7 @@ At present there is only one style available. You can adjust the angle of the ar
 現時点では１種類のスタイルだけが利用可能です. 矢印の角度を調整したりQGISに自動的に方向を決定させたりすることが可能です. もしQGISに方向を決定させるように選択した場合は矢印がどの方向を向くべきか推測されます. 矢印を配置する場所については地図キャンバスの4隅に対応する4個の選択肢があります.</translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="642"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="640"/>
         <source>&lt;h1&gt;Heatmap Plugin Help&lt;/h1&gt;
 &lt;p&gt;The Heatmap plugin uses Kernel Density Estimation to create a density (heatmap)
 raster of an input point vector layer.  The density is calculated based on the
@@ -54155,7 +54157,7 @@ QGISでは標準的なカーネル関数を利用できます。それらの詳�
 &lt;p&gt;作者にコンタクトを取ってください。aruntheguy at gmail dot com&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1456"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1454"/>
         <source>&lt;h3&gt;Save vector layer as...&lt;/h3&gt;
 
 &lt;p&gt;This dialog allows you to save vector data in various formats using GDAL/OGR.
@@ -54366,7 +54368,7 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1286"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1284"/>
         <source>&lt;h3&gt;Style Manager&lt;/h3&gt;
 </source>
         <translation>&lt;h3&gt;スタイルマネージャ&lt;/h3&gt;
@@ -55124,7 +55126,7 @@ SQL Anywhere database.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1503"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1501"/>
         <source>&lt;h3&gt;Create a New Oracle Connection&lt;/h3&gt;
 This dialog allows you to define the settings for a connection to a Oracle database.
 &lt;p&gt;
