@@ -38336,26 +38336,24 @@ SQL %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3104"/>
         <source>PostgreSQL version: unknown</source>
-        <translation>PostgreSQLバージョン:不明</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3105"/>
         <source>unknown</source>
-        <translation>不明</translation>
+        <translation type="unfinished">不明</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3125"/>
         <source>PostgreSQL not connected</source>
-        <translation>PostgreSQLが接続されていません</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3128"/>
         <source>PostgreSQL/PostGIS provider
 %1
 PostGIS %2</source>
-        <translation>PostgreSQL/PostGIS プロバイダ
-%1
-PostGIS %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="817"/>
@@ -39458,7 +39456,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="260"/>
         <source>Provider specific filter expression</source>
-        <translation>プロバイダ指定フィルタ式</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SQL where clause</source>
@@ -46234,7 +46232,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="3588"/>
         <source>Description of this provider</source>
-        <translation>このプロバイダの説明</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="3595"/>
@@ -51165,7 +51163,7 @@ Run topology check again.</source>
 <context>
     <name>context_help</name>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1398"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2604"/>
         <source>&lt;h3&gt;Project Properties&lt;/h3&gt;
 This dialog allows you to set a number of properties related to the &lt;label&gt;Project&lt;/label&gt;. A Project is a saved set of layers and their settings, as well as other information required to restore the project from disk.&lt;p&gt;
 
@@ -51243,7 +51241,7 @@ On this tab you can choose on which layers the identify tool will work.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1189"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1955"/>
         <source>&lt;h3&gt;Export a QGIS Project to MapServer Map File&lt;/h3&gt;
 &lt;p&gt;
 This tool allows you to export a saved QGIS project file to a MapServer map. Only the &lt;b&gt;Map file&lt;/b&gt; and &lt;b&gt;QGIS project file&lt;/b&gt; inputs are required.
@@ -51312,7 +51310,7 @@ These values are written to the map file in the appropriate spots to set things 
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="536"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="784"/>
         <source>&lt;h3&gt;Open Vector Layer Dialog&lt;/h3&gt;
 
 The open vector layer dialog is used to add vector data to the QGIS map view. Vector data are spatial data described using geometries of points, lines and polygons (enclosed areas).&lt;/p&gt;
@@ -51329,7 +51327,7 @@ QGISはPostgreSQLデータベースのPostGISレイヤやSpatiaLiteレイヤを�
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="265"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="313"/>
         <source>&lt;h3&gt;Add PostGIS Tables&lt;/h3&gt;
 This dialog allows you to add PostGIS layers (tables with a geometry column) to the QGIS map canvas.
 &lt;p&gt;
@@ -51406,7 +51404,7 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1142"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1908"/>
         <source>&lt;h3&gt;Create a New PostgreSQL Connection&lt;/h3&gt;
 This dialog allows you to define the settings for a connection to a PostgreSQL database.
 &lt;p&gt;
@@ -51476,7 +51474,7 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1222"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1988"/>
         <source>&lt;h3&gt;GPS Plugin&lt;/h3&gt;
 
 </source>
@@ -51485,7 +51483,7 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1175"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1941"/>
         <source>&lt;h3&gt;Create New Vector Layer&lt;/h3&gt;
 To create a new layer for editing, choose &lt;label&gt;New Vector Layer&lt;/label&gt; from the &lt;label&gt;Layer&lt;/label&gt; menu.&lt;br/&gt;
 With this dialog you can create a shape file layer.
@@ -51796,7 +51794,7 @@ QGISでは地物の属性にもとづいたアクションを提供できます.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1063"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1736"/>
         <source>&lt;h3&gt;Create a New SpatiaLite Layer&lt;/h3&gt;
 You can use this dialog to create a new SpatiaLite database and/or an empty SpatiaLite layer for editing. See below for an explanation of the dialog inputs.
 &lt;h4&gt;Database&lt;/h4&gt;
@@ -51845,7 +51843,7 @@ Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="302"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="361"/>
         <source>&lt;h3&gt;Attribute table&lt;/h3&gt;
 The attribute table displays features of a selected layer. Each row in the table represents one map feature with its attributes shown in several columns. The features in the table can be searched, selected, moved or even edited.  By default the attribute table is a separate window. If you opened it and cannot see it anymore, it is most likely hidden under the main QGIS window. You can make it also a docked window, by checking &lt;label&gt;Open attribute table in a dock window&lt;/label&gt; in &lt;label&gt;Settings &gt; Options &gt; General&lt;/label&gt;.&lt;p&gt;
 
@@ -51957,7 +51955,7 @@ The vector layer needs to be in editing mode, before you can click on the &lt;la
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="998"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1340"/>
         <source>&lt;h3&gt;Create a new WMS connection&lt;/h3&gt;
 WMS layers can be added quite simply, as long as you know the URL to access the WMS server, you have a serviceable connection to that server, and the server understands HTTP as the data transport mechanism.&lt;p&gt;
 QGIS currently can act as a WMS client that understands WMS 1.1, 1.1.1 and 1.3 servers.
@@ -52036,7 +52034,7 @@ WMSサーバからデータをダウンロードしている間WMSプラグイ�
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="534"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="782"/>
         <source>&lt;h3&gt;Database connection&lt;/h3&gt;
 </source>
         <translation>&lt;h3&gt;データベースコネクション&lt;/h3&gt;
@@ -52371,7 +52369,7 @@ that will be automatically deleted after running.&lt;/li&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1104"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1801"/>
         <source>&lt;h3&gt;Add SQL Anywhere Tables&lt;/h3&gt;
 This dialog allows you to add SQL Anywhere layers (tables with a geometry column) to the QGIS map canvas.
 &lt;p&gt;
@@ -52449,7 +52447,7 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1086"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1759"/>
         <source>&lt;h3&gt;Add SpatiaLite Tables&lt;/h3&gt;
 To define a new connection, click on &lt;label&gt;New&lt;/label&gt; button and use the file browser to point to your SpatiaLite database, which is a file with a &lt;i&gt;.sqlite&lt;/i&gt; extension.&lt;p&gt;
 The connections you define will be remembered for further use and available to choose from the drop down menu.
@@ -52460,7 +52458,7 @@ The connections you define will be remembered for further use and available to c
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1358"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2564"/>
         <source>&lt;h3&gt;Spatial Bookmarks&lt;/h3&gt;
 Spatial Bookmarks allow you to &quot;bookmark&quot; a geographic location and return to it later.
 &lt;p&gt;
@@ -52538,7 +52536,7 @@ To update the extent of a bookmark, click on it then click the &lt;label&gt;Upda
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="436"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="540"/>
         <source>&lt;h3&gt;Copyright Label Plugin&lt;/h3&gt;
 Draws a copyright label with information.&lt;br/&gt;
 You can add any random text to the map not only a copyright label.
@@ -52605,7 +52603,7 @@ This plugin supports basic HTML markup tags for formatting text. For example:
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1229"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2197"/>
         <source>&lt;h3&gt;Field Calculator&lt;/h3&gt;
 The field calculator allows you to update fields with expressions.
 
@@ -52728,7 +52726,7 @@ The field calculator allows you to update fields with expressions.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1053"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1726"/>
         <source>&lt;h3&gt;Identify Features&lt;/h3&gt;
 &lt;p&gt;
 The results dialog shows all the features identified within the search tolerance. To see the results details, expand the feature information on the left of each feature.
@@ -52752,7 +52750,7 @@ Identifiable layers can be set in the Project Properties dialog &lt;label&gt;Set
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="417"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="521"/>
         <source>&lt;h3&gt;Scale bar Plugin&lt;/h3&gt;
 Draws a scale bar on the map.
 &lt;p&gt;
@@ -52791,7 +52789,59 @@ QGISでは地図フレームと同じ単位でのみ縮尺を表示できます.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1554"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2760"/>
+        <source>&lt;h3&gt;èä½æ¨©ã©ãã«ãã©ã°ã¤ã³&lt;/h3&gt;
+èä½æ¨©ã©ãã«ãæ
+å ±ã¨ã¨ãã«æç»ãã¾ã.&lt;br/&gt;
+èä½æ¨©ã©ãã«ä»¥å¤ã«ãä»»æã®ãã­ã¹ããå°å³ã«è¿½å ãããã¨ãã§ãã¾ã.
+&lt;p&gt;
+&lt;a href=&quot;#howto&quot;&gt;è¨­å®æ¹æ³&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#text&quot;&gt;ãã­ã¹ãæ´å½¢&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;howto&quot;&gt;
+&lt;h4&gt;è¨­å®æ¹æ³&lt;/h4&gt;
+&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;ãã©ã°ã¤ã³ãã­ã¼ãããã¦ãããã¨ãç¢ºèªãã¦ä¸ãã.
+&lt;li&gt;ã¡ãã¥ã¼ã® &lt;label&gt;ãã©ã°ã¤ã³ &gt; å°å³æ´é£¾ &gt; èä½æ¨©ã©ãã«&lt;/label&gt;ãã¯ãªãã¯ããã ãã¼ã«ãã¼ã® &lt;label&gt;èä½æ¨©ã©ãã«&lt;/label&gt; ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã.
+&lt;li&gt;å°å³ä¸ã«è¡¨ç¤ºããããã­ã¹ããå
+¥åãã¦ä¸ãã. ããã§HTMLãå©ç¨ã§ãã¾ã.
+&lt;li&gt;ã©ãã«ãé
+ç½®ããå ´æã &lt;label&gt;é
+ç½®&lt;/label&gt; ãã­ãããã¦ã³ããã¯ã¹ããé¸æãã¦ä¸ãã.
+&lt;li&gt;&lt;label&gt;èä½æ¨©ã©ãã«ãæå¹ã«ãããã§ãã¯ããã¯ã¹&lt;/label&gt;ããã§ãã¯ããã¦ãããã¨ãç¢ºèªãã¦ä¸ãã.
+&lt;li&gt;&lt;label&gt;OK&lt;/label&gt;ãã¯ãªãã¯ãã¦ä¸ãã.
+&lt;/ol&gt;
+&lt;a name=&quot;text&quot;&gt;
+&lt;h4&gt; ãã­ã¹ãæ´å½¢ &lt;/h4&gt;
+&lt;/a&gt;
+ãã®ãã©ã°ã¤ã³ã¯åºæ¬çãªHTMLãã¼ã¯ã¢ããã¿ã°ããã­ã¹ãã®æ´å½¢ã«å©ç¨ã§ãã¾ã. ãã¨ãã°ä»¥ä¸ã®ã¨ããã§ã:
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;B&amp;gt;&lt;b&gt; å¼·èª¿ãã­ã¹ã &lt;/b&gt;&amp;lt;/B&amp;gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;lt;I&amp;gt;&lt;i&gt; ã¤ã¿ãªãã¯ä½ &lt;/i&gt;&amp;lt;/I&amp;gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;lt;U&amp;gt;&lt;u&gt; ä¸ç·ä»ããã­ã¹ã &lt;/u&gt;&amp;lt;/U&amp;gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2792"/>
+        <source>&lt;h3&gt;ãã¯ã¿ã¬ã¤ã¤ã®è¿½å ãã¤ã¢ã­ã°&lt;/h3&gt;
+
+ãã¯ã¿ã¬ã¤ã¤ã®è¿½å ãã¤ã¢ã­ã°ã¯QGISã®ããããã¥ã¼ã«ãã¯ã¿ãã¼ã¿ãè¿½å ããããã«å©ç¨ãã¾ã. ãã¯ã¿ãã¼ã¿ã¨ã¯ç¹ãã¾ãã¯ç·ãããªã´ã³ï¼éããã¨ãªã¢ï¼ã¨ãã£ãã¸ãªã¡ããªãç¨ãã¦è¨è¿°ãããç©ºéãã¼ã¿ã§ã.&lt;/p&gt;
+QGISã¯å¤ãã®ãã¯ã¿ãã¼ã¿å½¢å¼ããµãã¼ããã¾ã. OGRãã¼ã¿ãã­ãã¤ãã«ãã£ã¦ESRI ShapefileãMapInfo MIF(ãã¤ãã£ãå½¢å¼)ã¨ãã£ãå½¢å¼ããµãã¼ãããã¦ãã¾ã.&lt;/p&gt;
+QGISã¯PostgreSQLãã¼ã¿ãã¼ã¹ã®PostGISã¬ã¤ã¤ãSpatiaLiteã¬ã¤ã¤ããµãã¼ããã¾ã. ãããªããã¼ã¿ã¿ã¤ã(ä¾ãã°, ããªããã£ãããã­ã¹ã)ã¯è¿½å çãªãã¼ã¿ãã­ãã¤ããã©ã°ã¤ã³ã«ãã£ã¦æä¾ããã¾ã. OGRããµãã¼ããããã¯ã¿å½¢å¼ã®ä¸è¦§ã¯ã¦ã¼ã¶ã¬ã¤ãã®Appendix A.1ã«ããã¾ã.&lt;/p&gt;
+ãã¯ã¿ãã¼ã¿ã«ã¤ãã¦ã®è©³ããèª¬æã¯chapter 5 &apos;Working with Vector Data&apos;ãåç
+§ãã¦ä¸ãã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2799"/>
         <source>&lt;h3&gt;Finding shortest path&lt;/h3&gt;
 &lt;p&gt;Road graph is a C++ plugin for QGIS, that calculates the shortest path between two points on any line layer and plots this path over the road network. Before using the plugin to configure it. This can be done in the menu &lt;label&gt;Plugins &amp;rarr; Road graph &amp;rarr; Settings&lt;/label&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -52829,7 +52879,7 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="684"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="969"/>
         <source>&lt;h3&gt;Delimited Text File Layer&lt;/h3&gt;
 Loads and displays delimited text files
 &lt;p&gt;
@@ -53445,6 +53495,62 @@ if layer.isValid():
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="179"/>
+        <source>&lt;h3&gt;æ°ããSQL Anywhereæ¥ç¶ãä½æãã¾ã&lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯SQL Anywhereãã¼ã¿ãã¼ã¹ã¸ã®æ¥ç¶ã®è¨­å®ãå®ç¾©ã§ãã¾ã.
+
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;label&gt;åå&lt;/label&gt; æ¥ç¶è¨­å®ãè­å¥ããåå.
+
+&lt;li&gt; &lt;label&gt;ãã¹ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ãããã¹ããã¦ããã³ã³ãã¥ã¼ã¿ã®ååãIPã¢ãã¬ã¹ (ã­ã¼ã«ã«æ¥ç¶ã§ã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;ãã¼ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ããç¨ããIPãã¼ã (ã­ã¼ã«ã«æ¥ç¶ãããã©ã«ããã¼ã2638ã®å ´åã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;ãµã¼ãã¼&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ãã®åå (ãã¹ãã®ããã©ã«ããµã¼ãã®å ´åã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;ãã¼ã¿ãã¼ã¹&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®åå (ãµã¼ãã®ããã©ã«ããã¼ã¿ãã¼ã¹ã®å ´åã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;æ¥ç¶ãã©ã¡ã¼ã¿&lt;/label&gt; æ¥ç¶æå­åã«è¿½å ããä»å çãã©ã¡ã¼ã¿. ããã¯ã»ãã³ã­ã³ã§åºåããããªã¹ãã§ã. æå¹ãªæ¥ç¶ãã©ã¡ã¼ã¿ã®ãªã¹ãã¨èª¬æã«ã¤ãã¦ã¯SQL Anywhereã®ãã­ã¥ã¡ã³ããè¦ã¦ä¸ãã.
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶å&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®ã¦ã¼ã¶å.
+&lt;li&gt; &lt;label&gt;ãã¹ã¯ã¼ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®ãã¹ã¯ã¼ã.
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶åã®ä¿å­&lt;/label&gt; æ¥ç¶è¨­å®ã®ãã¼ã¿ãã¼ã¹ã¦ã¼ã¶åãä¿å­ããå ´åã¯ãã§ãã¯ãã¾ã.
+
+&lt;li&gt; &lt;label&gt;ãã¹ã¯ã¼ãä¿å­&lt;/label&gt; æ¥ç¶è¨­å®ã®ãã¼ã¿ãã¼ã¹ãã¹ã¯ã¼ããä¿å­ããå ´åã¯ãã§ãã¯ãã¾ã. &lt;em&gt;ãã¹ã¯ã¼ãã¯&lt;strong&gt;ã¯ãªã¢ãã­ã¹ã&lt;/strong&gt;ã§ã·ã¹ãã ã®è¨­å®æå ±ã«ä¿å­ããã¾ã!&lt;/em&gt;
+
+&lt;li&gt; &lt;label&gt;ã·ã³ãã«ãªæå·å&lt;/label&gt; ã·ã³ãã«ãªæå·åãç¨ãã¦ãã¼ã¿ãã¼ã¹ã¸ã®æ¥ç¶ãå®å¨ã«ãã¾ã.
+
+&lt;li&gt; &lt;label&gt;ãã¼ãã«ã¡ã¿ãã¼ã¿ã®æ¨å®&lt;/label&gt; ã¬ã¤ã¤ãåæåããæã«ãã¼ã¿ãã¼ã¹ãã¼ãã«ã«ä¿å­ãããã¸ãªã¡ããªã®ç¹æ§ãç¢ºèªããããã«ã¯æ§ããªã¯ã¨ãªãå¿è¦ã¨ãã¾ã. ãã®ãªãã·ã§ã³ããã§ãã¯ããã¦ããå ´å, ããããã¯ã¨ãªã¯ãã¼ãã«å¨ä½ã§ã¯ãªãè¡ã®ãµã³ãã«ã ãæ¤æ»ãã¾ã. ããã«ãã£ã¦èããã¬ã¤ã¤ã®åæåãé«éåããã¾ãã, ããã¤ãã®ç°ãªãã¿ã¤ããæããã¬ã¤ã¤ã¯ééã£ãç¹æ§ã«ãªãããããã¾ãã.
+
+&lt;li&gt; &lt;label&gt;ä»ã®ã¦ã¼ã¶ã®ãã¼ãã«ãæ¤ç´¢ãã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã«ä¿å­ããã¦ãããã¹ã¦ã®ã¬ã¤ã¤ããã¬ã¤ã¤ãªã¹ããåãå¥ãããã©ããæå®ãã¾ã. ãã§ãã¯ããªãå ´å(ããã©ã«ã), æ¥ç¶ããã¦ã¼ã¶ãææãããã¼ãã«ã«ä¿å­ããã¦ããã¬ã¤ã¤ã ããè¡¨ç¤ºããã¾ã.
+&lt;/ul&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="210"/>
+        <source>&lt;h3&gt;ã¹ã±ã¼ã«ãã¼ãã©ã°ã¤ã³&lt;/h3&gt;
+å°å³ã«ã¹ã±ã¼ã«ãã¼ãæç»ãã¾ã.
+&lt;p&gt;
+ãã¼ã®ã©ãã«ã¨åãããã«ã¹ã¿ã¤ã«ã¨éç½®ãå¶å¾¡ãããã¨ãã§ãã¾ã.
+QGISã§ã¯å°å³ãã¬ã¼ã ã¨åãåä½ã§ã®ã¿ç¸®å°ºãè¡¨ç¤ºã§ãã¾ã.ããããã¡ã¼ãã«åä½ã®ã¬ã¤ã¤ã®å ´åã¯ãã£ã¼ãåä½ã®ã¹ã±ã¼ã«ãã¼ãä½ããã¨ãã§ãã¾ãã. åãããã«è§åº¦ãå©ç¨ãã¦ããå ´åã¹ã±ã¼ã«ãã¼ã®è·é¢ãã¡ã¼ãã«åä½ã§è¡¨ç¤ºãããã¨ã¯ã§ãã¾ãã.&lt;/p&gt;
+&lt;p&gt;
+ã¹ã±ã¼ã«ãã¼ã®è¿½å :
+&lt;ol&gt;
+&lt;li&gt;&lt;label&gt;éç½®&lt;/label&gt;ãã­ãããã¦ã³ãªã¹ãããè¡¨ç¤ºä½ç½®ãé¸æãã¦ä¸ãã.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;ã¹ã±ã¼ã«ãã¼ã¹ã¿ã¤ã«&lt;/label&gt;ãªã¹ãããã¹ã¿ã¤ã«ãé¸æãã¦ä¸ãã.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;ãã¼ã®è²&lt;/label&gt;ãå©ç¨ãã¦ã¹ã±ã¼ã«ãã¼ã®è²ãé¸æããããããã©ã«ãã®é»è²ãå©ç¨ãã¦ä¸ãã.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;ãã¼ã®ãµã¤ãº&lt;/label&gt;ãå©ç¨ãã¦ãã¼ã¨ã©ãã«ã®ãµã¤ãºãæå®ãã¦ä¸ãã. &lt;/li&gt;
+&lt;li&gt;&lt;label&gt;ç¸®å°ºãã¼ãä½¿ç¨&lt;/label&gt;ãã§ãã¯ããã¯ã¹ããã§ãã¯ããã¦ãããã¨ãç¢ºèªãã¦ä¸ãã.&lt;/li&gt;
+&lt;li&gt;ãªãã·ã§ã³ã§ã­ã£ã³ãã¹ã®å¤§ãããå¤ãã£ãæã«èªåçã«æ°å¤ãä¸¸ããå ´å&lt;label&gt;ãªãµã¤ãºæã«èªåçã«åæ¨äºå¥&lt;/label&gt;ããã§ãã¯ãã¦ä¸ãã.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;OK&lt;/label&gt;ãã¯ãªãã¯ãã¦ä¸ãã.&lt;/li&gt;
+&lt;/ol&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="227"/>
         <source>&lt;h3&gt;Manage and install Plugins&lt;/h3&gt;
 
 &lt;p&gt;
@@ -53531,97 +53637,278 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 &lt;/p&gt;
 </source>
-        <translation>&lt;h3&gt;プラグインの管理とインストール&lt;/h3&gt;
-
-&lt;p&gt;
-プラグインの管理とインストール.
-&lt;/p&gt;
-
-
-&lt;a href=&quot;#installedtab&quot;&gt;インストールされたプラグインタブ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#getmoretab&quot;&gt;さらなるプラグインタブ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#newtab&quot;&gt;新しいプラグインタブ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#upgradabletab&quot;&gt;アップグレード可能プラグインタブ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#invalidtab&quot;&gt;不正なプラグインタブ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#settingstab&quot;&gt;設定タブ&lt;/a&gt;&lt;br/&gt;
-
-&lt;a name=&quot;installedtab&quot;&gt;
-&lt;h4&gt;インストールされたプラグインタブ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-このタブでは現状のシステムにインストールされているプラグインのリストを表示します. 
-python と C++ 両方のプラグインがリストされます. 
-&lt;/p&gt;
-&lt;p&gt;
-名前の前にあるチェックボックスをクリックすることでブラグインの有効,無効を切り替えることができます.&lt;br/&gt;
-選択されているプラグインの情報が詳細ペインに表示されます.
-&lt;/p&gt;
-&lt;p&gt;
-ソート方法を変えるためにコンテキストメニュー(右ボタンクリック)が利用できます:
-名前,ダウンロード数,投票と状態でソートできます.
-&lt;/p&gt;
-
-
-&lt;a name=&quot;getmoretab&quot;&gt;
-&lt;h4&gt;さらなるプラグインタブ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-このタブではリモートリポジトリにある利用可能なプラグインのリストが表示されます.
-これは起動時に１回ダウンロードされます.しかしこの設定は変えることができます
-&lt;/p&gt;
-&lt;p&gt;
-選択されているプラグインの情報が詳細ペインに表示されます.
-&lt;/p&gt;
-
-&lt;a name=&quot;newtab&quot;&gt;
-&lt;h4&gt;新しいプラグインタブ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-このタブには利用可能になった新しいプラグインが表示されます.ここに表示されるのは1回のみです.
-&lt;/p&gt;
-
-&lt;a name=&quot;upgradabletab&quot;&gt;
-&lt;h4&gt;アップグレード可能プラグインタブ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-このタブにはあなたがインストールしているプラグインでリモートりポジトリからアップグレード可能なもんが表示されます.
-
-&lt;/p&gt;
-
-&lt;a name=&quot;Invalid tab&quot;&gt;
-&lt;h4&gt;不正なプラグインタブ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-このタブは不正なプラグインがある場合有効になります. それはプラグインをロード中にエラーが発生した場合です.
-&lt;/p&gt;
-
-&lt;a name=&quot;settingstab&quot;&gt;
-&lt;h4&gt;設定タブ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-このタブでプラグインマネージャの設定を変更することができます.
-&lt;/p&gt;
-&lt;p&gt;
-QGISがリポジトリからリストのダウンロードと情報の更新を行う頻度を設定できます.
-&lt;/p&gt;
-&lt;p&gt;
-&apos;Show experimental plugins&apos; チェックボックスをチェックすると, 全てのプラグインがリストに表示されます,そこには作者が&apos;実験的&apos;とみなしているプラグインも含みます.
-
-&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
-注記: 実験的プラグインは業務利用には不向きです. それらのプラグインは開発の初期段階で&quot;不完全な&quot;または&quot;検証目的の&quot;ツールと見なされるべきです. The QGIS開発チームはテスト目的以外でそれらのプラグインをインストールすることを推奨しません.
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;/p&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="543"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="350"/>
+        <source>&lt;h3&gt;å°ç©æå ±è¡¨ç¤º&lt;/h3&gt;
+&lt;p&gt;
+æ¤ç´¢çµæè¡¨ç¤ºç¨ãã¤ã¢ã­ã°ã«ã¯æå®ç¹ããã®è¨±å®¹ç¯å²åã§ç¹å®ãããå¨ã¦ã®å°ç©æå ±ãè¡¨ç¤ºãã¾ã. 
+åå°ç©ã®å·¦ã«è¡¨ç¤ºããã¦ãã&lt;label&gt;+&lt;/label&gt;è¨å·ãã¯ãªãã¯ããã¨å°ç©æå ±ãå±éãã¦è¦ããã¨ãã§ãã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+æ¤ç´¢åå¾ãè¨­å®ããã«ã¯&lt;label&gt;è¨­å® &gt; ãªãã·ã§ã³&lt;/label&gt;ãã¤ã¢ã­ã°ã®&lt;label&gt;ããããã¼ã«ãº&lt;/label&gt;ã¿ãã®å°ç©æå ±è¡¨ç¤ºã»ã¯ã·ã§ã³ã§å°å³ã®å¹ã«å¯¾ããå²åãæå®ãã¾ã.ãã®ã»ã¯ã·ã§ã³ã§ã¯å°ç©æå ±è¡¨ç¤ºã¢ã¼ãã&lt;label&gt;ã«ã¬ã³ãã¬ã¤ã¤&lt;/label&gt;, &lt;label&gt;ããããã¦ã³ æåã®çµæã®ã¿&lt;/label&gt;, &lt;label&gt;ããããã¦ã³&lt;/label&gt;ããé¸æãããã¨ãã§ãã¾ã.&lt;br&gt;
+&lt;label&gt;åä¸ã®å°ç©ãç¢ºèªãããå ´åå°ç©ãã©ã¼ã ãéãã¾ã&lt;/label&gt;ãªãã·ã§ã³ãè¨­å®ã§ãã¾ã.&lt;br&gt;
+å°ç©æå ±è¡¨ç¤ºãã¼ã«ãå©ç¨å¯è½ãªã¬ã¤ã¤ã¯&lt;label&gt;è¨­å® &gt; ãã­ã¸ã§ã¯ããã­ããã£&lt;/label&gt;ãã¤ã¢ã­ã°ã®&lt;label&gt;æå ±æ¤ç´¢ã¬ã¤ã¤&lt;/label&gt;ã¿ãã§è¨­å®ã§ãã¾ã.
+&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="413"/>
+        <source>&lt;h3&gt;æç­çµè·¯æ¢ç´¢&lt;/h3&gt;
+&lt;p&gt;éè·¯ã°ã©ãã¯QGISã®ããã®C++ãã©ã°ã¤ã³ã§ã. ã©ã¤ã³ã¬ã¤ã¤ä¸ã®2ã¤ã®ç¹ã®éã®æç­çµè·¯ãè¨ç®ãã¦éè·¯ãããã¯ã¼ã¯ã®ä¸ã«æç­çµè·¯ãæç»ãã¾ã.
+ãã©ã°ã¤ã³ãå©ç¨ããåã«ã¡ãã¥ã¼&lt;label&gt;ãã¯ã¿ &amp;rarr; éè·¯ã°ã©ã &amp;rarr; è¨­å®&lt;/label&gt;ã§è¨­å®ãè¡ãªã£ã¦ä¸ãã.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;#howto&quot;&gt;ä½¿ç¨æ¹æ³&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;a name=&quot;howto&quot;&gt;
+&lt;h4&gt;ä½¿ç¨æ¹æ³&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;éå§ç¹ã¨çµäºç¹ã®ãã£ã¼ã«ãã®é£ã®ãã¿ã³ãä½¿ã£ã¦ãããã­ã£ã³ãã¹ããåº§æ¨ãåå¾ãããã¨ãã§ãã¾ã. 
+&lt;label&gt;è¨ç®&lt;/label&gt;ãã¿ã³ãæ¼ãã¨&lt;label&gt;å¤å®åºæº&lt;/label&gt;ã³ã³ãããã¯ã¹ã§é¸æãããæé©ååºæºãç¨ãã¦æç­çµè·¯è¨ç®ãå®è¡ããã¾ã. 
+&lt;label&gt;ã¨ã¯ã¹ãã¼ã&lt;/label&gt;ãã¿ã³ã§è¨ç®ããããã¹ãæ°ãããã¯ã¿ã¬ã¤ã¤ã«ã¨ã¯ã¹ãã¼ãã§ãã¾ã. 
+&lt;label&gt;ã¯ãªã¢&lt;/label&gt;ãã¿ã³ã¯å¨ã¦ã®ãã£ã¼ã«ãã®åå®¹ãæ¶ã, ãããã­ã£ã³ãã¹ãããã¤ã³ãã¨è¨ç®ããããã¹ãåé¤ãã¾ã.
+
+&lt;h5&gt;æ³¨æ&lt;/h5&gt;
+&lt;p&gt;çµè·¯ã®éå§ç¹ã¨çµäºç¹ãéè·¯ãããã¯ã¼ã¯ã«çµã³ã¤ããããã«éè·¯ã°ã©ããã©ã°ã¤ã³ã¯ã°ã©ãã®æè¿åç¹ãå¼§ãé¸æãã¾ã. 
+å®éã«ã¯ããã¯éè·¯ãããã¯ã¼ã¯ã®ã©ããªé¨åã«ãçµã³ã¤ãããã¨ãã§ãã¾ã. 
+ããã§ããçµè·¯ã¨ãã®ç¹æ§ã¯éå§ç¹ããéè·¯ãããã¯ã¼ã¯ã¾ã§ã®è·é¢ã¨éè·¯ãããã¯ã¼ã¯ããçµäºç¹ã¾ã§ã®è·é¢ãèæ®ãã¾ãã.&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="464"/>
+        <source>&lt;h3&gt;è¨æ¸¬ãã¼ã«&lt;/h3&gt;
+é·ãã¨é¢ç©ãæ¸¬ã2ç¨®é¡ã®è¨æ¸¬ãã¼ã«ãããã¾ã. ããããä½¿ãã¨å°å³ã­ã£ã³ãã¹ä¸ã§è·é¢ã¨é¢ç©ãè¨æ¸¬ã§ãã¾ã. ç¾ç¶ã§ãã®ãã¼ã«ã¯çµæãã¡ã¼ãã«åä½ã®ã¿ã§æä¾ãã¾ã.ãã¦ã¹å³ãã¿ã³ã®ã·ã³ã°ã«ã¯ãªãã¯ã§è¨æ¸¬ãçµäºãã¾ã.ãã¦ã¹å³ãã¿ã³ã®2åã¯ãªãã¯ã§æ¹ãã¦è¨æ¸¬ãéå§ãã¾ã.
+&lt;h4&gt;è·é¢è¨æ¸¬&lt;/h4&gt;
+è·é¢ãè¨æ¸¬ããããã«ã¯ãã¼ã«ãé¸æããå¾ã§è¨æ¸¬ãããçµè·¯ã«ãã£ã¦ã¯ãªãã¯ãã¦ãã ãã. ããããã®ã»ã°ã¡ã³ãã®é·ããè¡¨ç¤ºãããããã«çµè·¯ã®é·ãã®åè¨å¤ãè¡¨ç¤ºããã¾ã.
+&lt;h4&gt;é¢ç©è¨æ¸¬&lt;/h4&gt;
+é¢ç©ãè¨æ¸¬ããå ´åã¯ãã¼ã«ãé¸æããå¾ã§ã¯ãªãã¯ãã¦é åãä½ãã¾ã. é¢ç©ã®åè¨å¤ã¯ã¯ãªãã¯ãã¦ããæã«ãã¤ãããã¯ã«è¡¨ç¤ºããã¾ã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="471"/>
+        <source>&lt;h3&gt;ãã¯ã¿ã¬ã¤ã¤ã«ååãã¤ãã¦ä¿å­ãã...&lt;/h3&gt;
+
+&lt;p&gt;ãã®ãã¤ã¢ã­ã°ã§ã¯GDAL/OGRãç¨ãã¦ãã¯ã¿ãã¼ã¿ãæ§ããªå½¢å¼ã§ä¿å­ãããã¨ãã§ãã¾ã.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;å½¢å¼&lt;/label&gt;ãªã¹ãããåºåããå½¢å¼(OGRã«ãã£ã¦æä¾ãããå½¢å¼)ãé¸æãã¾ã.
+&lt;li&gt;&lt;label&gt;ååãã¤ãã¦ä¿å­&lt;/label&gt;ã«åºååã¨ãªããã¡ã¤ã«åãå¥åãã¾ã. &lt;label&gt;ãã©ã¦ãº&lt;/label&gt;ãã¿ã³ãä½¿ã£ã¦é¸æãããã¨ãã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;ã¨ã³ã³ã¼ãã£ã³ã°&lt;/label&gt;ãªã¹ãã§ã¯ã©ã®æå­ã³ã¼ãã§ãã¼ã¿ãä¿å­ãããå®ç¾©ã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;CRS&lt;/label&gt;ã§ã¯ä¿å­ãããã¨ãã¦ãããã¼ã¿ãåæå½±ãããCRSãé¸æã§ãã¾ã.
+
+&lt;li&gt;OGRã¯ããããµãã¼ãããæ§ããªå½¢å¼ã®ããã®æ§ããªãªãã·ã§ã³ãç¨æãã¦ãã¾ã.
+ãã¼ã¿ã½ã¼ã¹çæãªãã·ã§ã³ãè¨­å®ããã«ã¯&lt;label&gt;ãã¼ã¿ã½ã¼ã¹&lt;/label&gt;ãã£ã¼ã«ããç¨ãã¦ä¸ãã. ã¬ã¤ã¤çæãªãã·ã§ã³ãè¨­å®ããã«ã¯&lt;label&gt;ã¬ã¤ã¤&lt;/label&gt;ãã£ã¼ã«ããç¨ãã¦ä¸ãã. 1è¡ã«ã¤ã1ã¤ã®ãªãã·ã§ã³ãå¥åãã¾ã.
+ ä¾ãã°, &lt;code&gt;SPATIALITE=yes&lt;/code&gt;ã&lt;label&gt;ãã¼ã¿ã½ã¼ã¹&lt;/label&gt;ã«å¥åããã¨SQLiteãã©ã¤ããç¨ãã¦spatialiteãã¼ã¿ãã¼ã¹ãä½æã§ãã¾ã.
+ &lt;code&gt;GEOMETRY=AS_XY&lt;/code&gt;ã&lt;label&gt;ã¬ã¤ã¤&lt;/label&gt;ã«å¥åããã¨CSV(ã«ã³ãåºåããã¡ã¤ã«)ãã©ã¤ãã¯ãã¤ã³ãã¸ãªã¡ããªã®X, Yè¦ç´ ãã¨ã¯ã¹ãã¼ããã¾ã.
+&lt;/ul&gt;
+
+ãµãã¼ãããã¦ããå½¢å¼ã®ä¸è¦§ã¨å©ç¨å¯è½ãªãªãã·ã§ã³ã¯&lt;a href=&quot;http://gdal.org/ogr/ogr_formats.html&quot;&gt;OGR Vector formats&lt;/a&gt;ãåç§ãã¦ä¸ãã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="572"/>
+        <source>&lt;h3&gt;ãã¯ã¿ã¬ã¤ã¤ãã­ããã£&lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯ãã¯ã¿ã¬ã¤ã¤ã®è¨­å®ã¨ãã­ããã£ãå¤æ´ã§ãã¾ããããã«ã¯7åã®ã¿ããããã¾ã:
+&lt;p&gt;
+&lt;a href=&quot;#symbology&quot;&gt;ã·ã³ãã­ã¸&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#labels&quot;&gt;ã©ãã«&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#attributes&quot;&gt;ãã£ã¼ã«ã&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#general&quot;&gt;ä¸è¬æå ±&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#metadata&quot;&gt;ã¡ã¿ãã¼ã¿&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#actions&quot;&gt;ã¢ã¯ã·ã§ã³&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#diagram&quot;&gt;ãã¤ã¢ã°ã©ã &lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;symbology&quot;&gt;
+&lt;h4&gt;ã·ã³ãã­ã¸&lt;/h4&gt;
+&lt;/a&gt;
+ã¬ã¤ã¤ã®ã·ã³ãã­ã¸ãå¤æ´ããå ´åãä½æ¥­ãããã¬ã¤ã¤ã®å¡ä¾ã¨ã³ããªãããã«ã¯ãªãã¯ããã¨&lt;label&gt;ã¬ã¤ã¤ãã­ããã£&lt;/label&gt;ãã¤ã¢ã­ã°ãè¡¨ç¤ºããã¾ã.&lt;p&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯ãã¯ã¿ã¬ã¤ã¤ã®ã¹ã¿ã¤ã«ãæå®ã§ãã¾ã.é¸æãããã¬ã³ããªã³ã°ãªãã·ã§ã³ã«ãã£ã¦å°ç©ç¾¤ãåé¡ãããã¨ãã§ãã¾ã.
+
+&lt;h5&gt;å¡ä¾ã¿ã¤ã&lt;/h5&gt;
+QGISã¯ãã¯ã¿å°ç©è¡¨ç¤ºãå¶å¾¡ããããã®å¤ãã®ã·ã³ãã­ã¸ã¬ã³ãã©ããµãã¼ããã¦ãã¾ããç¾å¨ã¯ä»¥ä¸ã®ã¬ã³ãã©ãå©ç¨å¯è½ã§ã:
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;å±éã·ã³ãã«&lt;/label&gt; - åä¸ã®ã¹ã¿ã¤ã«ãã¬ã¤ã¤ã®å¨ã¦ã®ãªãã¸ã§ã¯ãã«é©ç¨ãã¾ã.
+&lt;li&gt;&lt;label&gt;åé¡ããã(ã«ãã´ãª)&lt;/label&gt; - ã¬ã¤ã¤åã®ãªãã¸ã§ã¯ãã¯æå®ãã£ã¼ã«ãã®å¤ãä½¿ã£ã¦ãããããã®å¤æ¯ã«å®ç¾©ãããæç»æ¹æ³ãå©ç¨ãã¦è¡¨ç¤ºããã¾ã.
+&lt;li&gt;&lt;label&gt;æ®µéã«åãããã(ã°ã©ãã¼ã·ã§ã³)&lt;/label&gt; - ã¬ã¤ã¤åã®ãªãã¸ã§ã¯ãã¯æå®ãã£ã¼ã«ãã®æ°å¤ã®å¤ã«ãã£ã¦åé¡ãããé£ç¶ããè²ã®éèª¿ãä½¿ã£ã¦æç»ããã¾ã.
+&lt;li&gt;&lt;label&gt;ã«ã¼ã«ã«åºã¥ãã&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;ç¹ã®ç§»å&lt;/label&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;h5&gt;æ°ã·ã³ãã­ã¸ã¼&lt;/h5&gt;
+ã¬ã¤ã¤ã®æç»ã«æ°ããã·ã³ãã­ã¸ã¼ãå©ç¨ãããå ´åã¯&lt;label&gt;æ°ã·ã³ãã­ã¸ã¼&lt;/label&gt; ãã¿ã³ãã¯ãªãã¯ãã¦ãã ãã.
+--&gt;
+
+&lt;h5&gt;ãã¯ã¿ééæ§&lt;/h5&gt;
+QGISã§ã¯ããããã®ãã¯ã¿ã¬ã¤ã¤ã«ééæ§ãæå®ãããã¨ãã§ãã¾ã. ããã¯&lt;label&gt;ééæ§&lt;/label&gt;ã¹ã©ã¤ããåããã¦æå®ã§ãã¾ã. ãã®æ©è½ã¯å¤ãã®ãã¯ã¿ã¬ã¤ã¤ãéã­åããè¡¨ç¤ºããå ´åã«ã¨ã¦ãä¾¿å©ã§ã.
+
+&lt;h5&gt;ã¹ã¿ã¤ã«ã®ä¿å­&lt;/h5&gt;
+ã¬ã¤ã¤ã®æç»ã¹ã¿ã¤ã«ãå®ç¾©ãããã¬ã¤ã¤ã¹ã¿ã¤ã«ãåå¥ã®ãã¡ã¤ã«ã¨ãã¦ä¿å­ã§ãã¾ãï¼*.qmlã§çµãããã¡ã¤ã«åã§).&lt;label&gt;ã¹ã¿ã¤ã«ãä¿å­&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ããã¨ãã®æ©è½ãå®è¡ã§ãã¾ã.&lt;!--è¨ãã¾ã§ããªã--&gt;&lt;label&gt;ã¹ã¿ã¤ã«ãèª­ã¿è¾¼ã¿...&lt;/label&gt; ãã¿ã³ã§ä¿å­ããã¬ã¤ã¤ã¹ã¿ã¤ã«ãã¡ã¤ã«ãã­ã¼ãã§ãã¾ã.&lt;br/&gt;
+ããããªããè¨­å®ä¸­ã®ã¬ã¤ã¤ãã­ã¼ããããæã¯ãã¤ãç¾å¨ã®ã¹ã¿ã¤ã«ãå©ç¨ãããå ´åã¯&lt;label&gt;æ¢å®ã¹ã¿ã¤ã«ã¨ãã¦ä¿å­&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¾ã. ããã«ããªããå¤æ´ããã¹ã¿ã¤ã«ã«æºè¶³ã§ããªãã£ãå ´åã¯&lt;label&gt;æ¢å®ã®ã¹ã¿ã¤ã«ã«æ»ã&lt;/label&gt;ãã¿ã³ãä½¿ãã¨æ¢å®ã®ã¹ã¿ã¤ã«ã«æ»ããã¨ãã§ãã¾ã.
+
+&lt;a name=&quot;labels&quot;&gt;
+&lt;h4&gt;ã©ãã«&lt;/h4&gt;
+&lt;/a&gt;
+ã©ãã«ã¿ãã§ã¯å°ç©ã®ã©ãã«è¡¨ç¤ºããã©ã³ããéç½®ãã¹ã¿ã¤ã«ãã¢ã©ã¤ã³ã¡ã³ããç¸åãï¼ãããã¡ãªã³ã°ï¼ãªã©ã©ãã«è¡¨ç¤ºã«é¢ããæ§ããªè¨­å®ãè¡ããã¨ãã§ãã¾ã.&lt;br/&gt;
+&lt;label&gt;ã©ãã«è¡¨ç¤º&lt;/label&gt;ãã§ãã¯ããã¯ã¹ããã§ãã¯ããã¨ã©ãã«ãè¡¨ç¤ºã§ãã¾ã.
+&lt;h5&gt;åºæ¬ã©ãã«ãªãã·ã§ã³&lt;/h5&gt;
+ã©ãã«ã«è¡¨ç¤ºãããã£ã¼ã«ããé¸æãã¦ä¸ãã.&lt;p&gt;
+ãã©ã³ãã¨è²ãè¨­å®ããããã«ã¯&lt;label&gt;ãã©ã³ã&lt;/label&gt; ã¨ &lt;label&gt;è²&lt;/label&gt;ãã¿ã³ãé¸æãã¦ä¸ãã. ããã«ãã­ã¹ãã©ãã«ã®è§åº¦ã¨éç½®æ¹æ³ãè¨­å®ãããã¨ãã§ãã¾ã.&lt;p&gt;
+ããã©ãã«ãè¤æ°è¡ã«ãããæå­åã®å ´å&lt;label&gt;è¤æ°è¡ã®ã©ãã«ã§ãã?&lt;/label&gt;ããã§ãã¯ãã¦ãã ãã(ã©ãã«(å»æ­¢äºå®)ã®å ´å). QGISã¯æ¹è¡ã³ã¼ããã©ãã«ãã£ã¼ã«ãä¸­ã§ãã§ãã¯ãã¦ãããã«ãããã£ã¦ã©ã¤ã³ãã¬ã¼ã¯ãæ¿å¥ãã¾ã.æ¹è¡ã³ã¼ãã¯ã·ã³ã°ã«ã­ã£ã©ã¯ã¿ã®&amp;#92;nã§ã(ããã¯ã¹ã©ãã·ã¥&amp;#92;ã¨æå­nã®ãããª2åã®åå²ãããã­ã£ã©ã¯ã¿ã§ã¯ããã¾ãã).
+
+&lt;h5&gt;éç½®&lt;/h5&gt;
+ã©ãã«ã®éç½®ãå¤æ´ããå ´å &lt;label&gt;éç½®&lt;/label&gt;ã°ã«ã¼ãã«ããã©ã¸ãªãã¿ã³ãé¸æãã¦ä¸ãã.
+
+&lt;h5&gt;ãã©ã³ããµã¤ãºåä½&lt;/h5&gt;
+&lt;label&gt;ãã©ã³ããµã¤ãº åä½&lt;/label&gt;ã§ã¯ &lt;label&gt;ãã¤ã³ã&lt;/label&gt;ã&lt;label&gt;å°å³ä¸ã®åä½&lt;/label&gt;ãé¸æã§ãã¾ã.
+
+&lt;h5&gt;ãããã¡ã©ãã«&lt;/h5&gt;
+ã©ãã«ããããã¡ããã¨ã¯ã©ãã«ãç®ç«ãããããã«èå¾ã«åãå²ãæç»ããããã¨ãæå³ãã¾ã.ã©ãã«ããããã¡ããæé ã¯ä»¥ä¸ã®ã¨ããã§ã:
+&lt;ol&gt;
+&lt;li&gt;&lt;label&gt;ãããã¡ã©ãã«&lt;/label&gt;ãã§ãã¯ããã¯ã¹ãã¯ãªãã¯ãã¦ãããã¡ãªã³ã°ãæå¹ã«ãã¾ã.
+&lt;li&gt;ãããã¡ãè¡ããµã¤ãºãã¹ãã³ããã¯ã¹ãä½¿ã£ã¦æå®ãã¾ã.
+&lt;li&gt;&lt;label&gt;è²&lt;/label&gt;ãã¯ãªãã¯ãã¦è²ãé¸æãã¾ã.ã«ã©ã¼ã»ã¬ã¯ã¿ã§å©ç¨ãããè²ãé¸ã³ã¾ã.å¥½ã¿ã«åããã¦ãããã¡ã®ééåº¦ãæå®ãããã¨ãã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;é©ç¨&lt;/label&gt;ãã¯ãªãã¯ããã¨å¤æ´ç¶æ³ãå°å³ã§è¦ããã¨ãã§ãã¾ã.
+&lt;/ol&gt;
+æ³¨ããããã¡ã®ãµã¤ãºãå°å³ä¸ã®åä½ã§æå®ãããã¨ãå¯è½ã§ã.
+
+&lt;h5&gt;ãã¼ã¿ã§å®ç¾©ãããéç½®,ãã­ããã£,ãããã¡,ä½ç½®&lt;/h5&gt;
+&lt;label&gt;ã©ãã«&lt;/label&gt;ã¿ãã®æ®ãã®ã¨ã³ããªã¼ã¯ã©ãã«ã®è¦ãããã¬ã¤ã¤ã®å±æ§å¤ãä½¿ã£ã¦å¶å¾¡ãã¾ã. &lt;label&gt;ãã¼ã¿ã§å®ç¾©ããã&lt;/label&gt;ã§å§ã¾ãã¨ã³ããªã¯ã©ãã«ã®ããã®ãã¹ã¦ã®ãã©ã¡ã¼ã¿ã«ã¬ã¤ã¤ã®ãã£ã¼ã«ãã®å¤ãå©ç¨ãã¾ã.
+
+
+&lt;a name=&quot;attributes&quot;&gt;
+&lt;h4&gt;ãã£ã¼ã«ã&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;ãã£ã¼ã«ã&lt;/label&gt;ã¿ãã§ã¯é¸æããããã¼ã¿ã»ããã®ãã£ã¼ã«ããæä½ã§ãã¾ã. &lt;label&gt;æ°è¦ã«ã©ã &lt;/label&gt; ã¨ &lt;label&gt;ã«ã©ã åé¤&lt;/label&gt;ãã¿ã³ã¯ãã¼ã¿ã»ãããç·¨éã¢ã¼ãã®æã«å©ç¨ã§ãã¾ã. ãã¼ã¸ã§ã³1.6ä»¥ä¸ã®GDALãã¤ã³ã¹ãã¼ã«ããã¦ããå ´åOGRã©ã¤ãã©ãªã¯æ°è¦ã«ã©ã ã®è¿½å ããµãã¼ããã¾ããåé¤ã¯ã§ãã¾ãã.ãããªããã°PostGISã¬ã¤ã¤ã®ã«ã©ã ã®ã¿ãç·¨éå¯è½ã§ã.&lt;p&gt;
+&lt;label&gt;ç·¨éã¢ã¼ãåæ¿&lt;/label&gt;ãã¿ã³ã¯ç·¨éã¢ã¼ããåãæ¿ãã¾ã.&lt;p&gt;
+ãã£ã¼ã«ãã¿ãã«ã¯ç·¨éã¦ã£ã¸ã§ããã«ã©ã ãããã¾ã. ãã®ã«ã©ã ã¯æå®ãããå±æ§ãã¼ãã«ã«ã©ã ã«è¿½å ãããã¨ãè¨±ãããå¤ã®å®ç¾©ã¾ãã¯å¤ã®ç¯å²ã®å®ç¾©ãè¡ãã¾ã. &lt;label&gt;ã¦ã£ã¸ã§ããã®ç·¨é&lt;/label&gt; ãã¿ã³ãã¯ãªãã¯ããã¨ãã¤ã¢ã­ã°ãéãç°ãªãã¦ã£ã¸ã§ãããå®ç¾©ã§ãã¾ã. ãã®ãããªã¦ã£ã¸ã§ãããããã¾ã:&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;è¡ç·¨é&lt;/label&gt;ã·ã³ãã«ãã­ã¹ããå¥åå¯è½ãªç·¨éãã£ã¼ã«ã  (ã¾ãã¯æ°å¤ãã£ã¼ã«ãã®å¥åæ°å¤ãå¶éãã).
+&lt;li&gt;&lt;label&gt;åé¡&lt;/label&gt; ãã­ããã£ãã¤ã¢ã­ã°ã·ã³ãã­ã¸ã¼ã¿ãã§å¡ä¾ã¿ã¤ãã¨ãã¦&lt;label&gt;ã¦ãã¼ã¯å¤&lt;/label&gt;ãé¸æããå ´åã¯åé¡ãããå¤ã®ã³ã³ãããã¯ã¹ãè¡¨ç¤ºãã¾ã.
+&lt;li&gt;&lt;label&gt;ç¯å²&lt;/label&gt; æå®ç¯å²ã®æ°å¤ã®å¥åãè¨±å¯ãã¾ã.ç·¨éã¦ã£ã¸ããã¯ã¹ã©ã¤ãã¼ãã¹ãã³ããã¯ã¹ãå©ç¨ã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;ã¦ãã¼ã¯å¤&lt;/label&gt; ã¦ã¼ã¶ã¼ã¯ãã§ã«å±æ§ãã¼ãã«ã«å¥åããã¦ããå¤ããã®ã¿é¸æã§ãã¾ã. &lt;label&gt;ç·¨éå¯è½&lt;/label&gt; ãã¢ã¯ãã£ãã«ãªãã¨ãªã¼ãã³ã³ããªã¼ãã¤ãã§ä»å æå ±å¯è½ãªã©ã¤ã³ã¨ãã£ãããè¡¨ç¤ºããã¾ã.ããã§ãªããã°ã³ã³ãããã¯ã¹ãå©ç¨ããã¾ã.
+&lt;li&gt;&lt;label&gt;ãã¡ã¤ã«å&lt;/label&gt; ãã¡ã¤ã«é¸æãã¤ã¢ã­ã°ã«ãã£ã¦è¿½å ãããã·ã³ãã«ãªé¸æ.
+&lt;li&gt;&lt;label&gt;ããªã¥ã¼ããã&lt;/label&gt; äºåã«å®ç¾©ãããé ç®ã®ã³ã³ãããã¯ã¹ã§ã.å¤ã¯å±æ§ã«æ ¼ç´ããã¾ããèª¬æã¯ã³ã³ãããã¯ã¹ã§è¡¨ç¤ºããã¾ã . å¤ã¯æä½æ¥­ã¾ãã¯ã¬ã¤ã¤ãcsvãã¡ã¤ã«ããã­ã¼ããã¦å®ç¾©ã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;åæ&lt;/label&gt;ã«ã©ã ã®åã§å©ç¨ã§ããå¤ã®ã³ã³ãããã¯ã¹ãéãã¾ã.ãã®æ©è½ã¯ç¾ç¶ã§ã¯postgresãã­ãã¤ãã¼ã§ã®ã¿å©ç¨ã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;å¤ãããªã&lt;/label&gt;å¤ãããªãå±æ§ã«ã©ã ã¯ãªã¼ããªã³ãªã¤ã§ã.ã¦ã¼ã¶ã¼ã¯åå®¹ãå¤æ´ã§ãã¾ãã .
+&lt;li&gt;&lt;label&gt;éè¡¨ç¤º&lt;/label&gt; éè¡¨ç¤ºå±æ§ã«ã©ã ã¯ã¦ã¼ã¶ã¼ã«è¦ãã¾ãã.
+&lt;li&gt;&lt;label&gt;ãã§ãã¯ããã¯ã¹&lt;/label&gt; ãã§ãã¯ããã¯ã¹ãè¡¨ç¤ºããã¾ã. å¤ã¯å±æ§ãå¥åããããã§ãã¯ããã¯ã¹ã®ç¶æãè¡¨ãã¾ã.
+&lt;li&gt;&lt;label&gt;ãã­ã¹ãç·¨é&lt;/label&gt;ãã«ãã©ã¤ã³ã®ãã­ã¹ããç·¨éã§ãããã­ã¹ãç·¨éãã£ã¼ã«ããè¡¨ç¤ºããã¾ã.
+&lt;li&gt;&lt;label&gt;ã«ã¬ã³ãã¼&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;å¤ã®ãªã¬ã¼ã·ã§ã³&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;UUIDã¸ã§ãã¬ã¼ã¿&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;åç&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;ã¦ã§ããã¥ã¼&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;è²&lt;/label&gt;
+&lt;/ul&gt;
+
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;ä¸è¬æå ±&lt;/h4&gt;
+&lt;/a&gt;
+ä¸è¬æå ±ã¿ãã§ã¯è¡¨ç¤ºåãã¹ã±ã¼ã«ä¾å­ã¬ã³ããªã³ã°ãªãã·ã§ã³ããã¯ã¿ãã¡ã¤ã«(OGRããµãã¼ãããå½¢å¼ã¨PostGISã®ã¿)ã¸ã®ç©ºéã¤ã³ããã¯ã¹ã®ä½æã¨æå®ãã¯ã¿ã¬ã¤ã¤ã«å¯¾ããæå½±æ³ã®ç¢ºèªãè¨­å®ãã§ãã¾ã.&lt;p&gt;
+ã¾ã&lt;label&gt;ã¯ã¨ãªãã«ãã¼&lt;/label&gt;ãä½¿ã£ã¦ãã£ã«ã¿ã¼æ¡ä»¶å¼ãè¨­å®ã§ãã¾ã.
+
+&lt;h5&gt;ãµãã»ãã&lt;/h5&gt;
+&lt;label&gt;ã¯ã¨ãªãã«ãã¼&lt;/label&gt; ãã¿ã³ãä½¿ãã¨ã¬ã¤ã¤ã®å°ç©ãæ¡ä»¶å¼ã«åè´ãããµãã»ããã¨ãã¦å©ç¨ãããã¨ãã§ãã¾ã.
+
+&lt;a name=&quot;metadata&quot;&gt;
+&lt;h4&gt;ã¡ã¿ãã¼ã¿&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;ã¡ã¿ãã¼ã¿&lt;/label&gt;ã¿ãã§ã¯ã¬ã¤ã¤ã«ã¤ãã¦ã®åã¨å ´æãå°ç©ã®æ°,å°ç©ã®å,ç·¨éå¯è½ãªé ç®ã®æå ±ãè¡¨ç¤ºããã¾ã. ã¬ã¤ã¤ã®ç©ºéåç§ç³»ã»ã¯ã·ã§ã³ã§ã¯æä¾ããã¦ããæå½±æ³ã®æå ±ãã¿ãã«è¡¨ç¤ºããã¾ã. ãã®æ©è½ã¯ã¬ã¤ã¤æå ±ãåå¾ãããã°ããæ¹æ³ã§ã.
+
+&lt;a name=&quot;actions&quot;&gt;
+&lt;h4&gt;ã¢ã¯ã·ã§ã³&lt;/h4&gt;
+&lt;/a&gt;
+QGISã§ã¯å°ç©ã®å±æ§ã«ãã¨ã¥ããã¢ã¯ã·ã§ã³ãæä¾ã§ãã¾ã.ãã®æ©è½ã§ã¯ãããããªã¢ã¯ã·ã§ã³ãä½¿ãã¾ã.ãã¨ãã°å°ç©ã®å±æ§ã®å¤ãå¼æ°ã¨ãã¦ãã­ã°ã©ã ãå®è¡ããããã©ã¡ã¼ã¿ãwebã¬ãã¼ãã£ã³ã°ã«éä¿¡ããããããããªæ©è½ã§ã.&lt;br/&gt;
+ã¢ã¯ã·ã§ã³ã¯å¤é¨ã¢ããªã±ã¼ã·ã§ã³ãé »ç¹ã«èµ·åãããå ´åããã¯ã¿ã¬ã¤ã¤ã®ãã¡ã®ããã¤ãã®æå ±ãwebãã¼ã¸ãã¼ã¹ã§é²è¦§ãããå ´åã«ä¾¿å©ã§ã.&lt;p&gt;
+
+ã¢ã¯ã·ã§ã³ã®æ°ããå®è£ã¯å¼ã®è©ä¾¡ã«QGISã®å¼ã¨ã³ã¸ã³ãä½¿ã£ã¦ãã¾ã.ããããã®å¼ã¯å®è¡æã«è©ä¾¡ããçµæã«ç½®ãæãããã¾ã.&lt;p&gt;
+å¼ã¯&lt;code&gt;[%&lt;/code&gt;ã¨&lt;code&gt;%]&lt;/code&gt;ã«å²ã¾ããªããã°ãªãã¾ãã.ãããèªåçã«è¡ãããã«GUIã«ã¯ããã¤ãã®ãã¿ã³ãããã¾ã.
+&lt;label&gt;å¼ã®æ¿å¥...&lt;/label&gt;ãã¿ã³ã¯&lt;label&gt;å¼ãã«ãã¼&lt;/label&gt;ãèµ·åãã¾ã.ãããä½¿ãã°å¼ãç°¡åã«æ¸ããã¨ãã§ãã¾ã.&lt;label&gt;ãã£ã¼ã«ããæ¿å¥&lt;/label&gt;ãã¿ã³ã¯&lt;code&gt;[% &quot;fieldname&quot; %]&lt;/code&gt;ã¨ãã£ããã¬ã¼ã¹ãã«ãã¼ãã¢ã¯ã·ã§ã³ã«æ¿å¥ãã¾ã.ããã§fieldnameã¯ãã­ãããã¦ã³ãªã¹ãã§é¸æããããã£ã¼ã«ãã®ååã§ã.&lt;p&gt;
+
+ããã«è©³ããæå ±ã¯ã¦ã¼ã¶ã¼ã¬ã¤ããåç§ãã¦ä¸ãã.
+
+&lt;h5&gt;ã¢ã¯ã·ã§ã³ã®å©ç¨&lt;/h5&gt;
+ã¢ã¯ã·ã§ã³ã¯&lt;label&gt;å°ç©æå ±è¡¨ç¤º&lt;/label&gt;ãã¤ã¢ã­ã°ããèµ·åã§ãã¾ã.ãã¼ã«ãã¼ã®&lt;label&gt;å°ç©ã¢ã¯ã·ã§ã³ã®å®è¡&lt;/label&gt;ãã¼ã«ã§ãèµ·åã§ãã¾ã.
+
+ã¢ã¯ã·ã§ã³ã§ã¯&lt;label&gt;å¼ãã«ã&lt;/label&gt;ã§å©ç¨ã§ããããã©ã«ãã»ããã«å ãã¦å°ãã§ããã«ã¹ã¿ã å¼ãå©ç¨ã§ãã¾ã.&lt;br/&gt;
+&lt;label&gt;å°ç©æå ±è¡¨ç¤º&lt;/label&gt;ãã¤ã¢ã­ã°ããã¢ã¯ã·ã§ã³ãå®è¡ä¸­ã®å ´åã¯, ã«ã¹ã¿ã å¼&lt;code&gt;$currfield&lt;/code&gt;ã¯ãã¤ã¢ã­ã°ã§é¸æããããã£ã¼ã«ãã®å¤ã«ç½®ãæãããã¾ã.
+&lt;label&gt;å°ç©ã¢ã¯ã·ã§ã³ã®å®è¡&lt;/label&gt;ãã¼ã«ãä½¿ãå ´å, æ¬¡ã®ãããªã«ã¹ã¿ã å¼ãå©ç¨å¯è½ã§ã(ãã®å ´å$currfieldã¯ä½¿ãã¾ãã):
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; ã­ã£ã³ãã¹ã§ã¯ãªãã¯ããä½ç½®ã®xåº§æ¨ãè¿ãã¾ã&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; ã­ã£ã³ãã¹ã§ã¯ãªãã¯ããä½ç½®ã®yåº§æ¨ãè¿ãã¾ã&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; å¡ä¾ã§é¸æããã¦ããã¬ã¤ã¤ã®IDãè¿ãã¾ã&lt;/li&gt;
+&lt;/ul&gt;
+
+æ³¨: &lt;label&gt;å°ç©ã¢ã¯ã·ã§ã³ã®å®è¡&lt;/label&gt;ãã¼ã«ã¯ããããã¦ãããã¹ã¦ã®å°ç©ã«ã¤ãã¦ã¢ã¯ã·ã§ã³ãå®è¡ãã¾ãã,&lt;label&gt;å°ç©æå ±è¡¨ç¤º&lt;/label&gt;ã§ã¯ã¢ã¯ã·ã§ã³ãå®è¡ããå°ç©ãé¸æã§ãã¾ã.&lt;p&gt;
+
+&lt;a name=&quot;diagram&quot;&gt;
+&lt;h4&gt;ãã¤ã¢ã°ã©ã &lt;/h4&gt;
+&lt;/a&gt;
+ãã¤ã¢ã°ã©ã ã¿ãã§ã¯ãã¯ã¿ã¬ã¤ã¤ã«ã°ã©ãããªã¼ãã¼ã¬ã¤è¡¨ç¤ºã§ãã¾ã. ãã®æ©è½ãæå¹ã«ããæã¯ &lt;label&gt;ãã©ã°ã¤ã³ããã¼ã¸ã£&lt;/label&gt;ãéãã¦&lt;label&gt;ã°ã©ãã®ãªã¼ãã¼ã¬ã¤&lt;/label&gt;ãã©ã°ã¤ã³ãé¸æãã¦ä¸ãã. ããããã¨ãã¯ã¿&lt;label&gt;ã¬ã¤ã¤ãã­ããã£&lt;/label&gt;ãã¤ã¢ã­ã°ã«ã°ã©ãã®è¨­å®ãå¥åããæ°ããã¿ããã§ãã¾ã.&lt;p&gt;
+ç¾å¨ã®ã°ã©ãæ©è½ã§ã¯åã°ã©ãã¨æ£ã°ã©ãã¨åé¡ãããå±æ§å¤ã«å¾ã£ãã°ã©ãã®å¤§ããã®ç·å½¢ã¹ã±ã¼ãªã³ã°ããµãã¼ãããã¦ãã¾ã.
+
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="791"/>
+        <source>&lt;h3&gt;SQL Anywhereãã¼ãã«ã®è¿½å &lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯SQL Anywhereã¬ã¤ã¤(ã¸ãªã¡ããªã«ã©ã ãå«ãã ãã¼ãã«)ãQGISãããã­ã£ã³ãã¹ã«è¿½å ãããã¨ãã§ãã¾ã.
+&lt;p&gt;
+&lt;a href=&quot;#connect&quot;&gt;æ¥ç¶&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#add&quot;&gt;ã¬ã¤ã¤ã®è¿½å &lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#filter&quot;&gt;ã¬ã¤ã¤ã®ãã£ã«ã¿ãªã³ã°&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;æ¤ç´¢ãªãã·ã§ã³&lt;/a&gt;&lt;br/&gt;
+
+&lt;a href=&quot;#connect&quot;&gt;
+&lt;h4&gt;æ¥ç¶&lt;/h4&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;ãã­ãããã¦ã³ããã¯ã¹ããä½¿ç¨ããæ¥ç¶åãé¸æãã¦&lt;label&gt;æ¥ç¶&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã.
+&lt;li&gt;æ¥ç¶åããªãå ´åã¯æ¥ç¶åãä½æããããã«&lt;label&gt;æ°è¦&lt;/label&gt;ãã¿ã³ãä½¿ãã¾ã.
+&lt;li&gt;é¸æãããæ¥ç¶åã®åå®¹ãå¤æ´ããå ´åã¯&lt;label&gt;ç·¨é&lt;/label&gt;ãã¿ã³ã, åé¤ããå ´åã¯&lt;label&gt;åé¤&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¾ã.
+&lt;/ul&gt;
+&lt;a name=&quot;add&quot;&gt;
+&lt;h4&gt;ã¬ã¤ã¤ã®è¿½å &lt;/h4&gt;
+&lt;/a&gt;
+ã¬ã¤ã¤ãè¿½å ããã«ã¯:
+&lt;ol&gt;
+&lt;li&gt;ãã­ãããã¦ã³ããã¯ã¹ããæ¥ç¶åãé¸æãã¾ã.
+&lt;li&gt;&lt;label&gt;æ¥ç¶&lt;/label&gt;ãã¯ãªãã¯ãã¾ã, ãã¼ã¿ãã¼ã¹ããã¬ã¤ã¤ã®ãªã¹ããåãè¾¼ã¿ã¾ã. ã©ã®ããã«ãã®ãªã¹ããåãè¾¼ã¾ãããã«å½±é¿ãããªãã·ã§ã³ã¯æ°è¦æ¥ç¶ãã¤ã¢ã­ã°ããã¯ã¹ã®ãã«ãã§èª¬æããã¦ãã¾ã.
+&lt;li&gt;ãªã¹ãããè¿½å ãããã¬ã¤ã¤ãæ¢ãã¦ã¯ãªãã¯ãã¦é¸æãã¾ã.
+&lt;li&gt;å ãã¦ã¬ã¤ã¤ãé¸æãããå ´åã¯Ctrlã­ã¼ãæ¼ããã¾ã¾ã¯ãªãã¯ãã¾ã.
+&lt;li&gt;&lt;label&gt;è¿½å &lt;/label&gt;ãã¯ãªãã¯ããã¨å°å³ã«ã¬ã¤ã¤ãè¿½å ããã¾ã.
+&lt;/ol&gt;
+&lt;a name=&quot;filter&quot;&gt;
+&lt;h4&gt;ã¬ã¤ã¤ã®ãã£ã«ã¿ãªã³ã°&lt;/h4&gt;
+&lt;/a&gt;
+å°å³ã«è¿½å ããåã«ã¬ã¤ã¤ã®åå®¹ããã£ã«ã¿ãããå ´åã¯ãã®ååãããã«ã¯ãªãã¯ããã, é¸æãã¦ãã&lt;label&gt;ãã£ã«ã¿è¨­å®&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¾ã.ããããã¨ã¯ã¨ãªãã«ããéãã¾ã.ãã®ãã¤ã¢ã­ã°ã§ã¬ã³ã¼ãããã£ã«ã¿ãªã³ã°ããSQLæãä½æãããã¨ãã§ãã¾ã.
+
+&lt;a name=&quot;search&quot;&gt;
+&lt;h4&gt;æ¤ç´¢ãªãã·ã§ã³&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;æ¤ç´¢ãªãã·ã§ã³&lt;/label&gt;ã«ã¯ç°ãªãã«ã©ã ã¿ã¤ãã®æ¤ç´¢ã2ã¤ã®æ¤ç´¢ã¢ã¼ã(&lt;label&gt;ã¯ã¤ã«ãã«ã¼ã&lt;/label&gt; ã¾ãã¯&lt;label&gt;æ­£è¦è¡¨ç¾&lt;/label&gt;)ãå©ç¨ãããªãã·ã§ã³ãããã¾ã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="828"/>
         <source>&lt;h3&gt;New OGR Database Connection Dialog&lt;/h3&gt;
 </source>
         <translation>&lt;h3&gt;新OGRデータベース接続ダイアログ&lt;/h3&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="545"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="830"/>
         <source>&lt;h3&gt;Vector Layer Properties&lt;/h3&gt;
 This dialog allows you to work with vector layer settings and properties. There are seven tabs:
 &lt;p&gt;
@@ -53761,153 +54048,1136 @@ The Diagram tab allows you to add a graphic overlay to a vector layer. To activa
 The current implementation of diagrams provides support for pie- and bar charts and for linear scaling
 of the diagram size according to a classification attribute.
 </source>
-        <translatorcomment>もしかすると原文に変更があったかも</translatorcomment>
-        <translation>&lt;h3&gt;ベクタレイヤプロパティ&lt;/h3&gt;
-このダイアログではベクタレイヤの設定とプロパティを変更できます。ここには7個のタブがあります:
-&lt;p&gt;
-&lt;a href=&quot;#symbology&quot;&gt;シンボロジ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#labels&quot;&gt;ラベル&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#attributes&quot;&gt;フィールド&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#general&quot;&gt;一般情報&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#metadata&quot;&gt;メタデータ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#actions&quot;&gt;アクション&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#diagram&quot;&gt;ダイアグラム&lt;/a&gt;&lt;br/&gt;
-
-&lt;a name=&quot;symbology&quot;&gt;
-&lt;h4&gt;シンボロジ&lt;/h4&gt;
-&lt;/a&gt;
-レイヤのシンボロジを変更する場合、作業したいレイヤの凡例エントリをダブルクリックすると&lt;label&gt;レイヤプロパティ&lt;/label&gt;ダイアログが表示されます.&lt;p&gt;
-このダイアログではベクタレイヤのスタイルを指定できます.選択されたレンダリングオプションによって地物群を分類することもできます.
-
-&lt;h5&gt;凡例タイプ&lt;/h5&gt;
-QGISはベクタ地物表示を制御するための多くのシンボロジレンダラをサポートしています。現在は以下のレンダラが利用可能です:
-&lt;ul&gt;
-&lt;li&gt;&lt;label&gt;共通シンボル&lt;/label&gt; - 単一のスタイルをレイヤの全てのオブジェクトに適用します.
-&lt;li&gt;&lt;label&gt;分類された(カテゴリ)&lt;/label&gt; - レイヤ内のオブジェクトは指定フィールドの値を使って、それぞれの値毎に定義された描画方法を利用して表示されます.
-&lt;li&gt;&lt;label&gt;段階に分けられた(グラデーション)&lt;/label&gt; - レイヤ内のオブジェクトは指定フィールドの数値の値によって分類された連続した色の階調を使って描画されます.
-&lt;li&gt;&lt;label&gt;ルールに基づいた&lt;/label&gt;
-&lt;li&gt;&lt;label&gt;点の移動&lt;/label&gt;
-&lt;/ul&gt;
-
-&lt;!--
-&lt;h5&gt;新シンボロジー&lt;/h5&gt;
-レイヤの描画に新しいシンボロジーを利用したい場合は&lt;label&gt;新シンボロジー&lt;/label&gt; ボタンをクリックしてください.
---&gt;
-
-&lt;h5&gt;ベクタ透過性&lt;/h5&gt;
-QGISではそれぞれのベクタレイヤに透過性を指定することができます. これは&lt;label&gt;透過性&lt;/label&gt;スライダを動かして指定できます. この機能は多くのベクタレイヤを重ね合わせ表示する場合にとても便利です.
-
-&lt;h5&gt;スタイルの保存&lt;/h5&gt;
-レイヤの描画スタイルを定義したらレイヤスタイルを個別のファイルとして保存できます（*.qmlで終わるファイル名で).&lt;label&gt;スタイルを保存&lt;/label&gt;ボタンをクリックするとこの機能を実行できます.&lt;!--言うまでもなく--&gt;&lt;label&gt;スタイルを読み込み...&lt;/label&gt; ボタンで保存したレイヤスタイルファイルをロードできます.&lt;br/&gt;
-もしあなたが設定中のレイヤがロードされる時はいつも現在のスタイルを利用したい場合は&lt;label&gt;既定スタイルとして保存&lt;/label&gt;ボタンをクリックします. さらにあなたが変更したスタイルに満足できなかった場合は&lt;label&gt;既定のスタイルに戻す&lt;/label&gt;ボタンを使うと既定のスタイルに戻すことができます.
-
-&lt;a name=&quot;labels&quot;&gt;
-&lt;h4&gt;ラベル&lt;/h4&gt;
-&lt;/a&gt;
-ラベルタブでは地物のラベル表示やフォント、配置、スタイル、アラインメント、縁取り（バッファリング）などラベル表示に関する様々な設定を行うことができます.&lt;br/&gt;
-&lt;label&gt;ラベル表示&lt;/label&gt;チェックボックスをチェックするとラベルを表示できます.
-&lt;h5&gt;基本ラベルオプション&lt;/h5&gt;
-ラベルに表示するフィールドを選択して下さい.&lt;p&gt;
-フォントと色を設定するためには&lt;label&gt;フォント&lt;/label&gt; と &lt;label&gt;色&lt;/label&gt;ボタンを選択して下さい. さらにテキストラベルの角度と配置方法を設定することができます.&lt;p&gt;
-もしラベルが複数行にわたる文字列の場合&lt;label&gt;複数行のラベルですか?&lt;/label&gt;をチェックしてください(ラベル(廃止予定)の場合). QGISは改行コードをラベルフィールド中でチェックして、それにしたがってラインブレークを挿入します.改行コードはシングルキャラクタの\nです(バックスラッシュ\と文字nのような2個の分割されたキャラクタではありません).
-
-&lt;h5&gt;配置&lt;/h5&gt;
-ラベルの配置を変更する場合 &lt;label&gt;配置&lt;/label&gt;グループにあるラジオボタンを選択して下さい.
-
-&lt;h5&gt;フォントサイズ単位&lt;/h5&gt;
-&lt;label&gt;フォントサイズ 単位&lt;/label&gt;では &lt;label&gt;ポイント&lt;/label&gt;か&lt;label&gt;地図上の単位&lt;/label&gt;を選択できます.
-
-&lt;h5&gt;バッファラベル&lt;/h5&gt;
-ラベルをバッファするとはラベルを目立たせるために背後に取り囲む描画をすることを意味します.ラベルをバッファする手順は以下のとおりです:
-&lt;ol&gt;
-&lt;li&gt;&lt;label&gt;バッファラベル&lt;/label&gt;チェックボックスをクリックしてバッファリングを有効にします.
-&lt;li&gt;バッファを行うサイズをスピンボックスを使って指定します.
-&lt;li&gt;&lt;label&gt;色&lt;/label&gt;をクリックして色を選択します.カラーセレクタで利用したい色を選びます.好みに合わせてバッファの透過度を指定することもできます.
-&lt;li&gt;&lt;label&gt;適用&lt;/label&gt;をクリックすると変更状況を地図で見ることができます.
-&lt;/ol&gt;
-注　バッファのサイズを地図上の単位で指定することも可能です.
-
-&lt;h5&gt;データで定義された配置,プロパティ,バッファ,位置&lt;/h5&gt;
-&lt;label&gt;ラベル&lt;/label&gt;タブの残りのエントリーはラベルの見かけをレイヤの属性値を使って制御します. &lt;label&gt;データで定義された&lt;/label&gt;で始まるエントリはラベルのためのすべてのパラメータにレイヤのフィールドの値を利用します.
-
-
-&lt;a name=&quot;attributes&quot;&gt;
-&lt;h4&gt;フィールド&lt;/h4&gt;
-&lt;/a&gt;
-&lt;label&gt;フィールド&lt;/label&gt;タブでは選択されたデータセットのフィールドを操作できます. &lt;label&gt;新規カラム&lt;/label&gt; と &lt;label&gt;カラム削除&lt;/label&gt;ボタンはデータセットが編集モードの時に利用できます. バージョン1.6以上のGDALがインストールされている場合OGRライブラリは新規カラムの追加をサポートしますが削除はできません.さもなければPostGISレイヤのカラムのみが編集可能です.&lt;p&gt;
-&lt;label&gt;編集モード切替&lt;/label&gt;ボタンは編集モードを切り替えます.&lt;p&gt;
-フィールドタブには編集ウィジェットカラムがあります. このカラムは指定された属性テーブルカラムに追加することを許される値の定義または値の範囲の定義を行います. &lt;label&gt;ウィジェットの編集&lt;/label&gt; ボタンをクリックするとダイアログが開き異なるウィジェットを定義できます. このようなウィジェットがあります:&lt;br/&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;label&gt;行編集&lt;/label&gt;シンプルテキストを入力可能な編集フィールド  (または数値フィールドの入力数値を制限する).
-&lt;li&gt;&lt;label&gt;分類&lt;/label&gt; プロパティダイアログシンボロジータブで凡例タイプとして&lt;label&gt;ユニーク値&lt;/label&gt;を選択した場合は分類された値のコンボボックスを表示します.
-&lt;li&gt;&lt;label&gt;範囲&lt;/label&gt; 指定範囲の数値の入力を許可します.編集ウィジットはスライダーかスピンボックスを利用できます.
-&lt;li&gt;&lt;label&gt;ユニーク値&lt;/label&gt; ユーザーはすでに属性テーブルに入力されている値からのみ選択できます. &lt;label&gt;編集可能&lt;/label&gt; がアクティブになるとオートコンプリートつきで付加情報可能なラインエディットが表示されます.そうでなければコンボボックスが利用されます.
-&lt;li&gt;&lt;label&gt;ファイル名&lt;/label&gt; ファイル選択ダイアログによって追加されるシンプルな選択.
-&lt;li&gt;&lt;label&gt;バリューマップ&lt;/label&gt; 事前に定義された項目のコンボボックスです.値は属性に格納されます、説明はコンボボックスで表示されます . 値は手作業またはレイヤ、csvファイルからロードして定義できます.
-&lt;li&gt;&lt;label&gt;列挙&lt;/label&gt;カラムの型で利用できる値のコンボボックスを開きます.この機能は現状ではpostgresプロバイダーでのみ利用できます.
-&lt;li&gt;&lt;label&gt;変わらない&lt;/label&gt;変わらない属性カラムはリードオンリイです.ユーザーは内容を変更できません .
-&lt;li&gt;&lt;label&gt;非表示&lt;/label&gt; 非表示属性カラムはユーザーに見えません.
-&lt;li&gt;&lt;label&gt;チェックボックス&lt;/label&gt; チェックボックスが表示されます. 値は属性が入力されたチェックボックスの状態を表します.
-&lt;li&gt;&lt;label&gt;テキスト編集&lt;/label&gt;マルチラインのテキストが編集できるテキスト編集フィールドが表示されます.
-&lt;li&gt;&lt;label&gt;カレンダー&lt;/label&gt;
-&lt;li&gt;&lt;label&gt;値のリレーション&lt;/label&gt;
-&lt;li&gt;&lt;label&gt;UUIDジェネレータ&lt;/label&gt;
-&lt;li&gt;&lt;label&gt;写真&lt;/label&gt;
-&lt;li&gt;&lt;label&gt;ウェブビュー&lt;/label&gt;
-&lt;li&gt;&lt;label&gt;色&lt;/label&gt;
-&lt;/ul&gt;
-
-&lt;a name=&quot;general&quot;&gt;
-&lt;h4&gt;一般情報&lt;/h4&gt;
-&lt;/a&gt;
-一般情報タブでは表示名やスケール依存レンダリングオプション、ベクタファイル(OGRがサポートする形式とPostGISのみ)への空間インデックスの作成と指定ベクタレイヤに対する投影法の確認や設定ができます.&lt;p&gt;
-また&lt;label&gt;クエリビルダー&lt;/label&gt;を使ってフィルター条件式を設定できます.
-
-&lt;h5&gt;サブセット&lt;/h5&gt;
-&lt;label&gt;クエリビルダー&lt;/label&gt; ボタンを使うとレイヤの地物を条件式に合致したサブセットとして利用することができます.
-
-&lt;a name=&quot;metadata&quot;&gt;
-&lt;h4&gt;メタデータ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;label&gt;メタデータ&lt;/label&gt;タブではレイヤについての型と場所、地物の数,地物の型,編集可能な項目の情報が表示されます. レイヤの空間参照系セクションでは提供されている投影法の情報がタブに表示されます. この機能はレイヤ情報を取得するすばやい方法です.
-
-&lt;a name=&quot;actions&quot;&gt;
-&lt;h4&gt;アクション&lt;/h4&gt;
-&lt;/a&gt;
-QGISでは地物の属性にもとづいたアクションを提供できます.この機能ではいろいろなアクションを使えます.たとえば地物の属性の値を引数としてプログラムを実行したりパラメータをwebレポーティングに送信したりするような機能です.&lt;br/&gt;
-アクションは外部アプリケーションを頻繁に起動したい場合やベクタレイヤのうちのいくつかの情報をwebページベースで閲覧したい場合に便利です.&lt;p&gt;
-
-アクションの新しい実装は式の評価にQGISの式エンジンを使っています.それぞれの式は実行時に評価され結果に置き換えられます.&lt;p&gt;
-式は&lt;code&gt;[%&lt;/code&gt;と&lt;code&gt;%]&lt;/code&gt;に囲まれなければなりません.それを自動的に行うためにGUIにはいくつかのボタンがあります.
-&lt;label&gt;式の挿入...&lt;/label&gt;ボタンは&lt;label&gt;式ビルダー&lt;/label&gt;を起動します.それを使えば式を簡単に書くことができます.&lt;label&gt;フィールドを挿入&lt;/label&gt;ボタンは&lt;code&gt;[% &quot;fieldname&quot; %]&lt;/code&gt;といったプレースホルダーをアクションに挿入します.ここでfieldnameはドロップダウンリストで選択されたフィールドの名前です.&lt;p&gt;
-
-さらに詳しい情報はユーザーガイドを参照して下さい.
-
-&lt;h5&gt;アクションの利用&lt;/h5&gt;
-アクションは&lt;label&gt;地物情報表示&lt;/label&gt;ダイアログから起動できます.ツールバーの&lt;label&gt;地物アクションの実行&lt;/label&gt;ツールでも起動できます.
-
-アクションでは&lt;label&gt;式ビルダ&lt;/label&gt;で利用できるデフォルトセットに加えて少しですがカスタム式が利用できます.&lt;br/&gt;
-&lt;label&gt;地物情報表示&lt;/label&gt;ダイアログからアクションを実行中の場合は, カスタム式&lt;code&gt;$currfield&lt;/code&gt;はダイアログで選択されたフィールドの値に置き換えられます.
-&lt;label&gt;地物アクションの実行&lt;/label&gt;ツールを使う場合, 次のようなカスタム式が利用可能です(この場合$currfieldは使えません):
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; キャンバスでクリックした位置のx座標を返します&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; キャンバスでクリックした位置のy座標を返します&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; 凡例で選択されているレイヤのIDを返します&lt;/li&gt;
-&lt;/ul&gt;
-
-注: &lt;label&gt;地物アクションの実行&lt;/label&gt;ツールはマッチしているすべての地物についてアクションを実行しますが,&lt;label&gt;地物情報表示&lt;/label&gt;ではアクションを実行する地物を選択できます.&lt;p&gt;
-
-&lt;a name=&quot;diagram&quot;&gt;
-&lt;h4&gt;ダイアグラム&lt;/h4&gt;
-&lt;/a&gt;
-ダイアグラムタブではベクタレイヤにグラフをオーバーレイ表示できます. この機能を有効にする時は &lt;label&gt;プラグインマネージャ&lt;/label&gt;を開いて&lt;label&gt;グラフのオーバーレイ&lt;/label&gt;プラグインを選択して下さい. そうするとベクタ&lt;label&gt;レイヤプロパティ&lt;/label&gt;ダイアログにグラフの設定を入力する新しいタブができます.&lt;p&gt;
-現在のグラフ機能では円グラフと棒グラフと分類された属性値に従ったグラフの大きさの線形スケーリングがサポートされています.
-
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1289"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1283"/>
+        <source>&lt;h3&gt;å±æ§ãã¼ãã«&lt;/h3&gt;
+å±æ§ãã¼ãã«ã¯é¸æãããã¬ã¤ã¤ã®å°ç©ã®å±æ§ãè¡¨ç¤ºãã¾ã. ãã¼ãã«ã®åè¡ã¯ããã¤ãã®ã«ã©ã ã«ç¤ºãããå±æ§ãæã¤1ã¤ã®å°ç©ãè¡¨ãã¦ãã¾ã. ãã¼ãã«å
+ã®å°ç©ã¯æ¤ç´¢ãé¸æãç§»åãããã¯ç·¨éãããã¨ãã§ãã¾ã. 
+ããã©ã«ãã§ã¯å±æ§ãã¼ãã«ã¯ç¬ç«ããã¦ã£ã³ãã¦ã§ã. ããªãããããéãã¦ããã¤ã¢ã­ã°ãè¦ããªãå ´åã¯ãå¤åQGISã®ã¡ã¤ã³ã¦ã£ã³ãã¦ã®ä¸ã«é ããã¦ããã§ããã.
+ããªãã¯ãããããã¯ã¦ã£ã³ãã¦ã«ãããã¨ãã§ãã¾ã. ããã¯ã¦ã£ã³ãã¦ã«ããã«ã¯&lt;label&gt;è¨­å® &gt; ãªãã·ã§ã³&lt;/label&gt;ãã¤ã¢ã­ã°ã®ãã¼ã¿ã½ã¼ã¹ã¿ãã§&lt;label&gt;ããã¯ã¦ã£ã³ãã¦ã§å±æ§ãã¼ãã«ãéã&lt;/label&gt;ã«ãã§ãã¯ãã¾ã.&lt;p&gt;
+ã¬ã¤ã¤ã®ç·å°ç©æ°ã¨ãã£ã«ã¿å¾ã®å°ç©æ°ãé¸æããã¦ããå°ç©æ°ã¯ã¦ã£ã³ãã¦ã®ã¿ã¤ãã«ãã¼ã«è¡¨ç¤ºããã¾ã.&lt;p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;#Selecting&quot;&gt;é¸æ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#Sorting&quot;&gt;ä¸¦ã¹æ¿ã&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#Filtering&quot;&gt;ãã£ã«ã¿&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#Editing&quot;&gt;ç·¨é&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#FieldCalc&quot;&gt;ãã£ã¼ã«ãè¨ç®æ©&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;Selecting&quot;&gt;
+&lt;h4&gt;é¸æ&lt;/h4&gt;
+&lt;/a&gt;
+è¡ãé¸æããã«ã¯è¡ã®å·¦å´ã®è¡çªå·ãã¯ãªãã¯ãã¾ã. ãã¦ã¹ãã¿ã³ãæ¼ããã¾ã¾ã«ãã¦é¸æã®çµç«¯ã¾ã§åããã°å¾ç¶ã®è¡ãé¸æãããã¨ãã§ãã¾ã. é£ç¶ãã¦ããªãè¤æ°ã®è¡ãé¸æããã«ã¯&lt;label&gt;Ctrl&lt;/label&gt;ã­ã¼ãæ¼ããã¾ã¾ã«ãã¾ã.&lt;br&gt;
+é£ç¶ãã¦ããè¡ãé¸æããã«ã¯&lt;label&gt;Shift&lt;/label&gt;ã­ã¼ãæ¼ããªããè¡ã®å·¦å´ã®è¡ãããã¼ãã¯ãªãã¯ãã¾ã. ç¾å¨ã®ã«ã¼ã½ã«ä½ç½®ã¨ã¯ãªãã¯ãããè¡ã®éã®ãã¹ã¦ã®è¡ãé¸æããã¾ã.
+
+&lt;a name=&quot;Sorting&quot;&gt;
+&lt;h4&gt;ä¸¦ã¹æ¿ã&lt;/h4&gt;
+&lt;/a&gt;
+ååã¯ããã®åããããã¯ãªãã¯ãããã¨ã§ä¸¦ã¹æ¿ãããã¨ãã§ãã¾ã. å°ããªä¸è§ã¯ã½ã¼ãé åºãç¤ºãã¾ã. ä¸åãä¸è§ã¯ä¸ããä¸ã«éé (å¤§ããé )ã¨ãªã£ã¦ãããã¨ãæå³ããä¸åãä¸è§ã¯ä¸ããä¸ã«æé (å°ããé )ã«ãªã£ã¦ãããã¨ãæå³ãã¾ã.&lt;br&gt;
+ç¾å¨ã®ã½ã¼ãã«ã©ã ã«é¢ãããé¸æããã¦ããè¡ãå¸¸ã«ä¸é¨ã«è¡¨ç¤ºããã«ã¯&lt;label&gt;é¸æé¨åãå
+é ­ã«ç§»åãã&lt;/label&gt;ãã¿ã³ãã¢ã¯ãã£ãã«ãã¾ã.
+
+&lt;a name=&quot;Filtering&quot;&gt;
+&lt;h4&gt;ãã£ã«ã¿&lt;/h4&gt;
+&lt;/a&gt;
+ãã¼ã¿ã®é¨åã«ç´ æ©ãç§»åããã«ã¯å·¦ä¸ã®ãã£ã«ã¿ãã¿ã³ãä½¿ç¨ãããã¨ãã§ãã¾ã. æ¬¡ã®ãªãã·ã§ã³ãå©ç¨å¯è½ã§ã.
+&lt;h5&gt;å
+¨ã¦ã®å°ç©ãè¡¨ç¤ºãã&lt;/h5&gt;
+ã¬ã¤ã¤ã®å
+¨ã¦ã®å°ç©ãè¡¨ç¤ºãã.
+&lt;h5&gt;é¸æããå°ç©ãè¡¨ç¤ºãã&lt;/h5&gt;
+ç¾å¨é¸æããã¦ããå
+¨ã¦ã®å°ç©ãè¡¨ç¤ºãã.
+&lt;h5&gt;å°å³ã«è¦ããå°ç©ãè¡¨ç¤º&lt;/h5&gt;
+ç¾å¨ã®å¯è¦é åã¨ã¹ã±ã¼ã«ãã¼ã¹ã®å¯è¦æ§ãèæ
+®ã«å
+¥ãã¦ãç¾å¨ãããã­ã£ã³ãã¹ã«è¡¨ç¤ºããã¦ããå
+¨ã¦ã®å°ç©ãè¡¨ç¤ºãã. 
+&lt;h5&gt;ç·¨éåã³æ°ããå°ç©ã®è¡¨ç¤º&lt;/h5&gt;
+ç·¨éãããå°ç©ã¨æ°è¦ä½æãããå°ç©ã®ã¿è¡¨ç¤ºãã¾ã.
+ãã®ã¢ã¼ãã§ã¯ã³ããã(ä¿å­)ããã¦ããªãå¤æ´ãæããå°ç©ãè¡¨ç¤ºããã¾ã.ãããã£ã¦ããã¯ã³ããã(ä¿å­)ããåã«å¤æ´ãè¦ç´ãã®ã«ãããã£ã«ã¿ã§ã. åé¤ãããå°ç©ã¯ãã®ã¢ã¼ãã§è¡¨ç¤ºãããªããã¨ã«æ³¨æãã¦ä¸ãã.
+&lt;h5&gt;ã«ã©ã ãã£ã«ã¿&lt;/h5&gt;
+å±æ§ã«ãã£ã¦ãã£ã«ã¿ãããã¨ãã§ããåç´ãªãã£ã«ã¿ã§ã. å±æ§ããã­ã¹ããå«ãå ´åãé¨åæå­åãæ¤ç´¢ãã¾ã.ãããã£ã¦&lt;b&gt;man&lt;/b&gt;ãæ¤ç´¢ããã°&lt;b&gt;woman&lt;/b&gt;ãå«ãã§ããã¬ã³ã¼ããè¡¨ç¤ºãã¾ã.
+ãã£ã«ã¿æå­åãå¤æ´ããå¾ã«&lt;label&gt;Enter&lt;/label&gt;ã­ã¼ãæ¼ãã&lt;label&gt;é©ç¨&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã. &lt;label&gt;å¤§æå­å°æå­ãåºå¥ãã&lt;/label&gt;ãã§ãã¯ããã¯ã¹ããã§ãã¯ããã¨æ¤ç´¢æå­åã&lt;b&gt;night&lt;/b&gt;ã®æã«&lt;b&gt;Night&lt;/b&gt;ã¯ãã£ã«ã¿ããã¦è¡¨ç¤ºããã¾ãã.
+&lt;h5&gt;å¿ç¨ãã£ã«ã¿&lt;/h5&gt;
+ããè¤éãªæ¤ç´¢ã®ããã«ããã®ã¢ã¼ãã¯å¼·åãªå¼ãã«ããæä¾ãã¾ã. ããã¯SQLã®WHEREç¯ã«é¡ä¼¼ãã¦ãã¾ã. æ§æã®è©³ç´°ã«ã¤ãã¦ã¯å¼ãã«ãã¼ã®ãã«ãã¤ã³ã»ãã«ããåç
+§ãã¦ãã ãã.
+
+&lt;a name=&quot;Editing&quot;&gt;
+&lt;h4&gt;ç·¨é&lt;/h4&gt;
+&lt;/a&gt;
+å±æ§å¤ãç·¨éããã«ã¯ã¾ãå§ãã«ã¬ã¤ã¤ãç·¨éã¢ã¼ãã«åãæ¿ããªããã°ãªãã¾ãã. ç·¨éã¢ã¼ãã«åãæ¿ããã«ã¯&lt;label&gt;ç·¨éã¢ã¼ãåæ¿&lt;/label&gt;(éç­)ãã¿ã³ãæ¼ãã&lt;label&gt;Ctrl + E&lt;/label&gt;ãæ¼ãã¦ä¸ãã.
+ãã®å¾ãç·¨éãããå¤ãããã«ã¯ãªãã¯ããããããã«ã«ã¼ã½ã«ãç½®ãã¦&lt;label&gt;Space&lt;/label&gt;ã­ã¼ãæ¼ãã¾ã. &lt;label&gt;ãã¯ã¿ã¬ã¤ã¤ãã­ããã£ &gt; ãã£ã¼ã«ã&lt;/label&gt;ã§ãã£ã¼ã«ãç·¨éã«ä½¿ãããã¦ã£ã¸ã§ãããã«ã¹ã¿ãã¤ãºã§ãã¾ã.
+
+&lt;a name=&quot;FieldCalc&quot;&gt;
+&lt;h4&gt;ãã£ã¼ã«ãè¨ç®æ©&lt;/h4&gt;
+&lt;/a&gt;
+å±æ§ãã¼ãã«ã®&lt;label&gt;ãã£ã¼ã«ãè¨ç®æ©&lt;/label&gt;ãã¿ã³ã§ã¯æ¢å­ã®å±æ§å¤ãå®ç¾©ããã¦ããé¢æ°ãç¨ãã¦è¨ç®ãå®è¡ãããã¨ãã§ãã¾ã. ä¾ãã°ã¸ãªã¡ããªã®é·ããé¢ç©ãè¨ç®ã§ãã¾ã.
+çµæã¯æ°ããå±æ§ã«ã©ã ã«æ¸ããã¨ãã§ãã¾ãããæ¢å­ã®ã«ã©ã ã®å¤ãæ´æ°ãããã¨ãã§ãã¾ã.&lt;br&gt;
+&lt;label&gt;ãã£ã¼ã«ãè¨ç®æ©&lt;/label&gt;ã¢ã¤ã³ã³ãã¯ãªãã¯ãã¦ãã¤ã¢ã­ã°ãéãã«ã¯ãã¯ã¿ã¬ã¤ã¤ã¯ç·¨éã¢ã¼ãã§ããå¿
+è¦ãããã¾ã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1395"/>
+        <source>&lt;h3&gt;QGISãã­ã¸ã§ã¯ãã MapServerã®Mapãã¡ã¤ã«ã¨ãã¦ã¨ã¯ã¹ãã¼ããã&lt;/h3&gt;
+&lt;p&gt;
+ãã®ãã¼ã«ãä½¿ãã¨ä¿å­ããã¦ããQGISã®ãã­ã¸ã§ã¯ããã¡ã¤ã«ãã¨ã¯ã¹ãã¼ããã¦MapServerã®Mapãã¡ã¤ã«ãä½æãããã¨ãã§ãã¾ã.ãã®å¦çã¯&lt;b&gt;ããããã¡ã¤ã«&lt;/b&gt;ã¨&lt;b&gt;QGISãã­ã¸ã§ã¯ããã¡ã¤ã«&lt;/b&gt;ã®ã¿ã®å
+¥åã§å®è¡ã§ãã¾ã.
+&lt;/p&gt;
+&lt;label&gt;ã«ã¬ã³ããã­ã¸ã§ã¯ããå©ç¨ãã&lt;/label&gt;ãã§ãã¯ããã¯ã¹ããã§ãã¯ãããã¾ãã¯ã¨ã¯ã¹ãã¼ããããQGISãã­ã¸ã§ã¯ããã¡ã¤ã«(.qgs)ã®ãã«ãã¹ãå
+¥åãã¦ä¸ãã. QGISãã­ã¸ã§ã¯ããã¡ã¤ã«ãæ¢ãããã«ã¯å³å´ã®åç
+§ãã¿ã³ãä½¿ãã¾ã.
+
+&lt;h4&gt;Mapãã¡ã¤ã«&lt;/h4&gt;
+
+&lt;label&gt;Mapãã¡ã¤ã«&lt;/label&gt;ã§ã¯ä½æããMapãã¡ã¤ã«ã®ååãå
+¥åãã¦ä¸ãã.mapãã¡ã¤ã«ãä½æãããã£ã¬ã¯ããªãåç
+§ããããã«å³å´ã®ãã¿ã³ãå©ç¨ã§ãã¾ã.
+
+&lt;h4&gt;å°å³&lt;/h4&gt;
+ãããã®å¤ã¯mapãã¡ã¤ã«ã®ãã¨ãã°ã¤ã¡ã¼ã¸ãµã¤ãºãåä½ãã¤ã¡ã¼ã¸ã¿ã¤ãã®ãããªé©åãªç®æã«è¨­å®ããã¾ã.
+&lt;dl&gt;
+  &lt;dt&gt;&lt;label&gt;åç§°&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;å°å³ã®åå. ãã®ååã¯MapServerã§ä½æããããã¹ã¦ã®ã¤ã¡ã¼ã¸ã®æ¥é ­èªã«ãªãã¾ã.&lt;/dd&gt;
+  &lt;dt&gt;&lt;label&gt;å¹
+&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;ãã¯ã»ã«åä½ã®åºåã¤ã¡ã¼ã¸ã®å¹
+.&lt;/dd&gt;
+  &lt;dt&gt;&lt;label&gt;é«ã&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;ãã¯ã»ã«åä½ã®åºåã¤ã¡ã¼ã¸ã®é«ã.&lt;/dd&gt;
+  &lt;dt&gt;&lt;label&gt;åä½&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;åºåç¨æ¸¬å®åä½.&lt;/dd&gt;
+  &lt;dt&gt;&lt;label&gt;ç»åã¿ã¤ã&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;MapServerãçæããåºåç»åå½¢å¼&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h4&gt;ãã¹&lt;/h4&gt;
+&lt;dl&gt;
+  &lt;dt&gt;&lt;label&gt;ãã³ãã¬ã¼ã&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;mapãã¡ã¤ã«ã§å©ç¨ããMapServerãã³ãã¬ã¼ããã¡ã¤ã«ã®ãã«ãã¹.&lt;/dd&gt;
+  &lt;dt&gt;&lt;label&gt;ããã&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;mapãã¡ã¤ã«ã§å©ç¨ããããããã¡ã¤ã«ã®ãã«ãã¹.&lt;/dd&gt;
+  &lt;dt&gt;&lt;label&gt;Footer&lt;/label&gt;&lt;/dt&gt;
+  &lt;dd&gt;mapãã¡ã¤ã«ã§å©ç¨ããããã¿ãã¡ã¤ã«ã®ãã«ãã¹..&lt;/dd&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1428"/>
+        <source>&lt;h3&gt;ããªããã£ãããã­ã¹ãã¬ã¤ã¤&lt;/h3&gt;
+ããªããã£ãããã­ã¹ããã¡ã¤ã«ãèª­ã¿è¾¼ãã§è¡¨ç¤ºãã¾ã
+&lt;p&gt;
+&lt;a href=&quot;#re&quot;&gt;æ¦è¦&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#creating&quot;&gt;ããªããã£ãããã­ã¹ãã¬ã¤ã¤ã®ä½æ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#csv&quot;&gt;ããªãã¿ã¨ã¯ã©ã¼ãæå­ã¨ã¨ã¹ã±ã¼ãæå­ã¯ã©ãæ©è½ããã&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#regexp&quot;&gt;æ­£è¦è¡¨ç¾ããªãã¿ã¯ã©ãæ©è½ããã&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#wkt&quot;&gt;WKTãã­ã¹ãã¯ã©ãè§£éãããã&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#attributes&quot;&gt;ããªããã£ãããã­ã¹ããã¡ã¤ã«ã®å±æ§&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#example&quot;&gt;X, Yãã¤ã³ãåº§æ¨ãæã¤ãã­ã¹ããã¡ã¤ã«ã®ä¾&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#wkt_example&quot;&gt;WKTã¸ãªã¡ããªãæã¤ãã­ã¹ããã¡ã¤ã«ã®ä¾&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#python&quot;&gt;Pythonã§ããªããã£ãããã­ã¹ãã¬ã¤ã¤ãä½¿ãã«ã¯&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;h4&gt;&lt;a name=&quot;re&quot;&gt;æ¦è¦&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&amp;quot;ããªããã£ãããã­ã¹ããã¡ã¤ã«&amp;quot;ã¨ã¯åã¬ã³ã¼ããæ°ããè¡ã§å§ã¾ãã³ã³ãç­ã®åºåãæå­(ããªãã¿)ã§ãã£ã¼ã«ãã«åãããããã¼ã¿ã§ã.
+ãã®ãã¡ã¤ã«ã¿ã¤ãã¯ä¸è¬çã«è¡¨è¨ç®ã½ãã(ä¾ãã°CSVãã¡ã¤ã«ã¨ãã¦)ããã¼ã¿ãã¼ã¹ããã¨ã¯ã¹ãã¼ãããã¾ã.
+ä¸è¬çã«ã¯æåã®è¡ã«ã¯ãã£ã¼ã«ãã®ååãæã¡ã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+ããªããã£ãããã­ã¹ããã¡ã¤ã«ã¯QGISã«ã¬ã¤ã¤ã¨ãã¦èª­ã¿è¾¼ããã¨ãã§ãã¾ã.
+ã¬ã³ã¼ãã¯X, Yåº§æ¨ã§å®ç¾©ããããã¤ã³ãã¨ãã¦ç©ºéçã«è¡¨ç¤ºãããã¨ãã§ãã¾ã.
+ã¾ãWell Known Text (WKT)ã¨ããä»»æã®è¤éãªãã¤ã³ããã©ã¤ã³ï¼ããªã´ã³ãè¡¨ãã¸ãªã¡ããªã®å®ç¾©ãç¨ãã¦ç©ºéçã«è¡¨ç¤ºãããã¨ãã§ãã¾ã.
+ãã¡ã¤ã«ã¯å±æ§ã®ã¿ã®ãã¼ãã«ã¨ãã¦èª­ã¿è¾¼ããã¨ãã§ãã¾ã. ããã¯QGISã§ä»ã®ãã¼ãã«ã«çµåãããã¨ãã§ãã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+ãã¡ã¤ã«ã«ã¯ã¸ãªã¡ããªå®ç¾©ã«å ãã¦ãã­ã¹ããæ´æ°ãå®æ°ãã£ã¼ã«ããå«ããã¨ãã§ãã¾ã.
+ããã©ã«ãã§ã¯QGISã¯ãã£ã¼ã«ãã®ç©ºã§ã¯ãªãå¤ã«åºã¥ãã¦ãã®ã¿ã¤ããé¸ã³ã¾ã.
+å
+¨ã¦ã®å¤ãæ´æ°ã¨ãã¦è§£éã§ããå ´åã¯æ´æ°åã¨ãªããå
+¨ã¦ã®å¤ãå®æ°ã¨ãã¦è§£éã§ããå ´åã¯åç²¾åº¦æ°åã¨ãªãã¾ã. ããã§ãªããã°ãã­ã¹ãåã«ãªãã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+QGISã¯OGR CSVãã©ã¤ãã¨äºææ§ã®ãã&amp;quot;csvt&amp;quot;ãã¡ã¤ã«ãããã£ã¼ã«ãã®ã¿ã¤ããèª­ããã¨ãã§ãã¾ã.
+ããã¯ãã¼ã¿ãã¡ã¤ã«ã®ãã°ã«ãããã¡ã¤ã«ã§ãããã¡ã¤ã«å(æ¡å¼µå­)ã«&amp;quot;t&amp;quot;ãè¿½å ããã¾ã.
+ãã®ãã¡ã¤ã«ã¯åãã£ã¼ã«ãã®ã¿ã¤ããåæããã¦ãã1è¡ãå«ã¾ãªããã°ãªãã¾ãã.
+æå¹ãªã¿ã¤ãã¯&amp;quot;integer&amp;quot;, &amp;quot;real&amp;quot;, &amp;quot;string&amp;quot;, &amp;quot;date&amp;quot;, &amp;quot;time&amp;quot;ããã¦&amp;quot;datetime&amp;quot;ã§ã.
+dateåãtimeå, datetimeåã¯QGISã§æå­åã¨ãã¦æ±ããã¾ã.
+ããããã®ã¿ã¤ãã«ã¯å¹
+ã¨ç²¾åº¦ãç¶ããã¨ãããã¾ã. ä¾ãã°&amp;quot;real(10.4)&amp;quot;.
+ã¿ã¤ãã®ãªã¹ãã¯ãã¼ã¿ãã¡ã¤ã«ã§ä½¿ããã¦ããããªãã¿ã¨ã¯ãããããªãã³ã³ãã§åºåããã¾ã.
+æ¬¡ã¯æå¹ãªãã©ã¼ãããã®ãã¡ã¤ã«ã®ä¾ã§ã:
+&lt;/p&gt;
+
+&lt;pre&gt;
+&amp;quot;integer&amp;quot;,&amp;quot;string&amp;quot;,&amp;quot;string(20)&amp;quot;,&amp;quot;real(20.4)&amp;quot;
+&lt;/pre&gt;
+
+&lt;h4&gt;&lt;a name=&quot;creating&quot;&gt;ããªããã£ãããã­ã¹ãã¬ã¤ã¤ã®ä½æ&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;ããªããã£ãããã­ã¹ãã¬ã¤ã¤ãä½æããã«ã¯ãã¼ã¿ãã¡ã¤ã«ãé¸ã³ãå½¢å¼(ã©ã®ããã«åã¬ã³ã¼ãããã£ã¼ã«ãã«åãããã¦ããã)ãå®ç¾©ãã¦ãã¸ãªã¡ããªãã©ãè¡¨ããã¦ãããå®ç¾©ãã¾ã.
+ä¸ã§è©³è¿°ãããããã«ãããã¯ããªããã£ãããã­ã¹ããã¤ã¢ã­ã°ã§è¡ããã¨ãã§ãã¾ã.
+ãã¤ã¢ã­ã°ããã¯ã¹ã«ã¯å½¢å¼ãªãã·ã§ã³ãã©ãé©ç¨ãããããç¤ºããã¡ã¤ã«ã®å
+é ­é¨åã®ãµã³ãã«ãè¡¨ç¤ºããã¾ã.
+&lt;/p&gt;
+&lt;h5&gt;ãã¼ã¿ãã¡ã¤ã«ã®é¸æ&lt;/h5&gt;
+&lt;p&gt;ãã¼ã¿ãã¡ã¤ã«ãé¸æããã«ã¯&amp;quot;åç
+§...&amp;quot;ãã¿ã³ãä½¿ãã¾ã.
+ãã¡ã¤ã«ãé¸æããããã¬ã¤ã¤åã¯ãã¡ã¤ã«åã«åºã¥ãã¦èªåçã«å
+¥åããã¾ã.
+ã¬ã¤ã¤åã¯QGISã®å¡ä¾ã§ãã¼ã¿ãè¡¨ãã®ã«ä½¿ããã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+ããã©ã«ãã§ã¯ãã¡ã¤ã«ã®ã¨ã³ã³ã¼ãã£ã³ã°ã¯UTF-8ãé¸ã°ãã¦ãã¾ãããä»ã®ã¨ã³ã³ã¼ãã£ã³ã°ãé¸ã¶ãã¨ãã§ãã¾ã.
+ä¾ãã°&amp;quot;System&amp;quot;ãé¸ã¹ã°ãªãã¬ã¼ã·ã§ã³ã·ã¹ãã ã®ããã©ã«ãã¨ã³ã³ã¼ãã£ã³ã°ãä½¿ç¨ãã¾ã.
+QGISãã­ã¸ã§ã¯ããç°æ©ç¨®éã§ç§»åãã¦ä½¿ãå¿
+è¦ãããå ´åã¯ãæç¤ºçãªã¨ã³ã³ã¼ãã£ã³ã°ãä½¿ç¨ããæ¹ãå®å
+¨ã§ã.
+&lt;/p&gt;
+&lt;h5&gt;ãã¡ã¤ã«å½¢å¼ã®æå®&lt;/h5&gt;
+&lt;p&gt;ãã¡ã¤ã«å½¢å¼ã«ã¯æ¬¡ã®å½¢å¼ãããã¾ã
+&lt;ul&gt;
+    &lt;li&gt;CSVãã¡ã¤ã«å½¢å¼.  ããã¯è¡¨è¨ç®ã½ããã§ä¸è¬çã«ä½¿ãããå½¢å¼ã§ã.ãã£ã¼ã«ãã¯ã³ã³ãæå­ã§å¢ããã&amp;quot;æå­(ããã«ã¯ã©ã¼ã)ã§å²ã¾ãã¾ã.
+    ããã«ã¯ã©ã¼ãã§å²ã¾ãããã£ã¼ã«ãã§ã¯ããã«ã¯ã©ã¼ãã¯&amp;quot;&amp;quot;ã¨ãã¦å
+¥åãããã¨ãã§ãã¾ã.&lt;/li&gt;
+    &lt;li&gt;é¸æãããåºåãæå­.  åã¬ã³ã¼ãã¯1ã¤ãããä»¥ä¸ã®ããªãã¿ãç¨ãã¦ãã£ã¼ã«ãã«åãããã¾ã.
+    ã¯ã©ã¼ãæå­ã¯ããªãã¿ãå«ããã£ã¼ã«ãã«ä½¿ç¨ããã¾ã.
+    ã¨ã¹ã±ã¼ãæå­ã¯æ¬¡ã®æå­ãéå¸¸ã®æå­ã¨ãã¦æ±ã(ããªãã¿ãã¯ã©ã¼ãæå­ãæ¹è¡æå­ããã­ã¹ããã£ã¼ã«ãã«å«ãã)ããã«ä½¿ç¨ã§ãã¾ã.
+    ããªãã¿ãã¯ã©ã¼ãæå­ãã¨ã¹ã±ã¼ãæå­ã®ä½¿ãæ¹ã¯&lt;a href=&quot;#csv&quot;&gt;ä¸&lt;/a&gt;ã«è©³ããè¿°ã¹ããã¦ãã¾ã.
+    &lt;li&gt;æ­£è¦è¡¨ç¾. åè¡ã¯&amp;quot;æ­£è¦è¡¨ç¾&amp;quot; ããªãã¿ãç¨ãã¦ãã£ã¼ã«ãã«åãããã¾ã.
+    æ­£è¦è¡¨ç¾ã®ä½¿ãæ¹ã¯&lt;a href=&quot;#regexp&quot;&gt;ä¸&lt;/a&gt;ã«è©³ããè¿°ã¹ããã¦ãã¾ã.
+&lt;/ul&gt;
+
+&lt;h5&gt;ã¬ã³ã¼ããªãã·ã§ã³ã¨ãã£ã¼ã«ããªãã·ã§ã³&lt;/h5&gt;
+&lt;p&gt;æ¬¡ã®ãªãã·ã§ã³ã¯ãã¼ã¿ãã¡ã¤ã«ããã®ã¬ã³ã¼ãã¨ãã£ã¼ã«ãã®é¸æã«å½±é¿ãã¾ã&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;ç¡è¦ãããããã¼è¡æ°: ãã­ã¹ããã¡ã¤ã«ã®å
+é ­é¨åã®ãããè¡ãç¡è¦ããããã«ä½¿ããã¾ã&lt;/li&gt;
+    &lt;li&gt;æåã®ã¬ã³ã¼ãã¯ãã£ã¼ã«ãåãä¿æãã¦ãã: ãã§ãã¯ããã¦ããå ´åããã¡ã¤ã«ã®(ç¡è¦ãããè¡ã®å¾ã®)æåã®ã¬ã³ã¼ãã¯ãã¼ã¿ã¬ã³ã¼ãã§ã¯ãªããã£ã¼ã«ãåã¨ãã¦è§£éããã¾ã.&lt;/li&gt;
+    &lt;li&gt;åå¾ã®ç©ºç½åé¤: ãã§ãã¯ããã¦ããå ´åãåãã£ã¼ã«ãããå
+é ­ã¨æ«å°¾ã®ç©ºç½ãåé¤ããã¾ã(ã¯ã©ã¼ãæå­ã§å²ã¾ãããã£ã¼ã«ããé¤ã).&lt;/li&gt;
+    &lt;li&gt;ç©ºãã£ã¼ã«ããåé¤: ãã§ãã¯ããã¦ããå ´åã(åå¾ã®ç©ºç½åé¤ã®å¾ã«)ç©ºã®ãã£ã¼ã«ãã¯ç ´æ£ããã¾ã.
+    ããã¯ãã£ã¼ã«ãã¸ã®ãã¼ã¿é
+ç½®ã«å½±é¿ãä¸ããé£ç¶ããããªãã¿ãåä¸ã®ããªãã¿ã¨ãã¦å¦çãããã¨ã«ç¸å½ãã¾ã.
+    ã¯ã©ã¼ãæå­ã§å²ã¾ãããã£ã¼ã«ãã¯æ±ºãã¦ç ´æ£ããã¾ãã.&lt;/li&gt;
+    &lt;li&gt;ã³ã³ããå°æ°ç¹åºåãã«æå®: ãã§ãã¯ããã¦ããå ´åããã¤ã³ã(ããªãªã)ã®ä»£ããã«ã³ã³ããå®æ°ã®å°æ°åºåãæå­ã«ä½¿ããã¾ã.
+    ä¾ãã°&lt;tt&gt;-51,354&lt;/tt&gt;ã¯-51.354ã¨ç­ãããªãã¾ã.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;ã¸ãªã¡ããªå®ç¾©&lt;/h5&gt;
+&lt;p&gt;ã¸ãªã¡ããªã¯æ¬¡ã®ããããã¨ãã¦å®ç¾©ã§ãã¾ã.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;ãã¤ã³ãåº§æ¨: åå°ç©ã¯X, Yåº§æ¨ã§å®ç¾©ããããã¤ã³ãã¨ãã¦è¡¨ç¾ããã¾ã.&lt;/li&gt;
+    &lt;li&gt;Well known text (WKT)ã¸ãªã¡ããª: åå°ç©ã¯Well known textã¨ãã¦è¡¨ç¾ããã¾ã. ä¾ãã°
+    &lt;tt&gt;POINT(1.525622 51.20836)&lt;/tt&gt;.  è©³ç´°ã¯&lt;a href=&quot;#wkt&quot;&gt;well known text&lt;/a&gt;å½¢å¼ãåç
+§ãã¦ä¸ãã.
+    &lt;li&gt;ã¸ãªã¡ããªãªã (å±æ§ã®ã¿ã®ãã¼ãã«): ã¬ã³ã¼ãã¯å°å³ã«ã¯è¡¨ç¤ºããã¾ãããå±æ§ãã¼ãã«ã§è¡¨ç¤ºã§ãã¾ã.
+    QGISã®ä»ã®ã¬ã¤ã¤ã¨çµåãããã¨ãã§ãã¾ã.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ãã¤ã³ãåº§æ¨ã®å ´åã¯æ¬¡ã®ãªãã·ã§ã³ãé©ç¨ããã¾ã:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Xãã£ã¼ã«ã: Xåº§æ¨ãå«ãã§ãããã£ã¼ã«ããæå®ãã¾ã&lt;/li&gt;
+    &lt;li&gt;Yãã£ã¼ã«ã: Yåº§æ¨ãå«ãã§ãããã£ã¼ã«ããæå®ãã¾ã&lt;/li&gt;
+    &lt;li&gt;åº¦åç§ãä½¿ç¨: ãã§ãã¯ããã¦ããå ´åãåº§æ¨ã¯åº¦/å/ç§ã¾ãã¯åº¦/åã§è¡¨ããã¦ãã¾ã.
+    QGISã¯åº¦/å/ç§ã®è§£éã«éå¸¸ã«å¯å®¹ã§ã. æ­£ããDMSåº§æ¨ã¯3ã¤ã®æ°å¤ãã£ã¼ã«ãã¨ãªãã·ã§ã³ã§åçã®æ¥é ­è¾ãæ¥å°¾è¾ãå«ã¿ã¾ã (N, Eã¾ãã¯+ã¯æ­£, S, Wã¾ãã¯-ã¯è² ).
+    ãã®ä»ã®æ°å­ã§ã¯ãªãæå­ã¯ä¸è¬çã«ç ´æ£ããã¾ã. ä¾ãã°&lt;tt&gt;N41d54&apos;01.54&amp;quot;&lt;/tt&gt;ã¯æå¹ãªåº§æ¨ã§ã.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well known textã¸ãªã¡ããªã®å ´åã¯æ¬¡ã®ãªãã·ã§ã³ãé©ç¨ããã¾ã:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;ã¸ãªã¡ããªãã£ã¼ã«ã: Well known textå®ç¾©ãå«ãã§ãããã£ã¼ã«ã.&lt;/li&gt;
+    &lt;li&gt;ã¸ãªã¡ããªã¿ã¤ã: &amp;quot;æ¤åºãã&amp;quot;, &amp;quot;ç¹&amp;quot;, &amp;quot;ã©ã¤ã³&amp;quot;, &amp;quot;ããªã´ã³&amp;quot;ããé¸æãã¾ã.
+QGISã¬ã¤ã¤ã¯ä¸ã¤ã®ã¸ãªã¡ããªå°ç©ã¿ã¤ã(ç¹, ã©ã¤ã³ã¾ãã¯ããªã´ã³)ãè¡¨ç¤ºãããã¨ãã§ãã¾ã.
+ãã®ãªãã·ã§ã³ã¯ãã­ã¹ããã¡ã¤ã«ãè¤æ°ã®ã¸ãªã¡ããªã¿ã¤ããå«ãã§ããå ´åã«ã©ã®ã¸ãªã¡ããªã¿ã¤ããè¡¨ç¤ºãããé¸æãã¾ã.
+ä»ã®ã¸ãªã¡ããªã¿ã¤ãã®ã¬ã³ã¼ãã¯ç ´æ£ããã¾ã.
+&amp;quot;Detect&amp;quot;ãé¸æãããå ´åããã¡ã¤ã«ã®æåã®ã¸ãªã¡ããªã®ã¿ã¤ããä½¿ç¨ããã¾ã.
+&amp;quot;Point&amp;quot;ã¯POINTã¨MULTIPOINTã®WKTã¿ã¤ããå«ã¿ã¾ã.
+&amp;quot;Line&amp;quot;ã¯LINESTRINGã¨MULTILINESTRINGã®WKTã¿ã¤ããå«ã¿ã¾ã.
+&amp;quot;Polygon&amp;quot;ã¯POLYGONã¨MULTIPOLYGONã®WKTã¿ã¤ããå«ã¿ã¾ã.
+&lt;/ul&gt;
+&lt;h5&gt;ã¬ã¤ã¤è¨­å®&lt;/h5&gt;
+&lt;p&gt;ã¬ã¤ã¤è¨­å®ã¯QGISã§ã¬ã¤ã¤ãæ±ãããæ¹æ³ãç®¡çãã¾ã. æ¬¡ã®ãªãã·ã§ã³ãå©ç¨å¯è½ã§ã:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ç©ºéã¤ã³ããã¯ã¹ãå©ç¨ãã. ç©ºéãªãã¸ã§ã¯ãã®è¡¨ç¤ºã¨é¸æã®ããã©ã¼ãã³ã¹ãè¯ãããããã«ç©ºéã¤ã³ããã¯ã¹ãä½æãã¾ã.
+ãã®ãªãã·ã§ã³ã¯ãµã¤ãºãæ°ã¡ã¬ãã¤ãããå¤§ããªãã¡ã¤ã«ã«å½¹ç«ã¤ã§ããã.&lt;/li&gt;
+&lt;li&gt;ãµãã»ããã¤ã³ããã¯ã¹ãå©ç¨ãã. ã¬ã³ã¼ãã®ãµãã»ãããä½¿ããã¦ããå ´åã¤ã³ããã¯ã¹ãä½æãã
+(ã¬ã¤ã¤ãã­ããã£ãã¤ã¢ã­ã°ãããµãã»ããæå­åãæç¤ºçã«è¨­å®ããå ´åããå
+¨ã¦ã®ã¸ãªã¡ããªãæå¹ã§ã¯ãªããã¡ã¤ã«ã®ä¸­ã§ã¸ãªã¡ããªãæå¹ãªå°ç©ã®æé»ã®ãµãã»ãã).
+ã¤ã³ããã¯ã¹ã¯ãµãã»ãããå®ç¾©ããã¦ããæã®ã¿ä½æããã¾ã.&lt;/li&gt;
+&lt;li&gt;ãã¡ã¤ã«ç£è¦. ãã®ãªãã·ã§ã³ããã§ãã¯ããã¦ããå ´åãQGISã¯ä»ã®ã¢ããªã±ã¼ã·ã§ã³ã«ãããã¡ã¤ã«ã®å¤æ´ãç£è¦ããå¤æ´ãããæã«ãã¡ã¤ã«ãèª­ã¿ç´ãã¾ã.
+å°å³ã¯ã¦ã¼ã¶ã«ãã£ã¦ãªãã¬ãã·ã¥ãããã¾ã§æ´æ°ããã¾ããããã¤ã³ããã¯ã¹ã¨é åã¯ãªã­ã¼ãããã¾ã.ãã®ãªãã·ã§ã³ã¯ã¤ã³ããã¯ã¹ãå©ç¨ããã¦ãã¦ä»ã®ã¢ããªã±ã¼ã·ã§ã³ããã¡ã¤ã«ãå¤æ´ãããã§ããã°ãã§ãã¯ãããã¹ãã§ã.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;a name=&quot;csv&quot;&gt;ããªãã¿ã¨ã¯ã©ã¼ãæå­ã¨ã¨ã¹ã±ã¼ãæå­ã¯ã©ãæ©è½ããã&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;ã¬ã³ã¼ãã¯3ã¤ã®æå­ã®ã»ãããç¨ãã¦ãã£ã¼ã«ãã«åãããã¾ã:
+ããªãã¿, ã¯ã©ã¼ãæå­, ããã¦ã¨ã¹ã±ã¼ãæå­ã§ã. ãã®ä»ã®æå­ã¯ãã¼ã¿ã¨ã¿ãªããåºåãæå­ã«ãã£ã¦ãã£ã¼ã«ãã«åãããã¾ã.
+ã¯ã©ã¼ãæå­ã¯ãã¢ã§ç¨ãã¦ãã®ããã ã®ãã­ã¹ãããã¼ã¿ã¨ãã¦æ±ãããããã«ãã¾ã. ã¨ã¹ã±ã¼ãæå­ã¯ããã«ç¶ãæå­ããã¼ã¿ã¨ãã¦æ±ãããããã«ãã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+ã¯ã©ã¼ãæå­ã¨ã¨ã¹ã±ã¼ãæå­ã¯ããªãã¿ã¨åãã§ã¯ããã¾ãã.
+ããããã§ããã°ãããã¯ç¡è¦ããã¾ã.
+ã¨ã¹ã±ã¼ãæå­ã¯ã¯ã©ã¼ãæå­ã¨åãã§ãããã§ãããç°ãªããµãã¾ãããã¾ã.&lt;/p&gt;
+&lt;p&gt;ããªãã¿ã¯åãã£ã¼ã«ãã®çµããã®ãã¼ã¯ã¨ãã¦ä½¿ããã¾ã. ãã1ã¤ããå¤ãã®ããªãã¿ãå®ç¾©ããã¦ããå ´åã¯ã©ãã1ã¤ã®æå­ããã£ã¼ã«ãã®çµããã®ãããã¨ãªãã¾ã.
+ã¯ã©ã¼ãæå­ã¨ã¨ã¹ã±ã¼ãæå­ã¯éå¸¸ã®æå­ã¨ãã¦æ±ãããããã«ããããã«ããªãã¿ãä¸æ¸ããããã¨ãã§ãã¾ã.&lt;/p&gt;
+&lt;p&gt;ã¯ã©ã¼ãæå­ã¯ã¯ã©ã¼ãæå­ã§å²ã¾ãããã£ã¼ã«ãã®æåã¨æå¾ã®ãã¼ã¯ã«ç¨ãããã¾ã.
+ã¯ã©ã¼ãæå­ã§å²ã¾ãããã£ã¼ã«ãã«ã¯ããªãã¿ãå«ããã¨ãã§ãããã­ã¹ããã¡ã¤ã«ã®è¤æ°è¡ã«ããããã¨ãã§ãã¾ã.
+ãã£ã¼ã«ããã¯ã©ã¼ãæå­ã§å²ã¾ãã¦ããå ´åãåãã¯ã©ã¼ãæå­ã§å§ã¾ããçµãããªããã°ããã¾ãã.
+ã¯ã©ã¼ãæå­ã¯ã¨ã¹ã±ã¼ããããªããã°ãã£ã¼ã«ãã®ä¸­ã«ã¯ç¾ãã¾ãã.&lt;/p&gt;
+&lt;p&gt;ã¯ã©ã¼ãæå­ã§ã¯ãªãã¨ã¹ã±ã¼ãæå­ã¯ããã«ç¶ãæå­ããã¼ã¿ã¨ãã¦æ±ãããããã«ãã¾ã.
+(ããã¯æ¹è¡æå­ãããªãã¿ãã¯ã©ã¼ãæå­ã¨ãã¦æ±ãããªãããã«ããããã§ã)
+&lt;/p&gt;
+&lt;p&gt;ã¯ã©ã¼ãæå­ã§ãããã¨ã¹ã±ã¼ãæå­ã«ã¯ããéãããå¹æãããã¾ã.
+ãããã¯ã¯ã©ã¼ãæå­ã®ä¸­ã«ã ãé©ç¨ããããããèªèº«ã®ã¿ã¨ã¹ã±ã¼ããã¾ã.
+ä¾ãã°ããã&lt;tt&gt;&apos;&lt;/tt&gt;ãã¯ã©ã¼ãæå­ã§ããã¨ã¹ã±ã¼ãæå­ã§ãããã¨ãã¯ã
+æå­å&lt;tt&gt;&apos;Smith&apos;&apos;s&amp;nbsp;Creek&apos;&lt;/tt&gt;ã¯Smith&apos;s&amp;nbsp;Creekã®å¤ãè¡¨ãã¾ã.
+&lt;/p&gt;
+
+
+&lt;h4&gt;&lt;a name=&quot;regexp&quot;&gt;æ­£è¦è¡¨ç¾ããªãã¿ã¯ã©ãæ©è½ããã&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;æ­£è¦è¡¨ç¾ã¯æå­ãã¿ã¼ã³ãè¡¨ãããã«ä½¿ç¨ãããããè¨èªã§ã.
+æ­£è¦è¡¨ç¾ã®æ§æã«ã¯å¤ãã®ããªã¨ã¼ã·ã§ã³ãããã¾ã.
+QGISã¯&lt;a href=&quot;http://qt.digia.com&quot;&gt;Qt&lt;/a&gt;ãã¬ã¼ã ã¯ã¼ã¯ã®&lt;a href=&quot;http://qt-project.org/doc/qt-4.8/qregexp.html&quot;&gt;QRegExp&lt;/a&gt;ã¯ã©ã¹ã«ãã£ã¦æä¾ãããæ§æãä½¿ç¨ãã¾ã.&lt;/p&gt;
+&lt;p&gt;æ­£è¦è¡¨ç¾ããªããã£ãããã¡ã¤ã«ã§ã¯åè¡ã¯ã¬ã³ã¼ãã¨ãã¦æ±ããã¾ã.
+è¡ã®ä¸­ã§ããããã®æ­£è¦è¡¨ç¾ã®ãããã¯ãã£ã¼ã«ãã®çµããã¨ãã¦æ±ããã¾ã.
+ããæ­£è¦è¡¨ç¾ãã­ã£ããã£ã°ã«ã¼ã(ä¾ &lt;tt&gt;(cat|dog)&lt;/tt&gt;)ãå«ãå ´åã¯ãããã¯ãã£ã¼ã«ãã¨ãã¦æãåºããã¾ã.
+ãããæã¾ãªãæã¯ã­ã£ããã£ããªãã°ã«ã¼ã(ä¾ &lt;tt&gt;(?:cat|dog)&lt;/tt&gt;)ãä½¿ãã¾ã.
+&lt;/p&gt;
+&lt;p&gt;æ­£è¦è¡¨ç¾ãè¡ã®å§ãã«ã¢ã³ã«ã¼ããã¦ããå ´åã¯ç°ãªãæ±ããæ¹ãããã¾ã(ãã¿ã¼ã³ã&lt;tt&gt;^&lt;/tt&gt;ã§å§ã¾ãå ´åã§ã).
+ãã®å ´åæ­£è¦è¡¨ç¾ã¯åè¡ã«å¯¾ãã¦ããããã¾ã.
+è¡ãããããªãæã¯ä¸æ­£ãªã¬ã³ã¼ãã¨ãã¦ç ´æ£ããã¾ã.
+æ­£è¦è¡¨ç¾ã®ããããã®ã­ã£ããã£ã°ã«ã¼ãã¯ãã£ã¼ã«ãã¨ãã¦æ±ããã¾ã.
+ã­ã£ããã£ã°ã«ã¼ãããªãå ´åã¯ãã®æ­£è¦è¡¨ç¾ã¯æå¹ã§ã¯ããã¾ãã.
+ä¾ã¨ãã¦ã¯(ããç´æçã§ãªãã)åºå®å¹
+ã®ãã£ã¼ã«ããæã¤ãã¼ã¿ãèª­ã¿è¾¼ãã®ã«ä½¿ããã¨ãã§ãã¾ã.
+ä¾ãã°æ­£è¦è¡¨ç¾
+&lt;pre&gt;
+^(.{5})(.{10})(.{20})(.{20})
+&lt;/pre&gt;
+&lt;p&gt;ã¯åè¡ããå¹
+ãæå­æ°5, 10, 20, 20ã®4ã¤ã®ãã£ã¼ã«ããæãåºããã¾ã.
+é·ã55æå­ã«æºããªãè¡ã¯ç ´æ£ããã¾ã.
+&lt;/p&gt;
+
+
+&lt;h4&gt;&lt;a name=&quot;wkt&quot;&gt;WKTãã­ã¹ãã¯ã©ãè§£éãããã&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;
+ããªããã£ãããã­ã¹ãã¬ã¤ã¤ã¯æ¬¡ã®&lt;a href=&quot;http://en.wikipedia.org/wiki/Well-known_text&quot;&gt;well known text&lt;/a&gt;ã¿ã¤ããèªè­ãã¾ã.
+&lt;tt&gt;POINT&lt;/tt&gt;, &lt;tt&gt;MULTIPOINT&lt;/tt&gt;, &lt;tt&gt;LINESTRING&lt;/tt&gt;, &lt;tt&gt;MULTILINESTRING&lt;/tt&gt;, &lt;tt&gt;POLYGON&lt;/tt&gt;, ããã«&lt;tt&gt;MULTIPOLYGON&lt;/tt&gt;ã§ã.
+Zåº§æ¨ãæã¤ã¸ãªã¡ããª(ä¾ &lt;tt&gt;POINT&amp;nbsp;Z&lt;/tt&gt;)ãè¨æ¸¬å¤ãæã¤ã¸ãªã¡ããª(&lt;tt&gt;POINT&amp;nbsp;M&lt;/tt&gt;)ï¼ãã®ä¸¡æ¹ãæã¤ã¸ãªã¡ããª(&lt;tt&gt;POINT&amp;nbsp;ZM&lt;/tt&gt;)ãåãå
+¥ãã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+ã¸ãªã¡ããªãç©ºéåç
+§ã·ã¹ãã IDã®å¾ã«ããPostGIS EWKT(ä¾ &lt;tt&gt;SRID=4326;POINT(175.3&amp;nbsp;41.2)&lt;/tt&gt;)ã
+ã¸ãªã¡ããªãæ´æ°ã®ç©ºéåç
+§IDã®å¾ã«ããInformixã§ä½¿ãããWKT(ä¾ &lt;tt&gt;1 POINT(175.3&amp;nbsp;41.2)&lt;/tt&gt;)ãæ±ããã¨ãã§ãã¾ã
+ã©ã¡ãã®å ´åãSRIDã¯ç¡è¦ããã¾ã.
+&lt;/p&gt;
+
+
+
+&lt;h4&gt;&lt;a name=&quot;attributes&quot;&gt;ããªããã£ãããã­ã¹ããã¡ã¤ã«ã®å±æ§&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;ããªããã£ãããã­ã¹ããã¡ã¤ã«ã®åã¬ã³ã¼ãã¯ã¬ã³ã¼ãã®å±æ§ãè¡¨ããã£ã¼ã«ãã«åãããã¾ã.
+éå¸¸å±æ§åã¯ãã¡ã¤ã«ã®æåã®ãã¼ã¿ã¬ã³ã¼ãããåå¾ããã¾ã.
+ãããå±æ§åãå«ã¾ãã¦ããªãå ´åã¯&lt;tt&gt;field_1&lt;/tt&gt;, &lt;tt&gt;field_2&lt;/tt&gt;ã¨ããããã«åä»ãããã¾ã.
+ã¬ã³ã¼ãããããã¬ã³ã¼ãã§å®ç¾©ããããã£ã¼ã«ãããå¤ãã®ãã£ã¼ã«ããæããå ´åã«ã¯ããããã¯&lt;tt&gt;field_#&lt;/tt&gt;ã¨åä»ãããã¾ã. ããã§#ã¯ãã£ã¼ã«ãçªå·ã§ã
+(ã¬ã³ã¼ãã®çµããã®ç©ºã®ãã£ã¼ã«ãã¯ç¡è¦ããããã¨ã«æ³¨æãã¦ä¸ãã).
+ãã­ã¹ããã¡ã¤ã«ã®ãã£ã¼ã«ãåãçªå·ã§ããå ´åã&lt;tt&gt;field_#&lt;/tt&gt;ã¨ãã£ãååã§ããå ´åãéè¤ããååã§ããå ´åã«ã¯QGISã¯ååãä¸æ¸ããã¾ã.
+&lt;/p&gt;
+&lt;p&gt;
+ãã¼ã¿ãã¡ã¤ã«å
+ã®æç¤ºçãªå±æ§ã«å ãã¦QGISã¯åã¬ã³ã¼ãã«ã¦ãã¼ã¯ãªå°ç©IDãå²ãå½ã¦ã¾ã.
+ããã¯ã½ã¼ã¹ãã¡ã¤ã«ã«ãããã¬ã³ã¼ããå§ã¾ãè¡ã®è¡çªå·ã§ã.
+&lt;/p&gt;
+&lt;p&gt;
+åå±æ§ã¯æå­å(ãã­ã¹ã), æ´æ°ã¾ãã¯å®æ°ã®ãã¡ã®1ã¤ã®ãã¼ã¿åãæã¡ã¾ã.
+ãã¼ã¿åã¯ãã£ã¼ã«ãã®å
+å®¹ããæ¨æ¸¬ããã¾ã.
+ãã¹ã¦ã®ç©ºã§ã¯ãªãå¤ãæå¹ãªæ´æ°ã®å ´åã¯æ´æ°åã¨ãªãããããå®æ°ã§ããã°å®æ°åã¨ãªãã¾ã.
+ããã§ãªããã°æå­åã«ãªãã¾ã.
+ããã¯ãã£ã¼ã«ãã®å
+å®¹ã«åºã¥ããã¨ã«æ³¨æãã¦ä¸ãã.ãã£ã¼ã«ããã¯ã©ã¼ãæå­ã§å²ãã ã¨ãã¦ãè§£éã®æ¹æ³ã¯å¤æ´ããã¾ãã.
+&lt;/p&gt;
+
+
+&lt;h4&gt;&lt;a name=&quot;example&quot;&gt;X, Yãã¤ã³ãåº§æ¨ãæã¤ãã­ã¹ããã¡ã¤ã«ã®ä¾&lt;/a&gt;&lt;/h4&gt; 
+&lt;pre&gt;
+X;Y;ELEV
+-300120;7689960;13
+-654360;7562040;52
+1640;7512840;3
+&lt;/pre&gt;
+&lt;p&gt;ãã®ãã¡ã¤ã«ã¯:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;b&gt;;&lt;/b&gt;ãããªãã¿ã«ç¨ãã¦ãã¾ã. ã©ããªæå­ã§ããã£ã¼ã«ããåºåãã®ã«ç¨ãããã¨ãã§ãã¾ã.&lt;/li&gt;
+&lt;li&gt;æåã®è¡ã¯ãããè¡ã§ã. ãã£ã¼ã«ãåã¨ãã¦X, Y, ELEVãå«ã¿ã¾ã.&lt;/li&gt;
+&lt;li&gt;xåº§æ¨ã¯Xãã£ã¼ã«ãã«å«ã¾ãã¾ã.&lt;/li&gt;
+&lt;li&gt;yåº§æ¨ã¯Yãã£ã¼ã«ãã«å«ã¾ãã¾ã.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;a name=&quot;wkt_example&quot;&gt;WKTã¸ãªã¡ããªãæã¤ãã­ã¹ããã¡ã¤ã«ã®ä¾&lt;/a&gt;&lt;/h4&gt;
+&lt;pre&gt;
+id|wkt
+1|POINT(172.0702250 -43.6031036)
+2|POINT(172.0702250 -43.6031036)
+3|POINT(172.1543206 -43.5731302)
+4|POINT(171.9282585 -43.5493308)
+5|POINT(171.8827359 -43.5875983)
+&lt;/pre&gt;
+&lt;p&gt;ãã®ãã¡ã¤ã«ã¯:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ãããè¡ã«å®ç¾©ããã2ã¤ã®ãã£ã¼ã«ãid, wktãæã¡ã¾ã.
+  &lt;li&gt;&lt;b&gt;|&lt;/b&gt;ãããªãã¿ã¨ãã¦ç¨ãã¦ãã¾ã.&lt;/li&gt;
+  &lt;li&gt;åãã¤ã³ããWKTè¡¨è¨ãç¨ãã¦æå®ãã¦ãã¾ã.
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;a name=&quot;python&quot;&gt;Pythonã§ããªããã£ãããã­ã¹ãã¬ã¤ã¤ãä½¿ãã«ã¯&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;ä»ã®ãã¯ã¿ã¬ã¤ã¤ã¨åæ§ã®æ¹æ³ã§ããªããã£ãããã­ã¹ããã¼ã¿ã½ã¼ã¹ãPythonããä½æãããã¨ãã§ãã¾ã.
+ãµã³ãã«:
+&lt;/p&gt;
+&lt;pre&gt;
+from PyQt4.QtCore import QUrl, QString
+from qgis.core import QgsVectorLayer, QgsMapLayerRegistry
+
+# Define the data source
+filename=&quot;test.csv&quot;
+uri=QUrl.fromLocalFile(filename)
+uri.addQueryItem(&quot;type&quot;,&quot;csv&quot;)
+uri.addQueryItem(&quot;delimiter&quot;,&quot;|&quot;)
+uri.addQueryItem(&quot;wktField&quot;,&quot;wkt&quot;)
+# ... other delimited text parameters
+layer=QgsVectorLayer(QString(uri.toEncoded()),&quot;Test CSV layer&quot;,&quot;delimitedtext&quot;)
+# Add the layer to the map
+if layer.isValid():
+    QgsMapLayerRegistry.instance().addMapLayer( layer )
+&lt;/pre&gt;
+&lt;p&gt;ããã¯ä¸ã®äºçªç®ã®ãµã³ãã«ãã¡ã¤ã«ãã­ã¼ãããã®ã«ä½¿ããã¨ãã§ãã¾ã.&lt;/p&gt;
+&lt;p&gt;ããªããã£ãããã­ã¹ãã¬ã¤ã¤ã®æ§æã¯ã¯ã¨ãªè¦ç´ ãURIã«è¿½å ãããã¨ã§å®ç¾©ã§ãã¾ã.
+æ¬¡ã®ãªãã·ã§ã³ãè¿½å ãããã¨ãã§ãã¾ã
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;tt&gt;encoding=..&lt;/tt&gt; ãã¡ã¤ã«ã¨ã³ã³ã¼ãã£ã³ã°ãå®ç¾©ãã¾ã.  ããã©ã«ãã¯&amp;quot;UTF-8&amp;quot;&lt;/li&gt;
+    &lt;li&gt;&lt;tt&gt;type=(csv|regexp|whitespace)&lt;/tt&gt; ããªãã¿ã®ã¿ã¤ããå®ç¾©ãã¾ã. æå¹ãªå¤ã¯csv, regexp, whitespace (regexpã®ç¹å¥ãªå ´å).
+       ããã©ã«ãã¯csv.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;delimiter=...&lt;/tt&gt; csvå½¢å¼ãã¡ã¤ã«ãregexp(æ­£è¦è¡¨ç¾)å½¢å¼ãã¡ã¤ã«ã§ç¨ããããããªãã¿ãå®ç¾©ãã¾ã.
+       CSVãã¡ã¤ã«ã§ã¯ããã©ã«ãã¯,(ã³ã³ã). regexpãã¡ã¤ã«ã«ã¯ããã©ã«ãã¯ããã¾ãã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;quote=..&lt;/tt&gt; (csvãã¡ã¤ã«) ãã£ã¼ã«ããå²ãã¯ã©ã¼ãæå­ãå®ç¾©ãã¾ã. ããã©ã«ãã¯&amp;quot;&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;escape=..&lt;/tt&gt; (csvãã¡ã¤ã«) ããã«ç¶ãæå­ãç¹æ®ãªæå³ãã¨ã¹ã±ã¼ãããã®ã«ç¨ããæå­ãå®ç¾©ãã¾ã. ããã©ã«ãã¯&amp;quot;&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;skipLines=#&lt;/tt&gt; ãã¡ã¤ã«ã®å
+é ­ããç ´æ£ããè¡æ°ãå®ç¾©ãã¾ã. ããã©ã«ãã¯0.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;useHeader=(yes|no)&lt;/tt&gt; æåã®ãã¼ã¿ã¬ã³ã¼ãããã£ã¼ã«ãåãå«ãã§ãããã©ããå®ç¾©ãã¾ã.ããã©ã«ãã¯yes.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;trimFields=(yes|no)&lt;/tt&gt; ã¯ã©ã¼ãæå­ã§å²ã¾ãã¦ããªããã£ã¼ã«ãããå
+é ­ã¨æ«å°¾ã®ç©ºç½ãåé¤ãããã©ããå®ç¾©ãã¾ã. ããã©ã«ãã¯no.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;maxFields=#&lt;/tt&gt; ãã¡ã¤ã«ããèª­ã¿è¾¼ã¾ãããã£ã¼ã«ãã®æå¤§æ°ãå®ç¾©ãã¾ã.
+       ã¯ã¿åºãããã£ã¼ã«ãã¯ç ´æ£ããã¾ã. ããã©ã«ãã¯0ã§å
+¨ã¦ã®ãã£ã¼ã«ããèª­ã¿è¾¼ã¾ãã¾ã
+       (ãã®ãªãã·ã§ã³ã¯ããªããã£ãããã­ã¹ããã¤ã¢ã­ã°ããã¯ã¹ã«ã¯ããã¾ãã).&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;skipEmptyFields=(yes|no)&lt;/tt&gt; ã¯ã©ã¼ãæå­ã§å²ã¾ãã¦ããªã(trimFieldsãé©ç¨ãããå¾ã§)ç©ºã®ãã£ã¼ã«ããç ´æ£ããããã©ããå®ç¾©ãã¾ã. ããã©ã«ãã¯no.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;decimalPoint=.&lt;/tt&gt; æ°å¤ãã£ã¼ã«ãã§å°æ°ç¹ã¨ãã¦ä½¿ãããä»£ããã®æå­ãæå®ãã¾ã. ããã©ã«ãã¯ãã¤ã³ã(ããªãªã)ã§ã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;wktField=fieldname&lt;/tt&gt; well known textã¸ãªã¡ããªå®ç¾©ãå«ããã£ã¼ã«ãã®ååãã¤ã³ããã¯ã¹(1ããå§ã¾ã)ãæå®ãã¾ã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;xField=fieldname&lt;/tt&gt; Xåº§æ¨ãå«ããã£ã¼ã«ãã®ååãã¤ã³ããã¯ã¹(1ããå§ã¾ã)ãæå®ãã¾ã(wktFieldãå®ç¾©ããã¦ããªãå ´åã«ã®ã¿é©ç¨ããã¾ã).&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;yField=fieldname&lt;/tt&gt; Yåº§æ¨ãå«ããã£ã¼ã«ãã®ååãã¤ã³ããã¯ã¹(1ããå§ã¾ã)ãæå®ãã¾ã(wktFieldãå®ç¾©ããã¦ããªãå ´åã«ã®ã¿é©ç¨ããã¾ã).&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;geomType=(auto|point|line|polygon|none)&lt;/tt&gt; wktãã£ã¼ã«ãã®ã¸ãªã¡ããªã®ã¿ã¤ããæå®ãã¾ã. noneãæå®ããã¨å±æ§ã®ã¿ã®ãã¼ãã«ã¨ãã¦èª­ã¿è¾¼ã¾ãã¾ã. ããã©ã«ãã¯auto.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;subset=expression&lt;/tt&gt; ä½¿ç¨ãããã¬ã³ã¼ãã®ãµãã»ãããç¹å®ããã®ã«ç¨ããå¼ãæå®ãã¾ã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;crs=...&lt;/tt&gt; ãã¯ã¿ã¬ã¤ã¤ã§ä½¿ç¨ããåº§æ¨ã·ã¹ãã ãQgsCoordinateReferenceSystem.createFromStringã«åãå
+¥ããããå½¢å¼(ä¾ãã° &amp;quot;EPSG:4167&amp;quot;)ã§æå®ãã.
+       ãããæå®ãããªãå ´åã¯ã¬ã¤ã¤ãèª­ã¿è¾¼ã¾ããæã«ã¦ã¼ã¶ããæ
+å ±ã®å
+¥åãæ±ãããã¤ã¢ã­ã°ãéãã¾ã(QGISã®CRSè¨­å®ã«ãã).&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;subsetIndex=(yes|no)&lt;/tt&gt; åæãã¡ã¤ã«ã¹ã­ã£ã³ã®éã«ãã­ãã¤ãããµãã»ãããå®ç¾©ããã¤ã³ããã¯ã¹ãæ§ç¯ãããã©ããæå®ãã.
+       ã¤ã³ããã¯ã¹ã¯æç¤ºçã«å®ç¾©ããããµãã»ããã¨ã¸ãªã¡ããªå®ç¾©ãæå¹ãªå°ç©ã®æé»ã®ãµãã»ããã®ä¸¡æ¹ã«é©ç¨ããã¾ã.
+       ããã©ã«ãã§ã¯ãµãã»ããã¤ã³ããã¯ã¹ãé©ç¨å¯è½ãªå ´åã«ã¯ãããæ§ç¯ããã¾ã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;spatialIndex=(yes|no)&lt;/tt&gt; åæãã¡ã¤ã«ã¹ã­ã£ã³ã®éã«ãã­ãã¤ããç©ºéã¤ã³ããã¯ã¹ãæ§ç¯ãããã©ããæå®ãã.
+       ããã©ã«ãã§ã¯ç©ºéã¤ã³ããã¯ã¹ã¯æ§ç¯ããã¾ãã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;watchFile=(yes|no)&lt;/tt&gt; ä»ã®ã¢ããªã±ã¼ã·ã§ã³ã«ãããã¡ã¤ã«ã®å¤æ´ãç£è¦ããããã«ãã­ãã¤ãããã¡ã¤ã«ã·ã¹ãã ã¦ã©ããã£ã¼ãä½¿ç¨ãããã©ããæå®ãã.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;quiet=(yes|no)&lt;/tt&gt; ã¬ã¤ã¤èª­ã¿è¾¼ã¿ä¸­ã®ã¨ã©ã¼ããã¤ã¢ã­ã°ããã¯ã¹ã§è¡¨ç¤ºãããã©ããæå®ãã¾ã(ã©ã¡ãã«ããQGISã­ã°ã«ã¯æ¸ããã¾ã). ããã©ã«ãã¯noã§ã.ãã®ãªãã·ã§ã³ã¯GUIããã¯å©ç¨ã§ãã¾ãã.&lt;/li&gt;
+&lt;/ul&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1763"/>
+        <source>&lt;h3&gt;ããªã³ãã³ã³ãã¼ã¶&lt;/h3&gt;
+
+&lt;p&gt;
+ããªã³ãã³ã³ãã¼ã¶ãå©ç¨ããã¨ãã¼ã¸ã®ä¸ã«ã¢ã¤ãã ãã¢ã¬ã³ã¸ãã¦å°å·ãããã¨ãã§ãã¾ã.ã¢ã¤ãã ã«ã¯ãããã­ã£ã³ãã¹ãã¹ã±ã¼ã«ãã¼, å¡ä¾, ä»»æã®ç»åç­ãå©ç¨å¯è½ã§ã.
+&lt;/p&gt;
+
+&lt;p&gt;
+ãã¼ã¸ä¸ã«ã©ã®ç¨®é¡ã®ã¢ã¤ãã ãé
+ç½®ãããé¸æããã«ã¯ã³ã³ãã¼ã¶ã¦ã£ã³ãã¦ã®ä¸é¨ã«ããã¢ã¤ã³ã³ãã¯ãªãã¯ãã¦ä¸ãã. ã¢ã¤ãã ãã¯ãªãã¯ãã¦ãã¼ã¸ä¸ã«æç»ããã¨é
+ç½®ã§ãã¾ã. ãããã­ã£ã³ãã¹ãã¹ã±ã¼ã«ãã¼ã®å¤§ããã¯ãã¼ã¸ä¸ã§ã¯ãªãã¯ããå¾ã«ãã©ãã°ããã¨è¨­å®ã§ãã¾ã.ä»ã®ã¢ã¤ãã ã¯åºå®ã®å¤§ããã§ãã, ã¢ã¤ãã ããã¤ã©ã¤ãããã¦å·¦å´ã®ããã«ã«è¡¨ç¤ºããããã£ã¼ã«ãã®å¤ãèª¿æ´ããã¨ãããã®ã¢ã¤ãã ã®å¤§ãããå¤æ´ã§ãã¾ã.
+
+&lt;/p&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1789"/>
+        <source>&lt;h3&gt;æ°ãããã¯ã¿ã¬ã¤ã¤ãä½ã&lt;/h3&gt;
+æ°ãããã¯ã¿ã¬ã¤ã¤ãä½æãã¦ç·¨éããããã«ã¯&lt;label&gt;ã¬ã¤ã¤&lt;/label&gt;ã¡ãã¥ã¼ã®&lt;label&gt;æ°è¦ãã¯ã¿ã¬ã¤ã¤&lt;/label&gt;ãé¸æãã¦ä¸ãã. &lt;br/&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯ã·ã§ã¼ããã¡ã¤ã«ã®ã¬ã¤ã¤ãä½æã§ãã¾ã.
+&lt;h4&gt;ã¿ã¤ã&lt;/h4&gt;
+ã¬ã¤ã¤ã®ã¿ã¤ãã&lt;label&gt;ãã¤ã³ã&lt;/label&gt;, &lt;label&gt;ã©ã¤ã³&lt;/label&gt;ã¾ãã¯&lt;label&gt;ããªã´ã³&lt;/label&gt;ããé¸æãã¦ä¸ãã.&lt;br/&gt;
+&lt;label&gt;CRSã®æå®&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ããã¨ã¬ã¤ã¤ã®åº§æ¨åç
+§ã·ã¹ãã ãå¤ãããã¨ãã§ãã¾ã.
+&lt;h4&gt;æ°ããå±æ§&lt;/h4&gt;
+å±æ§ã®ååã¨åãæå®ããå¾ã«&lt;label&gt;å±æ§ãªã¹ãã«è¿½å ãã&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ããã¨å±æ§ãè¿½å ã§ãã¾ã. å®æ°å¤ãæ´æ°å¤ããã­ã¹ããã¼ã¿ã®ã¿ãå±æ§ã¨ãã¦ãµãã¼ãããã¦ãã¾ã.&lt;br/&gt;
+æ°ããå±æ§ã«ã©ã ã®å¹
+ã¨ç²¾åº¦ãå®ç¾©ã§ãã¾ã.
+&lt;h4&gt;å±æ§ãªã¹ã&lt;/h4&gt;
+ãã®ã»ã¯ã·ã§ã³ã§ã¯å±æ§ã®ãªã¹ããè¡¨ç¤ºããã¾ã. ãªã¹ãé 
+ç®ã®ï¼ã¤ãåé¤ããããã«ã¯åé¤ãããè¡ãã¯ãªãã¯ããå¾ã«&lt;label&gt;é¸æå±æ§ãåé¤ãã&lt;/label&gt;ãã¯ãªãã¯ãã¦ä¸ãã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1839"/>
+        <source>&lt;h3&gt;PostgreSQL(PostGIS)ã®æ°ããæ¥ç¶ãä½æãã¾ã&lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯PostgreSQL(PostGIS)ãã¼ã¿ãã¼ã¹ã¸ã®æ¥ç¶ã®è¨­å®ãå®ç¾©ã§ãã¾ã.
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;label&gt;åç§°&lt;/label&gt; æ¥ç¶è¨­å®ãè­å¥ããåå.
+
+&lt;li&gt; &lt;label&gt;ãµã¼ãã¹&lt;/label&gt; &lt;a href=&quot;http://www.postgresql.org/docs/current/static/libpq-pgservice.html&quot;&gt;æ¥ç¶ãµã¼ãã¹ãã¡ã¤ã«&lt;/a&gt;ã«ãªã¹ãã«ãããµã¼ãã¹ã®åå.
+
+&lt;li&gt; &lt;label&gt;ãã¹ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ãããã¹ããã¦ããã³ã³ãã¥ã¼ã¿ã®ååãIPã¢ãã¬ã¹ (ã­ã¼ã«ã«æ¥ç¶ã§ã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;ãã¼ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ããç¨ããIPãã¼ã (ã­ã¼ã«ã«æ¥ç¶ãããã©ã«ããã¼ã5432ã®å ´åã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;ãã¼ã¿ãã¼ã¹&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®åå (ããã©ã«ããã¼ã¿ãã¼ã¹ã®å ´åã¯ç©ºæ¬ã®ã¾ã¾ã«).
+
+&lt;li&gt; &lt;label&gt;SSLã¢ã¼ã&lt;/label&gt; æ¥ç¶ã®&lt;a href=&quot;http://www.postgresql.org/docs/9.0/static/libpq-ssl.html#LIBPQ-SSL-SSLMODE-STATEMENTS&quot;&gt;SSLã¢ã¼ã&lt;/a&gt;.
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶å&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®ã¦ã¼ã¶å.
+&lt;li&gt; &lt;label&gt;ãã¹ã¯ã¼ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®ãã¹ã¯ã¼ã.
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶åã®ä¿å­&lt;/label&gt; æ¥ç¶è¨­å®ã®ãã¼ã¿ãã¼ã¹ã¦ã¼ã¶åãä¿å­ããå ´åã¯ãã§ãã¯ãã¾ã.
+&lt;li&gt; &lt;label&gt;ãã¹ã¯ã¼ãä¿å­&lt;/label&gt; æ¥ç¶è¨­å®ã®ãã¼ã¿ãã¼ã¹ãã¹ã¯ã¼ããä¿å­ããå ´åã¯ãã§ãã¯ãã¾ã. &lt;font color=&quot;red&quot;&gt;ãã¹ã¯ã¼ãã¯&lt;strong&gt;ã¯ãªã¢ãã­ã¹ã&lt;/strong&gt;ã§ã·ã¹ãã ã®è¨­å®æ
+å ±ã¨ãã­ã¸ã§ã¯ããã¡ã¤ã«ã«ä¿å­ããã¾ã!&lt;/font&gt;
+
+&lt;!--
+&lt;li&gt; &lt;label&gt;Only look in the geometry_columns table&lt;/label&gt; Indicates that only &quot;listed&quot; geometry columns should be used - opposed to scanning all tables for geometry columns.
+--&gt;
+
+&lt;li&gt; &lt;label&gt;ã¬ã¤ã¤ã¬ã¸ã¹ããªã®ã¿åç
+§ãã&lt;/label&gt; ã¬ã¤ã¤ã¬ã¸ã¹ããª(geometry_columns, geography_columns, topology.layer)ã«è¦ã¤ãã£ããã¼ãã«ã®ã¿è¡¨ç¤ºãã¾ã.
+&lt;li&gt; &lt;label&gt;å¶éã®ãªãã«ã©ã ã®ã¿ã¤ã(GEOMETRY)ãè§£æ±ºããªã&lt;/label&gt;
+&lt;li&gt; &lt;label&gt;&apos;public&apos;ã¹ã­ã¼ãã®ã¿åç
+§ãã&lt;/label&gt; &apos;public&apos;ã¹ã­ã¼ãã®ãã¼ãã«ã®ã¿åç
+§ãã¾ã. ãã§ãã¯ããªãå ´åã¯ãã¹ã¦ã®ã¢ã¯ã»ã¹å¯è½ãªãã¼ãã«ãåç
+§ãã¾ã.
+&lt;li&gt; &lt;label&gt;ã¸ãªã¡ããªãæããªããã¼ãã«ããªã¹ããã&lt;/label&gt; ã¸ãªã¡ããªãæããªããã¼ãã«ãããã©ã«ãã§ãªã¹ãã«è¡¨ç¤ºããããã«ãã¾ã.
+&lt;li&gt; &lt;label&gt;æ¦ç®ããããã¼ãã«ã¡ã¿ãã¼ã¿ãå©ç¨ãã&lt;/label&gt; ã¬ã¤ã¤ãåæåããæã«ãã¼ã¿ãã¼ã¹ãã¼ãã«ã«ä¿å­ãããã¸ãªã¡ããªã®ç¹æ§ãç¢ºèªããããã«ã¯æ§ã
+ãªã¯ã¨ãªãå¿
+è¦ã¨ãã¾ã. ãã®ãªãã·ã§ã³ããã§ãã¯ããã¦ããå ´å, ããããã¯ã¨ãªã¯ãã¼ãã«å
+¨ä½ã§ã¯ãªãè¡ã®ãµã³ãã«ã ãæ¤æ»ããã¼ãã«ã®çµ±è¨ãå©ç¨ãã¾ã. ããã«ãã£ã¦å¤§ããªãã¼ã¿ã»ããã®æä½ãé¡èã«é«éåããã¾ãã, ã¬ã¤ã¤ã¯ééã£ãç¹æ§ãè¿ãããããã¾ãã (ä¾ãã°, ãã£ã«ã¿ãããã¬ã¤ã¤ã®&lt;font color=&quot;red&quot;&gt;å°ç©æ°&lt;/font&gt;ã¯æ­£ç¢ºã«æ±ºããããªãã§ããã).
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1871"/>
+        <source>&lt;h3&gt;PostGISãã¼ãã«ã®è¿½å &lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯PostGISã¬ã¤ã¤(ã¸ãªã¡ããªã«ã©ã ãå«ãã ãã¼ãã«)ãQGISã®ãããã­ã£ã³ãã¹ã«è¿½å ãããã¨ãã§ãã¾ã.
+&lt;p&gt;
+&lt;a href=&quot;#connect&quot;&gt;æ¥ç¶&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#add&quot;&gt;ã¬ã¤ã¤ã®è¿½å &lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#filter&quot;&gt;ã¬ã¤ã¤ã®ãã£ã«ã¿ãªã³ã°&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;æ¤ç´¢ãªãã·ã§ã³&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;connect&quot;&gt;
+&lt;h4&gt;æ¥ç¶&lt;/h4&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;ãã­ãããã¦ã³ããã¯ã¹ããä½¿ç¨ããæ¥ç¶å
+ãé¸æãã¦&lt;label&gt;æ¥ç¶&lt;/label&gt;ãã¯ãªãã¯ãã¦ä¸ãã.
+&lt;li&gt;æ¥ç¶å
+ãç¡ãå ´åã¯æ¥ç¶å
+ãä½ãããã«&lt;label&gt;æ°è¦&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã.
+&lt;li&gt;æ¥ç¶å
+ã®å
+å®¹ãç·¨éããå ´åã¯&lt;label&gt;ç·¨é&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã.
+&lt;/ul&gt;
+&lt;a name=&quot;add&quot;&gt;
+&lt;h4&gt;ã¬ã¤ã¤ã®è¿½å &lt;/h4&gt;
+&lt;/a&gt;
+ã¬ã¤ã¤ãè¿½å ããã«ã¯:
+&lt;ol&gt;
+&lt;li&gt;ãã­ãããã¦ã³ããã¯ã¹ããæ¥ç¶å
+ãé¸æãã¾ã.
+&lt;li&gt;&lt;label&gt;æ¥ç¶&lt;/label&gt;ãã¯ãªãã¯ãã¾ã.
+&lt;li&gt;ãªã¹ãããè¿½å ãããã¬ã¤ã¤ãæ¢ãã¦ãé¸æããããã«ã¯ãªãã¯ãã¾ã.
+&lt;li&gt;ãã®ä»ã®ã¬ã¤ã¤ãé¸æãããå ´åã¯Ctrlã­ã¼ãæ¼ããã¾ã¾ã¯ãªãã¯ããã¨è¤æ°ã¬ã¤ã¤ã®é¸æãã§ãã¾ã.
+&lt;li&gt;&lt;label&gt;è¿½å &lt;/label&gt;ãã¯ãªãã¯ããã¨å°å³ã«ã¬ã¤ã¤ãè¿½å ããã¾ã.
+&lt;/ol&gt;
+&lt;a name=&quot;filter&quot;&gt;
+&lt;h4&gt;ã¬ã¤ã¤ã®ãã£ã«ã¿ãªã³ã°&lt;/h4&gt;
+&lt;/a&gt;
+å°å³ã«è¿½å ããåã«ã¬ã¤ã¤ã®å
+å®¹ããã£ã«ã¿ãããå ´åã¯ãã®ååãããã«ã¯ãªãã¯ããã, é¸æãã¦ãã&lt;label&gt;ãã£ã«ã¿è¨­å®&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¾ã.ããããã¨ã¯ã¨ãªãã«ããéãã¾ã.ãã®ãã¤ã¢ã­ã°ã§ã¬ã³ã¼ãããã£ã«ã¿ãªã³ã°ããSQLæãä½æãããã¨ãã§ãã¾ã.
+
+&lt;a name=&quot;search&quot;&gt;
+&lt;h4&gt;æ¤ç´¢ãªãã·ã§ã³&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;æ¤ç´¢ãªãã·ã§ã³&lt;/label&gt;ã«ã¯ç°ãªãã«ã©ã ã¿ã¤ãã®æ¤ç´¢ã2ã¤ã®æ¤ç´¢ã¢ã¼ã(&lt;label&gt;ã¯ã¤ã«ãã«ã¼ã&lt;/label&gt; ã¾ãã¯&lt;label&gt;æ­£è¦è¡¨ç¾&lt;/label&gt;)ãå©ç¨ãããªãã·ã§ã³ãããã¾ã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1991"/>
+        <source>&lt;h3&gt;ãã­ã¸ã§ã¯ããã­ããã£&lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯&lt;label&gt;ãã­ã¸ã§ã¯ã&lt;/label&gt;ã«é¢ããæ§ã
+ãªãã­ããã£ãè¨­å®ã§ãã¾ã. ãã­ã¸ã§ã¯ãã¨ã¯ã¬ã¤ã¤ã®ã»ããã¨ãããã®è¨­å®ãããã«ãã­ã¸ã§ã¯ããå¿
+è¦ã¨ããæ
+å ±ãä¿å­ãã¦ãã£ã¹ã¯ããå¼ã³åºãã¾ã.&lt;p&gt;
+
+
+&lt;a href=&quot;#general&quot;&gt;ä¸è¬æ
+å ±ã¿ã&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#crs&quot;&gt;åº§æ¨åç
+§ç³»(CRS) ã¿ã&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#layers&quot;&gt;æ
+å ±æ¤ç´¢ã¬ã¤ã¤ã¿ã&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;ä¸è¬æ
+å ±ã¿ã&lt;/h4&gt;
+&lt;/a&gt;
+&lt;table border=1&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;ãã­ã¸ã§ã¯ãã¿ã¤ãã«&lt;/label&gt;&lt;/td&gt;&lt;td&gt;ãã®ãã­ã¸ã§ã¯ãã®ã¿ã¤ãã«ãè¨è¿°ãã¦ä¸ãã.ãã®ã¿ã¤ãã«ã¯QGISã¦ã£ã³ãã¦ã®ãã¼ã®ã¿ã¤ãã«ã¨ãã¦è¡¨ç¤ºããã¾ã&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;é¸æè²&lt;/label&gt;&lt;/td&gt;&lt;td&gt;é¸æããã¦ããå°ç©ãå°å³ä¸ã§ãã®è²ã§è¡¨ç¤ºããã¾ã.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;èæ¯è²&lt;/label&gt;&lt;/td&gt;&lt;td&gt;å°å³ã­ã£ã³ãã¹ã®è².&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;ä¿å­ãã¹&lt;/label&gt;&lt;/td&gt;&lt;td&gt;ãã¡ã¤ã«ã®ä¿å­ãçµ¶å¯¾ãã¹ã§è¨é²ãããç¸å¯¾ãã¹ã§è¨é²ãããã®æå®.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;ã¬ã¤ã¤åä½&lt;/label&gt;&lt;/td&gt;&lt;td&gt;ãã­ã¸ã§ã¯ãå
+ã®ã¬ã¤ã¤ã§å©ç¨ããåä½ãé¸æãã¦ä¸ãã.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;ç²¾åº¦&lt;/label&gt;&lt;/td&gt;&lt;td&gt;ã¹ãã¼ã¿ã¹ãã¼ã«è¡¨ç¤ºããåº§æ¨ã®ç²¾åº¦ãæåã§è¨­å®ãã¾ã. ãã¦ã¹ããããã­ã£ã³ãã¹ã®ä¸ãåãåº¦ã«ã¹ãã¼ã¿ã¹ãã¼ã«è¡¨ç¤ºããã¦ããåº§æ¨ãæå®ãããç²¾åº¦ã§æ´æ°ããã¾ã. ããã©ã«ãã§èªåçã«è¨­å®ãããç²¾åº¦ã¯å°å³ã®åä½ã«åºã¥ãã¦ãã¾ã.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;ãã¸ã¿ã¤ãº&lt;/label&gt;&lt;/td&gt;&lt;td&gt; &lt;label&gt;ããã­ã¸ã«ã«ç·¨éãæå¹ã«ãã&lt;/label&gt;ãªãã·ã§ã³ã¯å¢çç·ãå
+±æããããªã´ã³ã¢ã¶ã¤ã¯ã®ç·¨éãã¡ã¤ã³ããã³ã¹ãå¯è½ã«ãã¾ã. å
+±éå¢çç·ãæ§æããé ç¹ã®ç·¨éçµæã¯ä¸¡æ¹ã®å¢çç·ãæ´æ°ãã¾ã.&lt;p&gt;
+&lt;label&gt;æ°ããªã´ã³ã®äº¤å·®ãç¦æ­¢ãã&lt;/label&gt;ãé¸æããã¨å
+±éå¢çç·ã®é ç¹ããã¸ã¿ã¤ãºãããã¨ãåé¿ãã¾ã. ãã¤ã¢ã­ã°ã¦ã£ã³ãã¦ã§ã¯æ°ããããªã´ã³ãèª¿æ´ãããã¬ã¤ã¤ããã§ãã¯ãã¦æå®ãã¾ã. æ°ããããªã´ã³ãæããæã«æ¢å­ã®ããªã´ã³ã¨ãªã¼ãã¼ã©ããããå ´åã¯èªåçã«åé¤ããã¾ã. &lt;p&gt;
+&lt;label&gt;ã¹ããããªãã·ã§ã³&lt;/label&gt; ã§ã¯ã¹ãããè¨±å®¹å¤ããã¯ã»ã«ã¾ãã¯å°å³åä½ã§æå®ãã¾ã.ã¾ãã¹ãããã¢ã¼ãã¨ãã¦: &lt;label&gt;é ç¹&lt;/label&gt;, &lt;label&gt;ç·å&lt;/label&gt;, &lt;label&gt;é ç¹ã¨ç·å&lt;/label&gt; ãåã¬ã¤ã¤å¥ã«æå®ãããã¨ãã§ãã¾ã.&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+æ³¨: &lt;label&gt;ãã¸ã¿ã¤ãº&lt;/label&gt;ã¯æ°ãããã¼ã¸ã§ã³ã®QGISã§ã¯ã¹ããããªãã·ã§ã³ãã¤ã¢ã­ã°ã«ç§»åãã¾ãã.
+&lt;a name=&quot;crs&quot;&gt;
+&lt;h4&gt;åº§æ¨åç
+§ç³»(CRS) ã¿ã&lt;/h4&gt;
+&lt;/a&gt;
+åº§æ¨åç
+§ç³» (CRS) ã¿ãã§ã¯ã«ã¬ã³ããã­ã¸ã§ã¯ãã®æå½±æ³ãè¨­å®ã§ãã¾ã.ã¾ããªã³ã¶ãã©ã¤å¤æãæå¹ã«ãããã¨ãã§ãã¾ã.ããã®è¨­å®ã¨&apos;ãªã³ã¶ãã©ã¤&apos; CRS å¤æã«æå¹ã«ã¤ãã¦ã¯ãã­ã¸ã§ã¯ãã«ä¿å­ããå¿
+è¦ã¯ããã¾ãã.
+&lt;p&gt;
+&apos;ãªã³ã¶ãã©ã¤&apos; CRS å¤æãå©ç¨ããå ´åã¯&lt;label&gt;&apos;ãªã³ã¶ãã©ã¤&apos; CRSå¤æãæå¹ã«ãã&lt;/label&gt;ãã§ãã¯ããã¯ã¹ãã¯ãªãã¯ãã¦ä¸ãã. ãããããã­ã¸ã§ã¯ãï¼ãããã­ã£ã³ãã¹ï¼ã®æå½±æ³ãå°çåº§æ¨ç³»ã¾ãã¯æå½±åº§æ¨ç³»ã®ãªã¹ãã®ä¸­ããé¸æãã¦ä¸ãã.
+&lt;p&gt;
+åº§æ¨åç
+§ç³»ã¯åå,EPSGã³ã¼ãã¾ãã¯QGIS IDãå
+¥åããã¨æ¤ç´¢ã§ãã¾ã.
+&lt;p&gt;
+æè¿å©ç¨ããåº§æ¨åç
+§ç³»ã®ãªã¹ããä¸é¨ã«è¡¨ç¤ºãããã®ã§ç´ æ©ãä½¿ããã¨ãã§ãã¾ã.
+
+&lt;a name=&quot;layers&quot;&gt;
+&lt;h4&gt;æ
+å ±æ¤ç´¢ã¬ã¤ã¤ã¿ã&lt;/h4&gt;
+&lt;/a&gt;
+ãã®ã¿ãã§æ
+å ±æ¤ç´¢(å°ç©æ
+å ±è¡¨ç¤º)ãã¼ã«ãåä½ããã¬ã¤ã¤ãé¸æã§ãã¾ã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2031"/>
+        <source>&lt;h3&gt;ãªãã·ã§ã³&lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯QGISã®åºæ¬çãªãã·ã§ã³ãè¨­å®ã§ãã¾ã.ãã®ãã¤ã¢ã­ã°ã«ã¯8åã®ã¿ããããã¾ã:
+&lt;p&gt;
+
+&lt;a href=&quot;#general&quot;&gt;ä¸è¬æ
+å ±&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#ren&quot;&gt;ã¬ã³ããªã³ã° &amp; SVG&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#map&quot;&gt;ããããã¼ã«ãº&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#over&quot;&gt;ãªã¼ãã¼ã¬ã¤&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#digit&quot;&gt;ãã¸ã¿ã¤ã¸ã³ã°&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#crs&quot;&gt;CRS&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#loc&quot;&gt;ã­ã±ã¼ã«&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#net&quot;&gt;ãããã¯ã¼ã¯ã¨ãã­ã­ã·&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;ä¸è¬æ
+å ±&lt;/h4&gt;
+&lt;/a&gt;
+ãã®ã¿ãã§ã¯ãã­ã¸ã§ã¯ãã«é¢ãã¦éã/ä¿å­,å°å³ã®ããã©ã«ãã®è¦ããããå¥½ã¿ã®ã¢ã¤ã³ã³ãã¼ãç­ã®å¤ãã®ä¸è¬æ
+å ±ãè¨­å®ã§ãã¾ã.
+&lt;a name=&quot;ren&quot;&gt;
+&lt;h4&gt;ã¬ã³ããªã³ã° &amp; SVG&lt;/h4&gt;
+&lt;/a&gt;
+ãã®ã¿ãã§ã¯å°å³ã¬ã¤ã¤ã®ã¬ã³ããªã³ã°ãªãã·ã§ã³ãè¨­å®ã§ãã¾ã.&lt;br&gt;
+ããã©ã«ãã§QGISã¯ãããã­ã£ã³ãã¹ããªãã¬ãã·ã¥ãããã¨å
+¨ã¦ã®å¯è¦ã¬ã¤ã¤ãæç»ããªããã¾ã.æ¬¡ã®ã¤ãã³ãã«ã¯ãããã­ã£ã³ãã¹ã®ãªãã¬ãã·ã¥ã«ããããªã¬ã¼ã¤ãã³ããå«ã¾ãã¾ã:
+&lt;ul&gt;
+&lt;li&gt;ã¬ã¤ã¤ã®è¿½å 
+&lt;li&gt;ãã³ã¨ãºã¼ã 
+&lt;li&gt;QGISã¦ã£ã³ãã¦ã®å¤§ããå¤æ´
+&lt;li&gt;ã¬ã¤ã¤ã®è¡¨ç¤ºå±æ§å¤æ´
+&lt;/ul&gt;
+QGISã§ã¯å¤ãã®æ¹æ³ã§ã¬ã³ããªã³ã°ãã­ã»ã¹ãã³ã³ãã­ã¼ã«ã§ãã¾ã:&lt;p&gt;
+æ°ããã¬ã¤ã¤ãã­ã¼ãããæã«æç»ããªããªãã·ã§ã³ãè¨­å®å¯è½ã§ã.&lt;br&gt;
+ããã¯ã¬ã¤ã¤ãæ°è¦ã«å°å³ã«è¿½å ãããæã®å¡ä¾ã®ããã©ã«ãå¯è¦ãã§ãã¯ããã¯ã¹ããã§ãã¯ããã¦ããªããã¨ãæå³ãã¾ã.ãã®ãªãã·ã§ã³ãè¨­å®ããããã«ã¯ &lt;label&gt;å°å³ã«æ°ããã¬ã¤ã¤ãè¿½å ããéã«ãã®ã¬ã¤ã¤ãè¡¨ç¤ºããããã¨ãããã©ã«ãã«ãã¾ã&lt;/label&gt;ãã§ãã¯ããã¯ã¹ã®ãã§ãã¯ãã¯ããã¦ä¸ãã.&lt;p&gt;
+ããªãã¯æç»éä¸­ã«å°å³ã«å°ç©ãæç»ãããããã«ãªãã·ã§ã³ãè¨­å®ã§ãã¾ã. &lt;br&gt;
+ããã©ã«ãã§QGISã§ã¯å
+¨ã¦ã®ã¬ã¤ã¤ãã¼ã¿ãã¬ã³ããªã³ã°ãããã¾ã§å°ç©ã®è¡¨ç¤ºãè¡ãã¾ãã. å°ç©ããã¼ã¿ã¹ãã¢ããèª­ã¿è¾¼ã¾ããéä¸­ã§è¡¨ç¤ºãæ´æ°ãããå ´åã¯&lt;label&gt;è¡¨ç¤ºæ´æ°åã«æç»ããå°ç©ã®æ°&lt;/label&gt;ã«é©åãªå¤ãè¨­å®ãã¦ä¸ãã. ããã®å¤ã0ã®å ´åï¼ãã®å¤ããããã©ã«ãã§ãï¼æç»éä¸­ã®æ´æ°ã¯è¡ããã¾ãã.è¨­å®ããå¤ãå°ããå¤ã®å ´åããã©ã¼ãã³ã¹ã®ä½ä¸ãæãã¾ãããªããªãã°å°ç©ã®èª­ã¿è¾¼ã¿ä¸­ã«å°å³ã­ã£ã³ãã¹ãé »ç¹ã«æ´æ°ãããããã§ã. 500ä»¥ä¸ã®å¤ãæ¨å¥¨ãã¾ã.
+&lt;a name=&quot;map&quot;&gt;
+&lt;h4&gt;ããããã¼ã«ãº&lt;/h4&gt;
+&lt;/a&gt;
+&lt;h5&gt;å°ç©æ
+å ±è¡¨ç¤º&lt;/h5&gt;
+&lt;label&gt;ã¢ã¼ã&lt;/label&gt;ã§ã¯ &lt;label&gt;å°ç©æ
+å ±è¡¨ç¤º&lt;/label&gt; ãã¼ã«ã§ã©ã®ã¬ã¤ã¤ã®æ
+å ±ãè¡¨ç¤ºãããè¨­å®ãã¾ã.  &lt;label&gt;ã«ã¬ã³ãã¬ã¤ã¤&lt;/label&gt;ã &lt;label&gt;ããããã¦ã³&lt;/label&gt;ã«åãæ¿ããã¨&lt;label&gt;å°ç©æ
+å ±è¡¨ç¤º&lt;/label&gt;ãã¼ã«ãä½¿ã£ãæã«å
+¨ã¦ã®æ
+å ±è¡¨ç¤ºå¯è½ãªã¬ã¤ã¤ã®æ
+å ±ãè¡¨ç¤ºããã¾ã.
+&lt;h5&gt;è¨æ¸¬ãã¼ã«&lt;/h5&gt;
+ããã§ã¯è·é¢è¨æ¸¬ã®ããã®æ¥åä½ãè¨æ¸¬åä½ã¨ã©ãã¼ãã³ãã®è²ãè¨­å®ã§ãã¾ã.
+&lt;h5&gt;ç§»åã¨ãºã¼ã &lt;/h5&gt;
+ãã¦ã¹ãã£ã¼ã«ã®åä½ã¨ãºã¼ã åçãè¨­å®ã§ãã¾ã.
+&lt;a name=&quot;over&quot;&gt;
+&lt;h4&gt;ãªã¼ãã¼ã¬ã¤&lt;/h4&gt;
+&lt;/a&gt;
+ã©ãã«ã®é
+ç½®ã¢ã«ã´ãªãºã ãå®ç¾©ã§ãã¾ã.  &lt;label&gt;ä¸­å¤®ç¹ (fastest)&lt;/label&gt;, &lt;label&gt;ãã§ã¤ã³ (fast)&lt;/label&gt;, &lt;label&gt;ããããã¥ã¼ã¸ãã¯ã¿ããã§ã¤ã³ (slow)&lt;/label&gt;, &lt;label&gt;ããããã¥ã¼ã¸ãã¯ã¿ã (slow)&lt;/label&gt; and &lt;label&gt;ããããã¥ã¼ã¸ãã¯ãã§ã¤ã³ (very slow)&lt;/label&gt;ã®ä¸­ããé¸æãã¦ä¸ãã.
+
+&lt;a name=&quot;digit&quot;&gt;
+&lt;h4&gt;ãã¸ã¿ã¤ã¸ã³ã°&lt;/h4&gt;
+&lt;/a&gt;
+&lt;h5&gt;ã©ãã¼ãã³ã&lt;/h5&gt;
+&lt;label&gt;ãã¸ã¿ã¤ã¸ã³ã°&lt;/label&gt;ã¿ãã§ã¯å
+¥åã©ã¤ã³ã®å¤ªãã¨è²ãè¨­å®ã§ãã¾ã.
+&lt;h5&gt;ã¹ãããã³ã°&lt;/h5&gt;
+ããã§ã¯ãã­ã¸ã§ã¯ãå
+¨ä½ã§ã®ã¹ãããã³ã°è¨±å®¹å¤ãå®ç¾©ã§ãã¾ã. &lt;p&gt;
+&lt;label&gt;é ç¹&lt;/label&gt;, &lt;label&gt;ã»ã°ã¡ã³ã&lt;/label&gt;ã¾ãã¯ &lt;label&gt;é ç¹ã¨ã»ã°ã¡ã³ã&lt;/label&gt;ã®ä¸­ããããã©ã«ããé¸ã¹ã¾ã. ã¾ãé ç¹ç·¨éã§å©ç¨ããã¹ãããã³ã°ã®æ¢å®å¤ãæ¤ç´¢åå¾ãå®ç¾©ã§ãã¾ã. è¨±å®¹å¤ã¯å°å³ä¸ã®åä½ããã¯ã»ã«æ°ã§å®ç¾©ã§ãã¾ã.ãã¯ã»ã«ãé¸æããã¨ãºã¼ã æä½ã«ãã£ã¦è¨±å®¹å¤ãå¤ãããªãã¨ããå©ç¹ãããã¾ã . &lt;p&gt;
+ã¬ã¤ã¤å¥ã®ã¹ãããã³ã°è¨±å®¹å¤ã¯ &lt;label&gt;è¨­å®&lt;/label&gt; &lt;!--(ã¾ãã¯ &lt;label&gt;ãã¡ã¤ã«&lt;/label&gt;)--&gt; &lt;label&gt;ãã­ã¸ã§ã¯ããã­ããã£...&lt;/label&gt;ãé¸æããã¨å®ç¾©ã§ãã¾ã.  &lt;label&gt;ä¸è¬æ
+å ±&lt;/label&gt; ã¿ãã®, ã»ã¯ã·ã§ã³ &lt;label&gt;ãã¸ã¿ã¤ã¸ã³ã°&lt;/label&gt;ã§&lt;label&gt;ã¹ããããªãã·ã§ã³...&lt;/label&gt;ãã¯ãªãã¯ããã¨ã¬ã¤ã¤åä½ã®ã¹ãããã³ã°ã¢ã¼ãã®æå¹åã¨è¨±å®¹å¤ã®èª¿æ´ãè¡ããã¨ãã§ãã¾ã.
+&lt;h5&gt;é ç¹ãã¼ã¯&lt;/h5&gt;
+ãã¼ã«ã¼ã¹ã¿ã¤ã«ã &lt;label&gt;åéæã®å&lt;/label&gt;, &lt;label&gt;åå­&lt;/label&gt; or &lt;label&gt;ç¡ã&lt;/label&gt;ããé¸æã§ãã¾ããã¾ããµã¤ãºãæå®ã§ãã¾ã; ã¾ãé¸æããã¦ããå°ç©ã®ã¿ã®ãã¼ã«ã¼ãè¨­å®ãããã¨ãã§ãã¾ã.
+&lt;h5&gt;å±æ§å¤ã®å
+¥å&lt;/h5&gt;
+ããã©ã«ãã§æ°è¦ã®å°ç©ããã¸ã¿ã¤ã¸ã³ã°ããå¾QGISã¯ãã®å°ç©ã®å±æ§å¤ã®å
+¥åãæ±ãã¦ãã¾ã. &lt;label&gt;å°ç©ãä½æãããå¾ã®å±æ§ãããã¢ããã¦ã£ã³ãã¦è¡¨ç¤ºãããã&lt;/label&gt; ãã¯ãªãã¯ããã¨å±æ§å
+¥åã¯å¾ã®å¦çã«ãããã¨ãã§ãã¾ã.
+&lt;a name=&quot;crs&quot;&gt;
+&lt;h4&gt;CRS&lt;/h4&gt;
+&lt;/a&gt;
+QGISã¯ãã¯ãæåã«ã­ã¼ããããã¬ã¤ã¤ã®ç©ºéåç
+§ç³»ãå°å³ã®CRSã«è¨­å®ã¯ãã¾ãã. CRSãæããªãã¬ã¤ã¤ãä½¿ã£ã¦QGISã»ãã·ã§ã³ãéå§ããå ´åã¯ãããã®ã¬ã¤ã¤ã®CRSããã§ãã¯ãã¦å®ç¾©ããå¿
+è¦ãããã¾ã. ãã®ã¿ãã§ã¯ãã®ä½æ¥­ãå
+¨ä½ã«å¯¾ãã¦è¡ãã¾ã.&lt;p&gt;
+ã°ã­ã¼ãã«ãªããã©ã«ãCRSã¯ &lt;i&gt;proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs&lt;/i&gt; ã¨ããå¤ã§QGISã§ã¯å®ç¾©ããã¦ãã¾ããããã¡ããå¤æ´ãããã¨ãã§ãã¾ã,ã¾ãæ°è¦ã®å®ç¾©ã¯ããã«ç¶ãQGISã»ãã·ã§ã³ã®ããã«ä¿å­ããã¾ã.
+&lt;a name=&quot;lov&quot;&gt;
+&lt;h4&gt;ã­ã±ã¼ã«&lt;/h4&gt;
+&lt;/a&gt;
+ã¢ã¯ãã£ãã·ã¹ãã ã­ã±ã¼ã«æ
+å ±ãç¥ããã¾ã.
+å¤æ´ããããã«ã¯ &lt;label&gt;ã·ã¹ãã ã­ã±ã¼ã«ãä¸æ¸ããã&lt;/label&gt;ããã§ãã¯ãã¦QGISãåèµ·åãã¦ä¸ãã.
+&lt;a name=&quot;net&quot;&gt;
+&lt;h4&gt;ãããã¯ã¼ã¯ã¨ãã­ã­ã·&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;ã¦ã§ããã¢ã¯ã»ã¹ã«ãã­ã­ã·ãå©ç¨ãã&lt;/label&gt;ãã¯ãªãã¯ããã¨ãã¹ãããã¼ããã¦ã¼ã¶ã¼ããã¹ã¯ã¼ããæå®ã§ãã¾ã .
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2106"/>
+        <source>&lt;h3&gt;Python ãã©ã°ã¤ã³ã¤ã³ã¹ãã¼ã©&lt;/h3&gt;
+ãªã¢ã¼ããªãã¸ããªãããã©ã°ã¤ã³ããã¦ã³ã­ã¼ããã¦ã¤ã³ã¹ãã¼ã«ãã¾ã.
+&lt;br/&gt;&lt;br/&gt;
+&lt;a href=&quot;#pltab&quot;&gt;ãã©ã°ã¤ã³ã¿ã&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#retab&quot;&gt;ãªãã¸ããªã¿ã&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#optab&quot;&gt;ãªãã·ã§ã³ã¿ã&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;pltab&quot;&gt;
+&lt;h4&gt;ãã©ã°ã¤ã³ã¿ã&lt;/h4&gt;
+&lt;/a&gt;
+
+&lt;p align=&apos;justify&apos;&gt;
+&lt;label&gt;ãã©ã°ã¤ã³&lt;/label&gt;ã¿ãã«ã¯ã­ã¼ã«ã«ã«ã¤ã³ã¹ãã¼ã«ããã¦ãããã¹ã¦ã®Pythonãã©ã°ã¤ã³ã¨ãªã¢ã¼ããªãã¸ããªã«ãããã©ã°ã¤ã³ã®ãªã¹ããããã¾ã.ããããã®ãã©ã°ã¤ã³ã¯æ¬¡ã®ãããªç¶æ
+ãæã¡ã¾ã:
+&lt;dl&gt;
+&lt;dt&gt;æªã¤ã³ã¹ãã¼ã«&lt;/dt&gt;&lt;dd&gt;ããã¯ãã©ã°ã¤ã³ããªãã¸ããªã«å­å¨ãããã¤ã³ã¹ãã¼ã«ããã¦ããªããã¨ãç¤ºãã¾ã. ãããã¤ã³ã¹ãã¼ã«ããããã«ã¯ãªã¹ãã§ãã©ã°ã¤ã³ãã¯ãªãã¯ãã¦é¸æããå¾ã«&lt;label&gt;ãã©ã°ã¤ã³ãã¤ã³ã¹ãã¼ã«&lt;/label&gt; ãã¿ã³ãã¯ãªãã¯ãã¦ãã ãã.&lt;/dd&gt;
+&lt;dt&gt;ææ°&lt;/dt&gt;&lt;dd&gt;ããã¯ãªãã¸ããªå
+ã®ãã©ã°ã¤ã³ãæ°ããå©ç¨å¯è½ã«ãªã£ããã¨ãç¤ºãã¾ã.&lt;/dd&gt;
+&lt;dt&gt;ã¤ã³ã¹ãã¼ã«æ¸ã¿&lt;/dt&gt;&lt;dd&gt;ãã®è¡¨ç¤ºã¯ãã©ã°ã¤ã³ããã§ã«ã¤ã³ã¹ãã¼ã«ããã¦ãããã¨ãç¤ºãã¾ã. ãããªãã¸ããªããã¤ã³ã¹ãã¼ã«å¯è½ãªå ´åã¯&lt;label&gt;ãã©ã°ã¤ã³ãåã¤ã³ã¹ãã¼ã«&lt;/label&gt;ãã¿ã³ãæå¹ã«ãªãã¾ã. ããã¤ã³ã¹ãã¼ã«å¯è½ãªãã¼ã¸ã§ã³ãã¤ã³ã¹ãã¼ã«ããã¦ãããã¼ã¸ã§ã³ããå¤ãå ´åã¯ &lt;label&gt;ãã©ã°ã¤ã³ããã¦ã³ã°ã¬ã¼ã&lt;/label&gt;ãã¿ã³ãä»£ããã«è¡¨ç¤ºããã¾ã.&lt;/dd&gt;
+&lt;dt&gt;æ´æ°å¯è½&lt;/dt&gt;&lt;dd&gt;ãã®è¡¨ç¤ºã¯è©²å½ãã©ã°ã¤ã³ãã¤ã³ã¹ãã¼ã«ããã¦ããããªãã¸ããªã«ã¯æ´æ°ããããã¼ã¸ã§ã³ããããã¨ãç¤ºãã¦ãã¾ã. ãã®å ´å &lt;label&gt;ãã©ã°ã¤ã³ãã¢ããã°ã¬ã¼ã&lt;/label&gt; ãã¿ã³ãæå¹ã«ãªãã¾ã.&lt;/dd&gt;
+&lt;dt&gt;ç¡å¹&lt;/dt&gt;&lt;dd&gt;ãã®è¡¨ç¤ºã¯ãã©ã°ã¤ã³ãã¤ã³ã¹ãã¼ã«ããã¦ãããç¡å¹ãå£ãã¦ãããã¨ãç¤ºãã¾ã.ãã®çç±ã¯ãã©ã°ã¤ã³ã®è¨è¿°æ¬ã«èª¬æããã¦ãã¾ã.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/p&gt;
+
+ãã©ã°ã¤ã³ãã¤ã³ã¹ãã¼ã«ããããã«ã¯ãªã¹ãã§é¸æããå¾ã«&lt;label&gt;ãã©ã°ã¤ã³ãã¤ã³ã¹ãã¼ã«&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã. æå®ããããã©ã°ã¤ã³ã¯ç¬èªã®ãã£ã¬ã¯ããªã«ã¤ã³ã¹ãã¼ã«ããã¾ã:
+&lt;table border=1&gt;
+&lt;tr&gt;&lt;th&gt;OS&lt;/th&gt;&lt;th&gt;ã·ã¹ãã ãã©ã°ã¤ã³&lt;/th&gt;&lt;th&gt;ã¦ã¼ã¶ã¼ã«ãã£ã¦ã¤ã³ã¹ãã¼ã«ããããã©ã°ã¤ã³&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Linux ã¾ãã¯ãã®ä»UNIX&lt;/td&gt;&lt;td&gt;./share/qgis/python/plugins&lt;/td&gt;&lt;td rowspan=2&gt;$HOME/.qgis2/python/plugins&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Mac OS X&lt;/td&gt;&lt;td&gt;./Contents/MacOS/share/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Windows&lt;/td&gt;&lt;td&gt;(QGISãã¤ã³ã¹ãã¼ã«ããã¦ãããã£ã¬ã¯ããª)&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;td&gt;%USERPROFILE%&amp;#92;.qgis2&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+
+&lt;p align=&apos;justify&apos;&gt;
+ã¤ã³ã¹ãã¼ã«ãæåããã¨ãã©ã°ã¤ã³ã¯ã¤ã³ã¹ãã¼ã«ããã¾ããã¨ããã¡ãã»ã¼ã¸ãè¡¨ç¤ºããã¾ã. 
+&lt;/p&gt;
+
+&lt;p align=&apos;justify&apos;&gt;
+ã¤ã³ã¹ãã¼ã«ãå¤±æããå ´åå¤±æããçç±ãè­¦åãã¤ã¢ã­ã°ã«è¡¨ç¤ºããã¾ã. å¤ãã®å ´åã¯ãããã¯ã¼ã¯æ¥ç¶ã®ã¨ã©ã¼ã®åé¡ãpythonã¢ã¸ã¥ã¼ã«ã®ä¸è¶³ãã¨ã©ã¼ã®åå ã§ã. åè
+ã®å ´åã¯ãã°ããå¾
+ã£ã¦ååº¦ãã©ã¤ãã¦ä¸ãã,å¾è
+ã®å ´åã¯ãã®ãã©ã°ã¤ã³ãå©ç¨ããããã«ä¸è¶³ãã¦ããã¢ã¸ã¥ã¼ã«ãããªãã®ãªãã¬ã¼ãã£ã³ã°ã·ã¹ãã ã«äºåã«ã¤ã³ã¹ãã¼ã«ããå¿
+è¦ãããã¾ã.Linuxã®å ´åã»ã¨ãã©ã®å¿
+è¦ãªã¢ã¸ã¥ã¼ã«ã¯ããã±ã¼ã¸ããã¼ã¸ã£ãä½¿ã£ã¦å©ç¨ã§ãã¾ã.Windowsã§ã®ã¤ã³ã¹ãã¼ã«æ¹æ³ã¯ã¢ã¸ã¥ã¼ã«ã®ãã¼ã ãã¼ã¸ãåç
+§ãã¦ä¸ãã.ã¤ã³ã¿ã¼ãããã¢ã¯ã»ã¹ã«proxyãå©ç¨ãã¦ããå ´å&lt;label&gt;ç·¨é&lt;/label&gt;&lt;label&gt;ãªãã·ã§ã³&lt;/label&gt; (Gnome, OSXã®å ´å) ã¾ãã¯ &lt;label&gt;è¨­å®&lt;/label&gt; &lt;label&gt;ãªãã·ã§ã³&lt;/label&gt; (KDE, Windowsã®å ´å) ã«ãã &lt;label&gt;ãããã¯ã¼ã¯&lt;/label&gt;ã¿ãã§è¨­å®ãè¡ããªããã°ãªãã¾ãã.
+&lt;/p&gt;
+
+&lt;p align=&apos;justify&apos;&gt;
+&lt;label&gt;ãã©ã°ã¤ã³ã®ã¢ã³ã¤ã³ã¹ãã¼ã«&lt;/label&gt;ãã¿ã³ã¯é¸æããããã©ã°ã¤ã³ãã¤ã³ã¹ãã¼ã«ããã¦ãã¦ãã¤ã³ã¢ãã©ã°ã¤ã³ã§ãªãå ´åã®ã¿å©ç¨å¯è½ã§ã. ãã ãã³ã¢ãã©ã°ã¤ã³ã®ã¢ãããã¼ããã¤ã³ã¹ãã¼ã«ãã¦ããå ´åããã®ã¢ãããã¼ãã&lt;label&gt;ãã©ã°ã¤ã³ã®ã¢ã³ã¤ã³ã¹ãã¼ã«&lt;/label&gt;ãã¿ã³ã§ã¢ã³ã¤ã³ã¹ãã¼ã«ãã¦Quantum GISã®åºè·æã®ãã¼ã¸ã§ã³ã«æ»ããã¨ãã§ãã¾ã. ããã©ã«ããã¼ã¸ã§ã³ã¯ã¢ã³ã¤ã³ã¹ãã¼ã«ã§ãã¾ãã.
+&lt;/p&gt;
+
+
+
+&lt;a name=&quot;retab&quot;&gt;
+&lt;h4&gt;ãªãã¸ããªã¿ã&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p align=&apos;justify&apos;&gt;
+2çªç®ã®ã¿ã&lt;label&gt;ãªãã¸ããª&lt;/label&gt;ã«ã¯ãã©ã°ã¤ã³ã¤ã³ã¹ãã¼ã©ã§å©ç¨å¯è½ãªãªãã¸ããªã®ãªã¹ããè¡¨ç¤ºããã¾ã . ããã©ã«ãã§ã¯QGISã®å
+¬å¼ãªãã¸ããªã®ã¿ãæå¹ã§ã.ããã§ã¯æ§ã
+ãªã¦ã¼ã¶ã¼æä¾ã®ãªãã¸ããªãè¿½å ã§ãã¾ã. QGIS Contributed ãªãã¸ããªãå¤é¨ã®ãªãã¸ããªãå«ã¿ã¾ã.&lt;label&gt;ãµã¼ããã¼ãã£ã¼ã®ãªãã¸ããªãè¿½å &lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ããã¨ãªãã¸ããªã®è¿½å ãè¡ãã¾ã. è¿½å ããããªãã¸ããªã«ã¯ããããã«æç¨ãªãã©ã°ã¤ã³ãããã¾ã.ãããã®ãã©ã°ã¤ã³ã¯QGISéçºãã¼ã ã«ãã£ã¦ã¡ã³ããã³ã¹ããã¦ãããã®ã§ã¯ããã¾ãã.ãããã¯ã«ã¤ãã¦ã¯QGISéçºãã¼ã ããã®å©è¨ã¯å¾ããã¾ãã. ã¾ããªãã¸ããªã®ãªã¹ããæä½æ¥­ã§ç®¡çãããã¨ãã§ãã¾ã.è¿½å ,åé¤ãç·¨éãåã¨ã³ããªã«å¯¾ãã¦è¡ããã¨ãã§ãã¾ã. &lt;label&gt;ç·¨é...&lt;/label&gt;ãã¿ã³ãã¯ãªãã¯ãã¦ä¸æçã«åã
+ã®ãªãã¸ããªã®å©ç¨ãåæ­¢ãããã¨ãã§ãã¾ã.
+&lt;/p&gt;
+
+
+&lt;a name=&quot;optab&quot;&gt;
+&lt;h4&gt;ãªãã·ã§ã³ã¿ã&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p align=&apos;justify&apos;&gt;
+&lt;label&gt;ãªãã·ã§ã³&lt;/label&gt; ã¿ããå©ç¨ããã¨ãã©ã°ã¤ã³ã¤ã³ã¹ãã¼ã©ã®è¨­å®ãè¡ããã¨ãã§ãã¾ã. 
+&lt;label&gt;èµ·åæã«æ´æ°ãç¢ºèª&lt;/label&gt; ãã§ãã¯ããã¯ã¹ããã§ãã¯ããã¨QGISã¯èªåçã«ãã©ã°ã¤ã³ã®æ´æ°ãç¢ºèªãã¾ã. ãã®æ©è½ãæå¹ãªå ´åããã©ã«ãã§&lt;label&gt;ãªãã¸ããª&lt;/label&gt; ã¿ãã«ãããã¹ã¦ã®ãªãã¸ããªããã­ã°ã©ã èµ·åæã«ãã§ãã¯ããã¾ã. æ´æ°ãã§ãã¯ã®é »åº¦ã¯ãã­ãããã¦ã³ã¡ãã¥ã¼ã§èª¿æ´ã§ãã¾ã.ãã¨ãã°æ¯æ¥ããæ¯æã«èª¿æ´ã§ãã¾ã.æ°è¦ãã©ã°ã¤ã³ã¾ãã¯æ´æ°ãã¤ã³ã¹ãã¼ã«ããã¦ãããã©ã°ã¤ã³ã«å¯¾ãã¦å¯è½ãªå ´åã¯ã¹ãã¼ã¿ã¹ãã¼ã«éç¥ãè¡¨ç¤ºããã¾ã.ããã§ãã¯ããã¯ã¹ããã§ãã¯ããã¦ããªãå ´åã¯æ´æ°ãæ°è¦ã®ç¥ããã¯ãã©ã°ã¤ã³ã¤ã³ã¹ãã¼ã©ãã¡ãã¥ã¼ããæåã§èµ·åããæã®ã¿ã«ãã§ãã¯ããã¾ã.
+&lt;/p&gt;
+
+&lt;p align=&apos;justify&apos;&gt;
+æ´æ°ã®èªåãã§ãã¯ãè¡ãå ´åã¤ã³ã¿ã¼ãããæ¥ç¶ã§åé¡ãå¼ãèµ·ãããã¨ãããã¾ã. 
+&lt;i&gt;æ°ãããã©ã°ã¤ã³ãæ¢ãã¦ãã¾ã...&lt;/i&gt; ã¨ããã¡ãã»ã¼ã¸ãQGISèµ·åä¸­ã«ã¹ãã¼ã¿ã¹ãã¼ã«è¡¨ç¤ºããç¶ãã¦ããå ´åã¯çµäºæã«ãã­ã°ã©ã ãã¯ã©ãã·ã¥ãã¾ã.ãã®å ´åãã§ãã¯ããã¯ã¹ãç¡å¹ã«ãã¦ä¸ãã.
+&lt;/p&gt;
+
+ããã«ãã©ã°ã¤ã³ã¤ã³ã¹ãã¼ã©ã§è¡¨ç¤ºãããã©ã°ã¤ã³ã®ã¿ã¤ããæå®ãããã¨ãã§ãã¾ã. 
+&lt;i&gt;è¨±å¯ããããã©ã°ã¤ã³&lt;/i&gt;, ã§æå®ãããã¨ãã§ãã¾ã:
+&lt;ul&gt;
+&lt;li&gt; å
+¬å¼ãªãã¸ããªã®ãã©ã°ã¤ã³ã®ã¿è¡¨ç¤ºãã&lt;/li&gt;
+&lt;li&gt; å®é¨çã¨ãã¼ã¯ããã¦ããªãå
+¨ã¦ã®ãã©ã°ã¤ã³ãè¡¨ç¤ºãã&lt;/li&gt;
+&lt;li&gt; å®é¨çã¨ãã¼ã¯ããã¦ãããã©ã°ã¤ã³ãå«ãã¦å
+¨ã¦ã®ãã©ã°ã¤ã³ãè¡¨ç¤ºãã&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br/&gt;
+&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
+æ³¨: å®é¨çãªãã©ã°ã¤ã³ã¯éå¸¸éå®å®çã§ã. ãããã®ãã©ã°ã¤ã³ã¯éçºã®åææ®µéã«ãã£ã¦&apos;ä¸å®å
+¨&apos;ã¾ãã¯&apos;æ§æ³ã®æ¤è¨¼ä¸­&apos;ã®ãã¼ã«ã§ã.QGISéçºãã¼ã ã§ã¯ãããã®ãã¼ã«ããã¹ãã®ç®çä»¥å¤ã§ã¤ã³ã¹ãã¼ã«ãããã¨ãæ¨å¥¨ãã¾ãã.
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2192"/>
+        <source>&lt;h3&gt; ååãç¢å°ãã©ã°ã¤ã³&lt;/h3&gt;
+å°å³ä¸ã«ååãç¢å°ãè¡¨ç¤ºãã¾ã.
+&lt;p&gt;
+ç¾æç¹ã§ã¯ï¼ç¨®é¡ã®ã¹ã¿ã¤ã«ã ããå©ç¨å¯è½ã§ã. ç¢å°ã®è§åº¦ãèª¿æ´ãããQGISã«èªåçã«æ¹åãæ±ºå®ãããããããã¨ãå¯è½ã§ã. ããQGISã«æ¹åãæ±ºå®ãããããã«é¸æããå ´åã¯ç¢å°ãã©ã®æ¹åãåãã¹ããæ¨æ¸¬ããã¾ã. ç¢å°ãé
+ç½®ããå ´æã«ã¤ãã¦ã¯å°å³ã­ã£ã³ãã¹ã®4é
+ã«å¯¾å¿ãã4åã®é¸æè¢ãããã¾ã.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2257"/>
+        <source>&lt;style&gt;
+	#toolbarConsole td{
+		background: #f6f6f6;
+	}
+&lt;/style&gt;
+&lt;h3&gt;Pythonã³ã³ã½ã¼ã« for QGIS&lt;/h3&gt;
+&lt;a href=&quot;#console&quot;&gt;ã³ã³ã½ã¼ã«&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#editor&quot;&gt;ã¨ãã£ã¿&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#settings&quot;&gt;è¨­å®&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;p align=&apos;justify&apos;&gt;
+				QGIS Pythonã³ã³ã½ã¼ã«ã¯Pythonã³ãã³ããå®è¡ããããã®å¯¾è©±åã·ã§ã«ã§ã.
+				ããã¯ããªãã®Pythonã¹ã¯ãªãããç·¨éãã¦ä¿å­ãããã¨ãã§ãããã¡ã¤ã«ã¨ãã£ã¿ãæã£ã¦ãã¾ã.
+				ã³ã³ã½ã¼ã«ã¨ã¨ãã£ã¿ã®ä¸¡æ¹ã¨ãPyQScintilla2ããã±ã¼ã¸ããã¨ã«ä½æããã¦ãã¾ã.&lt;br&gt;
+				ã³ã³ã½ã¼ã«ã¯ä¸ä¸ã«2ã¤ã®ã¡ã¤ã³ããã«ã«åãããã¦ãããæ°´å¹³ã¹ããªãã¿ãä½¿ç¨ãã¦ãµã¤ãºå¤æ´ãå¯è½ã§ã.
+				åºåé åããã«ã¯ã³ãã³ãåºåãè¡¨ç¤ºããèª­ã¿åãå°ç¨ã®ã¦ã£ã¸ã§ããã§ã.
+				å
+¥åé åã«ã¯ãã­ã¹ãããã©ãã°&amp;ãã­ãããããã³ãã¼&amp;ãã¼ã¹ãããããããã¨ãã§ãã¾ã. åºåããã«ã®ãã­ã¹ããé¸æãã¦ã³ã³ãã­ã¹ãã¡ãã¥ã¼ãã&lt;label&gt;é¸æã®å
+¥å&lt;/label&gt;ã³ãã³ããã¯ãªãã¯ãããã¨ã«ãã£ã¦ãã³ã¼ãã¹ãããããå®è¡ãããã¨ãã§ãã¾ã. 
+				é¸æããããã­ã¹ãã«ã¤ã³ã¿ããªã¿ã®ãã­ã³ãã(&gt;&gt;&gt;ã...)ãå«ã¾ãã¦ãã¦ãæ§ãã¾ãã.
+				å
+¥åé åããã«ã¯ã³ãã³ããå
+¥åããããã®å¯¾è©±åã®Pythonã·ã§ã«ã§ã.&lt;br&gt;
+				Pythonãã¡ã¤ã«ã¨ãã£ã¿ã«ã¢ã¯ã»ã¹ããã«ã¯ãã¼ã«ãã¼ã®&lt;label&gt;ã¨ãã£ã¿ã®è¡¨ç¤º&lt;/label&gt;ãã¿ã³ãä½¿ãã¾ã.
+				ã¨ãã£ã¿ã§ã¯Pythonãã¡ã¤ã«ãç·¨éãã¦ä¿å­ãããã¨ãã§ããããªãã®ã³ã¼ããç®¡çããããã®åºæ¬çãªæ©è½ãæä¾ãã¦ãã¾ã
+				(ã³ã¼ãã®ã³ã¡ã³ããã³ã¡ã³ãè§£é¤ãæ§æãã§ãã¯ãcodepad.orgãéããã³ã¼ãã®å
+±æãªã©).
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;console&quot;&gt;
+&lt;h4&gt;ã³ã³ã½ã¼ã«&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;ä¸»ãªç¹å¾´:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;æ¬¡ã®APIã§ã³ã¼ãè£å®ã¨æ§æãã¤ã©ã¤ããã³ã¼ã«ãããã¹ãå©ç¨ã§ãã¾ã:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Alt+Space&lt;/label&gt;ã§èªåè£å®ãªã¹ããè¡¨ç¤ºãã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Shift+Space&lt;/label&gt;ã§ã³ãã³ãå±¥æ­´ãªã¹ããè¡¨ç¤ºãã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+                        &lt;li&gt;åºåããã«ã®&lt;label&gt;é¸æãå
+¥å&lt;/label&gt;ã³ãã³ãã§ã³ã¼ãã¹ãããããå®è¡ã§ãã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;QGIS API ãã­ã¥ã¡ã³ããéãã«ã¯&lt;label&gt;_api&lt;/label&gt;ã¨ã¿ã¤ããã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;PyQGIS Cookbookãéãã«ã¯&lt;label&gt;_pyqgis&lt;/label&gt;ã¨ã¿ã¤ããã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;ã³ãã³ãå±¥æ­´ã®ä¿å­ãã¯ãªã¢ã¯å
+¥åããã«ã®ã³ã³ãã­ã¹ãã¡ãã¥ã¼ããã¢ã¯ã»ã¹ãã¾ã.
+			å±¥æ­´ã¯ ~/.qgis2/console_history.txt ãã¡ã¤ã«ã«ä¿å­ããã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+		&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;b&gt;&lt;i&gt;ãã¼ã«ãã¼:&lt;/i&gt;&lt;/b&gt;
+	&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;Pythonã³ã³ã½ã¼ã«ãã¯ãªã¢ãã¾ã&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSextanteConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;Sextanteã¯ã©ã¹ãã¤ã³ãã¼ããã¾ã&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtCoreã¯ã©ã¹ãã¤ã³ãã¼ããã¾ã&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtGuiã¯ã©ã¹ãã¤ã³ãã¼ããã¾ã&lt;/td&gt;
+		&lt;/tr&gt;
+                &lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;ã³ãã³ãã®å®è¡ (Enterã­ã¼ãæ¼ãã®ã¨åæ§)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;è¨­å®&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;ãã«ã&lt;/td&gt;
+		&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;editor&quot;&gt;
+&lt;h4&gt;ã¨ãã£ã¿&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;ä¸»ãªç¹å¾´:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;æ¬¡ã®APIã§ã³ã¼ãè£å®ã¨æ§æãã¤ã©ã¤ããã³ã¼ã«ãããã¹ãå©ç¨ã§ãã¾ã:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Space&lt;/label&gt;ã§èªåè£å®ãªã¹ããè¡¨ç¤ºãã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;codepad.orgãéãã¦ã³ã¼ãã¹ãããããå
+±æã§ãã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+4&lt;/label&gt; æ§æãã§ãã¯.&lt;/li&gt; 
+			&lt;br&gt;
+			&lt;li&gt;ãªãã¸ã§ã¯ãã¤ã³ã¹ãã¯ã¿: ã¯ã©ã¹ã¨é¢æ°ã®ãã©ã¦ã¶.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;ãã¦ã¹ãã¯ãªãã¯ã§ãªãã¸ã§ã¯ãå®ç¾©ãè¡¨ç¤ºãã¾ã(ãªãã¸ã§ã¯ãã¤ã³ã¹ãã¯ã¿ãã).&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;é¸æãå
+¥å&lt;/label&gt;ã³ãã³ãã§ã³ã¼ãã¹ãããããå®è¡ãã¾ã.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;ã¹ã¯ãªããå®è¡&lt;/label&gt;ã³ãã³ãã§ã¹ã¯ãªããå
+¨é¨ãå®è¡ãã¾ã.
+			(æ¡å¼µå­ã.pycã®ãã¤ãã³ã³ãã¤ã«ãã¡ã¤ã«ãçæãã¾ã)&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;settings&quot;&gt;
+&lt;h4&gt;è¨­å®&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;Pythonã³ã³ã½ã¼ã«ã®è¿½å è¨­å®:&lt;/i&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;èªåå
+¥åè£å®:&lt;/label&gt; ãã§ãã¯ããå ´åãã³ã¼ãè£å®ãæå¹ã«ãªãã¾ã.
+ããªãã¯ç¾å¨ã®ãã­ã¥ã¡ã³ããã¤ã³ã¹ãã¼ã«ãããAPIããããã®ä¸¡æ¹ããèªåå
+¥åè£å®ãå¾ããã¨ãã§ãã¾ã&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;ãªã¼ãã³ã³ããªã¼ãã®ãããå¤:&lt;/label&gt; ãªã¼ãã³ã³ããªã¼ããªã¹ããè¡¨ç¤ºãããããå¤ãè¨­å®ãã¾ã (ã¿ã¤ããããæå­æ°)&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;èªåæ¬å¼§æ¿å
+¥:&lt;/label&gt; ãã§ãã¯ãã¦ããå ´åãæ¬å¼§ãèªåã§éãããã¾ã.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;å®è¡åã«ã¹ã¯ãªãããèªåä¿å­ãã:&lt;/label&gt; å¤æ´å¾ã«ä¿å­ããªãã¦ãããããã«å®è¡ãããã¹ã¯ãªãããèªåã§ä¿å­ããããã«ãã¾ã.
+ãã®ã¢ã¯ã·ã§ã³ã¯ã·ã¹ãã ã®ä¸æãã£ã¬ã¯ããªã«ä¸æãã¡ã¤ã«ãä¿å­ãã¾ã. ããã¯å®è¡å¾ã«èªåçã«åé¤ããã¾ã.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;äºåã«ã­ã¼ããããAPIãã¡ã¤ã«ãå©ç¨ãã:&lt;/label&gt; äºåã«ã­ã¼ããããAPIãã¡ã¤ã«ãä½¿ããããªãã®ã·ã¹ãã ã«ä¿å­ãããAPIãã¡ã¤ã«ãã­ã¼ããããé¸æã§ãã¾ã.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&apos;border: 1px solid; background:#f6f6f6;&apos; align=&apos;justify&apos;&gt;
+	&lt;b&gt;æ³¨æ:&lt;/b&gt; éãããã¿ã³ã§Pythonã³ã³ã½ã¼ã«ãéããã¨ã³ã³ã½ã¼ã«ã®ã¦ã£ã¸ã§ããã®ç¶æ
+ãä¿å­ã§ãã¾ã. ããã«ãã£ã¦æ¬¡åèµ·åæã«å¾©å
+ãããã¸ãªã¡ããªãä¿å­ã§ãã¾ã.
+&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2417"/>
+        <source>&lt;h3&gt;éè·¯ã°ã©ããã©ã°ã¤ã³è¨­å®&lt;/h3&gt;
+&lt;p&gt;éè·¯ã°ã©ãã¯Quantum GISã®ããã®C++ãã©ã°ã¤ã³ã§ã. ã©ã¤ã³ã¬ã¤ã¤ä¸ã®2ã¤ã®ç¹ã®éã®æç­çµè·¯ãè¨ç®ãã¦éè·¯ãããã¯ã¼ã¯ã®ä¸ã«æç­çµè·¯ãæç»ãã¾ã.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;#creating&quot;&gt;ãã©ã°ã¤ã³ã®åä½&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#topologyTolerance&quot;&gt;ããã­ã¸è¨±å®¹å¤&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#layerSettings&quot;&gt;è¼¸éã¬ã¤ã¤è¨­å®&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;a name=&quot;creating&quot;&gt;
+&lt;h4&gt;ãã©ã°ã¤ã³ã®åä½&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;è¨ç®ãããçµè·¯ã®è·é¢ã¨æéã®åä½ãé©åãããã®ã«å¤ãããã¨ãã§ãã¾ã.
+&lt;label&gt;è·é¢åä½&lt;/label&gt;ã¨&lt;label&gt;æéåä½&lt;/label&gt;ã§åä½ãé¸æãã¦ä¸ãã.&lt;/p&gt;
+
+&lt;a name=&quot;topologyTolerance&quot;&gt;
+&lt;h4&gt;ããã­ã¸è¨±å®¹å¤&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;label&gt;ããã­ã¸è¨±å®¹å¤&lt;/label&gt; - ãã­ã¸ã§ã¯ãã®åä½ã§ã®è·é¢ã§ã.
+2ç¹ã®è·é¢ãç­ãããã­ã¸è¨±å®¹å¤ãä¸åãå ´åã¯é ç¹ã§ããã¨èãããã¾ã.ã¼ã­ããå¤§ããããã­ã¸è¨±å®¹å¤ã¯ãã©ã°ã¤ã³ãé
+ããã¾ãããçæ³çã§ã¯ãªããã¼ã¿ã½ã¼ã¹ã®ä½¿ç¨ãå¯è½ã«ãã¾ã.&lt;/p&gt;
+
+&lt;h5&gt;æ³¨æ&lt;/h5&gt;
+&lt;p&gt;éè·¯ã°ã©ããã©ã°ã¤ã³ã¯2ã¤ã®éè·¯ãå
+±éã®ãã¼ããæã£ã¦ããå ´åãããããªã³ã¯ããã¦ããã¨èãã¾ã.
+ãã¼ãã¯ãã®åº§æ¨ã«ãã£ã¦ä¸æã«è­å¥ããã¾ã.
+ããããã¸ã¿ã¤ãºã®éç¨ã§ã¨ã©ã¼ãçºçããå ´åãããã¾ã.
+ãããã¯ã¼ã¯ãããåº§æ¨åç
+§ç³»ããå¥ã®ãã®ã«å¤æãããæã«ã¨ã©ã¼ãèµ·ãããã¨ãããã¾ã.
+ããã¯éè·¯ã°ã©ããã©ã°ã¤ã³ãæ¥ç¶ããã¦ããéè·¯ãåæ­ããã¦ããã¨ã¿ãªãåå ã«ãªãã¾ãã
+ãã®å ´åããã­ã¸è¨±å®¹å¤ã¯ã¼ã­ããå¤§ããªå¤ã«è¨­å®ããæ¹ãããã§ããã.&lt;/p&gt;
+
+&lt;a name=&quot;LayerSettings&quot;&gt;
+&lt;h4&gt;è¼¸éã¬ã¤ã¤è¨­å®&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;label&gt;ã¬ã¤ã¤&lt;/label&gt; - éè·¯ã¬ã¤ã¤.&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;æ¹åãã£ã¼ã«ã&lt;/label&gt; - ãã®ãã£ã¼ã«ãã®å¤ã¯éè·¯ã°ã©ããã©ã°ã¤ã³ã®ã¬ã¤ã¤å°ç©ã®è§£éæ¹æ³ãæå®ãã¾ã.
+&lt;label&gt;é æ¹åã®å¤&lt;/label&gt; - å°ç©ãæ§æãããã¤ã³ãã®é ã«å¯¾å¿ããç§»åã®æ¹å.
+&lt;label&gt;éæ¹åã®å¤&lt;/label&gt; - å°ç©ãæ§æãããã¤ã³ãã®éé ã«å¯¾å¿ããç§»åã®æ¹å.
+&lt;label&gt;ä¸¡æ¹åã®å¤&lt;/label&gt; - ä¸¡æ¹åã¨ãå¯è½.&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;ã¹ãã¼ããã£ã¼ã«ã&lt;/label&gt; - è¨è¼ãããéè·¯ã®ã¹ãã¼ããå«ããã£ã¼ã«ããæå®ãã¾ã.&lt;/p&gt;
+
+&lt;h5&gt;ããã©ã«ãè¨­å®&lt;/h5&gt;
+&lt;p&gt;ããªãã®ç·å½¢ã¬ã¤ã¤ã®å±æ§ãã¼ãã«ãè¦æ±ããããã£ã¼ã«ããå«ã¾ãªãå ´åããã£ã¼ã«ããäºæããªãå¤ãå«ãå ´å,ãã©ã°ã¤ã³ã¯ããã©ã«ãå¤ãä½¿ãã¾ã.ãããã¯&lt;label&gt;ããã©ã«ãè¨­å®&lt;/label&gt;ã¿ãã§è¨­å®ã§ãã¾ã.&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2458"/>
+        <source>&lt;h3&gt;æ°ããOracleæ¥ç¶ãä½æãã¾ã&lt;/h3&gt;
+ãã®ãã¤ã¢ã­ã°ã§ã¯Oracleãã¼ã¿ãã¼ã¹ã¸ã®æ¥ç¶ã®è¨­å®ãå®ç¾©ã§ãã¾ã.
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;label&gt;åç§°&lt;/label&gt; æ¥ç¶è¨­å®ãè­å¥ããåå.
+
+&lt;li&gt; &lt;label&gt;ãã¼ã¿ãã¼ã¹&lt;/label&gt; Oracleã¤ã³ã¹ã¿ã³ã¹ã®SIDãSERVICE_NAME.
+
+&lt;li&gt; &lt;label&gt;ãã¹ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ãããã¹ããã¦ããã³ã³ãã¥ã¼ã¿ã®ååãIPã¢ãã¬ã¹.
+
+&lt;li&gt; &lt;label&gt;ãã¼ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ãµã¼ããç¨ããIPãã¼ã
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶å&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®ã¦ã¼ã¶å.
+&lt;li&gt; &lt;label&gt;ãã¹ã¯ã¼ã&lt;/label&gt; ãã¼ã¿ãã¼ã¹ã®ãã¹ã¯ã¼ã.
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶åã®ä¿å­&lt;/label&gt; æ¥ç¶è¨­å®ã®ãã¼ã¿ãã¼ã¹ã¦ã¼ã¶åãä¿å­ããå ´åã¯ãã§ãã¯ãã¾ã.
+
+&lt;li&gt; &lt;label&gt;ãã¹ã¯ã¼ãä¿å­&lt;/label&gt; æ¥ç¶è¨­å®ã®ãã¼ã¿ãã¼ã¹ãã¹ã¯ã¼ããä¿å­ããå ´åã¯ãã§ãã¯ãã¾ã. &lt;font color=&quot;red&quot;&gt;ãã¹ã¯ã¼ãã¯&lt;strong&gt;ã¯ãªã¢ãã­ã¹ã&lt;/strong&gt;ã§ã·ã¹ãã ã®è¨­å®æ
+å ±ã¨ãã­ã¸ã§ã¯ããã¡ã¤ã«ã«ä¿å­ããã¾ã!&lt;/font&gt;
+
+&lt;li&gt; &lt;label&gt;ã¡ã¿ãã¼ã¿ãã¼ãã«ã®ã¿åç
+§ãã&lt;/label&gt; all_sdo_geom_metadataãã¥ã¼ã«ãããã¼ãã«ã®ã¿ãªã¹ããã¾ã. ããã«ãã£ã¦ç©ºéãã¼ãã«ã®åæè¡¨ç¤ºãé«éåã§ãã¾ã.
+
+&lt;li&gt; &lt;label&gt;ã¦ã¼ã¶ã®ãã¼ãã«ã®ã¿åç
+§ãã&lt;/label&gt; ç©ºéãã¼ãã«ã®æ¤ç´¢ãã¦ã¼ã¶ãææãããã¼ãã«ã«å¶éãã¾ã.
+
+&lt;li&gt; &lt;label&gt;ã¸ãªã¡ããªãæããªããã¼ãã«ããªã¹ããã&lt;/label&gt; ã¸ãªã¡ããªãæããªããã¼ãã«ãããã©ã«ãã§ãªã¹ãããããã«ãã¾ã.
+
+&lt;li&gt; &lt;label&gt;æ¦ç®ããããã¼ãã«ã¡ã¿ãã¼ã¿ãå©ç¨ãã&lt;/label&gt; 
+ ã¬ã¤ã¤ãã»ããã¢ãããããæã«ã¯Oracleãã¼ãã«ã®æ§ã
+ãªã¡ã¿ãã¼ã¿ãè¦æ±ããã¾ã.
+ ããã«ã¯ãã¼ãã«ã®è¡æ°ãã¸ãªã¡ããªã¿ã¤ã, ã¸ãªã¡ããªã«ã©ã ã®ãã¼ã¿ã®ç©ºéé åã¨ãã£ãæ
+å ±ãå«ã¾ãã¾ã.
+ ãããã¼ãã«ãããããã®è¡ãæã¤å ´å, ã¡ã¿ãã¼ã¿ãå¤æããã®ã«æéããããã¾ã.
+ ãã®ãªãã·ã§ã³ãæå¹ã«ããã¨æ¬¡ã®ããã«ãã¦è¿
+éã«ãã¼ãã«ã¡ã¿ãã¼ã¿ãå¦çããã¾ã:
+ è¡æ°ã¯all_tables.num_rowsããæ±ºå®ããã¾ã.
+ ã¬ã¤ã¤ãã£ã«ã¿ãé©ç¨ããã¦ããã¨ãã¦ããã¼ãã«ã®é åã¯SDO_TUNE.EXTENTS_OFé¢æ°ãç¨ãã¦æ±ºå®ããã¾ã.
+ ãã¼ãã«ã®ã¸ãªã¡ããªã¯ãã¼ãã«ã®å§ãã®nullã§ã¯ãªã100è¡ã®ã¸ãªã¡ããªããæ±ºå®ããã¾ã.
+
+&lt;li&gt; &lt;label&gt;å­å¨ããã¸ãªã¡ããªã¿ã¤ãã®ã¿&lt;/label&gt; å­å¨ããã¸ãªã¡ããªã¿ã¤ãã®ã¿ãªã¹ããã¾ã. ä»ã®ãã®ã¯ãªã¹ããã¾ãã.
+&lt;/ul&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2495"/>
         <source>&lt;h3&gt;Python Plugin Installer&lt;/h3&gt;
 Downloads and installs plugins from remote repositories.
 &lt;br/&gt;&lt;br/&gt;
@@ -54058,7 +55328,7 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1473"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2679"/>
         <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
 There are two measure tools: length and area. With them, you can measure both distances and areas on the map canvas. Currently the tools provide results in metric units only. A single right mouse click stops the measuring, while two right mouse clicks starts measuring anew.
 &lt;h4&gt;Measuring Lengths&lt;/h4&gt;
@@ -54421,7 +55691,7 @@ To measure areas, select the tool and click to create the area. The total area i
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="354"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="433"/>
         <source>&lt;h3&gt;Road graph plugin settings&lt;/h3&gt;
 &lt;p&gt;Road graph is a C++ plugin for QGIS, that calculates the shortest path between two points on any polyline layer and plots this path over the road network.&lt;/p&gt;
 &lt;p&gt;
@@ -54496,7 +55766,7 @@ To measure areas, select the tool and click to create the area. The total area i
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1225"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2188"/>
         <source>&lt;h3&gt; North Arrow Plugin&lt;/h3&gt;
 Displays a north arrow overlayed onto the map.
 &lt;p&gt;
@@ -54507,7 +55777,7 @@ At present there is only one style available. You can adjust the angle of the ar
 現時点では１種類のスタイルだけが利用可能です. 矢印の角度を調整したりQGISに自動的に方向を決定させたりすることが可能です. もしQGISに方向を決定させるように選択した場合は矢印がどの方向を向くべきか推測されます. 矢印を配置する場所については地図キャンバスの4隅に対応する4個の選択肢があります.</translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="468"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="716"/>
         <source>&lt;h1&gt;Heatmap Plugin Help&lt;/h1&gt;
 &lt;p&gt;The Heatmap plugin uses Kernel Density Estimation to create a density (heatmap)
 raster of an input point vector layer.  The density is calculated based on the
@@ -54623,7 +55893,7 @@ QGISでは標準的なカーネル関数を利用できます。それらの詳�
 &lt;p&gt;作者にコンタクトを取ってください。aruntheguy at gmail dot com&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1090"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1775"/>
         <source>&lt;h3&gt;Save vector layer as...&lt;/h3&gt;
 
 &lt;p&gt;This dialog allows you to save vector data in various formats using GDAL/OGR.
@@ -54658,7 +55928,7 @@ See &lt;a href=&quot;http://gdal.org/ogr/ogr_formats.html&quot;&gt;OGR Vector fo
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="522"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="770"/>
         <source>&lt;h3&gt;Print Composer&lt;/h3&gt;
 
 &lt;p&gt;
@@ -54834,14 +56104,14 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1187"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1953"/>
         <source>&lt;h3&gt;Style Manager&lt;/h3&gt;
 </source>
         <translation>&lt;h3&gt;スタイルマネージャ&lt;/h3&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1036"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1378"/>
         <source>&lt;h3&gt;Custom Coordinate Reference System Definition&lt;/h3&gt;
 If QGIS does not provide the coordinate reference system you need, you can define a custom CRS. &lt;p&gt;
 To define a CRS, select &lt;label&gt;Custom CRS&lt;/label&gt; from the &lt;label&gt;Edit&lt;/label&gt; (Gnome, OSX) or &lt;label&gt;Settings&lt;/label&gt; (KDE, Windows) menu. Custom CRS are stored in your QGIS user database. In addition to your custom CRS, this database also contains your spatial bookmarks and other custom data.
@@ -55046,165 +56316,10 @@ that will be automatically deleted after running.&lt;/li&gt;
 	from the close button. This allows you to save the geometry to be restored to the next start.
 &lt;/p&gt;
 </source>
-        <translation>&lt;style&gt;
-	#toolbarConsole td{
-		background: #f6f6f6;
-	}
-&lt;/style&gt;
-&lt;h3&gt;QGIS Pythonコンソール&lt;/h3&gt;
-&lt;a href=&quot;#console&quot;&gt;コンソール&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;#editor&quot;&gt;エディタ&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;#settings&quot;&gt;設定&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			&lt;p align=&apos;justify&apos;&gt;
-				QGIS Python コンソールを使うとpythonコマンドを対話的に実行できます. 
-				またpythonファイルエディタを使うとpythonスクリプトを編集,保存できます.
-				コンソールとエディタはPyQScintilla2パッケージに基づいてます.&lt;br&gt;
-				コンソールは2個のメインペインに分割されています,上下のペインは水平分割線を使ってサイズを変えることができます.ペインの出力エリアはリードオンリィでコマンド出力を表示します. 入力エリアにはドラッグアンドドロップかコピーアンドペーストでテキストを入力できテキストの選択とコンテキストメニューの&lt;label&gt;Enter selected&lt;/label&gt;上をクリックするとコードスニペットを実行できます. 
-				選択されたテキストにインタプリタのプロンプト(&gt;&gt;&gt;,...)が含まれていても関係ありません.入力エリアペインは入力コマンド用の対話型python シェルです.&lt;br&gt;pythonファイルエディタを利用する場合はツールバーの
-				&lt;label&gt;Show editor&lt;/label&gt;を使って下さい. このエディタを使うとpythonファイルの保存とコードの基本的な管理(コードのコメント化とアンコメント化,文法チェック,codepad.orgを使ったコードの共有とさらに他の機能があります)ができます.
-			&lt;/p&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-&lt;a name=&quot;console&quot;&gt;
-&lt;h4&gt;コンソール&lt;/h4&gt;
-&lt;/a&gt;
-&lt;b&gt;&lt;i&gt;主な機能:&lt;/i&gt;&lt;/b&gt;
-&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			&lt;ul&gt;
-			&lt;li&gt;コードコンパイル,シンタックスのハイライティングと以下のAPIについてのコールチップス:
-				&lt;ol&gt;
-				&lt;li&gt;Python&lt;/li&gt;
-				&lt;li&gt;PyQGIS&lt;/li&gt;
-				&lt;li&gt;PyQt4&lt;/li&gt;
-				&lt;li&gt;QScintilla2&lt;/li&gt;
-				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+Alt+Space&lt;/label&gt;を押すと文字列自動補完候補リストを表示します.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+Shift+Space&lt;/label&gt;を押すとコマンド履歴リストを表示します.&lt;/li&gt;
-			&lt;br&gt;
-                        &lt;li&gt;コードスニペッツを出力ペインから&lt;label&gt;Enter selected&lt;/label&gt; コマンドで実行できます.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;QGIS API文書を&lt;label&gt;_api&lt;/label&gt;とタイプすると開けます.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;_pyqgis&lt;/label&gt;とタイプするとPyQGISクックブックを開きます.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;コマンド履歴の保存とクリアは入力ペインのコンテキストメニューから実行できます. 
-			履歴はファイル ~/.qgis2/console_history.txt に保存されます&lt;/li&gt;
-			&lt;br&gt;
-			&lt;/ul&gt;
-		&lt;/td&gt;
-		&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-&lt;b&gt;&lt;i&gt;ツールバー:&lt;/i&gt;&lt;/b&gt;
-	&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;pythonコンソールのクリア&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSextanteConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;Sextanteクラスのインポート&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;PyQt4.QtCore クラスのインポート&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;PyQt4.QtGuiクラスをインポートするツール&lt;/td&gt;
-		&lt;/tr&gt;
-                &lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;コマンド実行 (Enterキーを押すのと同様)&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;設定&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;ヘルプ&lt;/td&gt;
-		&lt;/tr&gt;
-&lt;/table&gt;
-&lt;a name=&quot;editor&quot;&gt;
-&lt;h4&gt;エディタ&lt;/h4&gt;
-&lt;/a&gt;
-&lt;b&gt;&lt;i&gt;主要機能:&lt;/i&gt;&lt;/b&gt;
-&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
-			&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
-		&lt;/td&gt;
-		&lt;td&gt;
-			&lt;ul&gt;
-			&lt;li&gt;コードコンパイル,シンタックスのハイライティングと以下のAPIについてのコールチップス:
-				&lt;ol&gt;
-				&lt;li&gt;Python&lt;/li&gt;
-				&lt;li&gt;PyQGIS&lt;/li&gt;
-				&lt;li&gt;PyQt4&lt;/li&gt;
-				&lt;li&gt;QScintilla2&lt;/li&gt;
-				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+Space&lt;/label&gt; 自動補完候補リストの表示.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;codepad.orgを使ったコードスニペッツの共有.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+4&lt;/label&gt; 文法チェック.&lt;/li&gt; 
-			&lt;br&gt;
-			&lt;li&gt;オブジェクトインスペクタ: クラスと関数ブラウザ.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;マウスクリックでオブジェクト定義に移動する. (オブジェクトインスペクタより)&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Enter selected&lt;/label&gt; コマンドでコードスニペッツを実行する.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Run script&lt;/label&gt; コマンドで全スクリプトを実行します
-			(このコマンドを実行すると .pycという拡張子のバイトコンパイルされたファイルが作成されます)&lt;/li&gt;
-			&lt;br&gt;
-			&lt;/ul&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-&lt;a name=&quot;settings&quot;&gt;
-&lt;h4&gt;設定&lt;/h4&gt;
-&lt;/a&gt;
-&lt;b&gt;&lt;i&gt;Pythonコンソールの追加設定:&lt;/i&gt;&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;label&gt;自動補完:&lt;/label&gt; チェックされているとコードの自動補完が有効になります. 自動補完の候補はカレントドキュメント,インストールされているAPI,APIとカレントドキュメントの両方から取得されます&lt;/li&gt;
-&lt;br&gt;
-&lt;li&gt;&lt;label&gt;自動補完スレッショルド:&lt;/label&gt; 自動補完リストが表示される閾値を設定します (タイプされた文字で)&lt;/li&gt;
-&lt;br&gt;
-&lt;li&gt;&lt;label&gt;自動括弧挿入:&lt;/label&gt; チェックされていると括弧を自動的に閉じます&lt;/li&gt;
-&lt;br&gt;
-&lt;li&gt;&lt;label&gt;実行前のスクリプト自動保存:&lt;/label&gt; 修正がくわえられた内容を保存するためにスクリプトを実行する時に自動的に保存します.
-このアクションはシステムの一時ファイル用ディレクトリに一時ファイルを作成し,実行後に自動的にファイルを削除します.&lt;/li&gt;
-&lt;br&gt;
-&lt;li&gt;&lt;label&gt;事前ロードされたAPIファイルの利用:&lt;/label&gt; 事前ロードされたAPIファイルを利用するかあなたのシステムに保存されているAPIファイルをロードして利用するか選択できます.&lt;/li&gt;
-&lt;br&gt;
-&lt;li&gt;&lt;label&gt;APIファイルの利用:&lt;/label&gt; *.pap ファイルがチェックされているとコードの補完に利用されます.事前準備APIファイルを作成するためには *.apiファイルを最低1個ロードして &lt;label&gt;Compile Apis...&lt;/label&gt;ボタンをクリックして下さい.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p style=&apos;border: 1px solid; background:#f6f6f6;&apos; align=&apos;justify&apos;&gt;
-	&lt;b&gt;注記:&lt;/b&gt; コンソールウィジェットの状態を保存したい場合はcloseボタンを利用してPythonコンソールを閉じて下さい.これによって次回のスタート時に利用しているジオメトリが復活します.
-&lt;/p&gt;
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1480"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2686"/>
         <source>&lt;h3&gt;Options&lt;/h3&gt;
 This dialog allows you to select some basic options for QGIS. There are eight tabs:
 &lt;p&gt;
@@ -55525,7 +56640,7 @@ QGISがリポジトリからリストのダウンロードと情報の更新を�
 &lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="385"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="489"/>
         <source>&lt;h3&gt;Create a New SQL Anywhere Connection&lt;/h3&gt;
 This dialog allows you to define the settings for a connection to a
 SQL Anywhere database.
@@ -55591,7 +56706,7 @@ SQL Anywhere database.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1433"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="2639"/>
         <source>&lt;h3&gt;Create a New Oracle Connection&lt;/h3&gt;
 This dialog allows you to define the settings for a connection to a Oracle database.
 &lt;p&gt;
@@ -56730,7 +57845,7 @@ Plugin will not be enabled.</source>
 <context>
     <name>function_help</name>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1367"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2806"/>
         <source>&lt;h3&gt;$rownum function&lt;/h3&gt;
 Returns the number of the current row.
 
@@ -56759,7 +57874,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1563"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="3052"/>
         <source>
 &lt;h3&gt;color_rgba() function&lt;/h3&gt;
 Returns a string representation of a color based on its red, green, blue, and alpha (transparency) components
@@ -56798,7 +57913,7 @@ Returns a string representation of a color based on its red, green, blue, and al
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="65"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="141"/>
         <source>&lt;h3&gt;Conditionals Group&lt;/h3&gt;
 This group contains functions to handle conditional checks in expressions.
 </source>
@@ -56807,7 +57922,7 @@ This group contains functions to handle conditional checks in expressions.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="697"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1457"/>
         <source>&lt;h3&gt;$feature function&lt;/h3&gt;
 In atlas generation, returns the current feature number that is iterated over on the coverage layer.
 
@@ -56836,7 +57951,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="129"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="293"/>
         <source>&lt;h3&gt;$numpages function&lt;/h3&gt;
 Returns the total number of pages in the composition.
 
@@ -56865,7 +57980,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="825"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1659"/>
         <source>&lt;h3&gt;$perimeter function&lt;/h3&gt;
 Returns the perimeter length of the current feature.
 
@@ -56894,7 +58009,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="253"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="635"/>
         <source>&lt;h3&gt;Geometry Group&lt;/h3&gt;
 This group contains functions that operate on geometry objects e.g length, area.
 </source>
@@ -56903,7 +58018,7 @@ This group contains functions that operate on geometry objects e.g length, area.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1321"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2733"/>
         <source>&lt;h3&gt;concat() function&lt;/h3&gt;
 Concatenates several strings to one.
 
@@ -56934,7 +58049,7 @@ Concatenates several strings to one.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="270"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="652"/>
         <source>&lt;h3&gt;$scale function&lt;/h3&gt;
 Returns the current scale of the map canvas.
 &lt;br&gt;
@@ -56963,7 +58078,7 @@ Note: This function is only available in some contexts and will be 0 otherwise.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1426"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2882"/>
         <source>&lt;h3&gt;age() function&lt;/h3&gt;
 Returns the difference between two dates.
 &lt;br&gt;&lt;br&gt;
@@ -57031,7 +58146,8 @@ use &lt;code&gt;day&lt;/code&gt; to extract number of days&lt;br&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1303"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1958"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2600"/>
         <source>&lt;h3&gt;Field&lt;/h3&gt;
 Double click to add field name to expression string.
 &lt;br&gt;&lt;br&gt;
@@ -57044,7 +58160,7 @@ Right-Click on field name to open context menu sample value loading options.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="28"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="90"/>
         <source>&lt;h3&gt;year() function&lt;/h3&gt;
 Extract the year part from a date, or the number of years
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -57086,7 +58202,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="68"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="144"/>
         <source>&lt;h3&gt;atan() function&lt;/h3&gt;
 Returns arcustanget of a value in radians.
 
@@ -57114,7 +58230,69 @@ Returns arcustanget of a value in radians.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1536"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2819"/>
+        <source>
+&lt;h3&gt;color_rgb() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its red, green, and blue components
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_rgb(&lt;i&gt;red, green, blue&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  red&lt;/i&gt; &amp;rarr; the red component as an integer value from 0 to 255.&lt;br&gt;
+&lt;i&gt;  green&lt;/i&gt; &amp;rarr; the green component as an integer value from 0 to 255.&lt;br&gt;
+&lt;i&gt;  blue&lt;/i&gt; &amp;rarr; the blue component as an integer value from 0 to 255.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_rgb(255,127,0) &amp;rarr; &apos;#ff7f00&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2947"/>
+        <source>&lt;h3&gt;log() é¢æ°&lt;/h3&gt;
+Returns the value of the logarithm of the passed value and base.
+&lt;br&gt;
+This function takes two arguments.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;log(base, value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;base&lt;/code&gt; - any positive number.&lt;br&gt;
+&lt;code&gt;value&lt;/code&gt; - any positive number.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;log(2, 32) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;log(0.5, 32) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="3009"/>
+        <source>&lt;h3&gt;log10() é¢æ°&lt;/h3&gt;
+Returns the value of the base 10 logarithm of the passed expression.
+&lt;br&gt;
+This function takes one argument.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;log10(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - any positive number.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="3025"/>
         <source>&lt;h3&gt;minute() function&lt;/h3&gt;
 Extract the minute from a datetime or time, or the number of minutes
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -57158,7 +58336,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="313"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="897"/>
         <source>&lt;h3&gt;$length function&lt;/h3&gt;
 Returns the length of the current feature.
 
@@ -57185,7 +58363,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="206"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="509"/>
         <source>
 &lt;h3&gt;Color Group&lt;/h3&gt;
 This group contains functions for manipulating colors
@@ -57196,7 +58374,7 @@ This group contains functions for manipulating colors
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="795"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1601"/>
         <source>&lt;h3&gt;log10() function&lt;/h3&gt;
 Returns the value of the base 10 logarithm of the passed expression.
 &lt;br&gt;
@@ -57231,7 +58409,7 @@ This function takes one argument.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1042"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2174"/>
         <source>&lt;h3&gt;regexp_substr() function&lt;/h3&gt;
 Returns the portion of a string which matches a supplied regular expression.
 
@@ -57264,7 +58442,7 @@ Returns the portion of a string which matches a supplied regular expression.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="913"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1814"/>
         <source>&lt;h3&gt;left() function&lt;/h3&gt;
 Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; leftmost characters of the string.
 
@@ -57299,7 +58477,7 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; leftmost characters o
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1308"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2618"/>
         <source>&lt;h3&gt;tan() function&lt;/h3&gt;
 Returns tangent of an angle.
 
@@ -57327,7 +58505,7 @@ Returns tangent of an angle.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="341"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="960"/>
         <source>&lt;h3&gt;lower() function&lt;/h3&gt;
 Converts a string to lower case letters.
 
@@ -57354,7 +58532,7 @@ Converts a string to lower case letters.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1335"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2774"/>
         <source>&lt;h3&gt;format_number() function&lt;/h3&gt;
 Returns a number formatted with the locale separator for thousands. 
 Also truncates the number to the number of supplied places. 
@@ -57391,7 +58569,7 @@ to.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="113"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="277"/>
         <source>&lt;h3&gt;String Group&lt;/h3&gt;
 This group contains functions that operate on strings e.g replace, convert to upper case.
 </source>
@@ -57400,7 +58578,7 @@ This group contains functions that operate on strings e.g replace, convert to up
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1208"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2463"/>
         <source>&lt;h3&gt;abs() function&lt;/h3&gt;
 Returns the absolute value of a number.&lt;br&gt;
 
@@ -57429,7 +58607,7 @@ abs(&lt;i&gt;value&lt;/i&gt;)&lt;br&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="811"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1617"/>
         <source>&lt;h3&gt;format() function&lt;/h3&gt;
 Format a string using supplied arguments. 
 
@@ -57460,7 +58638,7 @@ Format a string using supplied arguments.
 &lt;code&gt;format(&apos;This %1 a %2&apos;,&apos;is&apos;, &apos;test&apos;) &amp;rarr; This is a test&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1057"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2202"/>
         <source>
 &lt;h3&gt;color_cmyka() function&lt;/h3&gt;
 Returns a string representation of a color based on its cyan, magenta, yellow, black and alpha (transparency) components
@@ -57501,7 +58679,7 @@ Returns a string representation of a color based on its cyan, magenta, yellow, b
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="562"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1208"/>
         <source>&lt;h3&gt;toreal function&lt;/h3&gt;
 Converts a string to real number. Nothing changed if a value cannot be converted to real (e.g &apos;123.56asd&apos; is invalid). Numbers are rounded after saving changes if the precision is smaller than the result of the conversion.
 
@@ -57533,7 +58711,7 @@ Converts a string to real number. Nothing changed if a value cannot be converted
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="93"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="257"/>
         <source>&lt;h3&gt;month() function&lt;/h3&gt;
 Extract the month part from a date, or the number of months
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -57575,7 +58753,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="188"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="417"/>
         <source>&lt;h3&gt;Math Group&lt;/h3&gt;
 This group contains math functions e.g square root, sin and cos
 </source>
@@ -57584,7 +58762,7 @@ This group contains math functions e.g square root, sin and cos
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1397"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2853"/>
         <source>&lt;h3&gt;scale_exp() function&lt;/h3&gt;
 Transforms a given value from an input domain to an output range using an exponential curve. This function can be used to ease values in or out 
 of the specified output range.   
@@ -57647,7 +58825,7 @@ accelerating as the input values approach the domain maximum. Smaller exponents 
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="761"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1567"/>
         <source>&lt;h3&gt;coalesce() function&lt;/h3&gt;
 Returns the first non-NULL value from the expression list.
 &lt;br&gt;
@@ -57690,7 +58868,7 @@ This function can take any number of arguments.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1022"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2125"/>
         <source>&lt;h3&gt;scale_linear() function&lt;/h3&gt;
 Transforms a given value from an input domain to an output range using linear interpolation. 
 
@@ -57733,7 +58911,7 @@ Transforms a given value from an input domain to an output range using linear in
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="353"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="972"/>
         <source>&lt;h3&gt;$area function&lt;/h3&gt;
 Returns the area size of the current feature.
 
@@ -57762,7 +58940,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="256"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="638"/>
         <source>&lt;h3&gt;trim() function&lt;/h3&gt;
 Removes all leading and trailing whitespace (spaces, tabs, etc) from a string.
 
@@ -57793,7 +58971,7 @@ Removes all leading and trailing whitespace (spaces, tabs, etc) from a string.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="710"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1470"/>
         <source>&lt;h3&gt;color_hsv() function&lt;/h3&gt;
 Returns a string representation of a color based on its hue, saturation, and value attributes
 
@@ -57828,7 +59006,7 @@ Returns a string representation of a color based on its hue, saturation, and val
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="240"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="576"/>
         <source>&lt;h3&gt;todatetime() function&lt;/h3&gt;
 Convert a string into Qt data time type.
 
@@ -57857,7 +59035,7 @@ Convert a string into Qt data time type.
 &lt;code&gt;todatetime(&apos;2012-05-04 12:50:00&apos;) &amp;rarr; 2012-05-04T12:50:00&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="661"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1368"/>
         <source>&lt;h3&gt;week() function&lt;/h3&gt;
 Extract the week number from a date, or the number of weeks
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -57899,7 +59077,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1507"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2980"/>
         <source>&lt;h3&gt;CASE expression&lt;/h3&gt;
 A conditional expression that can be used to evaluate multiple expressions and
 return a result.
@@ -57959,7 +59137,7 @@ return a result.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="975"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2012"/>
         <source>&lt;h3&gt;$id function&lt;/h3&gt;
 Returns the feature id of the current row.
 
@@ -57988,7 +59166,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1380"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2836"/>
         <source>&lt;h3&gt;Date and Time Group&lt;/h3&gt;
 This group contains functions for handling date and time data.
 </source>
@@ -57997,7 +59175,7 @@ This group contains functions for handling date and time data.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1195"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2420"/>
         <source>&lt;h3&gt;$numfeatures function&lt;/h3&gt;
 In atlas generation, returns the total number of features within the coverage layer.
 
@@ -58026,7 +59204,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="142"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="306"/>
         <source>
 &lt;h3&gt;color_cmyk() function&lt;/h3&gt;
 Returns a string representation of a color based on its cyan, magenta, yellow and black components
@@ -58065,7 +59243,7 @@ Returns a string representation of a color based on its cyan, magenta, yellow an
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1234"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2503"/>
         <source>&lt;h3&gt;rpad() function&lt;/h3&gt;
 Returns a string with supplied width padded
 using the fill character.
@@ -58105,7 +59283,7 @@ using the fill character.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1473"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2929"/>
         <source>&lt;h3&gt;lpad() function&lt;/h3&gt;
 Returns a string with supplied width padded
 using the fill character.
@@ -58143,7 +59321,7 @@ using the fill character.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1271"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2556"/>
         <source>&lt;h3&gt;regexp_replace() function&lt;/h3&gt;
 Returns a string with the supplied regular expression replaced.
 
@@ -58178,7 +59356,7 @@ Returns a string with the supplied regular expression replaced.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1459"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2915"/>
         <source>&lt;h3&gt;upper() function&lt;/h3&gt;
 Converts a string to upper case letters.
 
@@ -58209,7 +59387,7 @@ Converts a string to upper case letters.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="325"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="925"/>
         <source>&lt;h3&gt;Record Group&lt;/h3&gt;
 This group contains functions that operate on record identifiers.
 </source>
@@ -58218,7 +59396,7 @@ This group contains functions that operate on record identifiers.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="576"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1254"/>
         <source>&lt;h3&gt;right() function&lt;/h3&gt;
 Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; rightmost characters of the string.
 
@@ -58253,7 +59431,7 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; rightmost characters 
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="618"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1296"/>
         <source>&lt;h3&gt;length() function&lt;/h3&gt;
 Returns the length of a string.
 
@@ -58284,7 +59462,7 @@ Returns the length of a string.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1092"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2252"/>
         <source>&lt;h3&gt;Function ceil()&lt;/h3&gt;
 Rounds a number upwards.
 
@@ -58317,7 +59495,7 @@ Rounds a number upwards.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="747"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1520"/>
         <source>&lt;h3&gt;min() function&lt;/h3&gt;
 Returns the smallest value in a set of values.
 
@@ -58348,7 +59526,7 @@ Returns the smallest value in a set of values.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1133"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2321"/>
         <source>&lt;h3&gt;Funktion ln()&lt;/h3&gt;
 Returns the value of the natural logarithm of the passed expression.
 &lt;br&gt;
@@ -58383,7 +59561,7 @@ This function takes one argument.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1005"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2108"/>
         <source>&lt;h3&gt;color_hsla() function&lt;/h3&gt;
 Returns a string representation of a color based on its hue, saturation, lightness and alpha (transparency) attributes
 
@@ -58420,7 +59598,7 @@ Returns a string representation of a color based on its hue, saturation, lightne
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1253"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2522"/>
         <source>&lt;h3&gt;regexp_match() function&lt;/h3&gt;
 Returns true if any part of a string matches the supplied regular expression.
 
@@ -58453,7 +59631,7 @@ Returns true if any part of a string matches the supplied regular expression.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1221"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2476"/>
         <source>&lt;h3&gt;asin() function&lt;/h3&gt;
 Returns arcussinus of a value in radians.
 
@@ -58481,7 +59659,7 @@ Returns arcussinus of a value in radians.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="955"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1992"/>
         <source>&lt;h3&gt;clamp() function&lt;/h3&gt;
 Restricts an input value to a specified range.
 
@@ -58524,7 +59702,7 @@ Restricts an input value to a specified range.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="605"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1283"/>
         <source>&lt;h3&gt;sqrt() function&lt;/h3&gt;
 Returns square root of a value
 
@@ -58552,7 +59730,7 @@ Returns square root of a value
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="210"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="526"/>
         <source>&lt;h3&gt;$x function&lt;/h3&gt;
 Returns the x coordinate of the current feature.
 
@@ -58581,7 +59759,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="929"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1915"/>
         <source>&lt;h3&gt;tostring function&lt;/h3&gt;
 Converts a number to string.
 
@@ -58612,7 +59790,7 @@ Converts a number to string.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="541"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1187"/>
         <source>&lt;h3&gt;round() function&lt;/h3&gt;
 Rounds a number to number of decimal places.
 &lt;br&gt;
@@ -58657,7 +59835,7 @@ use &lt;code&gt;round(decimal)&lt;/code&gt; 一番近い整数に丸められま
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="366"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="985"/>
         <source>&lt;h3&gt;format_date() function&lt;/h3&gt;
 Format a date type or string into a custom string format. Uses Qt data time format strings.  See &lt;a href=&apos;http://qt-project.org/doc/qt-4.8/qdatetime.html#toString&apos;&gt;QDateTime::toString&lt;/a&gt;
 
@@ -59011,7 +60189,7 @@ Format a date type or string into a custom string format. Uses Qt data time form
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1165"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2353"/>
         <source>&lt;h3&gt;$now function&lt;/h3&gt;
 Returns the current date and time
 
@@ -59040,7 +60218,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="160"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="324"/>
         <source>&lt;h3&gt;CASE expression&lt;/h3&gt;
 A conditional expression that can be used to evaluate multiple expressions and
 return a result.
@@ -59098,7 +60276,7 @@ return a result.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1268"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2553"/>
         <source>&lt;h3&gt;Conditions Group&lt;/h3&gt;
 This group contains functions that operate on condition.
 </source>
@@ -59107,7 +60285,7 @@ This group contains functions that operate on condition.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="872"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1747"/>
         <source>&lt;h3&gt;day() function&lt;/h3&gt;
 Extract the day from a date, or the number of days
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -59149,7 +60327,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1287"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2572"/>
         <source>&lt;h3&gt;exp() function&lt;/h3&gt;
 Returns exponential of an value.
 
@@ -59177,7 +60355,7 @@ Returns exponential of an value.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="116"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="280"/>
         <source>&lt;h3&gt;tointerval() function&lt;/h3&gt;
 Converts a string to a interval type.  Can be used to take days, hours, month, etc off a date. 
 
@@ -59206,6 +60384,23 @@ Converts a string to a interval type.  Can be used to take days, hours, month, e
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="11"/>
+        <source>&lt;h3&gt;tointerval() é¢æ°&lt;/h3&gt;
+Converts a string to a interval type.  Can be used to take days, hours, month, etc off a date. 
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;tointerval(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. Format {n} days {n} hours {n} months
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todatetime(&apos;2012-05-05 12:00:00&apos;) - tointerval(&apos;1 day 2 hours&apos;) &amp;rarr; 2012-05-04T10:00:00&lt;/code&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="24"/>
         <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
 Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
 
@@ -59242,7 +60437,369 @@ Returns a string representation of a color based on its hue, saturation, value a
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="191"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="41"/>
+        <source>&lt;h3&gt;atan() é¢æ°&lt;/h3&gt;
+Returns arcustanget of a value in radians.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     atan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; tan of an angle.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="54"/>
+        <source>&lt;h3&gt;right() é¢æ°&lt;/h3&gt;
+Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; rightmost characters of the string.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;right(string, pos)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. The string.
+&lt;br&gt;
+&lt;code&gt;length&lt;/code&gt; - is int. The number of characters from the right to return.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;right(&apos;Hello World&apos;,5) &amp;rarr; &apos;World&apos;&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="70"/>
+        <source>&lt;h3&gt;day() é¢æ°&lt;/h3&gt;
+Extract the day from a date, or the number of days
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;day(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;day(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is date or datetime. The date to extract the day from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of days from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;day(&apos;2012-05-12&apos;) &amp;rarr; 12&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;day(tointerval(&apos;3 days&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;day(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 730&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="127"/>
+        <source>&lt;h3&gt;length() é¢æ°&lt;/h3&gt;
+Returns the length of a string.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     length(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The String to count the length of.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="169"/>
+        <source>&lt;h3&gt;sqrt() é¢æ°&lt;/h3&gt;
+Returns square root of a value
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     sqrt(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; number.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     sqrt(9) &amp;rarr; 3&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="182"/>
+        <source>
+&lt;h3&gt;color_cmyka() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its cyan, magenta, yellow, black and alpha (transparency) components
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_cmyka(&lt;i&gt;cyan, magenta, yellow, black, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  cyan&lt;/i&gt; &amp;rarr; the cyan component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  magenta&lt;/i&gt; &amp;rarr; the magenta component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  yellow&lt;/i&gt; &amp;rarr; the yellow component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  black&lt;/i&gt; &amp;rarr; the black component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_cmyka(100,50,0,10,200) &amp;rarr; &apos;0,115,230,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="201"/>
+        <source>&lt;h3&gt;xat é¢æ°&lt;/h3&gt;
+Retrieves a x coordinate of the current feature
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;xat(i)&lt;/code&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - is int. index of point of a line (indices start at 0; negative values apply to the last index).
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="213"/>
+        <source>&lt;h3&gt;format_number() é¢æ°&lt;/h3&gt;
+Returns a number formatted with the locale separator for thousands. 
+Also truncates the number to the number of supplied places. 
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;format_number(number,places)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;number&lt;/code&gt; - is number. The number to be formatted.
+&lt;br&gt;
+&lt;code&gt;places&lt;/code&gt; - is int. The number of decimal places to truncate the string
+to.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format_number(10000000.332,2) &amp;rarr; 10,000,000.33&lt;/code&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="230"/>
+        <source>&lt;h3&gt;asin() é¢æ°&lt;/h3&gt;
+Returns arcussinus of a value in radians.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     asin(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; sin of an angle.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     asin(1.0) &amp;rarr; 1.5707963267949&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="243"/>
+        <source>&lt;h3&gt;concat() é¢æ°&lt;/h3&gt;
+Concatenates several strings to one.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+     concat(&lt;i&gt;string&lt;i&gt;[,&lt;i&gt;string&lt;/i&gt;...])
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  a string.&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="352"/>
+        <source>&lt;h3&gt;strpos() é¢æ°&lt;/h3&gt;
+Return the index of a regular expression in a string.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+     strpos(&lt;i&gt;haystack&lt;/i&gt;, &lt;i&gt;needle&lt;/i&gt;)
+&lt;br&gt;&lt;br&gt;
+Returns -1 if the expression isn&apos;t found.
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  haystack&lt;/i&gt; &amp;rarr; is string.  The string that is to be searched.&lt;br&gt;
+&lt;i&gt;  needle&lt;/i&gt; &amp;rarr; is number.  The regular expression to look for.&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     strpos(&apos;HELLO WORLD&apos;,&apos;WORLD&apos;) &amp;rarr; 6&lt;br&gt;
+     strpos(&apos;HELLO WORLD&apos;,&apos;GOODBYE&apos;) &amp;rarr; -1&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="370"/>
+        <source>&lt;h3&gt;round() é¢æ°&lt;/h3&gt;
+Rounds a number to number of decimal places.
+&lt;br&gt;
+This function can take one or two arguments depending on what is needed.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;round(decimal,places)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;round(decimal)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;decimal&lt;/code&gt; - is decimal. The decimal number to be rounded.
+&lt;br&gt;
+&lt;code&gt;places&lt;/code&gt; - is int. The number of places to round decimal too. Can be negative.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;round(1234.567, 2 ) &amp;rarr; 1234.57&lt;/code&gt;&lt;br&gt;
+use &lt;code&gt;round(decimal)&lt;/code&gt; to round to the nearest integer&lt;br&gt;
+&lt;code&gt;round(1234.567) &amp;rarr; 1235&lt;/code&gt;&lt;br&gt;
+
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="391"/>
+        <source>&lt;h3&gt;$feature é¢æ°&lt;/h3&gt;
+In atlas generation, returns the current feature number that is iterated over on the coverage layer.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$feature&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="404"/>
+        <source>&lt;h3&gt;$page é¢æ°&lt;/h3&gt;
+Returns the current page number within a composition.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$page&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$page &amp;rarr; 2&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="420"/>
+        <source>&lt;h3&gt;rand() é¢æ°&lt;/h3&gt;
+Returns a random integer within the range specified by the minimum and 
+maximum argument (inclusive).
+&lt;br&gt;
+This function takes two arguments.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;rand(min, max)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;min&lt;/code&gt; - an integer representing the smallest possible random number desired.&lt;br&gt;
+&lt;code&gt;max&lt;/code&gt; - an integer representing the largest possible random number desired.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;rand(1, 10) &amp;rarr; 8&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="437"/>
+        <source>&lt;h3&gt;hour() é¢æ°&lt;/h3&gt;
+Extract the hour from a datetime or time, or the number of hours
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;hour(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is datetime or time. The date to extract the hour from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of hours from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;hour(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 13&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(tointerval(&apos;3 hours&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(age(&apos;2012-07-22T13:00:00&apos;,&apos;2012-07-22T10:00:00&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 17520&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="458"/>
+        <source>&lt;h3&gt;month() é¢æ°&lt;/h3&gt;
+Extract the month part from a date, or the number of months
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;month(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;month(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is date or datetime. The date to extract the month from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of months from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;month(&apos;2012-05-12&apos;) &amp;rarr; 05&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;month(tointerval(&apos;3 months&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;month(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 4.033...&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="478"/>
+        <source>&lt;h3&gt;replace() é¢æ°&lt;/h3&gt;
+Returns a string with the the supplied string replaced.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     replace(&lt;i&gt;string,before,after&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The start string.&lt;br&gt;
+&lt;i&gt;  before&lt;/i&gt; &amp;rarr; is string.  The string to replace.&lt;br&gt;
+&lt;i&gt;  after&lt;/i&gt; &amp;rarr; is string.  The string that will replace &lt;i&gt;before&lt;/i&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     replace(&apos;QGIS SHOULD ROCK&apos;,&apos;SHOULD&apos;,&apos;DOES&apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="494"/>
         <source>&lt;h3&gt;Function floor()&lt;/h3&gt;
 Rounds a number downwards.
 
@@ -59275,7 +60832,137 @@ Rounds a number downwards.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="283"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="513"/>
+        <source>&lt;h3&gt;totime() é¢æ°&lt;/h3&gt;
+Convert a string into Qt time type.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;totime(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string in Qt time format.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;totime(&apos;12:30:01&apos;) &amp;rarr; 12:30:01&lt;/code&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="556"/>
+        <source>&lt;h3&gt;ramp_color() é¢æ°&lt;/h3&gt;
+Returns a string representing a color from a color ramp. 
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     ramp_color(&lt;i&gt;ramp_name,value&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  ramp_name&lt;/i&gt; &amp;rarr; the name of the color ramp as a string, for example &apos;Spectral&apos;.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the position on the ramp to select the color from as a real number between 0 and 1.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     ramp_color(&apos;Spectral&apos;,0.3) &amp;rarr; &apos;#fdbe73&apos;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Note:&lt;/h4&gt;
+The color ramps available vary between QGIS installations.  This function
+may not give the expected results if you move your Quantum project.
+&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="589"/>
+        <source>&lt;h3&gt;age() é¢æ°&lt;/h3&gt;
+Returns the difference between two dates.
+&lt;br&gt;&lt;br&gt;
+The difference is returned as a &lt;code&gt;Interval&lt;/code&gt; 
+and needs to be used with one of the following functions
+in order to extract useful information:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;year&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;month&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;week&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;day&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;hour&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;minute&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;second&lt;/code&gt;
+&lt;/ul&gt;
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;age(string,string)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(datetime,datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(string,datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(datetime,string)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. A string in date format.
+&lt;br&gt;
+&lt;code&gt;datetime&lt;/code&gt; - is date or datetime. A date or datetime type.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;) &amp;rarr; Interval&lt;/code&gt;&lt;br&gt;
+use &lt;code&gt;day&lt;/code&gt; to extract number of days&lt;br&gt;
+&lt;code&gt;day(age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;)) &amp;rarr; 10&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="622"/>
+        <source>&lt;h3&gt;$y é¢æ°&lt;/h3&gt;
+Returns the y coordinate of the current feature.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$y&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$y &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="665"/>
+        <source>&lt;h3&gt;$rownum é¢æ°&lt;/h3&gt;
+Returns the number of the current row.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$rownum&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$rownum &amp;rarr; 4711&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="678"/>
+        <source>&lt;h3&gt;tostring é¢æ°&lt;/h3&gt;
+Converts a number to string.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     tostring(&lt;i&gt;number&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;number&lt;/i&gt; &amp;rarr; is integer or real.  The number to convert to string.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="692"/>
         <source>&lt;h3&gt;strpos() function&lt;/h3&gt;
 Return the index of a regular expression in a string.
 
@@ -59314,7 +61001,381 @@ Returns -1 if the expression isn&apos;t found.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="681"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="722"/>
+        <source>&lt;h3&gt;format_date() é¢æ°&lt;/h3&gt;
+Format a date type or string into a custom string format. Uses Qt data time format strings.  See &lt;a href=&apos;http://qt-project.org/doc/qt-4.8/qdatetime.html#toString&apos;&gt;QDateTime::toString&lt;/a&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;format_date(&apos;string&apos;, &apos;format_string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. Date/Time/DateTime string.
+&lt;br&gt;
+&lt;code&gt;format_string&lt;/code&gt; - is string. String template used to format the string.
+
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Expression&lt;/th&gt;
+
+        &lt;th&gt;Output&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;d&lt;/td&gt;
+
+      &lt;td&gt;the day as number without a leading zero (1 to 31)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;dd&lt;/td&gt;
+
+      &lt;td&gt;the day as number with a leading zero (01 to 31)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;ddd&lt;/td&gt;
+
+      &lt;td&gt;the abbreviated localized day name (e.g. &apos;Mon&apos; to &apos;Sun&apos;). Uses &lt;a href=
+      &quot;qdate.html#shortDayName&quot;&gt;QDate::shortDayName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;dddd&lt;/td&gt;
+
+      &lt;td&gt;the long localized day name (e.g. &apos;Monday&apos; to &apos;Sunday&apos;). Uses &lt;a href=
+      &quot;qdate.html#longDayName&quot;&gt;QDate::longDayName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;M&lt;/td&gt;
+
+      &lt;td&gt;the month as number without a leading zero (1-12)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;MM&lt;/td&gt;
+
+      &lt;td&gt;the month as number with a leading zero (01-12)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;MMM&lt;/td&gt;
+
+      &lt;td&gt;the abbreviated localized month name (e.g. &apos;Jan&apos; to &apos;Dec&apos;). Uses &lt;a href=
+      &quot;qdate.html#shortMonthName&quot;&gt;QDate::shortMonthName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;MMMM&lt;/td&gt;
+
+      &lt;td&gt;the long localized month name (e.g. &apos;January&apos; to &apos;December&apos;). Uses &lt;a href=
+      &quot;qdate.html#longMonthName&quot;&gt;QDate::longMonthName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;yy&lt;/td&gt;
+
+      &lt;td&gt;the year as two digit number (00-99)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;yyyy&lt;/td&gt;
+
+      &lt;td&gt;the year as four digit number&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;p&gt;These expressions may be used for the time part of the format string:&lt;/p&gt;
+
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Expression&lt;/th&gt;
+
+        &lt;th&gt;Output&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;h&lt;/td&gt;
+
+      &lt;td&gt;the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;hh&lt;/td&gt;
+
+      &lt;td&gt;the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;H&lt;/td&gt;
+
+      &lt;td&gt;the hour without a leading zero (0 to 23, even with AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;HH&lt;/td&gt;
+
+      &lt;td&gt;the hour with a leading zero (00 to 23, even with AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;m&lt;/td&gt;
+
+      &lt;td&gt;the minute without a leading zero (0 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;mm&lt;/td&gt;
+
+      &lt;td&gt;the minute with a leading zero (00 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;s&lt;/td&gt;
+
+      &lt;td&gt;the second without a leading zero (0 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;ss&lt;/td&gt;
+
+      &lt;td&gt;the second with a leading zero (00 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;z&lt;/td&gt;
+
+      &lt;td&gt;the milliseconds without leading zeroes (0 to 999)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;zzz&lt;/td&gt;
+
+      &lt;td&gt;the milliseconds with leading zeroes (000 to 999)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;AP or A&lt;/td&gt;
+
+      &lt;td&gt;interpret as an AM/PM time. &lt;i&gt;AP&lt;/i&gt; must be either &quot;AM&quot; or &quot;PM&quot;.&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;ap or a&lt;/td&gt;
+
+      &lt;td&gt;Interpret as an AM/PM time. &lt;i&gt;ap&lt;/i&gt; must be either &quot;am&quot; or &quot;pm&quot;.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.mm.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="909"/>
+        <source>&lt;h3&gt;Funktion ln()&lt;/h3&gt;
+Returns the value of the natural logarithm of the passed expression.
+&lt;br&gt;
+This function takes one argument.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - any positive number.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="941"/>
+        <source>&lt;h3&gt;rpad() é¢æ°&lt;/h3&gt;
+Returns a string with supplied width padded
+using the fill character.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;rpad(string, width, fill)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. The string.
+&lt;br&gt;
+&lt;code&gt;width&lt;/code&gt; - is int. The length of the new string.
+&lt;br&gt;
+&lt;code&gt;fill&lt;/code&gt; - is char. The character to padd the remaining space with. 
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;rpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;xxxxxHello&apos;&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1160"/>
+        <source>&lt;h3&gt;min() é¢æ°&lt;/h3&gt;
+Returns the smallest value in a set of values.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+     min(&lt;i&gt;value&lt;i&gt;[,&lt;i&gt;value&lt;/i&gt;...])
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; a number.&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     min(20.5,10,6.2) &amp;rarr; 6.2
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1174"/>
+        <source>&lt;h3&gt;tan() é¢æ°&lt;/h3&gt;
+Returns tangent of an angle.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1222"/>
+        <source>&lt;h3&gt;lpad() é¢æ°&lt;/h3&gt;
+Returns a string with supplied width padded
+using the fill character.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;lpad(string, length, fill)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. The string.
+&lt;br&gt;
+&lt;code&gt;length&lt;/code&gt; - is int. The length of the new string.
+&lt;br&gt;
+&lt;code&gt;fill&lt;/code&gt; - is char. The character to padd the remaining space with. 
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;lpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;Helloxxxxx&apos;&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1240"/>
+        <source>&lt;h3&gt;toreal é¢æ°&lt;/h3&gt;
+Converts a string to real number. Nothing changed if a value cannot be converted to real (e.g &apos;123.56asd&apos; is invalid). Numbers are rounded after saving changes if the precision is smaller than the result of the conversion.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     toreal(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The String to convert to real number.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toreal(&apos;123.45&apos;) &amp;rarr; 123.45&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1310"/>
+        <source>&lt;h3&gt;CASE å¼&lt;/h3&gt;
+A conditional expression that can be used to evaluate multiple expressions and
+return a result.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;
+     CASE
+        WHEN &lt;i&gt;condition&lt;/i&gt; THEN &lt;i&gt;result&lt;/i&gt;
+        [ ...n ]
+        [ ELSE &lt;i&gt;result&lt;/i&gt; ]
+     END
+&lt;/pre&gt;
+[ ] marks optional components
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  WHEN condition&lt;/i&gt; - The condition expression to evaluate. &lt;br&gt;
+&lt;i&gt;  THEN result&lt;/i&gt; - If &lt;i&gt;condition&lt;/i&gt; evaluates to True then &lt;i&gt;result&lt;/i&gt; is evaluated and returned. &lt;br&gt;
+&lt;i&gt;  ELSE result&lt;/i&gt; - If none of the above conditions evaluated to True then &lt;i&gt;result&lt;/i&gt; is evaluated and returned. &lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;pre&gt;
+    CASE
+        WHEN &lt;i&gt;&quot;column&quot; IS NULL&lt;/i&gt; THEN &lt;i&gt;&apos;None&apos;&lt;/i&gt;
+        ELSE &lt;i&gt;&quot;column&quot;&lt;/i&gt;
+    END
+&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1388"/>
+        <source>&lt;h3&gt;color_hsl() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, and lightness attributes
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_hsl(&lt;i&gt;hue, saturation, lightness&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  lightness&lt;/i&gt; &amp;rarr; the lightness percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsl(100,50,70) &amp;rarr; &apos;#a6d98c&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1404"/>
+        <source>&lt;h3&gt;coalesce() é¢æ°&lt;/h3&gt;
+Returns the first non-NULL value from the expression list.
+&lt;br&gt;
+This function can take any number of arguments.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;coalesce(expression1, expression2 ...)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;expression&lt;/code&gt; - any valid expression or value, irregardless of type.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;coalesce(NULL, 2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;coalesce(NULL, 2, 3) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;coalesce(7, NULL, 3*2) &amp;rarr; 7&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;code&gt;coalesce(&quot;fieldA&quot;, &quot;fallbackField&quot;, &apos;ERROR&apos;) &amp;rarr; value of fieldA if it is non-NULL
+ else the value of &quot;fallbackField&quot; or the string &apos;ERROR&apos; if both are NULL&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1424"/>
         <source>&lt;h3&gt;totime() function&lt;/h3&gt;
 Convert a string into Qt time type.
 
@@ -59343,7 +61404,80 @@ Convert a string into Qt time type.
 &lt;code&gt;totime(&apos;12:30:01&apos;) &amp;rarr; 12:30:01&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="781"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1437"/>
+        <source>&lt;h3&gt;color_hsla() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, lightness and alpha (transparency) attributes
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_hsla(&lt;i&gt;hue, saturation, lightness, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  lightness&lt;/i&gt; &amp;rarr; the lightness percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsla(100,50,70,200) &amp;rarr; &apos;166,217,140,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1507"/>
+        <source>&lt;h3&gt;$scale é¢æ°&lt;/h3&gt;
+Returns the current scale of the map canvas.
+&lt;br&gt;
+Note: This function is only available in some contexts and will be 0 otherwise. 
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;$scale&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;$scale &amp;rarr; 10000&lt;/code&gt;&lt;br&gt;
+
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1534"/>
+        <source>&lt;h3&gt;$id é¢æ°&lt;/h3&gt;
+Returns the feature id of the current row.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$id&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$id &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1553"/>
+        <source>&lt;h3&gt;toint é¢æ°&lt;/h3&gt;
+Converts a string to integer number. Nothing changed if a value cannot be converted to integer (e.g &apos;123asd&apos; is invalid).
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     toint(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The String to convert to integer number.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1587"/>
         <source>&lt;h3&gt;max() function&lt;/h3&gt;
 Returns the largest value in a set of values.
 
@@ -59374,7 +61508,448 @@ Returns the largest value in a set of values.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1107"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1631"/>
+        <source>&lt;h3&gt;abs() é¢æ°&lt;/h3&gt;
+Returns the absolute value of a number.&lt;br&gt;
+
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+abs(&lt;i&gt;value&lt;/i&gt;)&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - a number.&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;code&gt;abs(-2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1644"/>
+        <source>&lt;h3&gt;regexp_match() é¢æ°&lt;/h3&gt;
+Returns true if any part of a string matches the supplied regular expression.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The string to test against the regular expression.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to test against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1672"/>
+        <source>&lt;h3&gt;color_hsv() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, and value attributes
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_hsv(&lt;i&gt;hue, saturation, value&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsv(40,100,100) &amp;rarr; &apos;#ffaa00&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1688"/>
+        <source>&lt;h3&gt;$length é¢æ°&lt;/h3&gt;
+Returns the length of the current feature.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$length&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1700"/>
+        <source>&lt;h3&gt;sin() é¢æ°&lt;/h3&gt;
+Returns sinus of an angle.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     sin(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     sin(1.571) &amp;rarr; 0.999999682931835&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1767"/>
+        <source>&lt;h3&gt;exp() é¢æ°&lt;/h3&gt;
+Returns exponential of an value.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     exp(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; number.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     exp(1.0) &amp;rarr; 2.71828182845905&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1801"/>
+        <source>&lt;h3&gt;$perimeter é¢æ°&lt;/h3&gt;
+Returns the perimeter length of the current feature.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$perimeter&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$perimeter &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1830"/>
+        <source>&lt;h3&gt;$numpages é¢æ°&lt;/h3&gt;
+Returns the total number of pages in the composition.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$numpages&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$numpages &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1843"/>
+        <source>&lt;h3&gt;week() é¢æ°&lt;/h3&gt;
+Extract the week number from a date, or the number of weeks
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;week(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;week(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is date or datetime. The date to extract the week from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of weeks from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;week(&apos;2012-05-12&apos;) &amp;rarr; 19&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;week(tointerval(&apos;3 weeks&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;week(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 104.285...&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1863"/>
+        <source>&lt;h3&gt;substr() é¢æ°&lt;/h3&gt;
+Return a part of a string
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     substr(&lt;i&gt;string,startpos,length&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The full string.&lt;br&gt;
+&lt;i&gt;  startpos&lt;/i&gt; &amp;rarr; is number.  The start position to extract from.&lt;br&gt;
+&lt;i&gt;  length&lt;/i&gt; &amp;rarr; is number.  The length of the string to extract.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     substr(&apos;HELLO WORLD&apos;,3,5) &amp;rarr; &apos;LLO W&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1879"/>
+        <source>&lt;h3&gt;scale_linear() é¢æ°&lt;/h3&gt;
+Transforms a given value from an input domain to an output range using linear interpolation. 
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     scale_linear(&lt;i&gt;val&lt;/i&gt;,&lt;i&gt;domain_min&lt;/i&gt;,&lt;i&gt;domain_max&lt;/i&gt;,&lt;i&gt;range_min&lt;/i&gt;,&lt;i&gt;range_max&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  val&lt;/i&gt; &amp;rarr; is a value in the input domain. The function will return a corresponding scaled value in the output range.&lt;br&gt;
+&lt;i&gt;  domain_min, domain_max&lt;/i&gt; &amp;rarr; specify the input domain, the smallest and largest values the input &lt;i&gt;val&lt;/i&gt; should take.&lt;br&gt;
+&lt;i&gt;  range_min, range_max&lt;/i&gt; &amp;rarr; specify the output range, the smallest and largest values which should be output by the function.&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     scale_linear(5,0,10,0,100) &amp;rarr; 50&lt;br&gt;
+     scale_linear(0.2,0,1,0,360) &amp;rarr; 72 &lt;i&gt;(eg, scaling a value between 0 and 1 to an angle between 0 and 360)&lt;/i&gt;&lt;br&gt;
+     scale_linear(1500,1000,10000,9,20) &amp;rarr; 10.22 &lt;i&gt;(eg, scaling a population which varies between 1000 and 10000 to a font size between 9 and 20)&lt;/i&gt;&lt;br&gt;
+     
+     
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1899"/>
+        <source>&lt;h3&gt;left() é¢æ°&lt;/h3&gt;
+Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; leftmost characters of the string.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;left(string, length)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string. The string.
+&lt;br&gt;
+&lt;code&gt;length&lt;/code&gt; - is int. The number of characters from the left to return.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;left(&apos;Hello World&apos;,5) &amp;rarr; &apos;Hello&apos;&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1929"/>
+        <source>&lt;h3&gt;trim() é¢æ°&lt;/h3&gt;
+Removes all leading and trailing whitespace (spaces, tabs, etc) from a string.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     trim(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string. The string to trim.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     trim(&apos;   hello world    &apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1943"/>
+        <source>&lt;h3&gt;Function floor()&lt;/h3&gt;
+Rounds a number downwards.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;floor(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - a number.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1963"/>
+        <source>&lt;h3&gt;color_hsva() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2025"/>
+        <source>&lt;h3&gt;todate() é¢æ°&lt;/h3&gt;
+Convert a string into Qt data type.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;todate(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string in Qt date format.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todate(&apos;2012-05-04&apos;) &amp;rarr; 2012-05-04&lt;/code&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2055"/>
+        <source>
+&lt;h3&gt;color_cmyk() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its cyan, magenta, yellow and black components
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_cmyk(&lt;i&gt;cyan, magenta, yellow, black&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  cyan&lt;/i&gt; &amp;rarr; the cyan component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  magenta&lt;/i&gt; &amp;rarr; the magenta component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  yellow&lt;/i&gt; &amp;rarr; the yellow component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  black&lt;/i&gt; &amp;rarr; the black component of the color, as a percentage integer value from 0 to 100.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_cmyk(100,50,0,10) &amp;rarr; &apos;#0073e6&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2073"/>
+        <source>&lt;h3&gt;year() é¢æ°&lt;/h3&gt;
+Extract the year part from a date, or the number of years
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;year(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is date or datetime. The date to extract the year from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of years from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;year(&apos;2012-05-12&apos;) &amp;rarr; 2012&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(tointerval(&apos;3 Years&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1.9986..&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2093"/>
+        <source>&lt;h3&gt;regexp_substr() é¢æ°&lt;/h3&gt;
+Returns the portion of a string which matches a supplied regular expression.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The input string.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to match against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2145"/>
+        <source>&lt;h3&gt;max() é¢æ°&lt;/h3&gt;
+Returns the largest value in a set of values.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+     max(&lt;i&gt;value&lt;i&gt;[,&lt;i&gt;value&lt;/i&gt;...])
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; a number.&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     max(2,10.2,5.5) &amp;rarr; 10.2
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2159"/>
+        <source>&lt;h3&gt;Function ceil()&lt;/h3&gt;
+Rounds a number upwards.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;ceil(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - a number.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2189"/>
+        <source>&lt;h3&gt;$area é¢æ°&lt;/h3&gt;
+Returns the area size of the current feature.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$area&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$area &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2221"/>
+        <source>&lt;h3&gt;title() é¢æ°&lt;/h3&gt;
+Converts all words of a string to title case (all words lower case with leading
+capital letter).
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     title(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The string to convert to title case.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;Hello World&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2267"/>
         <source>&lt;h3&gt;acos() function&lt;/h3&gt;
 Returns arcuscosinus of a value in radians.
 
@@ -59402,7 +61977,358 @@ Returns arcuscosinus of a value in radians.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1352"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2293"/>
+        <source>&lt;h3&gt;CASE å¼&lt;/h3&gt;
+A conditional expression that can be used to evaluate multiple expressions and
+return a result.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;
+     CASE
+        WHEN &lt;i&gt;condition&lt;/i&gt; THEN &lt;i&gt;result&lt;/i&gt;
+        [ ...n ]
+        [ ELSE &lt;i&gt;result&lt;/i&gt; ]
+     END
+&lt;/pre&gt;
+[ ] marks optional components
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  WHEN condition&lt;/i&gt; - The condition expression to evaluate. &lt;br&gt;
+&lt;i&gt;  THEN result&lt;/i&gt; - If &lt;i&gt;condition&lt;/i&gt; evaluates to True then &lt;i&gt;result&lt;/i&gt; is evaluated and returned. &lt;br&gt;
+&lt;i&gt;  ELSE result&lt;/i&gt; - If none of the above conditions evaluated to True then &lt;i&gt;result&lt;/i&gt; is evaluated and returned. &lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;pre&gt;
+    CASE
+        WHEN &lt;i&gt;&quot;column&quot; IS NULL&lt;/i&gt; THEN &lt;i&gt;&apos;None&apos;&lt;/i&gt;
+    END
+&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2383"/>
+        <source>&lt;h3&gt;regexp_replace() é¢æ°&lt;/h3&gt;
+Returns a string with the supplied regular expression replaced.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The start string.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to replace. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character).&lt;br&gt;
+&lt;i&gt;  after&lt;/i&gt; &amp;rarr; is string.  The string that will replace any matching occurences of the supplied regular expression. Captured groups can be inserted into the replacement string using &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2, etc. &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2399"/>
+        <source>&lt;h3&gt;minute() é¢æ°&lt;/h3&gt;
+Extract the minute from a datetime or time, or the number of minutes
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;minute(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is datetime or time. The date to extract the minute from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of minutes from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;minute(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 24&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(tointerval(&apos;3 minutes&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(age(&apos;2012-07-22T00:20:00&apos;,&apos;2012-07-22T00:00:00&apos;)) &amp;rarr; 20&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1051200&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2433"/>
+        <source>&lt;h3&gt;randf() é¢æ°&lt;/h3&gt;
+Returns a random float within the range specified by the minimum and 
+maximum argument (inclusive).
+&lt;br&gt;
+This function takes two arguments.
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;randf(min, max)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;min&lt;/code&gt; - a float representing the smallest possible random number desired.&lt;br&gt;
+&lt;code&gt;max&lt;/code&gt; - a float representing the largest possible random number desired.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;randf(1, 10) &amp;rarr; 4.59258286403147&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2450"/>
+        <source>&lt;h3&gt;acos() é¢æ°&lt;/h3&gt;
+Returns arcuscosinus of a value in radians.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     acos(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; cos of an angle.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     acos(0.5) &amp;rarr; 1.0471975511966&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2489"/>
+        <source>&lt;h3&gt;format() é¢æ°&lt;/h3&gt;
+Format a string using supplied arguments. 
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;format(&apos;string&apos;, arg, [arg...n])&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string.  String with Qt QString place holders.  Use %1, %2, etc for placeholders. Placeholders can be repeated. 
+&lt;br&gt;
+&lt;code&gt;arg [arg...n]&lt;/code&gt; - any type. Any number of args. 
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format(&apos;This %1 a %2&apos;,&apos;is&apos;, &apos;test&apos;) &amp;rarr; This is a test&lt;/code&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2537"/>
+        <source>&lt;h3&gt;atan2() é¢æ°&lt;/h3&gt;
+Returns arcustangens of y/x using the signs of the two 
+arguments to determine the quadrant of the result
+
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     atan2(&lt;i&gt;real&lt;/i&gt;, &lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; y coordinate difference&lt;br&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; x coordinate difference&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     atan2(1.0, 1.732) &amp;rarr; 0.523611477769969&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2588"/>
+        <source>&lt;h3&gt;$pi constant&lt;/h3&gt;
+Returns pi as value for calculations
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$pi&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$pi &amp;rarr; 3.14159265358979&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2605"/>
+        <source>&lt;h3&gt;$x é¢æ°&lt;/h3&gt;
+Returns the x coordinate of the current feature.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$x&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$x &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2631"/>
+        <source>&lt;h3&gt;yat é¢æ°&lt;/h3&gt;
+Retrieves a y coordinate of the current feature
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;yat(i)&lt;/code&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - is int. index of point of a line (indices start at 0; negative values apply to the last index).
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2643"/>
+        <source>&lt;h3&gt;todatetime() é¢æ°&lt;/h3&gt;
+Convert a string into Qt data time type.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;todatetime(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - is string in Qt date time format.
+&lt;br&gt;
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todatetime(&apos;2012-05-04 12:50:00&apos;) &amp;rarr; 2012-05-04T12:50:00&lt;/code&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2656"/>
+        <source>&lt;h3&gt;lower() é¢æ°&lt;/h3&gt;
+Converts a string to lower case letters.
+
+&lt;p&gt;&lt;h4&gt;  æ§æ&lt;/h4&gt;
+     lower(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;  å¼æ°&lt;/h4&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The String to convert to lower case.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;  ãµã³ãã«&lt;/h4&gt;
+     lower(&apos;HELLO World&apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2668"/>
+        <source>&lt;h3&gt;second() é¢æ°&lt;/h3&gt;
+Extract the seconds from a datetime or time, or the number of seconds
+from a &lt;code&gt;Interval&lt;/code&gt;
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;code&gt;second(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - is datetime or time. The date to extract the second from.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - is Interval. The Interval to return the number of seconds from.
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;second(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 57&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(tointerval(&apos;3 seconds&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(age(&apos;2012-07-22T00:20:00&apos;,&apos;2012-07-22T00:00:00&apos;)) &amp;rarr; 1200&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 63072000&lt;/code&gt;&lt;br&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2689"/>
+        <source>&lt;h3&gt;$now é¢æ°&lt;/h3&gt;
+Returns the current date and time
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$now&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$now &amp;rarr; 2012-07-22T13:24:57&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2702"/>
+        <source>
+&lt;h3&gt;color_rgba() é¢æ°&lt;/h3&gt;
+Returns a string representation of a color based on its red, green, blue, and alpha (transparency) components
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     color_rgba(&lt;i&gt;red, green, blue, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  red&lt;/i&gt; &amp;rarr; the red component as an integer value from 0 to 255.&lt;br&gt;
+&lt;i&gt;  green&lt;/i&gt; &amp;rarr; the green component as an integer value from 0 to 255.&lt;br&gt;
+&lt;i&gt;  blue&lt;/i&gt; &amp;rarr; the blue component as an integer value from 0 to 255.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_rgba(255,127,0,200) &amp;rarr; &apos;255,127,0,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2720"/>
+        <source>&lt;h3&gt;cos() é¢æ°&lt;/h3&gt;
+Returns cosinus of an angle.
+
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     cos(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+     cos(1.571) &amp;rarr; 0.000796326710733263&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2747"/>
+        <source>&lt;h3&gt;upper() é¢æ°&lt;/h3&gt;
+Converts a string to upper case letters.
+
+&lt;p&gt;&lt;h4&gt;æ§æ&lt;/h4&gt;
+     upper(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;å¼æ°&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The String to convert to upper case.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2761"/>
+        <source>&lt;h3&gt;$numfeatures é¢æ°&lt;/h3&gt;
+In atlas generation, returns the total number of features within the coverage layer.
+
+&lt;h4&gt;æ§æ&lt;/h4&gt;
+&lt;pre&gt;$numfeatures&lt;/pre&gt;
+
+&lt;h4&gt;å¼æ°&lt;/h4&gt;
+ãªã
+
+&lt;h4&gt;ãµã³ãã«&lt;/h4&gt;
+&lt;pre&gt;$numfeatures &amp;rarr; 42&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2791"/>
         <source>&lt;h3&gt;title() function&lt;/h3&gt;
 Converts all words of a string to title case (all words lower case with leading
 capital letter).
@@ -59434,7 +62360,7 @@ capital letter).
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1149"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2337"/>
         <source>&lt;h3&gt;atan2() function&lt;/h3&gt;
 Returns arcustangens of y/x using the signs of the two 
 arguments to determine the quadrant of the result
@@ -59467,7 +62393,7 @@ arguments to determine the quadrant of the result
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="988"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2038"/>
         <source>&lt;h3&gt;rand() function&lt;/h3&gt;
 Returns a random integer within the range specified by the minimum and 
 maximum argument (inclusive).
@@ -59503,7 +62429,7 @@ This function takes two arguments.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="892"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1780"/>
         <source>
 &lt;h3&gt;ramp_color() function&lt;/h3&gt;
 Returns a string representing a color from a color ramp. 
@@ -59548,7 +62474,7 @@ may not give the expected results if you move your Quantum project.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1300"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2585"/>
         <source>&lt;h3&gt;Conversions Group&lt;/h3&gt;
 This group contains functions to convert on data type to another e.g string to integer, integer to string.
 </source>
@@ -59557,7 +62483,7 @@ This group contains functions to convert on data type to another e.g string to i
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="694"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1454"/>
         <source>&lt;h3&gt;Operators Group&lt;/h3&gt;
 This group contains operators e.g + - * 
 </source>
@@ -59566,7 +62492,7 @@ This group contains operators e.g + - *
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="328"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="928"/>
         <source>&lt;h3&gt;$page function&lt;/h3&gt;
 Returns the current page number within a composition.
 
@@ -59595,7 +62521,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="851"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1726"/>
         <source>&lt;h3&gt;second() function&lt;/h3&gt;
 Extract the seconds from a datetime or time, or the number of seconds
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -59639,7 +62565,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1120"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2280"/>
         <source>&lt;h3&gt;$y function&lt;/h3&gt;
 Returns the y coordinate of the current feature.
 
@@ -59668,7 +62594,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="592"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1270"/>
         <source>&lt;h3&gt;cos() function&lt;/h3&gt;
 Returns cosinus of an angle.
 
@@ -59696,7 +62622,7 @@ Returns cosinus of an angle.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1178"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2366"/>
         <source>&lt;h3&gt;log() function&lt;/h3&gt;
 Returns the value of the logarithm of the passed value and base.
 &lt;br&gt;
@@ -59733,7 +62659,7 @@ This function takes two arguments.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="632"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1339"/>
         <source>&lt;h3&gt;sin() function&lt;/h3&gt;
 Returns sinus of an angle.
 
@@ -59761,7 +62687,8 @@ Returns sinus of an angle.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1557"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1547"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="3046"/>
         <source>&lt;h3&gt;Fields and Values&lt;/h3&gt;
 Contains a list of fields from the layer.  Sample values can also be accessed via right-click.
 &lt;br&gt;&lt;br&gt;
@@ -59776,7 +62703,7 @@ Select the field name from the list then right-click to access context menu with
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1383"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2839"/>
         <source>&lt;h3&gt;toint function&lt;/h3&gt;
 Converts a string to integer number. Nothing changed if a value cannot be converted to integer (e.g &apos;123asd&apos; is invalid).
 
@@ -59807,7 +62734,7 @@ Converts a string to integer number. Nothing changed if a value cannot be conver
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1491"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2964"/>
         <source>&lt;h3&gt;substr() function&lt;/h3&gt;
 Return a part of a string
 
@@ -59842,7 +62769,7 @@ Return a part of a string
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1076"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="2236"/>
         <source>&lt;h3&gt;color_hsl() function&lt;/h3&gt;
 Returns a string representation of a color based on its hue, saturation, and lightness attributes
 
@@ -59877,7 +62804,7 @@ Returns a string representation of a color based on its hue, saturation, and lig
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="223"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="539"/>
         <source>
 &lt;h3&gt;color_rgb() function&lt;/h3&gt;
 Returns a string representation of a color based on its red, green, and blue components
@@ -59914,7 +62841,7 @@ Returns a string representation of a color based on its red, green, and blue com
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="48"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="110"/>
         <source>&lt;h3&gt;randf() function&lt;/h3&gt;
 Returns a random float within the range specified by the minimum and 
 maximum argument (inclusive).
@@ -59950,7 +62877,7 @@ This function takes two arguments.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="301"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="710"/>
         <source>&lt;h3&gt;xat function&lt;/h3&gt;
 Retrieves a x coordinate of the current feature
 
@@ -59977,7 +62904,7 @@ Retrieves a x coordinate of the current feature
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="645"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1352"/>
         <source>&lt;h3&gt;replace() function&lt;/h3&gt;
 Returns a string with the the supplied string replaced.
 
@@ -60012,7 +62939,7 @@ Returns a string with the the supplied string replaced.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="726"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1486"/>
         <source>&lt;h3&gt;hour() function&lt;/h3&gt;
 Extract the hour from a datetime or time, or the number of hours
 from a &lt;code&gt;Interval&lt;/code&gt;
@@ -60056,7 +62983,7 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="81"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="157"/>
         <source>&lt;h3&gt;yat function&lt;/h3&gt;
 Retrieves a y coordinate of the current feature
 
@@ -60083,7 +63010,7 @@ Retrieves a y coordinate of the current feature
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="943"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1980"/>
         <source>&lt;h3&gt;$pi constant&lt;/h3&gt;
 Returns pi as value for calculations
 
@@ -60110,7 +63037,7 @@ None
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="838"/>
+        <location filename="../src/core/qgsexpression_texts.cpp" line="1713"/>
         <source>&lt;h3&gt;todate() function&lt;/h3&gt;
 Convert a string into Qt data type.
 
