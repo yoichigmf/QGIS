@@ -14266,13 +14266,14 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="978"/>
         <source>Memory Allocation Error</source>
-        <translation type="unfinished"></translation>
+        <translation>メモリ割り当てエラー</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="979"/>
         <source>Trying to create image #%1 ( %2x%3 @ %4dpi )may result in a memory overflow.
 Please try a lower resolution or a smaller papersize</source>
-        <translation type="unfinished"></translation>
+        <translation>イメージ #%1 ( %2x%3 @ %4dpi )作成中に多分メモリオーバーフローが発生しました.
+低い解像度の利用かペーパーサイズを小さくして試して下さい</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1020"/>
@@ -38347,24 +38348,26 @@ SQL %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3104"/>
         <source>PostgreSQL version: unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQLバージョン:不明</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3105"/>
         <source>unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3125"/>
         <source>PostgreSQL not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQLが接続されていません</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3128"/>
         <source>PostgreSQL/PostGIS provider
 %1
 PostGIS %2</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQL/PostGIS プロバイダ
+%1
+PostGIS %2</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="817"/>
@@ -39467,7 +39470,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="260"/>
         <source>Provider specific filter expression</source>
-        <translation type="unfinished"></translation>
+        <translation>プロバイダ特定フィルタ式</translation>
     </message>
     <message>
         <source>SQL where clause</source>
@@ -43206,7 +43209,7 @@ enhancement</source>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="195"/>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="231"/>
         <source>table info on %1 failed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1のテーブル情報失敗</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="323"/>
@@ -46248,7 +46251,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="3588"/>
         <source>Description of this provider</source>
-        <translation type="unfinished"></translation>
+        <translation>このプロバイダの説明</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="3595"/>
@@ -53545,7 +53548,88 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>確認必要</translatorcomment>
+        <translation>&lt;h3&gt;プラグインの管理とインストール&lt;/h3&gt;
+
+&lt;p&gt;
+プラグインの管理とインストール.
+&lt;/p&gt;
+
+
+&lt;a href=&quot;#installedtab&quot;&gt;インストールされたプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#getmoretab&quot;&gt;さらなるプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#newtab&quot;&gt;新しいプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#upgradabletab&quot;&gt;アップグレード可能プラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#invalidtab&quot;&gt;不正なプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#settingstab&quot;&gt;設定タブ&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;installedtab&quot;&gt;
+&lt;h4&gt;インストールされたプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブでは現状のシステムにインストールされているプラグインのリストを表示します. 
+python と C++ 両方のプラグインがリストされます. 
+&lt;/p&gt;
+&lt;p&gt;
+名前の前にあるチェックボックスをクリックすることでブラグインの有効,無効を切り替えることができます.&lt;br/&gt;
+選択されているプラグインの情報が詳細ペインに表示されます.
+&lt;/p&gt;
+&lt;p&gt;
+ソート方法を変えるためにコンテキストメニュー(右ボタンクリック)が利用できます:
+名前,ダウンロード数,投票と状態でソートできます.
+&lt;/p&gt;
+
+
+&lt;a name=&quot;getmoretab&quot;&gt;
+&lt;h4&gt;さらなるプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブではリモートリポジトリにある利用可能なプラグインのリストが表示されます.
+これは起動時に１回ダウンロードされます.しかしこの設定は変えることができます
+&lt;/p&gt;
+&lt;p&gt;
+選択されているプラグインの情報が詳細ペインに表示されます.
+&lt;/p&gt;
+
+&lt;a name=&quot;newtab&quot;&gt;
+&lt;h4&gt;新しいプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブには利用可能になった新しいプラグインが表示されます.ここに表示されるのは1回のみです.
+&lt;/p&gt;
+
+&lt;a name=&quot;upgradabletab&quot;&gt;
+&lt;h4&gt;アップグレード可能プラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブにはあなたがインストールしているプラグインでリモートりポジトリからアップグレード可能なもんが表示されます.
+
+&lt;/p&gt;
+
+&lt;a name=&quot;Invalid tab&quot;&gt;
+&lt;h4&gt;不正なプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブは不正なプラグインがある場合有効になります. それはプラグインをロード中にエラーが発生した場合です.
+&lt;/p&gt;
+
+&lt;a name=&quot;settingstab&quot;&gt;
+&lt;h4&gt;設定タブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブでプラグインマネージャの設定を変更することができます.
+&lt;/p&gt;
+&lt;p&gt;
+QGISがリポジトリからリストのダウンロードと情報の更新を行う頻度を設定できます.
+&lt;/p&gt;
+&lt;p&gt;
+&apos;Show experimental plugins&apos; チェックボックスをチェックすると, 全てのプラグインがリストに表示されます,そこには作者が&apos;実験的&apos;とみなしているプラグインも含みます.
+
+&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
+注記: 実験的プラグインは業務利用には不向きです. それらのプラグインは開発の初期段階で&quot;不完全な&quot;または&quot;検証目的の&quot;ツールと見なされるべきです. The QGIS開発チームはテスト目的以外でそれらのプラグインをインストールすることを推奨しません.
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="543"/>
@@ -53695,7 +53779,150 @@ The Diagram tab allows you to add a graphic overlay to a vector layer. To activa
 The current implementation of diagrams provides support for pie- and bar charts and for linear scaling
 of the diagram size according to a classification attribute.
 </source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>確認必要</translatorcomment>
+        <translation>&lt;h3&gt;ベクタレイヤプロパティ&lt;/h3&gt;
+このダイアログではベクタレイヤの設定とプロパティを変更できます。ここには7個のタブがあります:
+&lt;p&gt;
+&lt;a href=&quot;#symbology&quot;&gt;シンボロジ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#labels&quot;&gt;ラベル&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#attributes&quot;&gt;フィールド&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#general&quot;&gt;一般情報&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#metadata&quot;&gt;メタデータ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#actions&quot;&gt;アクション&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#diagram&quot;&gt;ダイアグラム&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;symbology&quot;&gt;
+&lt;h4&gt;シンボロジ&lt;/h4&gt;
+&lt;/a&gt;
+レイヤのシンボロジを変更する場合、作業したいレイヤの凡例エントリをダブルクリックすると&lt;label&gt;レイヤプロパティ&lt;/label&gt;ダイアログが表示されます.&lt;p&gt;
+このダイアログではベクタレイヤのスタイルを指定できます.選択されたレンダリングオプションによって地物群を分類することもできます.
+
+&lt;h5&gt;凡例タイプ&lt;/h5&gt;
+QGISはベクタ地物表示を制御するための多くのシンボロジレンダラをサポートしています。現在は以下のレンダラが利用可能です:
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;共通シンボル&lt;/label&gt; - 単一のスタイルをレイヤの全てのオブジェクトに適用します.
+&lt;li&gt;&lt;label&gt;分類された(カテゴリ)&lt;/label&gt; - レイヤ内のオブジェクトは指定フィールドの値を使って、それぞれの値毎に定義された描画方法を利用して表示されます.
+&lt;li&gt;&lt;label&gt;段階に分けられた(グラデーション)&lt;/label&gt; - レイヤ内のオブジェクトは指定フィールドの数値の値によって分類された連続した色の階調を使って描画されます.
+&lt;li&gt;&lt;label&gt;ルールに基づいた&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;点の移動&lt;/label&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;h5&gt;新シンボロジー&lt;/h5&gt;
+レイヤの描画に新しいシンボロジーを利用したい場合は&lt;label&gt;新シンボロジー&lt;/label&gt; ボタンをクリックしてください.
+--&gt;
+
+&lt;h5&gt;ベクタ透過性&lt;/h5&gt;
+QGISではそれぞれのベクタレイヤに透過性を指定することができます. これは&lt;label&gt;透過性&lt;/label&gt;スライダを動かして指定できます. この機能は多くのベクタレイヤを重ね合わせ表示する場合にとても便利です.
+
+&lt;h5&gt;スタイルの保存&lt;/h5&gt;
+レイヤの描画スタイルを定義したらレイヤスタイルを個別のファイルとして保存できます（*.qmlで終わるファイル名で).&lt;label&gt;スタイルを保存&lt;/label&gt;ボタンをクリックするとこの機能を実行できます.&lt;!--言うまでもなく--&gt;&lt;label&gt;スタイルを読み込み...&lt;/label&gt; ボタンで保存したレイヤスタイルファイルをロードできます.&lt;br/&gt;
+もしあなたが設定中のレイヤがロードされる時はいつも現在のスタイルを利用したい場合は&lt;label&gt;既定スタイルとして保存&lt;/label&gt;ボタンをクリックします. さらにあなたが変更したスタイルに満足できなかった場合は&lt;label&gt;既定のスタイルに戻す&lt;/label&gt;ボタンを使うと既定のスタイルに戻すことができます.
+
+&lt;a name=&quot;labels&quot;&gt;
+&lt;h4&gt;ラベル&lt;/h4&gt;
+&lt;/a&gt;
+ラベルタブでは地物のラベル表示やフォント、配置、スタイル、アラインメント、縁取り（バッファリング）などラベル表示に関する様々な設定を行うことができます.&lt;br/&gt;
+&lt;label&gt;ラベル表示&lt;/label&gt;チェックボックスをチェックするとラベルを表示できます.
+&lt;h5&gt;基本ラベルオプション&lt;/h5&gt;
+ラベルに表示するフィールドを選択して下さい.&lt;p&gt;
+フォントと色を設定するためには&lt;label&gt;フォント&lt;/label&gt; と &lt;label&gt;色&lt;/label&gt;ボタンを選択して下さい. さらにテキストラベルの角度と配置方法を設定することができます.&lt;p&gt;
+もしラベルが複数行にわたる文字列の場合&lt;label&gt;複数行のラベルですか?&lt;/label&gt;をチェックしてください(ラベル(廃止予定)の場合). QGISは改行コードをラベルフィールド中でチェックして、それにしたがってラインブレークを挿入します.改行コードはシングルキャラクタの\nです(バックスラッシュ\と文字nのような2個の分割されたキャラクタではありません).
+
+&lt;h5&gt;配置&lt;/h5&gt;
+ラベルの配置を変更する場合 &lt;label&gt;配置&lt;/label&gt;グループにあるラジオボタンを選択して下さい.
+
+&lt;h5&gt;フォントサイズ単位&lt;/h5&gt;
+&lt;label&gt;フォントサイズ 単位&lt;/label&gt;では &lt;label&gt;ポイント&lt;/label&gt;か&lt;label&gt;地図上の単位&lt;/label&gt;を選択できます.
+
+&lt;h5&gt;バッファラベル&lt;/h5&gt;
+ラベルをバッファするとはラベルを目立たせるために背後に取り囲む描画をすることを意味します.ラベルをバッファする手順は以下のとおりです:
+&lt;ol&gt;
+&lt;li&gt;&lt;label&gt;バッファラベル&lt;/label&gt;チェックボックスをクリックしてバッファリングを有効にします.
+&lt;li&gt;バッファを行うサイズをスピンボックスを使って指定します.
+&lt;li&gt;&lt;label&gt;色&lt;/label&gt;をクリックして色を選択します.カラーセレクタで利用したい色を選びます.好みに合わせてバッファの透過度を指定することもできます.
+&lt;li&gt;&lt;label&gt;適用&lt;/label&gt;をクリックすると変更状況を地図で見ることができます.
+&lt;/ol&gt;
+注　バッファのサイズを地図上の単位で指定することも可能です.
+
+&lt;h5&gt;データで定義された配置,プロパティ,バッファ,位置&lt;/h5&gt;
+&lt;label&gt;ラベル&lt;/label&gt;タブの残りのエントリーはラベルの見かけをレイヤの属性値を使って制御します. &lt;label&gt;データで定義された&lt;/label&gt;で始まるエントリはラベルのためのすべてのパラメータにレイヤのフィールドの値を利用します.
+
+
+&lt;a name=&quot;attributes&quot;&gt;
+&lt;h4&gt;フィールド&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;フィールド&lt;/label&gt;タブでは選択されたデータセットのフィールドを操作できます. &lt;label&gt;新規カラム&lt;/label&gt; と &lt;label&gt;カラム削除&lt;/label&gt;ボタンはデータセットが編集モードの時に利用できます. バージョン1.6以上のGDALがインストールされている場合OGRライブラリは新規カラムの追加をサポートしますが削除はできません.さもなければPostGISレイヤのカラムのみが編集可能です.&lt;p&gt;
+&lt;label&gt;編集モード切替&lt;/label&gt;ボタンは編集モードを切り替えます.&lt;p&gt;
+フィールドタブには編集ウィジェットカラムがあります. このカラムは指定された属性テーブルカラムに追加することを許される値の定義または値の範囲の定義を行います. &lt;label&gt;ウィジェットの編集&lt;/label&gt; ボタンをクリックするとダイアログが開き異なるウィジェットを定義できます. このようなウィジェットがあります:&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;行編集&lt;/label&gt;シンプルテキストを入力可能な編集フィールド  (または数値フィールドの入力数値を制限する).
+&lt;li&gt;&lt;label&gt;分類&lt;/label&gt; プロパティダイアログシンボロジータブで凡例タイプとして&lt;label&gt;ユニーク値&lt;/label&gt;を選択した場合は分類された値のコンボボックスを表示します.
+&lt;li&gt;&lt;label&gt;範囲&lt;/label&gt; 指定範囲の数値の入力を許可します.編集ウィジットはスライダーかスピンボックスを利用できます.
+&lt;li&gt;&lt;label&gt;ユニーク値&lt;/label&gt; ユーザーはすでに属性テーブルに入力されている値からのみ選択できます. &lt;label&gt;編集可能&lt;/label&gt; がアクティブになるとオートコンプリートつきで付加情報可能なラインエディットが表示されます.そうでなければコンボボックスが利用されます.
+&lt;li&gt;&lt;label&gt;ファイル名&lt;/label&gt; ファイル選択ダイアログによって追加されるシンプルな選択.
+&lt;li&gt;&lt;label&gt;バリューマップ&lt;/label&gt; 事前に定義された項目のコンボボックスです.値は属性に格納されます、説明はコンボボックスで表示されます . 値は手作業またはレイヤ、csvファイルからロードして定義できます.
+&lt;li&gt;&lt;label&gt;列挙&lt;/label&gt;カラムの型で利用できる値のコンボボックスを開きます.この機能は現状ではpostgresプロバイダーでのみ利用できます.
+&lt;li&gt;&lt;label&gt;変わらない&lt;/label&gt;変わらない属性カラムはリードオンリイです.ユーザーは内容を変更できません .
+&lt;li&gt;&lt;label&gt;非表示&lt;/label&gt; 非表示属性カラムはユーザーに見えません.
+&lt;li&gt;&lt;label&gt;チェックボックス&lt;/label&gt; チェックボックスが表示されます. 値は属性が入力されたチェックボックスの状態を表します.
+&lt;li&gt;&lt;label&gt;テキスト編集&lt;/label&gt;マルチラインのテキストが編集できるテキスト編集フィールドが表示されます.
+&lt;li&gt;&lt;label&gt;カレンダー&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;値のリレーション&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;UUIDジェネレータ&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;写真&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;ウェブビュー&lt;/label&gt;
+&lt;li&gt;&lt;label&gt;色&lt;/label&gt;
+&lt;/ul&gt;
+
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;一般情報&lt;/h4&gt;
+&lt;/a&gt;
+一般情報タブでは表示名やスケール依存レンダリングオプション、ベクタファイル(OGRがサポートする形式とPostGISのみ)への空間インデックスの作成と指定ベクタレイヤに対する投影法の確認や設定ができます.&lt;p&gt;
+また&lt;label&gt;クエリビルダー&lt;/label&gt;を使ってフィルター条件式を設定できます.
+
+&lt;h5&gt;サブセット&lt;/h5&gt;
+&lt;label&gt;クエリビルダー&lt;/label&gt; ボタンを使うとレイヤの地物を条件式に合致したサブセットとして利用することができます.
+
+&lt;a name=&quot;metadata&quot;&gt;
+&lt;h4&gt;メタデータ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;メタデータ&lt;/label&gt;タブではレイヤについての型と場所、地物の数,地物の型,編集可能な項目の情報が表示されます. レイヤの空間参照系セクションでは提供されている投影法の情報がタブに表示されます. この機能はレイヤ情報を取得するすばやい方法です.
+
+&lt;a name=&quot;actions&quot;&gt;
+&lt;h4&gt;アクション&lt;/h4&gt;
+&lt;/a&gt;
+QGISでは地物の属性にもとづいたアクションを提供できます.この機能ではいろいろなアクションを使えます.たとえば地物の属性の値を引数としてプログラムを実行したりパラメータをwebレポーティングに送信したりするような機能です.&lt;br/&gt;
+アクションは外部アプリケーションを頻繁に起動したい場合やベクタレイヤのうちのいくつかの情報をwebページベースで閲覧したい場合に便利です.&lt;p&gt;
+
+アクションの新しい実装は式の評価にQGISの式エンジンを使っています.それぞれの式は実行時に評価され結果に置き換えられます.&lt;p&gt;
+式は&lt;code&gt;[%&lt;/code&gt;と&lt;code&gt;%]&lt;/code&gt;に囲まれなければなりません.それを自動的に行うためにGUIにはいくつかのボタンがあります.
+&lt;label&gt;式の挿入...&lt;/label&gt;ボタンは&lt;label&gt;式ビルダー&lt;/label&gt;を起動します.それを使えば式を簡単に書くことができます.&lt;label&gt;フィールドを挿入&lt;/label&gt;ボタンは&lt;code&gt;[% &quot;fieldname&quot; %]&lt;/code&gt;といったプレースホルダーをアクションに挿入します.ここでfieldnameはドロップダウンリストで選択されたフィールドの名前です.&lt;p&gt;
+
+さらに詳しい情報はユーザーガイドを参照して下さい.
+
+&lt;h5&gt;アクションの利用&lt;/h5&gt;
+アクションは&lt;label&gt;地物情報表示&lt;/label&gt;ダイアログから起動できます.ツールバーの&lt;label&gt;地物アクションの実行&lt;/label&gt;ツールでも起動できます.
+
+アクションでは&lt;label&gt;式ビルダ&lt;/label&gt;で利用できるデフォルトセットに加えて少しですがカスタム式が利用できます.&lt;br/&gt;
+&lt;label&gt;地物情報表示&lt;/label&gt;ダイアログからアクションを実行中の場合は, カスタム式&lt;code&gt;$currfield&lt;/code&gt;はダイアログで選択されたフィールドの値に置き換えられます.
+&lt;label&gt;地物アクションの実行&lt;/label&gt;ツールを使う場合, 次のようなカスタム式が利用可能です(この場合$currfieldは使えません):
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; キャンバスでクリックした位置のx座標を返します&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; キャンバスでクリックした位置のy座標を返します&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; 凡例で選択されているレイヤのIDを返します&lt;/li&gt;
+&lt;/ul&gt;
+
+注: &lt;label&gt;地物アクションの実行&lt;/label&gt;ツールはマッチしているすべての地物についてアクションを実行しますが,&lt;label&gt;地物情報表示&lt;/label&gt;ではアクションを実行する地物を選択できます.&lt;p&gt;
+
+&lt;a name=&quot;diagram&quot;&gt;
+&lt;h4&gt;ダイアグラム&lt;/h4&gt;
+&lt;/a&gt;
+ダイアグラムタブではベクタレイヤにグラフをオーバーレイ表示できます. この機能を有効にする時は &lt;label&gt;プラグインマネージャ&lt;/label&gt;を開いて&lt;label&gt;グラフのオーバーレイ&lt;/label&gt;プラグインを選択して下さい. そうするとベクタ&lt;label&gt;レイヤプロパティ&lt;/label&gt;ダイアログにグラフの設定を入力する新しいタブができます.&lt;p&gt;
+現在のグラフ機能では円グラフと棒グラフと分類された属性値に従ったグラフの大きさの線形スケーリングがサポートされています.
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1289"/>
@@ -54837,7 +55064,166 @@ that will be automatically deleted after running.&lt;/li&gt;
 	from the close button. This allows you to save the geometry to be restored to the next start.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;style&gt;
+	#toolbarConsole td{
+		background: #f6f6f6;
+	}
+&lt;/style&gt;
+&lt;h3&gt;Pythonコンソール for QGIS&lt;/h3&gt;
+&lt;a href=&quot;#console&quot;&gt;コンソール&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#editor&quot;&gt;エディタ&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#settings&quot;&gt;設定&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;p align=&apos;justify&apos;&gt;
+				QGIS PythonコンソールはPythonコマンドを実行するための対話型シェルです.
+				それはあなたのPythonスクリプトを編集して保存することができるファイルエディタも持っています.
+				コンソールとエディタの両方ともPyQScintilla2パッケージをもとに作成されています.&lt;br&gt;
+				コンソールは上下に2つのメインパネルに分けられており、水平スプリッタを使用してサイズ変更が可能です.
+				出力領域パネルはコマンド出力を表示する読み取り専用のウィジェットです.
+				入力領域にはテキストをドラッグ&amp;ドロップしたりコピー&amp;ペーストしたりすることができます. 出力パネルのテキストを選択してコンテキストメニューから&lt;label&gt;選択の入力&lt;/label&gt;コマンドをクリックすることによってもコードスニペットを実行することができます. 
+				選択されたテキストにインタプリタのプロンプト(&gt;&gt;&gt;や...)が含まれていても構いません.
+				入力領域パネルはコマンドを入力するための対話型のPythonシェルです.&lt;br&gt;
+				Pythonファイルエディタにアクセスするにはツールバーの&lt;label&gt;エディタの表示&lt;/label&gt;ボタンを使います.
+				エディタではPythonファイルを編集して保存することができ、あなたのコードを管理するための基本的な機能を提供しています
+				(コードのコメントやコメント解除、構文チェック、codepad.orgを通じたコードの共有など).
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;console&quot;&gt;
+&lt;h4&gt;コンソール&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;主な特徴:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;次のAPIでコード補完と構文ハイライト、コールチップスが利用できます:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Alt+Space&lt;/label&gt;で自動補完リストを表示します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Shift+Space&lt;/label&gt;でコマンド履歴リストを表示します.&lt;/li&gt;
+			&lt;br&gt;
+                        &lt;li&gt;出力パネルの&lt;label&gt;選択を入力&lt;/label&gt;コマンドでコードスニペットが実行できます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;QGIS API ドキュメントを開くには&lt;label&gt;_api&lt;/label&gt;とタイプします.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;PyQGIS Cookbookを開くには&lt;label&gt;_pyqgis&lt;/label&gt;とタイプします.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;コマンド履歴の保存やクリアは入力パネルのコンテキストメニューからアクセスします.
+			履歴は ~/.qgis2/console_history.txt ファイルに保存されます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+		&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;b&gt;&lt;i&gt;ツールバー:&lt;/i&gt;&lt;/b&gt;
+	&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;Pythonコンソールをクリアします&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSextanteConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;Sextanteクラスをインポートします&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtCoreクラスをインポートします&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtGuiクラスをインポートします&lt;/td&gt;
+		&lt;/tr&gt;
+                &lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;コマンドの実行 (Enterキーを押すのと同様)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;設定&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;ヘルプ&lt;/td&gt;
+		&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;editor&quot;&gt;
+&lt;h4&gt;エディタ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;主な特徴:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;次のAPIでコード補完と構文ハイライト、コールチップスが利用できます:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Space&lt;/label&gt;で自動補完リストを表示します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;codepad.orgを通じてコードスニペットを共有できます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+4&lt;/label&gt; 構文チェック.&lt;/li&gt; 
+			&lt;br&gt;
+			&lt;li&gt;オブジェクトインスペクタ: クラスと関数のブラウザ.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;マウスをクリックでオブジェクト定義を表示します(オブジェクトインスペクタから).&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;選択を入力&lt;/label&gt;コマンドでコードスニペットを実行します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;スクリプト実行&lt;/label&gt;コマンドでスクリプト全部を実行します.
+			(拡張子が.pycのバイトコンパイルファイルを生成します)&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;settings&quot;&gt;
+&lt;h4&gt;設定&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;Pythonコンソールの追加設定:&lt;/i&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;自動入力補完:&lt;/label&gt; チェックした場合、コード補完が有効になります.
+あなたは現在のドキュメントやインストールされたAPIやそれらの両方から自動入力補完を得ることができます&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;オートコンプリートのしきい値:&lt;/label&gt; オートコンプリートリストを表示するしきい値を設定します (タイプされた文字数)&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;自動括弧挿入:&lt;/label&gt; チェックしている場合、括弧が自動で閉じられます.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;実行前にスクリプトを自動保存する:&lt;/label&gt; 変更後に保存しなくてもよいように実行されるスクリプトを自動で保存するようにします.
+このアクションはシステムの一時ディレクトリに一時ファイルを保存します. それは実行後に自動的に削除されます.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;事前にロードされたAPIファイルを利用する:&lt;/label&gt; 事前にロードされたAPIファイルを使うかあなたのシステムに保存されたAPIファイルをロードするか選択できます.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&apos;border: 1px solid; background:#f6f6f6;&apos; align=&apos;justify&apos;&gt;
+	&lt;b&gt;注意:&lt;/b&gt; 閉じるボタンでPythonコンソールを閉じるとコンソールのウィジェットの状態を保存できます. これによって次回起動時に復元されるジオメトリを保存できます.
+&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1480"/>
