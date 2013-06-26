@@ -106,7 +106,7 @@ QgsPluginManager::QgsPluginManager( QWidget * parent, Qt::WFlags fl )
   buttonUpgradeAll->hide();
   buttonInstall->hide();
   buttonUninstall->hide();
-  mOptionsListWidget->item( 5 )->setHidden( true );
+  frameSettings->setHidden( true );
 }
 
 
@@ -133,7 +133,8 @@ void QgsPluginManager::setPythonUtils( QgsPythonUtils* pythonUtils )
   buttonUpgradeAll->show();
   buttonInstall->show();
   buttonUninstall->show();
-  mOptionsListWidget->item( 5 )->setHidden( false );
+  frameSettings->setHidden( false );
+  labelNoPython->setHidden( true );
   buttonRefreshRepos->setEnabled( false );
   buttonEditRep->setEnabled( false );
   buttonDeleteRep->setEnabled( false );
@@ -635,9 +636,15 @@ void QgsPluginManager::showPluginDetails( QStandardItem * item )
     html += QString( "<img src=\"%1\" style=\"float:right;\">" ).arg( metadata->value( "icon" ) );
   }
 
-  html += QString( "<h3>%2</h3><br/>" ).arg( metadata->value( "description" ) );
+  html += QString( "<h3>%1</h3>" ).arg( metadata->value( "description" ) );
 
-  if ( ! metadata->value( "average_vote" ).isEmpty() )
+  if ( ! metadata->value( "about" ).isEmpty() )
+  {
+    html += metadata->value( "about" );
+  }
+
+  html += "<table><tr><td align='right' width='100%'>";
+  if ( ! metadata->value( "average_vote" ).isEmpty() && metadata->value( "average_vote" ).toFloat() )
   {
     // draw stars
     int stars = qRound( metadata->value( "average_vote" ).toFloat() );
@@ -647,11 +654,16 @@ void QgsPluginManager::showPluginDetails( QStandardItem * item )
     }
     html += tr( "<br/>%1 rating vote(s)<br/>" ).arg( metadata->value( "rating_votes" ) );
   }
-  if ( ! metadata->value( "downloads" ).isEmpty() )
+  else if ( ! metadata->value( "downloads" ).isEmpty() )
   {
-    html += tr( "%1 downloads<br/>" ).arg( metadata->value( "downloads" ) );
+    // spacer between description and downloads
     html += "<br/>";
   }
+  if ( ! metadata->value( "downloads" ).isEmpty() )
+  {
+    html += tr( "%1 downloads" ).arg( metadata->value( "downloads" ) );
+  }
+  html += "</td></tr></table><br/>";
 
   if ( ! metadata->value( "category" ).isEmpty() )
   {
@@ -660,14 +672,6 @@ void QgsPluginManager::showPluginDetails( QStandardItem * item )
   if ( ! metadata->value( "tags" ).isEmpty() )
   {
     html += QString( "%1: %2 <br/>" ).arg( tr( "Tags" ) ).arg( metadata->value( "tags" ) );
-  }
-  if ( ! metadata->value( "author_email" ).isEmpty() )
-  {
-    html += QString( "%1: <a href='mailto:%2'>%3</a><br/>" ).arg( tr( "Author" ) ).arg( metadata->value( "author_email" ) ).arg( metadata->value( "author_name" ) );
-  }
-  else if ( ! metadata->value( "author_name" ).isEmpty() )
-  {
-    html += QString( "%1: %2<br/>" ).arg( tr( "Author" ) ).arg( metadata->value( "author_name" ) );
   }
   if ( ! metadata->value( "homepage" ).isEmpty() || ! metadata->value( "tracker" ).isEmpty() || ! metadata->value( "code_repository" ).isEmpty() )
   {
@@ -686,8 +690,18 @@ void QgsPluginManager::showPluginDetails( QStandardItem * item )
     }
     html += "<br/>";
   }
-
   html += "<br/>" ;
+
+  if ( ! metadata->value( "author_email" ).isEmpty() )
+  {
+    html += QString( "%1: <a href='mailto:%2'>%3</a>" ).arg( tr( "Author" ) ).arg( metadata->value( "author_email" ) ).arg( metadata->value( "author_name" ) );
+    html += "<br/><br/>" ;
+  }
+  else if ( ! metadata->value( "author_name" ).isEmpty() )
+  {
+    html += QString( "%1: %2" ).arg( tr( "Author" ) ).arg( metadata->value( "author_name" ) );
+    html += "<br/><br/>" ;
+  }
 
   if ( ! metadata->value( "version_installed" ).isEmpty() )
   {
