@@ -67,9 +67,9 @@ void QgsPluginRegistry::setPythonUtils( QgsPythonUtils* pythonUtils )
   mPythonUtils = pythonUtils;
 }
 
-bool QgsPluginRegistry::isLoaded( QString key )
+bool QgsPluginRegistry::isLoaded( QString key ) const
 {
-  QMap<QString, QgsPluginMetadata>::iterator it = mPlugins.find( key );
+  QMap<QString, QgsPluginMetadata>::const_iterator it = mPlugins.find( key );
   if ( it != mPlugins.end() ) // found a c++ plugin?
     return true;
 
@@ -107,7 +107,7 @@ QgisPlugin *QgsPluginRegistry::plugin( QString key )
   return it->plugin();
 }
 
-bool QgsPluginRegistry::isPythonPlugin( QString key )
+bool QgsPluginRegistry::isPythonPlugin( QString key ) const
 {
   if ( mPythonUtils && mPythonUtils->isEnabled() )
   {
@@ -184,7 +184,7 @@ void QgsPluginRegistry::unloadAll()
 }
 
 
-bool QgsPluginRegistry::checkQgisVersion( QString minVersion, QString maxVersion )
+bool QgsPluginRegistry::checkQgisVersion( QString minVersion, QString maxVersion ) const
 {
   // Parse qgisMinVersion. Must be in form x.y.z or just x.y
   QStringList minVersionParts = minVersion.split( '.' );
@@ -207,11 +207,11 @@ bool QgsPluginRegistry::checkQgisVersion( QString minVersion, QString maxVersion
   }
 
   // Parse qgisMaxVersion. Must be in form x.y.z or just x.y
-  int maxVerMajor, maxVerMinor, maxVerBugfix = 999;
+  int maxVerMajor, maxVerMinor, maxVerBugfix = 99;
   if ( maxVersion.isEmpty() || maxVersion == "__error__" )
   {
     maxVerMajor = minVerMajor;
-    maxVerMinor = 999;
+    maxVerMinor = 99;
   }
   else
   {
@@ -252,19 +252,19 @@ bool QgsPluginRegistry::checkQgisVersion( QString minVersion, QString maxVersion
   int qgisMinor = qgisVersionParts.at( 1 ).toInt();
   int qgisBugfix = qgisVersionParts.at( 2 ).toInt();
 
-  // build strings with trailing zeroes
-  QString minVer = QString( "%1%2%3" ).arg( minVerMajor, 3, 10, QChar( '0' ) )
-                                      .arg( minVerMinor, 3, 10, QChar( '0' ) )
-                                      .arg( minVerBugfix, 3, 10, QChar( '0' ) );
-  QString maxVer = QString( "%1%2%3" ).arg( maxVerMajor, 3, 10, QChar( '0' ) )
-                                      .arg( maxVerMinor, 3, 10, QChar( '0' ) )
-                                      .arg( maxVerBugfix, 3, 10, QChar( '0' ) );
-  QString curVer = QString( "%1%2%3" ).arg( qgisMajor, 3, 10, QChar( '0' ) )
-                                      .arg( qgisMinor, 3, 10, QChar( '0' ) )
-                                      .arg( qgisBugfix, 3, 10, QChar( '0' ) );
+  // build XxYyZz strings with trailing zeroes if needed
+  QString minVer = QString( "%1%2%3" ).arg( minVerMajor, 2, 10, QChar( '0' ) )
+                   .arg( minVerMinor, 2, 10, QChar( '0' ) )
+                   .arg( minVerBugfix, 2, 10, QChar( '0' ) );
+  QString maxVer = QString( "%1%2%3" ).arg( maxVerMajor, 2, 10, QChar( '0' ) )
+                   .arg( maxVerMinor, 2, 10, QChar( '0' ) )
+                   .arg( maxVerBugfix, 2, 10, QChar( '0' ) );
+  QString curVer = QString( "%1%2%3" ).arg( qgisMajor, 2, 10, QChar( '0' ) )
+                   .arg( qgisMinor, 2, 10, QChar( '0' ) )
+                   .arg( qgisBugfix, 2, 10, QChar( '0' ) );
 
   // compare
-  return ( minVer <= curVer && maxVer >= curVer);
+  return ( minVer <= curVer && maxVer >= curVer );
 }
 
 
@@ -593,7 +593,7 @@ bool QgsPluginRegistry::checkPythonPlugin( QString packageName )
   return true;
 }
 
-bool QgsPluginRegistry::isPythonPluginCompatible( QString packageName )
+bool QgsPluginRegistry::isPythonPluginCompatible( QString packageName ) const
 {
   QString minVersion = mPythonUtils->getPluginMetadata( packageName, "qgisMinimumVersion" );
   // try to read qgisMaximumVersion. Note checkQgisVersion can cope with "__error__" value.

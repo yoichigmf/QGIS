@@ -201,6 +201,8 @@ QgsVectorLayer::~QgsVectorLayer()
 
   delete mActions;
 
+  delete mRendererV2;
+
   //delete remaining overlays
 
   QList<QgsVectorOverlay*>::iterator overlayIt = mOverlays.begin();
@@ -653,6 +655,13 @@ bool QgsVectorLayer::draw( QgsRenderContext& rendererContext )
   //set update threshold before each draw to make sure the current setting is picked up
   QSettings settings;
   mUpdateThreshold = settings.value( "Map/updateThreshold", 0 ).toInt();
+  // users could accidently set updateThreshold threshold to a small value
+  // and complain about bad performance -> force min 1000 here
+  if ( mUpdateThreshold > 0 && mUpdateThreshold < 1000 )
+  {
+    mUpdateThreshold = 1000;
+  }
+
 #ifdef Q_WS_X11
   mEnableBackbuffer = settings.value( "/Map/enableBackbuffer", 1 ).toBool();
 #endif
@@ -1227,7 +1236,12 @@ bool QgsVectorLayer::addFeature( QgsFeature& f, bool alsoUpdateExtent )
   if ( !mEditBuffer || !mDataProvider )
     return false;
 
-  return mEditBuffer->addFeature( f );
+  bool success = mEditBuffer->addFeature( f );
+
+  if ( success )
+    updateExtents();
+
+  return success;
 }
 
 bool QgsVectorLayer::updateFeature( QgsFeature &f )
@@ -2427,6 +2441,8 @@ bool QgsVectorLayer::changeGeometry( QgsFeatureId fid, QgsGeometry* geom )
   }
 
   return mEditBuffer->changeGeometry( fid, geom );
+
+  updateExtents();
 }
 
 
@@ -2707,6 +2723,8 @@ bool QgsVectorLayer::addFeatures( QgsFeatureList features, bool makeSelected )
 
     setSelectedFeatures( ids );
   }
+
+  updateExtents();
 
   return res;
 }
@@ -3563,6 +3581,15 @@ QString QgsVectorLayer::metadata()
   myMetadata += "<p>";
   myMetadata += storageType();
   myMetadata += "</p>\n";
+
+  if ( dataProvider() )
+  {
+    //provider description
+    myMetadata += "<p class=\"glossy\">" + tr( "Description of this provider" ) + "</p>\n";
+    myMetadata += "<p>";
+    myMetadata += dataProvider()->description().replace( "\n", "<br>" );
+    myMetadata += "</p>\n";
+  }
 
   // data source
   myMetadata += "<p class=\"glossy\">" + tr( "Source for this layer" ) + "</p>\n";

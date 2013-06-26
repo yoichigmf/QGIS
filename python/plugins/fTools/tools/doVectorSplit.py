@@ -123,7 +123,7 @@ class Dialog(QDialog, Ui_Dialog):
         outPath = self.outShape.text()
         self.restoreGui()
 
-        if not errors.isEmpty():
+        if errors:
             msg = self.tr( "Processing of the following layers/files ended with error:<br><br>" ) + "<br>".join(errors)
             QErrorMessage( self ).showMessage( msg )
 
@@ -172,7 +172,7 @@ class SplitThread(QThread):
 
 
         for i in unique:
-            check = QFile(baseName + "_" + unicode(i.strip()) + ".shp")
+            check = QFile(baseName + "_" + unicode(i).strip() + ".shp")
             fName = check.fileName()
             if check.exists():
                 if not QgsVectorFileWriter.deleteShapeFile(fName):

@@ -23,7 +23,7 @@ class CORE_EXPORT QgsFontUtils
 {
   public:
     /** Check whether exact font is on system
-     * @param font The font to test for match
+     * @param f The font to test for match
      */
     static bool fontMatchOnSystem( const QFont& f );
 
@@ -43,7 +43,7 @@ class CORE_EXPORT QgsFontUtils
     static bool fontFamilyMatchOnSystem( const QString& family, QString* chosen = 0, bool* match = 0 );
 
     /** Updates font with named style and retain all font properties
-     * @param font The font to update
+     * @param f The font to update
      * @param fontstyle The style to try and switch the font to
      * @param fallback If no matching fontstyle found for font, assign most similar or first style found to font
      * @returns Whether the font was updated (also returns true if the requested style matches font's current style)

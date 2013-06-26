@@ -293,22 +293,21 @@ def getRasterSRS( parent, fileName ):
     if processSRS.waitForFinished():
       arr = processSRS.readAllStandardOutput()
       processSRS.close()
-      
+
     arr = str(arr)
     if arr == '':
       return ''
 
     info = string.split( arr, sep="\n" )
-    # TODO .filter( "AUTHORITY" )
-    if info.count() == 0:
+    if len(info) == 0:
       return ''
 
-    srs = info[ info.count() - 1 ]
-    srs = srs.simplified().remove( "AUTHORITY[" )
-    srs = re.sub("\"", '', re.sub("\]{2,4},?", '', srs) )
-    info = srs.split( "," )
-    srs = info[ 0 ] + ":" + info[ 1 ]
-    return srs
+    for elem in info:
+        m = re.match("^\s*AUTHORITY\[\"([a-z]*[A-Z]*)\",\"(\d*)\"\]", elem)
+        if m and len(m.groups()) == 2:
+            return '%s:%s' % (m.group(1), m.group(2))
+
+    return ''
 
 def getRasterExtent(parent, fileName):
     processSRS = QProcess( parent )
@@ -322,15 +321,24 @@ def getRasterExtent(parent, fileName):
     if arr == '':
       return
 
+    ulCoord = lrCoord = ''
+    xUL = yLR = xLR = yUL = 0
     info = string.split( arr, sep="\n" )
-    ulCoord = info[ info.indexOf( QRegExp( "^Upper\sLeft.*" ) ) ].simplified()
-    lrCoord = info[ info.indexOf( QRegExp( "^Lower\sRight.*" ) ) ].simplified()
-    ulCoord = ulCoord[ulCoord.indexOf( "(" ) + 1 : ulCoord.indexOf( ")" ) - 1].split( "," )
-    lrCoord = lrCoord[lrCoord.indexOf( "(" ) + 1 : lrCoord.indexOf( ")" ) - 1].split( "," )
-    xUL = ulCoord[0].toDouble()[0]
-    yUL = ulCoord[1].toDouble()[0]
-    xLR = lrCoord[0].toDouble()[0]
-    yLR = lrCoord[1].toDouble()[0]
+    for elem in info:
+        m = re.match("^Upper\sLeft.*", elem)
+        if m:
+            ulCoord = m.group(0).strip()
+            ulCoord = ulCoord[string.find(ulCoord,"(") + 1 : string.find(ulCoord,")") - 1].split( "," )
+            xUL = float(ulCoord[0])
+            yUL = float(ulCoord[1])
+            continue
+        m = re.match("^Lower\sRight.*", elem)
+        if m:
+            lrCoord = m.group(0).strip()
+            lrCoord = lrCoord[string.find(lrCoord,"(") + 1 : string.find(lrCoord,")") - 1].split( "," )
+            xLR = float(lrCoord[0])
+            yLR = float(lrCoord[1])
+            continue
 
     return QgsRectangle( xUL, yLR, xLR, yUL )
 
@@ -428,7 +436,7 @@ class FileFilter:
   @classmethod
   def allRastersFilter(self):
     if self.rastersFilter == '':
-      self.rastersFilter = QgsRasterLayer.buildSupportedRasterFileFilter2()
+      self.rastersFilter = QgsProviderRegistry.instance().fileRasterFilters()
 
       # workaround for QGis < 1.5 (see #2376)
       # removed as this is a core plugin QGis >= 1.9
@@ -537,7 +545,7 @@ class GdalConfig:
           # XXX add check for SDTS; in that case we want (*CATD.DDF)
 
           #TODO fix and test
-          #glob << QString("*." + extensions.replace("/", " *.")).split(" ")
+          #glob.append( QString("*." + extensions.replace("/", " *.")).split(" "))
           glob.append(string.split("*." + string.replace(extensions,"/", " *."), sep=(" ")))
 
           # Add only the first JP2 driver found to the filter list (it's the one GDAL uses)
@@ -829,7 +837,7 @@ def setProcessEnvironment(process):
         if env.contains( QRegExp( "^%s=(.*)" % name, Qt.CaseInsensitive ) ):
           env.replaceInStrings( QRegExp( "^%s=(.*)" % name, Qt.CaseInsensitive ), "%s=\\1%s%s" % (name, sep, gdalPath) )
         else:
-          env << "%s=%s" % (name, val)
+          env.append( "%s=%s" % (name, val))
         process.setEnvironment( env )
 
 

@@ -165,17 +165,17 @@ def testForUniqueness( fieldList1, fieldList2 ):
 
 # Create a unique field name based on input field name
 def createUniqueFieldName( field ):
-    check = field.name().right( 2 )
-    shortName = field.name().left( 8 )
-    if check.startsWith("_"):
-        ( val, test ) = check.right( 1 ).toInt()
-        if test:
+    check = field.name()[-2:]
+    shortName = field.name()[:8]
+    if check[0] == "_":
+        try:
+            val = int( check[-1:] )
             if val < 2:
                 val = 2
             else:
                 val = val + 1
-            field.setName( shortName.left( len( shortName )-1 ) + unicode( val ) )
-        else:
+            field.setName( shortName[len( shortName )-1:] + unicode( val ) )
+        except exceptions.ValueError:
             field.setName( shortName + "_2" )
     else:
         field.setName( shortName + "_2" )
@@ -185,8 +185,8 @@ def createUniqueFieldName( field ):
 def checkFieldNameLength( fieldList ):
     longNames = []
     for field in fieldList:
-        if field.name().size() > 10:
-            longNames.append(unicode( field.name() ))
+        if len ( field.name() ) > 10:
+            longNames.append( field.name() )
     return longNames
 
 # Return list of names of all layers in QgsMapLayerRegistry
@@ -195,15 +195,15 @@ def getLayerNames( vTypes ):
     layerlist = []
     if vTypes == "all":
         for name, layer in layermap.iteritems():
-            layerlist.append( unicode( layer.name() ) )
+            layerlist.append( layer.name() )
     else:
         for name, layer in layermap.iteritems():
             if layer.type() == QgsMapLayer.VectorLayer:
                 if layer.geometryType() in vTypes:
-                    layerlist.append( unicode( layer.name() ) )
+                    layerlist.append( layer.name() )
             elif layer.type() == QgsMapLayer.RasterLayer:
                 if "Raster" in vTypes:
-                    layerlist.append( unicode( layer.name() ) )
+                    layerlist.append( layer.name() )
     return sorted( layerlist, cmp=locale.strcoll )
 
 # Return list of names of all fields from input QgsVectorLayer
@@ -212,7 +212,7 @@ def getFieldNames( vlayer ):
     fieldlist = []
     for field in fieldmap:
         if not field.name() in fieldlist:
-            fieldlist.append( unicode( field.name() ) )
+            fieldlist.append( field.name() )
     return sorted( fieldlist, cmp=locale.strcoll )
 
 # Return QgsVectorLayer from a layer name ( as string )
@@ -382,3 +382,11 @@ def getShapesByGeometryType( baseDir, inShapes, geomType ):
     return None
 
   return outShapes
+
+def getShapefileName( outPath, extension='.shp' ):
+    import os.path
+    outName=os.path.basename(outPath)
+    if outName.endswith(extension):
+        outName=outName[:-len(extension)]
+    return outName
+

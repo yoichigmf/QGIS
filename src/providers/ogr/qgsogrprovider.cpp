@@ -209,7 +209,6 @@ QgsOgrProvider::QgsOgrProvider( QString const & uri )
     , ogrDriver( 0 )
     , valid( false )
     , featuresCounted( -1 )
-    , mActiveIterator( 0 )
 {
   QgsCPLErrorHandler handler;
 
@@ -360,8 +359,12 @@ QgsOgrProvider::QgsOgrProvider( QString const & uri )
 
 QgsOgrProvider::~QgsOgrProvider()
 {
-  if ( mActiveIterator )
-    mActiveIterator->close();
+  while ( !mActiveIterators.empty() )
+  {
+    QgsOgrFeatureIterator *it = *mActiveIterators.begin();
+    QgsDebugMsg( "closing active iterator" );
+    it->close();
+  }
 
   if ( ogrLayer != ogrOrigLayer )
   {
@@ -528,7 +531,7 @@ QStringList QgsOgrProvider::subLayers() const
     QString theLayerName = FROM8( OGR_FD_GetName( fdef ) );
     OGRwkbGeometryType layerGeomType = OGR_FD_GetGeomType( fdef );
 
-    QgsDebugMsg( QString("layerGeomType = %1").arg( layerGeomType ) );
+    QgsDebugMsg( QString( "layerGeomType = %1" ).arg( layerGeomType ) );
 
     if ( layerGeomType != wkbUnknown )
     {

@@ -70,12 +70,7 @@ class Dialog(QDialog, Ui_Dialog):
             inLns = self.inPoint.currentText()
             inField = self.lnField.text()
             outPath = self.outShape.text()
-            if outPath.contains("\\"):
-                outName = outPath.right((outPath.length() - outPath.lastIndexOf("\\")) - 1)
-            else:
-                outName = outPath.right((outPath.length() - outPath.lastIndexOf("/")) - 1)
-            if outName.endsWith(".shp"):
-                outName = outName.left(outName.length() - 4)
+            outName = ftools_utils.getShapefileName( outPath )
             self.compute(inPoly, inLns, inField, outPath, self.progressBar)
             self.outShape.clear()
             addToTOC = QMessageBox.question(self, self.tr("Sum line lengths"), self.tr("Created output shapefile:\n%s\n\nWould you like to add the new layer to the TOC?") % (unicode(outPath)), QMessageBox.Yes, QMessageBox.No, QMessageBox.NoButton)
@@ -112,8 +107,8 @@ class Dialog(QDialog, Ui_Dialog):
         inGeom = QgsGeometry()
         outGeom = QgsGeometry()
         distArea = QgsDistanceArea()
-        start = 15.00
-        add = 85.00 / polyProvider.featureCount()
+        start = 0.00
+        add = 100.00 / polyProvider.featureCount()
         check = QFile(self.shapefileName)
         if check.exists():
             if not QgsVectorFileWriter.deleteShapeFile(self.shapefileName):
@@ -141,5 +136,5 @@ class Dialog(QDialog, Ui_Dialog):
             outFeat.setAttributes(atMap)
             writer.addFeature(outFeat)
             start = start + 1
-            progressBar.setValue(start)
+            progressBar.setValue( start * (add))
         del writer

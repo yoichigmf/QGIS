@@ -72,6 +72,9 @@ QgsPluginManager::QgsPluginManager( QWidget * parent, Qt::WFlags fl )
   QSettings settings;
   mPluginsDetailsSplitter->restoreState( settings.value( QString( "/Windows/PluginManager/secondSplitterState" ) ).toByteArray() );
 
+  // load translated description strings from qgspluginmanager_texts
+  initTabDescriptions();
+
   // Init models
   mModelPlugins = new QStandardItemModel( 0, 1 );
   mModelProxy = new QgsPluginSortFilterProxyModel( this );
@@ -188,7 +191,7 @@ void QgsPluginManager::setPythonUtils( QgsPythonUtils* pythonUtils )
 
 void QgsPluginManager::loadPlugin( QString id )
 {
-  QMap<QString, QString>* plugin = pluginMetadata( id );
+  const QMap<QString, QString>* plugin = pluginMetadata( id );
 
   if ( ! plugin )
   {
@@ -219,7 +222,7 @@ void QgsPluginManager::loadPlugin( QString id )
 
 void QgsPluginManager::unloadPlugin( QString id )
 {
-  QMap<QString, QString>* plugin = pluginMetadata( id );
+  const QMap<QString, QString>* plugin = pluginMetadata( id );
 
   if ( ! plugin )
   {
@@ -509,9 +512,9 @@ void QgsPluginManager::reloadModelData()
   if ( mPythonUtils && mPythonUtils->isEnabled() )
   {
     // TODO: implement better sort method instead of these dummy -Z statuses
-    mModelPlugins->appendRow( createSpacerItem( tr( "Reinstallable", "category: plugins that are installed and available" )  , "installedZ" ) );
-    if ( hasUpgradeablePlugins() ) mModelPlugins->appendRow( createSpacerItem( tr( "Upgradeable", "category: plugins that are installed and there is a newer version available" ), "upgradeableZ") );
     mModelPlugins->appendRow( createSpacerItem( tr( "Only locally available", "category: plugins that are only locally available" ), "orphanZ" ) );
+    if ( hasReinstallablePlugins() ) mModelPlugins->appendRow( createSpacerItem( tr( "Reinstallable", "category: plugins that are installed and available" )  , "installedZ" ) );
+    if ( hasUpgradeablePlugins() ) mModelPlugins->appendRow( createSpacerItem( tr( "Upgradeable", "category: plugins that are installed and there is a newer version available" ), "upgradeableZ" ) );
     if ( hasNewerPlugins() ) mModelPlugins->appendRow( createSpacerItem( tr( "Downgradeable", "category: plugins that are installed and there is an OLDER version available" ), "newerZ" ) );
   }
 
@@ -547,7 +550,7 @@ void QgsPluginManager::pluginItemChanged( QStandardItem * item )
 
 void QgsPluginManager::showPluginDetails( QStandardItem * item )
 {
-  QMap<QString, QString> * metadata = pluginMetadata( item->data( PLUGIN_BASE_NAME_ROLE ).toString() );
+  const QMap<QString, QString> * metadata = pluginMetadata( item->data( PLUGIN_BASE_NAME_ROLE ).toString() );
 
   if ( ! metadata ) return;
 
@@ -708,10 +711,12 @@ void QgsPluginManager::showPluginDetails( QStandardItem * item )
 
   tbDetails->setHtml( html );
 
-  // Set buttonInstall text
+  // Set buttonInstall text (and sometimes focus)
+  buttonInstall->setDefault( false );
   if ( metadata->value( "status" ) == "upgradeable" )
   {
     buttonInstall->setText( tr( "Upgrade plugin" ) );
+    buttonInstall->setDefault( true );
   }
   else if ( metadata->value( "status" ) == "newer" )
   {
@@ -749,11 +754,15 @@ void QgsPluginManager::clearPythonPluginMetadata( )
 {
   for ( QMap<QString, QMap<QString, QString> >::iterator it = mPlugins.begin();
         it != mPlugins.end();
-        it++ )
+      )
   {
     if ( it->value( "pythonic" ) == "true" )
     {
-      mPlugins.remove( it.key() );
+      it = mPlugins.erase( it );
+    }
+    else
+    {
+      ++it;
     }
   }
 }
@@ -767,9 +776,9 @@ void QgsPluginManager::addPluginMetadata( QString key,  QMap<QString, QString> m
 
 
 
-QMap<QString, QString>* QgsPluginManager::pluginMetadata( QString key )
+const QMap<QString, QString> * QgsPluginManager::pluginMetadata( QString key ) const
 {
-  QMap<QString, QMap<QString, QString> >::iterator it = mPlugins.find( key );
+  QMap<QString, QMap<QString, QString> >::const_iterator it = mPlugins.find( key );
   if ( it != mPlugins.end() )
   {
     return &it.value();
@@ -797,9 +806,10 @@ void QgsPluginManager::clearRepositoryList()
 //! Add repository to the repository listWidget
 void QgsPluginManager::addToRepositoryList( QMap<QString, QString> repository )
 {
-  // If the item is second on the tree, add a context menu
+  // If it's the second item on the tree, change the button text to plural form and add the filter context menu
   if ( buttonRefreshRepos->isEnabled() && treeRepositories->actions().count() < 1 )
   {
+    buttonRefreshRepos->setText( tr( "Reload all repositories" ) );
     QAction* actionEnableThisRepositoryOnly = new QAction( tr( "Only show plugins from selected repository" ), treeRepositories );
     treeRepositories->addAction( actionEnableThisRepositoryOnly );
     connect( actionEnableThisRepositoryOnly, SIGNAL( triggered() ), this, SLOT( setRepositoryFilter() ) );
@@ -893,55 +903,53 @@ void QgsPluginManager::setCurrentTab( int idx )
     mOptionsStackedWidget->setCurrentIndex( 0 );
 
     QStringList acceptedStatuses;
-    QString welcomePage;
+    QString tabTitle;
     switch ( idx )
     {
       case 0:
         // installed (statuses ends with Z are for spacers to always sort properly)
         acceptedStatuses << "installed" << "orphan" << "newer" << "upgradeable" << "installedZ" << "upgradeableZ" << "orphanZ" << "newerZZ" << "" ;
-        welcomePage = "installed_plugins";
+        tabTitle = "installed_plugins";
         break;
       case 1:
         // not installed (get more)
         acceptedStatuses << "not installed" << "new" ;
-        welcomePage = "get_more_plugins";
+        tabTitle = "get_more_plugins";
         break;
       case 2:
         // upgradeable
         acceptedStatuses << "upgradeable" ;
-        welcomePage = "upgradeable_plugins";
+        tabTitle = "upgradeable_plugins";
         break;
       case 3:
         // new
         acceptedStatuses << "new" ;
-        welcomePage = "new_plugins";
+        tabTitle = "new_plugins";
         break;
       case 4:
         // invalid
         acceptedStatuses << "invalid" ;
-        welcomePage = "invalid_plugins";
+        tabTitle = "invalid_plugins";
         break;
     }
     mModelProxy->setAcceptedStatuses( acceptedStatuses );
 
     updateTabTitle();
 
-    // load welcome HTML to the detail browser
-    // // // // // // // TODO: after texts are done, read from translations instead.
-    QString welcomeHTML = "";
-    QFile welcomeFile( QgsApplication::pkgDataPath() +  "/resources/plugin_manager/" + welcomePage );
-    if ( welcomeFile.open( QIODevice::ReadOnly ) )
+    // load tab description HTML to the detail browser
+    QString tabInfoHTML = "";
+    QMap<QString, QString>::iterator it = mTabDescriptions.find( tabTitle );
+    if ( it != mTabDescriptions.end() )
     {
-      QTextStream welcomeStream( &welcomeFile );  // Remove from includes too.
-      welcomeStream.setCodec( "UTF-8" );
       QString myStyle = QgsApplication::reportStyleSheet();
-      welcomeHTML += "<style>" + myStyle + "</style>";
-      while ( !welcomeStream.atEnd() )
-      {
-        welcomeHTML += welcomeStream.readLine();
-      }
+      tabInfoHTML += "<style>" + myStyle + "</style>";
+      tabInfoHTML = it.value();
     }
-    tbDetails->setHtml( welcomeHTML );
+    tbDetails->setHtml( tabInfoHTML );
+
+    // disable buttons
+    buttonInstall->setEnabled( false );
+    buttonUninstall->setEnabled( false );
   }
 }
 
@@ -1107,7 +1115,7 @@ void QgsPluginManager::setRepositoryFilter( )
 
 void QgsPluginManager::clearRepositoryFilter( )
 {
-  QgsDebugMsg( "Enabling all repositories back");
+  QgsDebugMsg( "Enabling all repositories back" );
   QgsPythonRunner::run( QString( "pyplugin_installer.instance().setRepositoryInspectionFilter()" ) );
 }
 
@@ -1174,7 +1182,7 @@ void QgsPluginManager::on_ckbExperimental_toggled( bool state )
 
 bool QgsPluginManager::isPluginLoaded( QString key )
 {
-  QMap<QString, QString>* plugin = pluginMetadata( key );
+  const QMap<QString, QString>* plugin = pluginMetadata( key );
   if ( plugin->isEmpty() )
   {
     // No such plugin in the metadata registry
@@ -1199,6 +1207,7 @@ bool QgsPluginManager::isPluginLoaded( QString key )
 }
 
 
+
 bool QgsPluginManager::hasAvailablePlugins( )
 {
   for ( QMap<QString,  QMap<QString, QString> >::iterator it = mPlugins.begin();
@@ -1213,6 +1222,25 @@ bool QgsPluginManager::hasAvailablePlugins( )
 
   return false;
 }
+
+
+
+bool QgsPluginManager::hasReinstallablePlugins( )
+{
+  for ( QMap<QString,  QMap<QString, QString> >::iterator it = mPlugins.begin();
+        it != mPlugins.end();
+        it++ )
+  {
+    // plugins marked as "installed" are available for download (otherwise they are marked "orphans")
+    if ( it->value( "status" ) == "installed" )
+    {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 
 
 bool QgsPluginManager::hasUpgradeablePlugins( )

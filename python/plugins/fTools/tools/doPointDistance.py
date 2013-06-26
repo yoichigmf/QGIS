@@ -128,12 +128,7 @@ class Dialog(QDialog, Ui_Dialog):
             else: matType = "Summary"
             if self.chkNearest.isChecked(): nearest = self.spnNearest.value()
             else: nearest = 0
-            if outPath.contains("\\"):
-                outName = outPath.right((outPath.length() - outPath.lastIndexOf("\\")) - 1)
-            else:
-                outName = outPath.right((outPath.length() - outPath.lastIndexOf("/")) - 1)
-            if outName.endsWith(".csv"):
-                outName = outName.left(outName.length() - 4)
+            outName = ftools_utils.getShapefileName(outPath,'.csv')
             self.outFile.clear()
             self.compute(point1, point2, field1, field2, outPath, matType, nearest, self.progressBar)
             self.progressBar.setValue(100)
@@ -147,8 +142,8 @@ class Dialog(QDialog, Ui_Dialog):
         outName = fileDialog.getSaveFileName(self, "Output Distance Matrix",".", "Delimited txt file (*.csv)")
         fileCheck = QFile(outName)
         filePath = QFileInfo(outName).absoluteFilePath()
-        if filePath.right(4) != ".csv": filePath = filePath + ".csv"
-        if not outName.isEmpty():
+        if filePath[-4:] != ".csv": filePath = filePath + ".csv"
+        if outName:
             self.outFile.insert(filePath)
 
     def compute(self, line1, line2, field1, field2, outPath, matType, nearest, progressBar):
