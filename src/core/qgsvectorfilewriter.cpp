@@ -801,6 +801,15 @@ QgsVectorFileWriter::writeAsVectorFormat( QgsVectorLayer* layer,
 
   writer->startRender( layer );
 
+  // enabling transaction on databases that support it
+  bool transactionsEnabled = true;
+
+  if ( OGRERR_NONE != OGR_L_StartTransaction( writer->mLayer ) )
+  {
+    QgsDebugMsg( "Error when trying to enable transactions on OGRLayer." );
+    transactionsEnabled = false;
+  }
+
   // write all features
   while ( fit.nextFeature( fet ) )
   {
@@ -860,6 +869,14 @@ QgsVectorFileWriter::writeAsVectorFormat( QgsVectorLayer* layer,
       }
     }
     n++;
+  }
+
+  if ( transactionsEnabled )
+  {
+    if ( OGRERR_NONE != OGR_L_CommitTransaction( writer->mLayer ) )
+    {
+      QgsDebugMsg( "Error while commiting transaction on OGRLayer." );
+    }
   }
 
   writer->stopRender( layer );
