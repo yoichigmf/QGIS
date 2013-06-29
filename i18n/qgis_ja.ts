@@ -12082,25 +12082,25 @@ SVG検索パス	%8
     <message>
         <location filename="../src/core/qgsapplication.cpp" line="911"/>
         <source>[ERROR] Can not make qgis.db private copy</source>
-        <translation type="unfinished">[エラー]qgis.dbプライベートコピーを作れません</translation>
+        <translation>[エラー]qgis.dbプライベートコピーを作れません</translation>
     </message>
     <message>
         <location filename="../src/core/qgsapplication.cpp" line="924"/>
         <source>Could not open qgis.db</source>
-        <translation type="unfinished">qgis dbを開けません</translation>
+        <translation>qgis dbを開けません</translation>
     </message>
     <message>
         <location filename="../src/core/qgsapplication.cpp" line="954"/>
         <source>Migration of private qgis.db failed.
 %1</source>
-        <translation type="unfinished">プライベートqgis ｄｂの移動に失敗しました
+        <translation>プライベートqgis ｄｂの統合に失敗しました
 %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgsapplication.cpp" line="989"/>
         <source>Update of view in private qgis.db failed.
 %1</source>
-        <translation type="unfinished">プライベートのqgis.dbのビューの更新に失敗しました
+        <translation>プライベートのqgis.dbのビューの更新に失敗しました
 %1</translation>
     </message>
 </context>
