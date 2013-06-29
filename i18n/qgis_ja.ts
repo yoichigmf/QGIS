@@ -45713,12 +45713,12 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="94"/>
         <source>In the print composer tool bar you can find two buttons for moving elements. The left one (right arrow icon) selects and moves elements in the layout. After selecting the element with this tool you can also move them around with the arrow keys. For accurate positioning use the &lt;strong&gt;Position and Size&lt;/strong&gt; dialogue, which can be found in the tab &lt;strong&gt;Item Properties -&gt; General Options -&gt; Position and Size&lt;/strong&gt;. The other move tool (map canvas icon with right arrow) allows one to move the map content within a map frame.</source>
-        <translation type="unfinished"></translation>
+        <translation>プリントコンポーザツールバーにはエレメント移動のための２つのボタンがあります.左のボタン(右矢印アイコン)ではレイアウト中でエレメントを選んで移動できます.このツールでエレメントを選択した後で矢印キーを使ってエレメントを移動することもできます.正確な位置を指定したい場合はタブ&lt;strong&gt;アイテムプロパティ -&gt; 一般オプション -&gt; 位置とサイズ&lt;/strong&gt;にある &lt;strong&gt;位置とサイズ&lt;/strong&gt;ダイアログを利用して下さい.もう１つの移動ツール(右矢印つきの地図キャンバスアイコン)を使うと地図フレーム中の地図コンテンツを動かすことができます.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="117"/>
         <source>You can rotate a map by setting its rotation value in the &lt;strong&gt;Item Properties -&gt; Map&lt;/strong&gt; section. To place a north arrow in your layout you can use the &lt;strong&gt;Add Image&lt;/strong&gt; tool. After the selection and placement of the north arrow in the layout you can link it with a specific map frame by activating the &lt;strong&gt;Sync with map&lt;/strong&gt; checkbox and selecting a map frame. Whenever you change the rotation value of a linked map, the north arrow will now automatically adjust its rotation.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;strong&gt;アイテムプロパティ -&gt; 地図&lt;/strong&gt; セクションの傾きの値を指定することによって地図を傾けることができます. &lt;strong&gt;イメージの追加&lt;/strong&gt;ツールを使って北向き矢印を置くことができます.レイアウトで北向き矢印の場所を指定した後で&lt;strong&gt;地図と同期&lt;/strong&gt;チェックボックスを選択して地図フレームを指定することで矢印と連動する地図を指定できます.そうすると地図の傾きを変えると北向き矢印の傾きも自動的に変わります.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="129"/>
