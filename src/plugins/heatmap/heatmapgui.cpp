@@ -208,7 +208,7 @@ void HeatmapGui::restoreSettings( bool usingLastInputLayer )
 
 void HeatmapGui::saveSettings()
 {
-  // Save persistant settings
+  // Save persistent settings
   QSettings s;
   s.setValue( "/Heatmap/lastFormat", QVariant( formatCombo->currentIndex() ) );
 
@@ -285,7 +285,7 @@ void HeatmapGui::on_rowsSpinBox_editingFinished()
   mRows = rowsSpinBox->value();
   mYcellsize = mBBox.height() / mRows;
   mXcellsize = mYcellsize;
-  mColumns = max( mBBox.width() / mXcellsize, 1 );
+  mColumns = max( round( mBBox.width() / mXcellsize ), 1 );
 
   updateSize();
 }
@@ -295,7 +295,7 @@ void HeatmapGui::on_columnsSpinBox_editingFinished()
   mColumns = columnsSpinBox->value();
   mXcellsize = mBBox.width() / mColumns;
   mYcellsize = mXcellsize;
-  mRows = max( mBBox.height() / mYcellsize, 1 );
+  mRows = max( round( mBBox.height() / mYcellsize ), 1 );
 
   updateSize();
 }
