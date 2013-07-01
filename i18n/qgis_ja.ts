@@ -57020,7 +57020,15 @@ Loading field values from WFS layers isn&apos;t supported, before the layer is
 actually inserted, ie. when building queries.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;フィールドと値&lt;/h3&gt;
+レイヤから取得したフィールドのリストを含みます.  右ボタンクリックでサンプル値を利用できます.
+&lt;br&gt;&lt;br&gt;
+リストからフィールド名を選択して右ボタンをクリックしてコンテキストメニューを表示して下さい.そこで選択フィールドのサンプル値をロードできます.
+
+&lt;p&gt;&lt;h4&gt;注記:&lt;/h4&gt;
+クエリを作成しているときのようなレイヤが実際に挿入されている前に
+WFSレイヤからの値ロードはサポートされていません.
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1572"/>
@@ -59676,7 +59684,16 @@ Loading field values from WFS layers isn&apos;t supported, before the layer is
 actually inserted, ie. when building queries.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;フィールド&lt;/h3&gt;
+ダブルクリックするとフィールド名を式に挿入できます.
+&lt;br&gt;&lt;br&gt;
+フィールド名の上で右クリックするとコンテキストメニューを開いてサンプル値ロードオプションを開けます.
+
+&lt;p&gt;&lt;h4&gt;注記:&lt;/h4&gt;
+クエリを作成しているときのようなレイヤが実際に挿入されている前に
+WFSレイヤからの値ロードはサポートされていません.
+&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1357"/>
