@@ -9699,7 +9699,8 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/providers/oracle/qgsoracleprovider.cpp" line="2899"/>
         <source>Unable to determine number of geometry columns of layer %1.%2: 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>レイヤ中のジオメトリカラムの数がわかりません %1.%2: 
+%3</translation>
     </message>
     <message>
         <source>Unable determine number of geometry columns of layer %1.%2: 
@@ -11095,7 +11096,7 @@ Please contact the developers.
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6154"/>
         <source>%1 (%2 type unsupported)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1(型%2はサポートされていません)</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6926"/>
@@ -12943,7 +12944,7 @@ SVG検索パス	%8
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="446"/>
         <source>The filter defines which features are currently shown in the list or on the table</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルタはリストまたはテーブルに表示される地物を定義します</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="583"/>
@@ -14093,7 +14094,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/gui/qgscollapsiblegroupbox.cpp" line="194"/>
         <source>Ctrl (or Alt)-click to toggle all</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl(または Alt)-クリックするとすべて切り替わります</translation>
     </message>
 </context>
 <context>
@@ -14410,7 +14411,8 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="979"/>
         <source>Trying to create image #%1( %2x%3 @ %4dpi ) may result in a memory overflow.
 Please try a lower resolution or a smaller papersize</source>
-        <translation type="unfinished"></translation>
+        <translation>イメージ #%1 ( %2x%3 @ %4dpi )作成中に多分メモリオーバーフローが発生しました.
+低い解像度の利用かペーパーサイズを小さくして試して下さい</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1561"/>
@@ -51674,7 +51676,88 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>変更ないか後でチェック</translatorcomment>
+        <translation>&lt;h3&gt;プラグインの管理とインストール&lt;/h3&gt;
+
+&lt;p&gt;
+プラグインの管理とインストール.
+&lt;/p&gt;
+
+
+&lt;a href=&quot;#installedtab&quot;&gt;インストールされたプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#getmoretab&quot;&gt;さらなるプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#newtab&quot;&gt;新しいプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#upgradabletab&quot;&gt;アップグレード可能プラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#invalidtab&quot;&gt;不正なプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#settingstab&quot;&gt;設定タブ&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;installedtab&quot;&gt;
+&lt;h4&gt;インストールされたプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブでは現状のシステムにインストールされているプラグインのリストを表示します. 
+python と C++ 両方のプラグインがリストされます. 
+&lt;/p&gt;
+&lt;p&gt;
+名前の前にあるチェックボックスをクリックすることでブラグインの有効,無効を切り替えることができます.&lt;br/&gt;
+選択されているプラグインの情報が詳細ペインに表示されます.
+&lt;/p&gt;
+&lt;p&gt;
+ソート方法を変えるためにコンテキストメニュー(右ボタンクリック)が利用できます:
+名前,ダウンロード数,投票と状態でソートできます.
+&lt;/p&gt;
+
+
+&lt;a name=&quot;getmoretab&quot;&gt;
+&lt;h4&gt;さらなるプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブではリモートリポジトリにある利用可能なプラグインのリストが表示されます.
+これは起動時に１回ダウンロードされます.しかしこの設定は変えることができます
+&lt;/p&gt;
+&lt;p&gt;
+選択されているプラグインの情報が詳細ペインに表示されます.
+&lt;/p&gt;
+
+&lt;a name=&quot;newtab&quot;&gt;
+&lt;h4&gt;新しいプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブには利用可能になった新しいプラグインが表示されます.ここに表示されるのは1回のみです.
+&lt;/p&gt;
+
+&lt;a name=&quot;upgradabletab&quot;&gt;
+&lt;h4&gt;アップグレード可能プラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブにはあなたがインストールしているプラグインでリモートりポジトリからアップグレード可能なもんが表示されます.
+
+&lt;/p&gt;
+
+&lt;a name=&quot;Invalid tab&quot;&gt;
+&lt;h4&gt;不正なプラグインタブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブは不正なプラグインがある場合有効になります. それはプラグインをロード中にエラーが発生した場合です.
+&lt;/p&gt;
+
+&lt;a name=&quot;settingstab&quot;&gt;
+&lt;h4&gt;設定タブ&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+このタブでプラグインマネージャの設定を変更することができます.
+&lt;/p&gt;
+&lt;p&gt;
+QGISがリポジトリからリストのダウンロードと情報の更新を行う頻度を設定できます.
+&lt;/p&gt;
+&lt;p&gt;
+&apos;Show experimental plugins&apos; チェックボックスをチェックすると, 全てのプラグインがリストに表示されます,そこには作者が&apos;実験的&apos;とみなしているプラグインも含みます.
+
+&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
+注記: 実験的プラグインは業務利用には不向きです. それらのプラグインは開発の初期段階で&quot;不完全な&quot;または&quot;検証目的の&quot;ツールと見なされるべきです. The QGIS開発チームはテスト目的以外でそれらのプラグインをインストールすることを推奨しません.
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1188"/>
