@@ -10239,7 +10239,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/core/qgsfeature.cpp" line="195"/>
         <source>Attribute index %1 out of bounds [0;%2]</source>
-        <translation type="unfinished">属性インデックス%1は境界値を超えています [0;%2[ {1 ?} {0;%2]?}</translation>
+        <translation>属性インデックス%1は境界値を超えています  [0;%2]</translation>
     </message>
 </context>
 <context>
@@ -11100,7 +11100,7 @@ Please contact the developers.
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6926"/>
         <source>Do you want to save the current project? %1</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のプロジェクトを保存しますか？ %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="8878"/>
