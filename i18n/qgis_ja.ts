@@ -45791,12 +45791,12 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="94"/>
         <source>In the print composer tool bar you can find two buttons for moving elements. The left one (right arrow icon) selects and moves elements in the layout. After selecting the element with this tool you can also move them around with the arrow keys. For accurate positioning use the &lt;strong&gt;Position and Size&lt;/strong&gt; section, which can be found in the tab &lt;strong&gt;Item Properties -&gt; Position and Size&lt;/strong&gt;. The other move tool (map canvas icon with right arrow) allows one to move the map content within a map frame.</source>
-        <translation type="unfinished"></translation>
+        <translation>プリントコンポーザツールバーにはエレメント移動のための２つのボタンがあります.左のボタン(右矢印アイコン)ではレイアウト中でエレメントを選んで移動できます.このツールでエレメントを選択した後で矢印キーを使ってエレメントを移動することもできます.正確な位置を指定したい場合はタブ&lt;strong&gt;アイテムプロパティ -&gt; 位置とサイズ&lt;/strong&gt;にある &lt;strong&gt;位置とサイズ&lt;/strong&gt;セクションを利用して下さい.もう１つの移動ツール(右矢印つきの地図キャンバスアイコン)を使うと地図フレーム中の地図コンテンツを動かすことができます.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="117"/>
         <source>In the Print Composer you can rotate a map by setting its rotation value in the tab &lt;strong&gt;Item Properties -&gt; Map -&gt; Main properties&lt;/strong&gt; section. To place a north arrow in your layout you can use the &lt;strong&gt;Add Image&lt;/strong&gt; tool. After the selection and placement of the north arrow in the layout you can link it with a specific map frame by activating the &lt;strong&gt;Sync with map&lt;/strong&gt; checkbox and selecting a map frame. Whenever you change the rotation value of a linked map, the north arrow will now automatically adjust its rotation.</source>
-        <translation type="unfinished"></translation>
+        <translation>プリントコンポーザの タブ&lt;strong&gt;アイテムプロパティ -&gt; 地図 -&gt; メインプロパティ&lt;/strong&gt;の傾きの値を設定すると地図を傾けることができます.北向き矢印を&lt;strong&gt;イメージ追加&lt;/strong&gt;ツールで追加できます.北向き矢印の選択と配置の後で &lt;strong&gt;地図と同期する&lt;/strong&gt;チェックボックスをアクティブにして地図フレームを選択すると特定の地図フレームとリンクできます.リンクされた地図の傾きの値を変更すると自動的に矢印の傾きも変わります.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="129"/>
@@ -45826,7 +45826,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="146"/>
         <source>Sometimes you have a very large dataset which takes ages to draw. You can press &apos;Esc&apos; (the escape key), or click the &apos;Stop map rendering&apos; icon in the status bar to the bottom of the window at any time to halt rendering. If you are going to be performing several actions (e.g. modifying symbology options) and wish to temporarily disable map rendering while you do so, you can uncheck the &apos;Render&apos; checkbox in the bottom right of the status bar. Don&apos;t forget to check it on again when you are ready to have the map draw itself again!</source>
-        <translation type="unfinished"></translation>
+        <translation>時々とても大きなデータセットを使うと描画にえらく時間がかかる時があるでしょう.&apos;Esc&apos;(エスケープキー)を押すかウィンドウ下部のステータスバーにある&apos;地図描画の中止&apos;アイコンをクリックするといつでもレンダリングを中断できます.もしあなたが様々な作業（例えばシンボロジーオプションの変更）を行っていて、その作業中は地図レンダリングを無効にしたい場合は右下ステータスバーの’レンダ&apos;チェックボックスのチェックをはずして下さい.地図の描画準備ができたら再度チェックボックスをチェックすることを忘れないでください!</translation>
     </message>
     <message>
         <source>Sometimes you have a very large dataset which takes ages to draw. You can press &apos;Esc&apos; (the escape key), or click the small red &apos;X&apos; icon in the status bar to the bottom right of the window at any time to halt rendering. If you are going to be performing several actions (e.g. modifying symbology options) and wish to temporarily disable map rendering while you do so, you can uncheck the &apos;Render&apos; checkbox in the bottom right of the status bar. Don&apos;t forget to check it on again when you are ready to have the map draw itself again!</source>
@@ -51690,22 +51690,22 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 &lt;/p&gt;
 </source>
         <translatorcomment>変更ないか後でチェック</translatorcomment>
-        <translation type="unfinished">&lt;h3&gt;プラグインの管理とインストール&lt;/h3&gt;
+        <translation>&lt;h3&gt;プラグインの管理とインストール&lt;/h3&gt;
 
 &lt;p&gt;
 プラグインの管理とインストール.
 &lt;/p&gt;
 
 
-&lt;a href=&quot;#installedtab&quot;&gt;インストールされたプラグインタブ&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#getmoretab&quot;&gt;さらなるプラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#installedtab&quot;&gt;インストール済プラグインタブ&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#getmoretab&quot;&gt;さらにプラグインを取得するタブ&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#newtab&quot;&gt;新しいプラグインタブ&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#upgradabletab&quot;&gt;アップグレード可能プラグインタブ&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#invalidtab&quot;&gt;不正なプラグインタブ&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#settingstab&quot;&gt;設定タブ&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;installedtab&quot;&gt;
-&lt;h4&gt;インストールされたプラグインタブ&lt;/h4&gt;
+&lt;h4&gt;インストール済プラグインタブ&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 このタブでは現状のシステムにインストールされているプラグインのリストを表示します. 
@@ -51722,7 +51722,7 @@ python と C++ 両方のプラグインがリストされます.
 
 
 &lt;a name=&quot;getmoretab&quot;&gt;
-&lt;h4&gt;さらなるプラグインタブ&lt;/h4&gt;
+&lt;h4&gt;さらにプラグインを取得するタブ&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 このタブではリモートリポジトリにある利用可能なプラグインのリストが表示されます.
@@ -51743,7 +51743,7 @@ python と C++ 両方のプラグインがリストされます.
 &lt;h4&gt;アップグレード可能プラグインタブ&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-このタブにはあなたがインストールしているプラグインでリモートりポジトリからアップグレード可能なもんが表示されます.
+このタブにはあなたがインストールしているプラグインでリモートりポジトリからアップグレード可能なものが表示されます.
 
 &lt;/p&gt;
 
@@ -51751,7 +51751,7 @@ python と C++ 両方のプラグインがリストされます.
 &lt;h4&gt;不正なプラグインタブ&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-このタブは不正なプラグインがある場合有効になります. それはプラグインをロード中にエラーが発生した場合です.
+このタブは不正なプラグインがある場合有効になります. プラグインをロード中にエラーが発生した場合に表示されます.
 &lt;/p&gt;
 
 &lt;a name=&quot;settingstab&quot;&gt;
@@ -51764,7 +51764,7 @@ python と C++ 両方のプラグインがリストされます.
 QGISがリポジトリからリストのダウンロードと情報の更新を行う頻度を設定できます.
 &lt;/p&gt;
 &lt;p&gt;
-&apos;Show experimental plugins&apos; チェックボックスをチェックすると, 全てのプラグインがリストに表示されます,そこには作者が&apos;実験的&apos;とみなしているプラグインも含みます.
+&apos;実験的プラグインも表示する&apos; チェックボックスをチェックすると, 全てのプラグインがリストに表示されます,そこには作者が&apos;実験的&apos;とみなしているプラグインも含みます.
 
 &lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
 注記: 実験的プラグインは業務利用には不向きです. それらのプラグインは開発の初期段階で&quot;不完全な&quot;または&quot;検証目的の&quot;ツールと見なされるべきです. The QGIS開発チームはテスト目的以外でそれらのプラグインをインストールすることを推奨しません.
