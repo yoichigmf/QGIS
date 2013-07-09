@@ -12648,15 +12648,15 @@ SVG検索パス	%8
 <context>
     <name>QgsAttributeSelectionDialog</name>
     <message>
-        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="71"/>
         <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="76"/>
-        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="149"/>
+        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="81"/>
+        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="155"/>
         <source>Ascending</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="71"/>
-        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="77"/>
+        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="76"/>
+        <location filename="../src/app/composer/qgsattributeselectiondialog.cpp" line="82"/>
         <source>Descending</source>
         <translation>下</translation>
     </message>
@@ -17812,7 +17812,17 @@ Please try a lower resolution or a smaller papersize</source>
 <context>
     <name>QgsContextHelp</name>
     <message>
-        <location filename="../src/core/qgscontexthelp.cpp" line="75"/>
+        <location filename="../src/core/qgscontexthelp.cpp" line="83"/>
+        <source>Error starting help viewer [%1]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp.cpp" line="83"/>
+        <source>Context help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp.cpp" line="91"/>
         <source>&lt;h3&gt;Oops! QGIS can&apos;t find help for this form.&lt;/h3&gt;The help file for %1 was not found for your language&lt;br&gt;If you would like to create it, contact the QGIS development team</source>
         <translation>&lt;h3&gt;Oops! QGIS はこのフォームのヘルプを見つけられません.&lt;/h3&gt;あなたの言語ではヘルプファイル%1が見つかりません&lt;br&gt;もしあなたが作成したいならQGIS開発チームに連絡をください</translation>
     </message>
@@ -29741,7 +29751,7 @@ not displayed</source>
 <context>
     <name>QgsMapToolNodeTool</name>
     <message>
-        <location filename="../src/app/nodetool/qgsmaptoolnodetool.cpp" line="654"/>
+        <location filename="../src/app/nodetool/qgsmaptoolnodetool.cpp" line="665"/>
         <source>Inserted vertex</source>
         <translation>挿入された頂点</translation>
     </message>
@@ -30331,7 +30341,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
         <translation>結合</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsmergeattributesdialog.cpp" line="544"/>
+        <location filename="../src/app/qgsmergeattributesdialog.cpp" line="549"/>
         <source>feature %1</source>
         <translation>地物 %1</translation>
     </message>
@@ -30343,7 +30353,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="149"/>
-        <location filename="../src/app/qgsmergeattributesdialog.cpp" line="491"/>
+        <location filename="../src/app/qgsmergeattributesdialog.cpp" line="496"/>
         <source>Feature %1</source>
         <translation>地物 %1</translation>
     </message>
@@ -30381,7 +30391,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="101"/>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="168"/>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="271"/>
-        <location filename="../src/app/qgsmergeattributesdialog.cpp" line="587"/>
+        <location filename="../src/app/qgsmergeattributesdialog.cpp" line="592"/>
         <source>Skip attribute</source>
         <translation>属性をスキップする</translation>
     </message>
@@ -38008,6 +38018,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="665"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="763"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="786"/>
+        <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="797"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="844"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="850"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="860"/>
@@ -38111,10 +38122,9 @@ Error: no result buffer</source>
 エラー　リザルトバッファがありません</translation>
     </message>
     <message>
-        <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="801"/>
         <source>Not logged query failed: %1
 Error: no result buffer</source>
-        <translation>ログされていないクエリ失敗 %1
+        <translation type="obsolete">ログされていないクエリ失敗 %1
 エラー　リザルトバッファがありません</translation>
     </message>
     <message>
@@ -46609,7 +46619,7 @@ p, li { white-space: pre-wrap; }
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="423"/>
+        <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="427"/>
         <source>SUCCESS: %n geometries were changed.</source>
         <comment>changed geometries count</comment>
         <translation>
@@ -46617,7 +46627,7 @@ p, li { white-space: pre-wrap; }
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="431"/>
+        <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="435"/>
         <source>ERROR: %n geometries not changed.</source>
         <comment>not changed geometries count</comment>
         <translation>
@@ -46625,7 +46635,7 @@ p, li { white-space: pre-wrap; }
         </translation>
     </message>
     <message>
-        <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="440"/>
+        <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="444"/>
         <source>
   Provider errors:</source>
         <translation>
