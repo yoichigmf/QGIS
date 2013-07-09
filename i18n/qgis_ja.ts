@@ -3156,7 +3156,7 @@ Install it and try again.</source>
     </message>
     <message>
         <source>Analysis</source>
-        <translation>解析手法</translation>
+        <translation>解析</translation>
     </message>
     <message>
         <source>Fill nodata</source>
@@ -17814,12 +17814,12 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/core/qgscontexthelp.cpp" line="83"/>
         <source>Error starting help viewer [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘルプビューア起動エラー[%1]</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp.cpp" line="83"/>
         <source>Context help</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキストヘルプ</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp.cpp" line="91"/>
@@ -49434,7 +49434,7 @@ Tried URL: %1</source>
     <name>SEXTANTE</name>
     <message>
         <source>Analysis</source>
-        <translation>解析手法(&amp;A)</translation>
+        <translation>解析</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE toolbox</source>
