@@ -16572,7 +16572,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerpicturewidgetbase.ui" line="181"/>
         <source>Image search paths</source>
-        <translation type="unfinished"></translation>
+        <translation>イメージ検索パス</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerpicturewidgetbase.ui" line="216"/>
@@ -18501,7 +18501,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="500"/>
         <source>&lt;b&gt;Current definition %1:&lt;/b&gt;&lt;br&gt;%2</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;現在の定義%1:&lt;/b&gt;&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>&lt;b&gt;Current definition%1:&lt;/b&gt;&lt;br&gt;%2</source>
@@ -19367,7 +19367,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="129"/>
         <source>Use one or more characters as the delimiter, or choose a different delimiter type</source>
-        <translation type="unfinished"></translation>
+        <translation>1文字またはそれ以上の文字をデリミタとして使うか他のデリミタタイプを選んでください</translation>
     </message>
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="139"/>
@@ -19669,7 +19669,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="518"/>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="521"/>
         <source>The file is a comma separated value file, fields delimited by commas and quoted by &quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>このファイルはカンマ区切りの値のファイルです,フィールドはカンマで区切られて&quot;でクォートされています</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="524"/>
@@ -19686,7 +19686,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="562"/>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="565"/>
         <source>Each line in the file is split using a regular expression to define the end of each field</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル中のそれぞれの行は各フィールドの最後に定義されている正規表現で分割されます</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="568"/>
@@ -26644,7 +26644,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="45"/>
         <source>%1 of %2 bad layers were not fixable.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 の不正なレイヤは修正出来ませんでした.</translation>
     </message>
     <message>
         <source>%1 of %2 bad layers were not not fixable.</source>
@@ -26928,7 +26928,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="1377"/>
         <source>Cannot print</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷できません</translation>
     </message>
     <message>
         <source>Cannot not print</source>
@@ -32781,7 +32781,7 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1145"/>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2291"/>
         <source>OGR error syncing to disk: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>QGR ディスクとの同期エラー %1</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1168"/>
@@ -32806,7 +32806,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1275"/>
         <source>Possible corruption after REPACK detected. %1 still exists. This may point to a permission or locking problem of the original DBF.</source>
-        <translation type="unfinished"></translation>
+        <translation>詰め替えを行った後に破損の可能性が検出されました.%1はまだ存在します.この問題はアクセス権限か元DBFのロックの問題のの可能性があります.</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1318"/>
