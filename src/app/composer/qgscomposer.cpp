@@ -384,13 +384,13 @@ void QgsComposer::setupTheme()
   //now set all the icons - getThemeIcon will fall back to default theme if its
   //missing from active theme
   mActionQuit->setIcon( QgsApplication::getThemeIcon( "/mActionFileExit.png" ) );
-  mActionSaveProject->setIcon( QgsApplication::getThemeIcon( "/mActionFileSave.png" ) );
-  mActionNewComposer->setIcon( QgsApplication::getThemeIcon( "/mActionNewComposer.png" ) );
-  mActionDuplicateComposer->setIcon( QgsApplication::getThemeIcon( "/mActionDuplicateComposer.png" ) );
-  mActionComposerManager->setIcon( QgsApplication::getThemeIcon( "/mActionComposerManager.png" ) );
-  mActionNewFromTemplate->setIcon( QgsApplication::getThemeIcon( "/mActionNewComposer.png" ) );
-  mActionLoadFromTemplate->setIcon( QgsApplication::getThemeIcon( "/mActionFileOpen.png" ) );
-  mActionSaveAsTemplate->setIcon( QgsApplication::getThemeIcon( "/mActionFileSaveAs.png" ) );
+  mActionSaveProject->setIcon( QgsApplication::getThemeIcon( "/mActionFileSave.svg" ) );
+  mActionNewComposer->setIcon( QgsApplication::getThemeIcon( "/mActionNewComposer.svg" ) );
+  mActionDuplicateComposer->setIcon( QgsApplication::getThemeIcon( "/mActionDuplicateComposer.svg" ) );
+  mActionComposerManager->setIcon( QgsApplication::getThemeIcon( "/mActionComposerManager.svg" ) );
+  mActionNewFromTemplate->setIcon( QgsApplication::getThemeIcon( "/mActionNewComposer.svg" ) );
+  mActionLoadFromTemplate->setIcon( QgsApplication::getThemeIcon( "/mActionFileOpen.svg" ) );
+  mActionSaveAsTemplate->setIcon( QgsApplication::getThemeIcon( "/mActionFileSaveAs.svg" ) );
   mActionExportAsImage->setIcon( QgsApplication::getThemeIcon( "/mActionSaveMapAsImage.png" ) );
   mActionExportAsSVG->setIcon( QgsApplication::getThemeIcon( "/mActionSaveAsSVG.png" ) );
   mActionExportAsPDF->setIcon( QgsApplication::getThemeIcon( "/mActionSaveAsPDF.png" ) );
@@ -973,14 +973,14 @@ void QgsComposer::on_mActionExportAsImage_triggered()
     for ( int i = 0; i < mComposition->numPages(); ++i )
     {
       QImage image = mComposition->printPageAsRaster( i );
-      if (image.isNull())
+      if ( image.isNull() )
       {
         QMessageBox::warning( 0, tr( "Memory Allocation Error" ),
-                                             tr( "Trying to create image #%1( %2x%3 @ %4dpi ) "
-                                                 "may result in a memory overflow.\n"
-                                                 "Please try a lower resolution or a smaller papersize" )
-                                             .arg( i+1 ).arg( width ).arg( height ).arg ( dpi ),
-                                             QMessageBox::Ok ,  QMessageBox::Ok );
+                              tr( "Trying to create image #%1( %2x%3 @ %4dpi ) "
+                                  "may result in a memory overflow.\n"
+                                  "Please try a lower resolution or a smaller papersize" )
+                              .arg( i + 1 ).arg( width ).arg( height ).arg( dpi ),
+                              QMessageBox::Ok ,  QMessageBox::Ok );
         mView->setPaintingEnabled( true );
         return;
       }
