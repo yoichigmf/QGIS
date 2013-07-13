@@ -8640,12 +8640,12 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="376"/>
         <source>no available replacement for internal fieldname ogc_fid found</source>
-        <translation type="unfinished"></translation>
+        <translation>内部フィールド名 ogc_fid用の置き換えが見つかりません</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="381"/>
         <source>Reserved attribute name ogc_fid replaced with %1</source>
-        <translation type="unfinished"></translation>
+        <translation>予約された属性名 ogc_fidは%1で置き換えられました </translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="404"/>
@@ -35340,10 +35340,9 @@ SQL: %3</translation>
         <source>Could not update metadata for %1.%2.
 SQL:%3
 Error: %4</source>
-        <translation type="unfinished">%1.%4のメタデータを更新できません.
-SQL: %1
-エラー: %4 {1.%2.?} {3
-?}</translation>
+        <translation>%1.%2のメタデータを更新できません.
+SQL: %3
+エラー: %4 </translation>
     </message>
     <message>
         <source>Could not update metadata for %1.%2.
@@ -42297,7 +42296,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="69"/>
         <source>Refine current rule</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のルールを改良する</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="70"/>
