@@ -612,7 +612,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&quot;{0}&quot; not found</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;{0}&quot; が見つかりません</translation>
     </message>
     <message>
         <source>Filename:</source>
@@ -5092,7 +5092,7 @@ Please choose larger tolerance...</source>
     </message>
     <message>
         <source>Symmetrical difference</source>
-        <translation type="unfinished"></translation>
+        <translation>対称差分</translation>
     </message>
     <message>
         <source>No output created. File creation error:
@@ -8702,7 +8702,7 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1139"/>
         <source>DBF file</source>
-        <translation type="unfinished"></translation>
+        <translation>DBFファイル</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1146"/>
@@ -10266,32 +10266,32 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1652"/>
         <source>empty response</source>
-        <translation type="unfinished"></translation>
+        <translation>中身のないレスポンス</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1658"/>
         <source>WFS service exception:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>WFSサービス例外:%1</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1664"/>
         <source>unsuccessful service response: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>失敗したサービスのレスポンス:%1</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1671"/>
         <source>WFS exception report (code=%1 text=%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS 例外レポート (コード=%1 テキスト=%2)</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1672"/>
         <source>missing</source>
-        <translation type="unfinished"></translation>
+        <translation>欠損しています</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1678"/>
         <source>unhandled response: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>取り扱えない反応:%1</translation>
     </message>
 </context>
 <context>
@@ -11445,24 +11445,25 @@ Always ignore these errors?</source>
         <location filename="../src/app/qgisapp.cpp" line="4247"/>
         <location filename="../src/app/qgisapp.cpp" line="4253"/>
         <source>Commit errors</source>
-        <translation type="unfinished"></translation>
+        <translation>コミットエラー</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4248"/>
         <location filename="../src/app/qgisapp.cpp" line="4254"/>
         <source>Could not commit changes to layer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>変更をレイヤ %1 にコミットできませんでした</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4256"/>
         <source>Errors: %1
 </source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: %1
+</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4262"/>
         <source>Show more</source>
-        <translation type="unfinished"></translation>
+        <translation>さらに表示する</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4308"/>
@@ -21197,7 +21198,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="297"/>
         <source>Type name</source>
-        <translation type="unfinished"></translation>
+        <translation>名前の入力</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="298"/>
@@ -23779,12 +23780,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/qgsgml.cpp" line="140"/>
         <source>GML Getfeature network request failed with error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>GML Getfeature networkリクエストが次のエラーで失敗しました: %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgml.cpp" line="141"/>
         <source>Network</source>
-        <translation type="unfinished">ネットワーク</translation>
+        <translation>ネットワーク</translation>
     </message>
 </context>
 <context>
@@ -36482,11 +36483,11 @@ Error: %2</source>
     </message>
     <message>
         <source>The plugin exited with error status: {0}</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグインはエラーで終了しました ステータス: {0}</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation type="unfinished">不明なエラー</translation>
+        <translation>不明なエラー</translation>
     </message>
     <message>
         <source>Uninstall (recommended)</source>
