@@ -567,9 +567,8 @@ class Editor(QsciScintilla):
         if self.syntaxCheck(fromContextMenu=False):
             if autoSave:
                 tmpFile = self.createTempFile()
-                self._runSubProcess(tmpFile, True)
-            else:
-                self._runSubProcess(filename)
+                filename = tmpFile
+            self.parent.pc.shell.runCommand("execfile(r'{0}')".format(filename))
 
     def runSelectedCode(self):
         cmd = self.selectedText()
@@ -639,9 +638,6 @@ class Editor(QsciScintilla):
         else:
             self.markerDeleteAll()
             self.clearAnnotations()
-            if fromContextMenu:
-                msgText = QCoreApplication.translate('PythonConsole', 'Syntax ok')
-                self.parent.pc.callWidgetMessageBarEditor(msgText, 0, True)
             return True
 
     def keyPressEvent(self, e):

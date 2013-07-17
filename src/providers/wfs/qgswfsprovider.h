@@ -190,7 +190,7 @@ class QgsWFSProvider: public QgsVectorDataProvider
     int guessAttributesFromFile( const QString& uri, QString& geometryAttribute, std::list<QString>& thematicAttributes, QGis::WkbType& geomType ) const;
 
     /**Copies feature attributes / geometry from f to feature*/
-    void copyFeature( QgsFeature* f, QgsFeature& feature, bool fetchGeometry, QgsAttributeList fetchAttributes );
+    void copyFeature( QgsFeature* f, QgsFeature& feature, bool fetchGeometry );
 
     //GML2 specific methods
     int getExtentFromGML2( QgsRectangle* extent, const QDomElement& wfsCollectionElement ) const;
@@ -232,8 +232,8 @@ class QgsWFSProvider: public QgsVectorDataProvider
     void getLayerCapabilities();
     /**Takes <Operations> element and updates the capabilities*/
     void appendSupportedOperations( const QDomElement& operationsElem, int& capabilities ) const;
-    /**Shows a message box with the exception string (or does nothing if the xml document is not an exception)*/
-    void handleException( const QDomDocument& serverResponse ) const;
+    /**records provider error*/
+    void handleException( const QDomDocument& serverResponse );
     /**Initializes "Cache Features" inactive processing*/
     bool initGetRenderedOnly( QgsRectangle );
     /**Converts DescribeFeatureType schema geometry property type to WKBType*/

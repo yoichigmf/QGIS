@@ -172,9 +172,9 @@ class GeoprocessingDialog( QDialog, Ui_Dialog ):
       elif self.myFunction == 5: # Intersect
         self.label_2.setText( self.tr( "Intersect layer" ) )
         self.setWindowTitle( self.tr( "Intersect" ) )
-      elif self.myFunction == 7: # Symetrical difference
+      elif self.myFunction == 7: # Symmetrical difference
         self.label_2.setText( self.tr( "Difference layer" ) )
-        self.setWindowTitle( self.tr( "Symetrical difference" ) )
+        self.setWindowTitle( self.tr( "Symmetrical difference" ) )
         self.useSelectedA.hide()
         self.useSelectedB.hide()
       elif self.myFunction == 8: # Clip
@@ -383,13 +383,14 @@ class geoprocessingThread( QThread ):
           inGeom = QgsGeometry( inFeat.geometry() )
           try:
             outGeom = inGeom.buffer( float( value ), self.mySegments )
-            try:
-              outFeat.setGeometry( outGeom )
-              outFeat.setAttributes( atMap )
-              writer.addFeature( outFeat )
-            except:
-              FEATURE_EXCEPT = False
-              continue
+            if not outGeom.isGeosEmpty():
+              try:
+                outFeat.setGeometry( outGeom )
+                outFeat.setAttributes( atMap )
+                writer.addFeature( outFeat )
+              except:
+                FEATURE_EXCEPT = False
+                continue
           except:
             GEOS_EXCEPT = False
             continue
@@ -444,13 +445,14 @@ class geoprocessingThread( QThread ):
           inGeom = QgsGeometry( inFeat.geometry() )
           try:
             outGeom = inGeom.buffer( float( value ), self.mySegments )
-            try:
-              outFeat.setGeometry( outGeom )
-              outFeat.setAttributes( atMap )
-              writer.addFeature( outFeat )
-            except:
-              FEATURE_EXCEPT = False
-              continue
+            if not outGeom.isGeosEmpty():
+              try:
+                outFeat.setGeometry( outGeom )
+                outFeat.setAttributes( atMap )
+                writer.addFeature( outFeat )
+              except:
+                FEATURE_EXCEPT = False
+                continue
           except:
             GEOS_EXCEPT = False
             continue
@@ -903,11 +905,6 @@ class geoprocessingThread( QThread ):
     else:
         crs_match = crsA == crsB
     fields = ftools_utils.combineVectorFields( self.vlayerA, self.vlayerB )
-    longNames = ftools_utils.checkFieldNameLength( fields )
-    if longNames:
-      message = self.tr('Following field names are longer than 10 characters:\n%s') % ( '\n'.join(longNames) )
-      return GEOS_EXCEPT, FEATURE_EXCEPT, crs_match, message
-
     writer = QgsVectorFileWriter( self.myName, self.myEncoding, fields,
                                   vproviderA.geometryType(), vproviderA.crs() )
     if writer.hasError():
@@ -955,8 +952,7 @@ class geoprocessingThread( QThread ):
                     gList = ftools_utils.getGeomType( geom.wkbType() )
                     if int_geom.wkbType() in gList:
                       outFeat.setGeometry( int_geom )
-                      atMapA.extend( atMapB )
-                      outFeat.setAttributes( atMapA )
+                      outFeat.setAttributes( atMapA + atMapB )
                       writer.addFeature( outFeat )
                   except:
                     FEATURE_EXCEPT = False
@@ -987,8 +983,7 @@ class geoprocessingThread( QThread ):
                   gList = ftools_utils.getGeomType( geom.wkbType() )
                   if int_geom.wkbType() in gList:
                     outFeat.setGeometry( int_geom )
-                    atMapA.extend( atMapB )
-                    outFeat.setAttributes( atMapA )
+                    outFeat.setAttributes( atMapA + atMapB )
                     writer.addFeature( outFeat )
                 except:
                   EATURE_EXCEPT = False
@@ -1027,8 +1022,7 @@ class geoprocessingThread( QThread ):
                     gList = ftools_utils.getGeomType( geom.wkbType() )
                     if int_geom.wkbType() in gList:
                       outFeat.setGeometry( int_geom )
-                      atMapA.extend( atMapB )
-                      outFeat.setAttributes( atMapA )
+                      outFeat.setAttributes( atMapA + atMapB )
                       writer.addFeature( outFeat )
                   except:
                     FEATURE_EXCEPT = False
@@ -1061,8 +1055,7 @@ class geoprocessingThread( QThread ):
                   gList = ftools_utils.getGeomType( geom.wkbType() )
                   if int_geom.wkbType() in gList:
                     outFeat.setGeometry( int_geom )
-                    atMapA.extend( atMapB )
-                    outFeat.setAttributes( atMapA )
+                    outFeat.setAttributes( atMapA + atMapB )
                     writer.addFeature( outFeat )
                 except:
                   FEATURE_EXCEPT = False
@@ -1088,11 +1081,6 @@ class geoprocessingThread( QThread ):
         crs_match = crsA == crsB
 
     fields = ftools_utils.combineVectorFields( self.vlayerA, self.vlayerB )
-    longNames = ftools_utils.checkFieldNameLength( fields )
-    if longNames:
-      message = self.tr( 'Following field names are longer than 10 characters:\n%s' ) % ( "\n".join(longNames) )
-      return GEOS_EXCEPT, FEATURE_EXCEPT, crs_match, message
-
     writer = QgsVectorFileWriter( self.myName, self.myEncoding, fields,
                                   vproviderA.geometryType(), vproviderA.crs() )
     if writer.hasError():
@@ -1163,8 +1151,7 @@ class geoprocessingThread( QThread ):
                     int_geom = QgsGeometry( i )
                     try:
                       outFeat.setGeometry( int_geom )
-                      atMapA.extend( atMapB )
-                      outFeat.setAttributes( atMapA )
+                      outFeat.setAttributes( atMapA + atMapB )
                       writer.addFeature( outFeat )
                     except Exception, err:
                       FEATURE_EXCEPT = False
@@ -1177,8 +1164,7 @@ class geoprocessingThread( QThread ):
                 if int_geom.wkbType() in gList:
                   try:
                     outFeat.setGeometry( int_geom )
-                    atMapA.extend( atMapB )
-                    outFeat.setAttributes( atMapA )
+                    outFeat.setAttributes( atMapA + atMapB )
                     writer.addFeature( outFeat )
                   except Exception, err:
                     FEATURE_EXCEPT = False
@@ -1274,11 +1260,6 @@ class geoprocessingThread( QThread ):
         crs_match = crsA == crsB
 
     fields = ftools_utils.combineVectorFields( self.vlayerA, self.vlayerB )
-    longNames = ftools_utils.checkFieldNameLength( fields )
-    if longNames:
-      message = self.tr( 'Following field names are longer than 10 characters:\n%s' ) % ( "\n".join(longNames) )
-      return GEOS_EXCEPT, FEATURE_EXCEPT, crs_match, message
-
     writer = QgsVectorFileWriter( self.myName, self.myEncoding, fields,
                                   vproviderA.geometryType(), vproviderA.crs() )
     if writer.hasError():

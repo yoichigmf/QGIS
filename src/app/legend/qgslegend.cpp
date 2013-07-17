@@ -312,6 +312,7 @@ void QgsLegend::setLayersVisible( bool visible )
 
   // Turn on rendering (if it was on previously)
   mMapCanvas->freeze( false );
+  mMapCanvas->refresh();
 
   QgsProject::instance()->dirty( true );
 }
@@ -838,7 +839,7 @@ void QgsLegend::handleRightClickEvent( QTreeWidgetItem* item, const QPoint& posi
     }
     else if ( li->type() == QgsLegendItem::LEGEND_GROUP )
     {
-      theMenu.addAction( QgsApplication::getThemeIcon( "/mActionZoomToLayer.png" ),
+      theMenu.addAction( QgsApplication::getThemeIcon( "/mActionZoomToLayer.svg" ),
                          tr( "Zoom to Group" ), this, SLOT( legendLayerZoom() ) );
 
       // use QGisApp::removeLayer() to remove all selected layers+groups
