@@ -10296,17 +10296,17 @@ SQL: %1</translation>
     <message>
         <location filename="../src/plugins/topology/dockModel.cpp" line="24"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/dockModel.cpp" line="24"/>
         <source>Layer</source>
-        <translation type="unfinished">レイヤ</translation>
+        <translation>レイヤ</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/dockModel.cpp" line="24"/>
         <source>Feature ID</source>
-        <translation type="unfinished"></translation>
+        <translation>地物ID</translation>
     </message>
 </context>
 <context>
@@ -32917,12 +32917,12 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1254"/>
         <source>Original layer could not be reopened.</source>
-        <translation type="unfinished"></translation>
+        <translation>オリジナルレイヤを再オープンできませんでした.</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1262"/>
         <source>Original datasource could not be reopened.</source>
-        <translation type="unfinished"></translation>
+        <translation>オリジナルデータソースを再オープンできませんでした.</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1343"/>
@@ -44985,12 +44985,12 @@ Updates to geometry values will be disabled, and query performance may be poor b
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="63"/>
         <source>file specified below</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルは以下のとおり指定されました</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="65"/>
         <source>URL specified below</source>
-        <translation type="unfinished"></translation>
+        <translation>URLは以下のとおり指定されました</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="78"/>
@@ -63215,37 +63215,37 @@ Convert a string into Qt data type.
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="276"/>
         <source>First geometry invalid in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>ぶら下がりラインテストによると最初のジオメトリが不正です.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="282"/>
         <source>Failed to import first geometry into GEOS in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>ぶら下がりラインテストによって最初のジオメトリのGEOSへのインポートに失敗しました.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="408"/>
         <source>Invalid second geometry in duplicate geometry test.</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオメトリ重複テストによると第2ジオメトリが不正です.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="414"/>
         <source>Failed to import second geometry into GEOS in duplicate geometry test.</source>
-        <translation type="unfinished"></translation>
+        <translation>ジオメトリ重複テストによって第2ジオメトリのGEOSへのインポートに失敗しました.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="531"/>
         <source>Invalid second geometry in overlaps test.</source>
-        <translation type="unfinished"></translation>
+        <translation>オーバーラップテストによると第2ジオメトリが不正です.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="537"/>
         <source>Failed to import second geometry into GEOS in overlaps test.</source>
-        <translation type="unfinished"></translation>
+        <translation>オーバーラップテストによって第2ジオメトリのGEOSへのインポートに失敗しました.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="543"/>
         <source>Skipping invalid second geometry of feature %1 in overlaps test.</source>
-        <translation type="unfinished"></translation>
+        <translation>オーバーラップテストによって不正とされた地物 %1 の第2ジオメトリはスキップします.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="767"/>
@@ -63278,7 +63278,7 @@ Convert a string into Qt data type.
         <location filename="../src/plugins/topology/topolTest.cpp" line="1438"/>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1512"/>
         <source>Second geometry missing or GEOS import failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>第2ジオメトリが欠落またははGEOSインポートに失敗しました.</translation>
     </message>
     <message>
         <source>No second geometry missing or GEOS import failed.</source>
