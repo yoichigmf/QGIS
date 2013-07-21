@@ -1771,7 +1771,17 @@ void QgsPalLayerSettings::registerFeature( QgsVectorLayer* layer,  QgsFeature& f
   }
 
   if ( ct ) // reproject the geometry if necessary
-    geom->transform( *ct );
+  {
+    try
+    {
+      geom->transform( *ct );
+    }
+    catch ( QgsCsException &cse )
+    {
+      QgsDebugMsgLevel( QString( "Ignoring feature %1 due transformation exception" ).arg( f.id() ), 4 );
+      return;
+    }
+  }
 
   if ( !checkMinimumSizeMM( context, geom, minFeatureSize ) )
   {
@@ -2029,25 +2039,28 @@ void QgsPalLayerSettings::registerFeature( QgsVectorLayer* layer,  QgsFeature& f
         {
           QString valiString = exprVal.toString();
           QgsDebugMsgLevel( QString( "exprVal Vali:%1" ).arg( valiString ), 4 );
+
           if ( valiString.compare( "Bottom", Qt::CaseInsensitive ) != 0 )
           {
-            if ( valiString.compare( "Top", Qt::CaseInsensitive ) == 0
-                 || valiString.compare( "Cap", Qt::CaseInsensitive ) == 0 )
+            if ( valiString.compare( "Top", Qt::CaseInsensitive ) == 0 )
             {
               ydiff -= labelY;
             }
             else
             {
               double descentRatio = labelFontMetrics->descent() / labelFontMetrics->height();
-
               if ( valiString.compare( "Base", Qt::CaseInsensitive ) == 0 )
               {
                 ydiff -= labelY * descentRatio;
               }
-              else if ( valiString.compare( "Half", Qt::CaseInsensitive ) == 0 )
+              else //'Cap' or 'Half'
               {
-                ydiff -= labelY * descentRatio;
-                ydiff -= labelY * 0.5 * ( 1 - descentRatio );
+                double capHeightRatio = ( labelFontMetrics->boundingRect( 'H' ).height() + 1 + labelFontMetrics->descent() ) / labelFontMetrics->height();
+                ydiff -= labelY * capHeightRatio;
+                if ( valiString.compare( "Half", Qt::CaseInsensitive ) == 0 )
+                {
+                  ydiff += labelY * ( capHeightRatio - descentRatio ) / 2.0;
+                }
               }
             }
           }
@@ -2066,7 +2079,15 @@ void QgsPalLayerSettings::registerFeature( QgsVectorLayer* layer,  QgsFeature& f
         double z = 0;
         if ( ct )
         {
-          ct->transformInPlace( xPos, yPos, z );
+          try
+          {
+            ct->transformInPlace( xPos, yPos, z );
+          }
+          catch ( QgsCsException &e )
+          {
+            QgsDebugMsgLevel( QString( "Ignoring feature %1 due transformation exception on data-defined position" ).arg( f.id() ), 4 );
+            return;
+          }
         }
 
         xPos += xdiff;
