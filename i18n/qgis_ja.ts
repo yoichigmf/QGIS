@@ -18428,7 +18428,7 @@ and current file is [%3]</source>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="144"/>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="175"/>
         <source>double</source>
-        <translation>倍</translation>
+        <translation>倍精度実数</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="180"/>
@@ -18682,7 +18682,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsdatadefinedsymboldialog.cpp" line="168"/>
         <source>double</source>
-        <translation>２重</translation>
+        <translation>倍精度実数</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsdatadefinedsymboldialog.cpp" line="173"/>
@@ -24783,7 +24783,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="171"/>
         <source>Convert x to double-precision floating point</source>
-        <translation>xを二重精度の浮動小数点に変換</translation>
+        <translation>xを倍精度の浮動小数点に変換</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="172"/>
