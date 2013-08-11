@@ -52,6 +52,7 @@ class writeOut:
             self.out.write(m)
 
         self.move_cursor_to_end()
+        QCoreApplication.processEvents()
 
     def move_cursor_to_end(self):
         """Move cursor to end of text"""
@@ -134,7 +135,8 @@ class ShellOutputScintilla(QsciScintilla):
     def insertInitText(self):
         txtInit = QCoreApplication.translate("PythonConsole",
                                              "Python {0} on {1}\n"
-                                             "## Type help(iface) for more info and list of methods.\n".format(sys.version,  socket.gethostname()))
+                                             "## Type help(iface) for more info and list of methods.\n").format(sys.version,
+                                                                                                                socket.gethostname())
         initText = self.setText(txtInit)
 
     def refreshLexerProperties(self):

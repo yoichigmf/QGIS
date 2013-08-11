@@ -29,6 +29,7 @@ from PyQt4.Qsci import (QsciScintilla,
 import sys
 import os
 import code
+import codecs
 
 from qgis.core import QgsApplication
 from ui_console_history_dlg import Ui_HistoryDialogPythonConsole
@@ -277,7 +278,7 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
     def writeHistoryFile(self, fromCloseConsole=False):
         ok = False
         try:
-            wH = open(_historyFile, 'w')
+            wH = codecs.open(_historyFile, 'w', encoding='utf-8')
             for s in self.history:
                 wH.write(s + '\n')
             ok = True
@@ -292,7 +293,7 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
     def readHistoryFile(self):
         fileExist = QFile.exists(_historyFile)
         if fileExist:
-            rH = open(_historyFile, 'r')
+            rH = codecs.open(_historyFile, 'r', encoding='utf-8')
             for line in rH:
                 if line != "\n":
                     l = line.rstrip('\n')
@@ -309,7 +310,7 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
             return
         ok = False
         try:
-            cH = open(_historyFile, 'w')
+            cH = codecs.open(_historyFile, 'w', encoding='utf-8')
             ok = True
         except:
             raise
@@ -352,7 +353,7 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
             #self.SendScintilla(QsciScintilla.SCI_DELETEBACK)
 
     def keyPressEvent(self, e):
-        startLine, startPos, endLine, _ = self.getSelection()
+        startLine, startPos, endLine, endPos = self.getSelection()
 
         # handle invalid cursor position and multiline selections
         if not self.is_cursor_on_edition_zone() or startLine < endLine:
@@ -418,9 +419,21 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
                         selText = self.selectedText()
                         self.removeSelectedText()
                         self.insert(self.opening[i] + selText + self.closing[i])
+                        self.setCursorPosition(endLine, endPos+2)
                         return
                     else:
                         self.insert(self.closing[i])
+                ## FIXES #8392 (automatically removes the redundant char
+                ## when autoclosing brackets option is enabled)
+                if t in self.closing:
+                    l, pos = self.getCursorPosition()
+                    txt = self.text(l)
+                    try:
+                        if txt[pos-1] in self.opening:
+                            self.setCursorPosition(l, pos+1)
+                            self.SendScintilla(QsciScintilla.SCI_DELETEBACK)
+                    except IndexError:
+                        pass
             QsciScintilla.keyPressEvent(self, e)
 
     def contextMenuEvent(self, e):
@@ -500,7 +513,7 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
             QsciScintillaCompat.dropEvent(self, e)
 
     def insertFromDropPaste(self, textDP):
-        pasteList = str(textDP).splitlines()
+        pasteList = unicode(textDP).splitlines()
         for line in pasteList[:-1]:
             cleanLine = line.replace(">>> ", "").replace("... ", "")
             self.insert(unicode(cleanLine))
@@ -545,9 +558,6 @@ class ShellScintilla(QsciScintilla, code.InteractiveInterpreter):
                 webbrowser.open( "http://www.qgis.org/pyqgis-cookbook/" )
             elif cmd == '_api':
                 webbrowser.open( "http://www.qgis.org/api/" )
-            if msgText:
-                self.parent.callWidgetMessageBar(msgText)
-
             more = False
         else:
             self.buffer.append(cmd)

@@ -73,7 +73,7 @@ my $translators= {
 	ro => 'Lonut Losifescu-Enescu, Bogdan Pacurar',
 	ru => 'Artem Popov',
 	sk => 'Lubos Balazovic, Jana Kormanikova, Ivan Mincik',
-	sl_SI => 'Jože Detečnik, Dejan Gregor',
+	sl_SI => 'Jože Detečnik, Dejan Gregor, Jaka Kranjc',
 	sq_AL => '',
 	sr_Latn => 'Goran Ivanković',
 	sr_Cyrl => 'Goran Ivanković',
@@ -82,7 +82,7 @@ my $translators= {
 	th => 'Man Chao',
 	tr => 'Osman Yilmaz',
 	uk => 'Сергей Якунин',
-	vi => 'Bùi Hữu Mạnh',
+	vi => 'Phan Anh, Bùi Hữu Mạnh',
 	zh_CN => 'Calvin Ngei, Zhang Jun',
 	zh_TW => 'Nung-yao Lin',
 };

@@ -55,10 +55,11 @@ class RandomSelectionWithinSubsets(GeoAlgorithm):
     #===========================================================================
 
     def defineCharacteristics(self):
+        self.allowOnlyOpenedLayers = True
         self.name = "Random selection within subsets"
         self.group = "Vector selection tools"
 
-        self.addParameter(ParameterVector(self.INPUT, "Input layer", ParameterVector.VECTOR_TYPE_ANY))
+        self.addParameter(ParameterVector(self.INPUT, "Input layer", [ParameterVector.VECTOR_TYPE_ANY]))
         self.addParameter(ParameterTableField(self.FIELD, "ID Field", self.INPUT))
         self.addParameter(ParameterSelection(self.METHOD, "Method", self.METHODS, 0))
         self.addParameter(ParameterNumber(self.NUMBER, "Number/percentage of selected features", 1, None, 10))

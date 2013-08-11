@@ -35,6 +35,7 @@ import datetime
 import pyclbr
 from operator import itemgetter
 import traceback
+import codecs
 
 class KeyFilter(QObject):
     SHORTCUTS = {
@@ -400,7 +401,7 @@ class Editor(QsciScintilla):
                 styleError = 'QLineEdit {background-color: #d65253; \
                                         color: #ffffff;}'
                 msgText = QCoreApplication.translate('PythonConsole',
-                                                     '<b>"{0}"</b> was not found.'.format(text))
+                                                     '<b>"{0}"</b> was not found.').format(text)
                 self.parent.pc.callWidgetMessageBarEditor(msgText, 0, True)
             else:
                 styleError = ''
@@ -486,7 +487,7 @@ class Editor(QsciScintilla):
         import tempfile
         fd, path = tempfile.mkstemp()
         tmpFileName = path + '.py'
-        with open(path, "w") as f:
+        with codecs.open(path, "w", encoding='utf-8') as f:
             f.write(self.text())
         os.close(fd)
         os.rename(path, tmpFileName)
@@ -522,17 +523,17 @@ class Editor(QsciScintilla):
                         else:
                             raise e
             if tmp:
-                tmpFileTr = QCoreApplication.translate('PythonConsole', ' [Temporary file saved in {0}]'.format(dir))
+                tmpFileTr = QCoreApplication.translate('PythonConsole', ' [Temporary file saved in {0}]').format(dir)
                 file = file + tmpFileTr
             if _traceback:
-                msgTraceTr = QCoreApplication.translate('PythonConsole', '## Script error: {0}'.format(file))
+                msgTraceTr = QCoreApplication.translate('PythonConsole', '## Script error: {0}').format(file)
                 print "## %s" % datetime.datetime.now()
                 print unicode(msgTraceTr)
                 sys.stderr.write(_traceback)
                 p.stderr.close()
             else:
                 msgSuccessTr = QCoreApplication.translate('PythonConsole',
-                                                          '## Script executed successfully: {0}'.format(file))
+                                                          '## Script executed successfully: {0}').format(file)
                 print "## %s" % datetime.datetime.now()
                 print unicode(msgSuccessTr)
                 sys.stdout.write(out)
@@ -542,7 +543,8 @@ class Editor(QsciScintilla):
                 os.remove(filename)
         except IOError, error:
             IOErrorTr = QCoreApplication.translate('PythonConsole',
-                                                   'Cannot execute file {0}. Error: {1}\n'.format(unicode(filename), error.strerror))
+                                                   'Cannot execute file {0}. Error: {1}\n').format(filename,
+                                                                                                   error.strerror)
             print '## Error: ' + IOErrorTr
         except:
             s = traceback.format_exc()
@@ -561,14 +563,21 @@ class Editor(QsciScintilla):
             if not self.isModified():
                 self.parent.pc.callWidgetMessageBarEditor(msgEditorBlank, 0, True)
                 return
+
         if self.isModified() and not autoSave:
             self.parent.pc.callWidgetMessageBarEditor(msgEditorUnsaved, 0, True)
             return
+
         if self.syntaxCheck(fromContextMenu=False):
-            if autoSave:
+            if autoSave and filename:
+                self.parent.save(filename)
+
+            if autoSave and not filename:
+                # Create a new temp file if the file isn't already saved.
                 tmpFile = self.createTempFile()
                 filename = tmpFile
-            self.parent.pc.shell.runCommand("execfile(r'{0}')".format(filename))
+
+            self.parent.pc.shell.runCommand(u"execfile(r'{0}')".format(filename))
 
     def runSelectedCode(self):
         cmd = self.selectedText()
@@ -642,7 +651,7 @@ class Editor(QsciScintilla):
 
     def keyPressEvent(self, e):
         if self.settings.value("pythonConsole/autoCloseBracketEditor", True, type=bool):
-            startLine, _, endLine, _ = self.getSelection()
+            startLine, _, endLine, endPos = self.getSelection()
             t = unicode(e.text())
             ## Close bracket automatically
             if t in self.opening:
@@ -653,6 +662,7 @@ class Editor(QsciScintilla):
                     self.removeSelectedText()
                     if startLine == endLine:
                         self.insert(self.opening[i] + selText + self.closing[i])
+                        self.setCursorPosition(endLine, endPos+2)
                         return
                     elif startLine < endLine and self.opening[i] in ("'", '"'):
                         self.insert("'''" + selText + "'''")
@@ -662,6 +672,17 @@ class Editor(QsciScintilla):
                     self.endUndoAction()
                 else:
                     self.insert(self.closing[i])
+            ## FIXES #8392 (automatically removes the redundant char
+            ## when autoclosing brackets option is enabled)
+            if t in self.closing:
+                l, pos = self.getCursorPosition()
+                txt = self.text(l)
+                try:
+                    if txt[pos-1] in self.opening:
+                        self.setCursorPosition(l, pos+1)
+                        self.SendScintilla(QsciScintilla.SCI_DELETEBACK)
+                except IndexError:
+                    pass
             QsciScintilla.keyPressEvent(self, e)
         else:
             QsciScintilla.keyPressEvent(self, e)
@@ -671,7 +692,7 @@ class Editor(QsciScintilla):
         if pathfile:
             if not QFileInfo(pathfile).exists():
                 msgText = QCoreApplication.translate('PythonConsole',
-                                                     'The file <b>"{0}"</b> has been deleted or is not accessible'.format(unicode(pathfile)))
+                                                     'The file <b>"{0}"</b> has been deleted or is not accessible').format(pathfile)
                 self.parent.pc.callWidgetMessageBarEditor(msgText, 2, False)
                 return
         if pathfile and self.lastModified != QFileInfo(pathfile).lastModified():
@@ -692,14 +713,14 @@ class Editor(QsciScintilla):
             self.parent.tw.listObject(self.parent.tw.currentWidget())
             self.lastModified = QFileInfo(pathfile).lastModified()
             msgText = QCoreApplication.translate('PythonConsole',
-                                                 'The file <b>"{0}"</b> has been changed and reloaded'.format(unicode(pathfile)))
+                                                 'The file <b>"{0}"</b> has been changed and reloaded').format(pathfile)
             self.parent.pc.callWidgetMessageBarEditor(msgText, 1, False)
         QsciScintilla.focusInEvent(self, e)
 
     def fileReadOnly(self):
         tabWidget = self.parent.tw.currentWidget()
         msgText = QCoreApplication.translate('PythonConsole',
-                                             'The file <b>"{0}"</b> is read only, please save to different file first.'.format(unicode(tabWidget.path)))
+                                             'The file <b>"{0}"</b> is read only, please save to different file first.').format(tabWidget.path)
         self.parent.pc.callWidgetMessageBarEditor(msgText, 1, False)
 
 class EditorTab(QWidget):
@@ -739,7 +760,7 @@ class EditorTab(QWidget):
 
     def loadFile(self, filename, modified):
         self.newEditor.lastModified = QFileInfo(filename).lastModified()
-        fn = open(unicode(filename), "rb")
+        fn = codecs.open(unicode(filename), "rb", encoding='utf-8')
         txt = fn.read()
         fn.close()
         QApplication.setOverrideCursor(QCursor(Qt.WaitCursor))
@@ -785,7 +806,7 @@ class EditorTab(QWidget):
                 os.remove(temp_path)
             os.rename(path, temp_path)
         # Save the new contents
-        with open(path, "w") as f:
+        with codecs.open(path, "w", encoding='utf-8') as f:
             f.write(self.newEditor.text())
         if overwrite:
             os.remove(temp_path)
@@ -988,19 +1009,20 @@ class EditorTabWidget(QTabWidget):
         if filename:
             readOnly = not QFileInfo(filename).isWritable()
             try:
-                fn = open(unicode(filename), "rb")
+                fn = codecs.open(unicode(filename), "rb", encoding='utf-8')
                 txt = fn.read()
                 fn.close()
             except IOError, error:
                 IOErrorTr = QCoreApplication.translate('PythonConsole',
-                                                       'The file {0} could not be opened. Error: {1}\n'.format(unicode(filename), error.strerror))
+                                                       'The file {0} could not be opened. Error: {1}\n').format(filename,
+                                                                                                                error.strerror)
                 print '## Error: '
                 sys.stderr.write(IOErrorTr)
                 return
 
         nr = self.count()
         if not tabName:
-            tabName = QCoreApplication.translate('PythonConsole', 'Untitled-{0}'.format(nr))
+            tabName = QCoreApplication.translate('PythonConsole', 'Untitled-{0}').format(nr)
         self.tab = EditorTab(self, self.parent, filename, readOnly)
         self.iconTab = QgsApplication.getThemeIcon('console/iconTabEditorConsole.png')
         self.addTab(self.tab, self.iconTab, tabName + ' (ro)' if readOnly else tabName)
@@ -1035,7 +1057,7 @@ class EditorTabWidget(QTabWidget):
             txtSaveOnRemove = QCoreApplication.translate("PythonConsole",
                                                          "Python Console: Save File")
             txtMsgSaveOnRemove = QCoreApplication.translate("PythonConsole",
-                                                            "The file <b>'{0}'</b> has been modified, save changes?".format(self.tabText(tab)))
+                                                            "The file <b>'{0}'</b> has been modified, save changes?").format(self.tabText(tab))
             res = QMessageBox.question( self, txtSaveOnRemove,
                                         txtMsgSaveOnRemove,
                                         QMessageBox.Save | QMessageBox.Discard | QMessageBox.Cancel )
@@ -1079,7 +1101,7 @@ class EditorTabWidget(QTabWidget):
                 self.newTabEditor(tabName, pathFile)
             else:
                 errOnRestore = QCoreApplication.translate("PythonConsole",
-                                                          "Unable to restore the file: \n{0}\n".format(unicode(pathFile)))
+                                                          "Unable to restore the file: \n{0}\n").format(pathFile)
                 print  '## Error: '
                 s = errOnRestore
                 sys.stderr.write(s)

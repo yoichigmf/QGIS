@@ -72,7 +72,8 @@ void QgsDualView::init( QgsVectorLayer* layer, QgsMapCanvas* mapCanvas, QgsDista
   mFeatureList->setModel( mFeatureListModel );
 
   mAttributeDialog = new QgsAttributeDialog( layer, 0, false, myDa );
-  mAttributeEditorLayout->addWidget( mAttributeDialog->dialog() );
+  if ( mAttributeDialog->dialog() )
+    mAttributeEditorLayout->addWidget( mAttributeDialog->dialog() );
 
   columnBoxInit();
 }
@@ -261,7 +262,7 @@ void QgsDualView::saveEditChanges()
 {
   if ( mAttributeDialog && mAttributeDialog->dialog() )
   {
-    if ( mLayerCache->layer()->isEditable() )
+    if ( mLayerCache->layer() && mLayerCache->layer()->isEditable() )
     {
       // Get the current (unedited) feature
       QgsFeature srcFeat;

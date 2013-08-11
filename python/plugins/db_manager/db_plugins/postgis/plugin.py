@@ -26,13 +26,16 @@ from .connector import PostGisDBConnector
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 
-from ..plugin import ConnectionError, DBPlugin, Database, Schema, Table, VectorTable, RasterTable, TableField, TableConstraint, TableIndex, TableTrigger, TableRule
+from ..plugin import ConnectionError, InvalidDataException, DBPlugin, Database, Schema, Table, VectorTable, RasterTable, TableField, TableConstraint, TableIndex, TableTrigger, TableRule
+
 try:
 	from . import resources_rc
 except ImportError:
 	pass
 
 from ..html_elems import HtmlParagraph, HtmlList, HtmlTable
+
+from qgis.core import QgsCredentials
 
 
 def classFactory():
@@ -75,7 +78,7 @@ class PostGisDBPlugin(DBPlugin):
 		uri = QgsDataSourceURI()
 
 		settingsList = ["service", "host", "port", "database", "username", "password"]
-		service, host, port, database, username, password = map(lambda x: settings.value(x), settingsList)
+		service, host, port, database, username, password = map(lambda x: settings.value(x, "", type=str), settingsList)
 
 		# qgis1.5 use 'savePassword' instead of 'save' setting
 		savedPassword = settings.value("save", False, type=bool) or settings.value("savePassword", False, type=bool)
@@ -98,19 +101,10 @@ class PostGisDBPlugin(DBPlugin):
 		except ConnectionError, e:
 			err = str(e)
 
-		hasCredentialDlg = True
-		try:
-			from qgis.gui import QgsCredentials
-		except ImportError:	# no credential dialog
-			hasCredentialDlg = False
-
 		# ask for valid credentials
 		max_attempts = 3
 		for i in range(max_attempts):
-			if hasCredentialDlg:
-				(ok, username, password) = QgsCredentials.instance().get(uri.connectionInfo(), username, password, err)
-			else:
-				(password, ok) = QInputDialog.getText(parent, self.tr("Enter password"), self.tr('Enter password for connection "%s":') % conn_name, QLineEdit.Password)
+			(ok, username, password) = QgsCredentials.instance().get(uri.connectionInfo(), username, password, err)
 
 			if not ok:
 				return False
@@ -128,8 +122,8 @@ class PostGisDBPlugin(DBPlugin):
 				err = str(e)
 				continue
 
-			if hasCredentialDlg:
-				QgsCredentials.instance().put(uri.connectionInfo(), username, password)
+			QgsCredentials.instance().put(uri.connectionInfo(), username, password)
+
 			return True
 
 		return False

@@ -688,7 +688,7 @@ static QVariant fcnRegexpSubstr( const QVariantList& values, const QgsFeature* ,
   if ( re.captureCount() > 0 )
   {
     // return first capture
-    return QVariant( re.capturedTexts()[0] );
+    return QVariant( re.capturedTexts()[1] );
   }
   else
   {
@@ -1612,10 +1612,8 @@ QgsExpression::QgsExpression( const QString& expr )
     : mExpression( expr )
     , mRowNumber( 0 )
     , mScale( 0 )
-
+    , mCalc( 0 )
 {
-  initGeomCalculator();
-
   mRootNode = ::parseExpression( mExpression, mParserErrorString );
 
   if ( mParserErrorString.isNull() )
@@ -1626,6 +1624,8 @@ QgsExpression::QgsExpression( const QString& expr )
 
 QgsExpression::~QgsExpression()
 {
+  if ( mCalc )
+    delete mCalc;
   delete mRootNode;
 }
 
@@ -1661,16 +1661,23 @@ bool QgsExpression::needsGeometry()
 
 void QgsExpression::initGeomCalculator()
 {
+  if ( mCalc )
+    return;
+
   // Use planimetric as default
-  mCalc.setEllipsoidalMode( false );
+  mCalc = new QgsDistanceArea();
+  mCalc->setEllipsoidalMode( false );
 }
 
-void QgsExpression::setGeomCalculator( QgsDistanceArea& calc )
+void QgsExpression::setGeomCalculator( QgsDistanceArea &calc )
 {
+  if ( !mCalc )
+    mCalc = new QgsDistanceArea();
+
   // Copy from supplied calculator
-  mCalc.setEllipsoid( calc.ellipsoid() );
-  mCalc.setEllipsoidalMode( calc.ellipsoidalEnabled() );
-  mCalc.setSourceCrs( calc.sourceCrs() );
+  mCalc->setEllipsoid( calc.ellipsoid() );
+  mCalc->setEllipsoidalMode( calc.ellipsoidalEnabled() );
+  mCalc->setSourceCrs( calc.sourceCrs() );
 }
 
 bool QgsExpression::prepare( const QgsFields& fields )

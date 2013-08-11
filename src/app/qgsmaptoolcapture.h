@@ -84,6 +84,7 @@ class QgsMapToolCapture : public QgsMapToolEdit
 
     void startCapturing();
     void stopCapturing();
+    void deleteTempRubberBand();
 
     CaptureMode mode() { return mCaptureMode; }
 
@@ -103,6 +104,9 @@ class QgsMapToolCapture : public QgsMapToolEdit
 
     /** rubber band for polylines and polygons */
     QgsRubberBand* mRubberBand;
+
+    /** temporary rubber band for polylines and polygons. this connects the last added point to the mouse cursor position */
+    QgsRubberBand* mTempRubberBand;
 
     /** List to store the points of digitised lines and polygons (in layer coordinates)*/
     QList<QgsPoint> mCaptureList;

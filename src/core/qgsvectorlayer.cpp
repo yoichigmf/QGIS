@@ -788,6 +788,8 @@ void QgsVectorLayer::modifySelection( QgsFeatureIds selectIds, QgsFeatureIds des
   mSelectedFeatureIds -= deselectIds;
   mSelectedFeatureIds += selectIds;
 
+  setCacheImage( 0 );
+
   emit selectionChanged( selectIds, deselectIds - intersectingIds, false );
 }
 
@@ -1159,7 +1161,7 @@ QgsRectangle QgsVectorLayer::extent()
     QgsFeature fet;
     while ( fit.nextFeature( fet ) )
     {
-      if ( fet.geometry() )
+      if ( fet.geometry() && fet.geometry()->type() != QGis::UnknownGeometry )
       {
         QgsRectangle bb = fet.geometry()->boundingBox();
         rect.combineExtentWith( &bb );

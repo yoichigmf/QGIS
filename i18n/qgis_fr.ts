@@ -7202,9 +7202,9 @@ Rotation de15 deg.</translation>
 Click or marquee on label to pin
 Shift unpins, Ctl (Cmd) toggles state
 Acts on all editable layers</source>
-        <translation>Épingler/dépingler des étiquettes
-Cliquez sur une étiquette pour l&apos;épingler
-La touche Shit dépingle, la touche Ctrl bascule d&apos;un état à l&apos;autre
+        <translation type="unfinished">Épingler/dépingler des étiquettes (utilisation des champs de données)
+Cliquez sur une étiquette pour l&apos;épingler 
+La touche Shift dépingle, la touche Ctrl bascule d&apos;un état à l&apos;autre
 Activables sur toutes les couches éditables</translation>
     </message>
     <message>
@@ -7681,8 +7681,8 @@ Agit sur toutes les couches actives courantes</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1236"/>
-        <source>Add WMS Layer...</source>
-        <translation>Ajouter une couche WMS...</translation>
+        <source>Add WMS/WMTS Layer...</source>
+        <translation type="unfinished">Ajouter une couche WMS...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1239"/>
@@ -7867,7 +7867,7 @@ Agit sur toutes les couches actives courantes</translation>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="517"/>
         <source>Save &amp;As...</source>
-        <translation>Saauvegarder sous...</translation>
+        <translation>Sauvegarder sous...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1272"/>
@@ -13728,7 +13728,7 @@ Veuillez contacter les développeurs.
         <translation type="obsolete">Nouveau signet</translation>
     </message>
     <message>
-        <source>Add WMS Layer...</source>
+        <source>Add WMS/WMTS Layer...</source>
         <translation type="obsolete">Ajouter une couche WMS...</translation>
     </message>
     <message>
@@ -23927,7 +23927,7 @@ le SCR existant</translation>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="215"/>
         <source>Data defined override</source>
-        <translation>Remplacement définit par des données</translation>
+        <translation type="unfinished">Valeurs définies par des données</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="238"/>
@@ -23995,7 +23995,7 @@ le SCR existant</translation>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="468"/>
         <source>&lt;b&gt;&lt;u&gt;Data defined override&lt;/u&gt;&lt;/b&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;&lt;u&gt;Remplacement définit par des données&lt;/u&gt;&lt;/b&gt;&lt;br&gt;</translation>
+        <translation type="unfinished">&lt;b&gt;&lt;u&gt;Valeurs définies par des données&lt;/u&gt;&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="470"/>
@@ -26032,12 +26032,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="302"/>
         <source>The diagram type &apos;%1&apos; is unknown. A default type is selected for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le type de diagramme &apos;%1&apos; est inconnu. Un type par défaut est sélectionné pour vous.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="339"/>
         <source>Bar length: Scale linearly, such as the following value matches the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Longueur de la barre: Echelle linéaire, telle que la valeur suivante correspond à la taille spécifiée.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="346"/>
@@ -26052,7 +26052,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="494"/>
         <source>Diagrams: No attributes added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diagrammes: pas d&apos;attributs ajoutés</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="527"/>
@@ -26062,7 +26062,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="528"/>
         <source>You did not specify an interpolation value. A default value of %1 has been set.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous n&apos;avez pas spécifié de valeur d&apos;interpolation. Une valeur par défaut de %1 a été fixée.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="53"/>
@@ -26081,7 +26081,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="495"/>
         <source>You did not add any attributes to this diagram layer. Please specify the attributes to visualize on the diagrams or disable diagrams.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous n&apos;avez pas ajouté d&apos; attributs à cette couche de diagramme. Merci de spécifier les attributs à visualiser sur les diagrammes ou désactiver les diagrammes.</translation>
     </message>
     <message>
         <source>No attribute value specified</source>
@@ -26138,7 +26138,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="169"/>
         <source>Font...</source>
-        <translation>Police</translation>
+        <translation>Police :</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="176"/>
@@ -26158,17 +26158,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="251"/>
         <source>Only show diagrams with a size inside the specified range.</source>
-        <translation type="unfinished"></translation>
+        <translation>Montre seulement les diagrammes avec une taille comprise dans la plage spécifiée</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="254"/>
         <source>Hide diagrams with a size outside the specified range.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache les diagrammes avec une taille hors de la plage spécifiée</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="257"/>
         <source>Scale dependent visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>Visibilité en fonction de l&apos;échelle</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="275"/>
@@ -26216,7 +26216,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="431"/>
         <source>The attribute value you enter here will correspond to the size entered in the field &quot;Size&quot; and the chosen &quot;Size unit&quot;.
 Leave empty to automatically apply the maximum value.</source>
-        <translation type="unfinished"></translation>
+        <translation>La valeur d&apos;attribut que vous entrez ici correspond à la taille entrée dans le champ &quot;Taille&quot; et dans la &quot;taille d&apos;unité&quot; choisie. Laissez vide pour appliquer automatiquement la valeur maximum.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="459"/>
@@ -26226,17 +26226,17 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="471"/>
         <source>Will scale diagrams with a size smaller than the minimum size to the minimum size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mettra à l&apos;échelle des diagrammes avec une taille inférieure à la taille minimale</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="474"/>
         <source>Increase size of small diagrams</source>
-        <translation type="unfinished"></translation>
+        <translation>Augmenter la taille des petits diagrammes</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="483"/>
         <source>Minimum size</source>
-        <translation>Taile minimale</translation>
+        <translation>Taille minimale</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="513"/>
@@ -26499,14 +26499,14 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="316"/>
         <source>Could not set preview column</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de définir la colonne de prévisualisation</translation>
     </message>
     <message>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="317"/>
         <source>Could not set column &apos;%1&apos; as preview column.
 Parser error:
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de définir la colonne  &apos;%1 comme une colonne de prévisualisation</translation>
     </message>
     <message>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="358"/>
@@ -26712,27 +26712,27 @@ Parser error:
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="243"/>
         <source>Show all labels and features for all layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher toutes les étiquettes et entités de toutes les couches</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="263"/>
         <source>Show candidates (for debugging)</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer les candidats (pour le débogage)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="296"/>
         <source>Show shadow rectangles (for debugging)</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les rectangles d&apos;ombre (pour le débogage)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="253"/>
         <source>Save settings with project</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauvegarder les paramètres avec le projet</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="276"/>
         <source>(i.e. including colliding objects)</source>
-        <translation type="unfinished"></translation>
+        <translation>(même les objets en conflits)</translation>
     </message>
     <message>
         <source>Show all labels (i.e. including colliding labels)</source>
@@ -26841,62 +26841,62 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="57"/>
         <source>Addition operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur addition</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="58"/>
         <source>Subtraction operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur soustraction</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="59"/>
         <source>Multiplication operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur multiplication</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="60"/>
         <source>Division operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur division</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="61"/>
         <source>Modulo operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur modulo</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="62"/>
         <source>Power operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur puissance</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="63"/>
         <source>Equal operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur égal</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="64"/>
         <source>Greater as operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur Strictement supérieur à</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="65"/>
         <source>Less than operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur Strictement inférieur à</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="66"/>
         <source>Unequal operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur Non égal (différent de)</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="67"/>
         <source>Less or equal operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur inférieur ou égal</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="68"/>
         <source>Greater or equal operator</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur supérieur ou égal</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="315"/>
@@ -27331,7 +27331,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="297"/>
         <source>Type name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="298"/>
@@ -27577,12 +27577,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsfieldspropertiesbase.ui" line="103"/>
         <source>Provide ui-file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fournit fichier ui</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsfieldspropertiesbase.ui" line="151"/>
         <source>Attribute editor layout:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mise en page de l&apos;éditeur d&apos;attribut</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsfieldspropertiesbase.ui" line="111"/>
@@ -27598,12 +27598,21 @@ An example is (in module MyForms.py):
 Reference in Python Init Function like so: MyForms.open
 
 MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les formulaires QGIS peuvent avoir une fonction Python qui est appelée lorsque le formulaire est ouvert.
+Utilisez cette fonction pour ajouter une logique supplémentaire à vos formulaires.
+
+Un exemple est dans le module MyForms.py:
+          def open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget,&quot;MyLineEdit&quot;)
+Reference in Python Init Function like so: MyForms.open
+
+MyForms.py doit exister dans PYTHONPATH, .qgis / python, ou dans le dossier du projet.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsfieldspropertiesbase.ui" line="125"/>
         <source>Python Init function</source>
-        <translation type="unfinished"></translation>
+        <translation>Python Init function</translation>
     </message>
 </context>
 <context>
@@ -29085,17 +29094,17 @@ Veuillez sélectionner un fichier valide.</translation>
     <message>
         <location filename="../src/providers/postgres/qgscolumntypethread.cpp" line="57"/>
         <source>Retrieving tables of %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Récipération des tables de %1...</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgscolumntypethread.cpp" line="77"/>
         <source>Scanning column %1.%2.%3...</source>
-        <translation type="unfinished"></translation>
+        <translation>Balayage colonne %1.%2.%3...</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgscolumntypethread.cpp" line="107"/>
         <source>Table retrieval finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Récupération de table effectuée.</translation>
     </message>
 </context>
 <context>
@@ -29825,13 +29834,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="297"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="300"/>
         <source>Link Georeferencer to QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>Lier le Géoréférenceur à QGIS</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="308"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="311"/>
         <source>Link QGIS to Georeferencer</source>
-        <translation type="unfinished"></translation>
+        <translation>Lier QGIS au Géoréférenceur</translation>
     </message>
     <message>
         <source>Link Georeferencer to QGis</source>
@@ -30075,7 +30084,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="443"/>
         <source>Split stereo vertical eye mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Séparation stereo verticale carte visuelle</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="480"/>
@@ -30099,7 +30108,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="569"/>
         <source>Split stereo horizontal eye mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Séparation stereo horizontale carte visuelle</translation>
     </message>
 </context>
 <context>
@@ -30119,7 +30128,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/qgsgml.cpp" line="121"/>
         <source>Error: %1 on line %2, column %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreur:%1 sur la ligne%2, colonne%3</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgml.cpp" line="125"/>
@@ -30129,12 +30138,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/qgsgml.cpp" line="140"/>
         <source>GML Getfeature network request failed with error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation> Obtention d&apos;entités GML - Requête réseau  échouée avec erreur %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgml.cpp" line="141"/>
         <source>Network</source>
-        <translation type="unfinished">Réseau</translation>
+        <translation>Réseau</translation>
     </message>
 </context>
 <context>
@@ -30276,7 +30285,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsgraduatedsymbolrendererv2widget.ui" line="122"/>
         <source>Quantile (Equal Count)</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantile (effectifs égaux)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgraduatedsymbolrendererv2widget.ui" line="201"/>
@@ -30518,7 +30527,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="422"/>
         <source>Remove the selected layer(s) from canvas before continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Retirez la(les) couche(s) selectionnée(s) depuis le canevas avant de continuer.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="475"/>
@@ -31974,7 +31983,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1119"/>
         <source>The layer CRS (defined in QGIS) and data source CRS differ. We are not yet able to pass the layer CRS to GRASS module. Please set correct data source CRS or change layer CRS to data source CRS.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le SCR de la couche (défini dans QGIS) et le SCR de la source de donnée sont différents. Nous ne sommes pas capable de faire passer le SCR de la couche vers le module GRASS. Merci de définir un SCR correct pour la source de donnée ou de changer le SCR de la couche vers le SCR de la source de donnée.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1139"/>
@@ -34430,7 +34439,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="372"/>
         <source>%1 not found. Default substituted.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 absent. Utilisation de la police par défaut.</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="373"/>
@@ -34440,7 +34449,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="791"/>
         <source>string </source>
-        <translation type="unfinished">chaîne</translation>
+        <translation type="unfinished">chaîne de texte</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="796"/>
@@ -34500,7 +34509,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1091"/>
         <source>Text/Buffer sample</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aperçu d&apos;un exemple de texte / tampon</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1098"/>
@@ -34515,7 +34524,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1130"/>
         <source> (BUFFER NOT SHOWN, in map units)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(en unité de carte, tampon NON affiché)</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1178"/>
@@ -34530,17 +34539,17 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1288"/>
         <source>All uppercase</source>
-        <translation type="unfinished"></translation>
+        <translation>Tout en majuscules</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1289"/>
         <source>All lowercase</source>
-        <translation type="unfinished"></translation>
+        <translation>Tout en minuscules</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1293"/>
         <source>Capitalize first letter</source>
-        <translation type="unfinished"></translation>
+        <translation>Première lettres en majuscules</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1449"/>
@@ -34721,7 +34730,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="4499"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4729"/>
         <source>Rotation</source>
-        <translation>Rotation</translation>
+        <translation type="unfinished">Rotation selon</translation>
     </message>
     <message>
         <source>degrees</source>
@@ -34872,7 +34881,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="2755"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3437"/>
         <source>Buffer</source>
-        <translation>Tampon</translation>
+        <translation type="unfinished">Tampon</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1267"/>
@@ -34883,7 +34892,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3960"/>
         <source>Centroid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Centroïde</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4043"/>
@@ -34895,12 +34904,12 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="4163"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4183"/>
         <source>abc</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">abc</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4211"/>
         <source>Quadrant</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quadrant</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4448"/>
@@ -34911,7 +34920,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="4654"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5336"/>
         <source>Data defined</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Défini par les données (Note: la rotation nécessite des champs X Y)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4680"/>
@@ -34931,7 +34940,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4765"/>
         <source>Preserve data rotation values</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Garde la valeur de rotation saisie lors de l&apos;épinglage - dépinglage</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4809"/>
@@ -34947,17 +34956,17 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="5034"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5063"/>
         <source>Value &amp;lt; 0 represents a scale closer than 1:1, e.g. -10 = 10:1.&lt;br&gt;Value of 0 disables the specific limit.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Value &amp;lt; 0 représente une échelle plus proche que 1:1, ex. -10 = 10:1.&lt;br&gt;La valeur 0 désactivite cette limite.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5105"/>
         <source>Pixel size-based visibility (labels in map units)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Visibilité basée sur la taille des pixels (étiquettes en unités de carte)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5420"/>
         <source>Feature options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Options des entités</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5528"/>
@@ -35093,23 +35102,23 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="308"/>
         <source>Reset sample text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Réinitialise le texte d&apos;exemple</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="350"/>
         <source>Size for sample text in map units</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Modifier la taille de l&apos;étiquette (uniquement si unités de carte est choisi)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="403"/>
         <source>Sample background color</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Couleur du fond pour l&apos;exemple (prévisualisation)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="502"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="505"/>
         <source>Formatting</source>
-        <translation type="unfinished">Format</translation>
+        <translation type="unfinished">Formatage</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="538"/>
@@ -35127,7 +35136,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="681"/>
         <source>letter</source>
-        <translation type="unfinished">lettre</translation>
+        <translation>lettre</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="987"/>
@@ -35156,7 +35165,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="1186"/>
         <source>Bold text
 (data defined only, overrides Style)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Texte en gras défini par les données (écrase les options générales)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1190"/>
@@ -35167,7 +35176,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="1228"/>
         <source>Italic text
 (data defined only, overrides Style)</source>
-        <translation type="unfinished"></translation>
+        <translation>Texte en italique défini par les données (écrase les options générales)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1232"/>
@@ -35177,7 +35186,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1340"/>
         <source>Text formatting</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Formatage du texte</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1379"/>
@@ -35192,12 +35201,12 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1450"/>
         <source>Line height</source>
-        <translation>Hauteur de ligne</translation>
+        <translation type="unfinished">Modifier la hauteur de l&apos;interligne (si retour à la ligne activé)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1466"/>
         <source>Line height spacing for multi-line text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">H</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1469"/>
@@ -35213,7 +35222,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1504"/>
         <source>Paragraph style alignment of multi-line text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Style d&apos;alignement pour du texte multi-lignes</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1511"/>
@@ -35235,12 +35244,12 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5548"/>
         <source>Discourage labels from covering features</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Eviter que l&apos;étiquette ne recouvre des objets</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="820"/>
         <source>Available typeface styles</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Corps et graisses typographiques (sic!)</translation>
     </message>
     <message>
         <source>Underlined Text</source>
@@ -35314,17 +35323,17 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="694"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1044"/>
         <source>Space in pixels or map units, relative to size unit choice</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Espacement, en pixel ou unité de carte selon le choix d&apos;unité réalisé</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="930"/>
         <source>Type case</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Casse</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="769"/>
         <source>Capitalization style of text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Casse du texte</translation>
     </message>
     <message>
         <source>Automated placement settings</source>
@@ -35338,7 +35347,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3741"/>
         <source>Offset from point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Autour du point  fixé par Quadrant </translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3774"/>
@@ -35353,82 +35362,83 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="81"/>
         <source>Edit expression</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Editer l&apos;expression</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="114"/>
         <source>Automated placement settings (apply to all layers)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Paramètres du moteur d&apos;étiquetage ( pour toutes les couches)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="171"/>
         <source>Text/Buffer Sample</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aperçu rapide (exemple de texte)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1576"/>
         <source>Line direction symbol</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Symbole de direction</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1951"/>
         <source>Text buffer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tampon autour du texte</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2003"/>
         <source>Draw text buffer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Affiche un tampon</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2287"/>
         <source>Color buffer&apos;s fill</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>pas compris l&apos;effet</translatorcomment>
+        <translation type="unfinished">Colorier le remplissage du tampon</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2374"/>
         <source>Draw background</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Affiche un fond</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2565"/>
         <source>Size X</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Taille X</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2572"/>
         <source>Size type</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Taille selon</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2586"/>
         <source>Size Y</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Taille Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2720"/>
         <source>Fill color</source>
-        <translation type="unfinished">Couleur de remplissage</translation>
+        <translation>Couleur de remplissage</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2740"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Couleur de bordure</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3205"/>
         <source>Draw drop shadow</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afficher une ombre portée</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3342"/>
         <source>Label&apos;s rotation is ignored</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ignorer la rotation de l&apos;étiquette</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3345"/>
         <source>Use global shadow</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Utilise une ombre globale</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3784"/>
@@ -35438,12 +35448,12 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3804"/>
         <source>Offset from centroid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Décalage par rapport au centroide</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3820"/>
         <source>Around centroid</source>
-        <translation>Autour du centroïde</translation>
+        <translation type="unfinished">Autour du centroïde</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3827"/>
@@ -35497,7 +35507,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
         <location filename="../src/ui/qgslabelingguibase.ui" line="2078"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2701"/>
         <source>Pen join style</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Style de jointure</translation>
     </message>
     <message>
         <source>Blending mode</source>
@@ -35520,7 +35530,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1745"/>
         <source>left/right</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">gauche/droite</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1761"/>
@@ -35535,12 +35545,12 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1785"/>
         <source>Reverse direction</source>
-        <translation>Direction inverse</translation>
+        <translation type="unfinished">Inverser la direction</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5194"/>
         <source>Labels will not show if larger than this on screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L&apos;étiquette ne s&apos;affichera pas si sa taille à l&apos;écran est plus grande que la valeur saisie</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5162"/>
@@ -35551,7 +35561,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5159"/>
         <source>Labels will not show if smaller than this on screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L&apos;étiquette ne s&apos;affichera pas si sa taille à l&apos;écran est plus petite que la valeur saisie</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3160"/>
@@ -35561,7 +35571,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3477"/>
         <source>Offset</source>
-        <translation>Décalage</translation>
+        <translation type="unfinished">Décalage</translation>
     </message>
     <message>
         <source>Y </source>
@@ -35587,12 +35597,13 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3450"/>
         <source>Draw under</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afficher sous</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3427"/>
         <source>Lowest label component</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>pas évident à traduire.</translatorcomment>
+        <translation type="unfinished">l&apos;objet le plus bas de l&apos;étiquette (défaut)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="490"/>
@@ -35613,12 +35624,14 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3286"/>
         <source>Blur radius</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>ou rayon de floutage?</translatorcomment>
+        <translation type="unfinished">Rayon d&apos;estompage</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3299"/>
         <source>Blur only alpha pixels</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>changement du sens avant traduction (sinon pas compréhensible)</translatorcomment>
+        <translation type="unfinished">Affiche le texte dans l&apos;ombre (pixels non transparents)</translation>
     </message>
     <message>
         <source>Select SVG symbol</source>
@@ -35631,18 +35644,19 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2791"/>
         <source>Load symbol parameters</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>uniquement si SVG avec paramètres.. </translatorcomment>
+        <translation type="unfinished">Charger les paramètres du symbole (SVG)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2852"/>
         <source>% of length</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">% de la longueur</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2760"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2871"/>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Valeurs fixes</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3066"/>
@@ -35668,7 +35682,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3014"/>
         <source>Circle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cercle</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3019"/>
@@ -35683,27 +35697,27 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2861"/>
         <source>Sync with label</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Angle de l&apos;étiquette</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2866"/>
         <source>Offset of label</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Angle par rapport à l&apos;étiquette</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2419"/>
         <source>Radius X,Y</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Angles arrondis X, Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2798"/>
         <source>Border width</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Largeur de bordure</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2967"/>
         <source>symbol units</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Unité du symbole</translation>
     </message>
     <message>
         <source>Border</source>
@@ -35712,17 +35726,17 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4605"/>
         <source>outside</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Extérieur</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4572"/>
         <source>inside</source>
-        <translation type="unfinished"></translation>
+        <translation>Intérieur</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4631"/>
         <source>Maximum angle between curved characters</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Angulation maximale des lettres (étiquettes courbes)</translation>
     </message>
     <message>
         <source>Above Right</source>
@@ -35755,37 +35769,37 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5235"/>
         <source>Show all labels for this layer (including colliding labels)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afficher toutes les étiquettes pour cette couche (même celles en conflit)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5407"/>
         <source>Show upside-down labels</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Afficher les étiquettes renversées</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5368"/>
         <source>never</source>
-        <translation>jamais</translation>
+        <translation type="unfinished">Jamais</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5384"/>
         <source>when rotation defined</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quand une rotation est définie</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5355"/>
         <source>always</source>
-        <translation>toujours</translation>
+        <translation>Toujours</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5493"/>
         <source>Limit number of features to be labeled to</source>
-        <translation type="unfinished"></translation>
+        <translation>Limite du nombre d&apos;étiquettes à afficher</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5477"/>
         <source>Number of features sent to labeling engine, though not all may be labeled</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nombre d&apos;objets envoyés au moteur d&apos;étiquetage (toutes peuvent ne pas être affichées)</translation>
     </message>
     <message>
         <source>X Coordinate</source>
@@ -35806,12 +35820,12 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4759"/>
         <source>Uncheck to write labeling engine derived rotation on pin and NULL on unpin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Garde la valeur de rotation saisie lors de l&apos;épinglage-dépinglage</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5290"/>
         <source>Always show</source>
-        <translation type="unfinished"></translation>
+        <translation>Toujours afficher</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5306"/>
@@ -36676,12 +36690,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="274"/>
         <source>The feature cannot be added because it&apos;s geometry is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;entité ne peut être ajoutée car sa géométrie est vide</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="278"/>
         <source>The feature cannot be added because it&apos;s geometry collapsed due to intersection avoidance</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;entité ne peut être ajoutée en raison de sa géométrie.Echec  du à l&apos;évitement d&apos;intersection</translation>
     </message>
 </context>
 <context>
@@ -37100,7 +37114,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="107"/>
         <source>No active layer. To identify features, you must choose an active layer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas de couche active. Pour identifier des entités, vous devez choisir une couche active. </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="266"/>
@@ -37435,7 +37449,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolvertexedit.cpp" line="47"/>
         <source>Could not snap segment. Have you set the tolerance in Settings &gt; Snapping Options?</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible d&apos;accrocher le segment. Avez-vous défini la tolérance dans Paramètres&gt; Options d&apos;accrochage ?</translation>
     </message>
     <message>
         <source>Don&apos;t show this message again</source>
@@ -37741,52 +37755,52 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="219"/>
         <source>The calculations are based on:</source>
-        <translation>Les calculs sont basés sur !</translation>
+        <translation>Les calculs sont basés sur:</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="222"/>
         <source>Project CRS transformation is turned off.</source>
-        <translation type="unfinished"></translation>
+        <translation>La transformation du SCR du projet est désactivée.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="223"/>
         <source>Canvas units setting is taken from project properties setting (%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>Le paramétrage des unités du canevas est hérité des paramètres de propriétés du projet (%1).</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="224"/>
         <source>Ellipsoidal calculation is not possible, as project CRS is undefined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le calcul de l&apos;ellipsoide n&apos;est pas possible,tant que le SCR du projet n&apos;est pas défini.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="230"/>
         <source>Project CRS transformation is turned on and ellipsoidal calculation is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>La transformation du SCR du projet est activé et le calcul de l&apos;ellipsoide est sélectionné.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="231"/>
         <source>The coordinates are transformed to the chosen ellipsoid (%1), and the result is in meters</source>
-        <translation type="unfinished"></translation>
+        <translation>Les coordonnées sont transformées vers l&apos;ellipsoide choisie (%1), and le résultat est en mètres</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="235"/>
         <source>Project CRS transformation is turned on but ellipsoidal calculation is not selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>La transformation du SCR du projet est activé mais le calcul de l&apos;ellipsoide n&apos;est pas sélectionné.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="236"/>
         <source>The canvas units setting is taken from the project CRS (%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>Le paramétrage des unités du canevas est hérité du SCR du projet (%1).</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="242"/>
         <source>Finally, the value is converted from %1 to %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Finallement, la valeur est convertie depuis %1 vers %2.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="251"/>
         <source>Segments [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Segments [%1]</translation>
     </message>
     <message>
         <source>Segments (in meters)</source>
@@ -37932,7 +37946,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/gui/qgsmessagebar.cpp" line="66"/>
         <source>Remaining messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Messages restants</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmessagebar.cpp" line="72"/>
@@ -61057,7 +61071,7 @@ URL Éprouvé : %1</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE options and configuration</source>
-        <translation>Configuration</translation>
+        <translation type="unfinished">Options et Configuration</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE results viewer</source>

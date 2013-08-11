@@ -581,6 +581,7 @@ class geometryThread( QThread ):
         if index1!=index2:
           changeMap[ inFeat.id() ][ index2 ] = attr2
         vprovider.changeAttributeValues( changeMap )
+        self.vlayer.updateFields()
 
     if self.writeShape:
       del writer
@@ -870,7 +871,8 @@ class geometryThread( QThread ):
 
     return True
 
-  def feature_extent( self, ):
+  def feature_extent( self ):
+    vprovider = self.vlayer.dataProvider()
     self.emit( SIGNAL( "runStatus( PyQt_PyObject )" ), 0 )
 
     fields = QgsFields()
