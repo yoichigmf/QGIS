@@ -60301,7 +60301,21 @@ Returns the portion of a string which matches a supplied regular expression.
 &lt;!-- Show example of function.--&gt;
      regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;regexp_substr() 関数&lt;/h3&gt;
+指定された正規表現に合致する文字列の一部を返します.
+
+&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
+     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列.  入力文字列.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; は文字列.  合致する正規表現. バックスラッシュはダブルエスケープされることが必要 (例 &quot;&amp;#92;&amp;#92;s&quot; はスペース文字に合致). 最短マッチを行う正規表現はサポートされていません.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1107"/>
@@ -60348,7 +60362,21 @@ Returns true if any part of a string matches the supplied regular expression.
 &lt;!-- Show example of function.--&gt;
      regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;regexp_match() 関数&lt;/h3&gt;
+文字列の任意の部分が指定された正規表現に合致する場合 true が返されます.
+
+&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
+     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列.  正規表現で評価する文字列.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; は文字列. 評価に利用する正規表現. バックスラッシュはダブルエスケープする必要があります (例 &quot;&amp;#92;&amp;#92;s&quot; は空白に合致します). 最短マッチを行う正規表現はサポートされていません.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1271"/>
@@ -60368,7 +60396,22 @@ Returns a string with the supplied regular expression replaced.
 &lt;!-- Show example of function.--&gt;
      regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;regexp_replace() 関数&lt;/h3&gt;
+指定された正規表現で置き換えを行われた文字列を返します.
+
+&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
+     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列です.  元の文字列.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; は文字列です.  置き換えを行うための正規表現. バックスラッシュはダブルエスケープされる必要があります (例 &quot;&amp;#92;&amp;#92;s&quot; は空白文字に合致します). 最短マッチを行う正規表現はサポートされていません.&lt;br&gt;
+&lt;i&gt;  after&lt;/i&gt; &amp;rarr; は文字列です.  文字列は指定された正規表現と合致する箇所が置き換えられます. キャプチャされたグループは &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2, 等を利用して置き換え文字列に挿入されます. &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1357"/>
