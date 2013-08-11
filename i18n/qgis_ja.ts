@@ -6373,7 +6373,7 @@ Shift+クリックで非表示
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1237"/>
         <source>Add WMS/WMTS Layer...</source>
-        <translation type="unfinished">WMSレイヤの追加...</translation>
+        <translation>WMS/WMTSレイヤの追加...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1240"/>
@@ -7069,61 +7069,67 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>&lt;b&gt;&quot;{0}&quot;&lt;/b&gt; was not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;&quot;{0}&quot;&lt;/b&gt; は見つかりませんでした.</translation>
     </message>
     <message>
         <source> [Temporary file saved in {0}]</source>
-        <translation type="unfinished"></translation>
+        <translation> [一時ファイルは{0}に保存されました]</translation>
     </message>
     <message>
         <source>## Script error: {0}</source>
-        <translation type="unfinished"></translation>
+        <translation>## スクリプトエラー: {0}</translation>
     </message>
     <message>
         <source>## Script executed successfully: {0}</source>
-        <translation type="unfinished"></translation>
+        <translation>## スクリプト実行成功: {0}</translation>
     </message>
     <message>
         <source>Cannot execute file {0}. Error: {1}
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル {0}を実行できません. エラー: {1}
+</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; has been deleted or is not accessible</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; は削除されたかアクセスできません</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; has been changed and reloaded</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; は変更されてリロードされました</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; is read only, please save to different file first.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; は読み込み専用です.最初に他のファイルに保存して下さい.</translation>
     </message>
     <message>
         <source>The file {0} could not be opened. Error: {1}
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル {0} を開けません. エラー: {1}
+</translation>
     </message>
     <message>
         <source>Untitled-{0}</source>
-        <translation type="unfinished"></translation>
+        <translation>無題-{0}</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;&apos;{0}&apos;&lt;/b&gt; has been modified, save changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &lt;b&gt;&apos;{0}&apos;&lt;/b&gt;は変更されています.変更を保存しますか?</translation>
     </message>
     <message>
         <source>Unable to restore the file: 
 {0}
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルのリストアができません: 
+{0}
+</translation>
     </message>
     <message>
         <source>Python {0} on {1}
 ## Type help(iface) for more info and list of methods.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Python {0} on {1}
+## 詳しい情報とメソッドのリストが必要な場合は help(iface)とタイプして下さい.
+</translation>
     </message>
     <message>
         <source>Import Class</source>
@@ -7347,7 +7353,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>The file &lt;b&gt;{0}&lt;/b&gt; could not be saved. Error: {1}</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &lt;b&gt;{0}&lt;/b&gt; を保存できませんでした.エラー: {1}</translation>
     </message>
     <message>
         <source>History saved successfully.</source>
@@ -12010,7 +12016,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsabout.ui" line="271"/>
         <source>License </source>
-        <translation type="unfinished"></translation>
+        <translation>ライセンス</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsabout.ui" line="99"/>
@@ -21054,7 +21060,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="284"/>
         <source>Equal operator</source>
-        <translation type="unfinished">等値演算子</translation>
+        <translation>等値演算子</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="287"/>
@@ -21064,7 +21070,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="300"/>
         <source>Addition operator</source>
-        <translation type="unfinished">加算演算子</translation>
+        <translation>加算演算子</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="303"/>
@@ -21074,7 +21080,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="310"/>
         <source>Subtraction operator</source>
-        <translation type="unfinished">減算演算子</translation>
+        <translation>減算演算子</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="313"/>
@@ -21084,7 +21090,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="320"/>
         <source>Division operator</source>
-        <translation type="unfinished">除算演算子</translation>
+        <translation>除算演算子</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="323"/>
@@ -21094,7 +21100,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="330"/>
         <source>Multiplication operator</source>
-        <translation type="unfinished">乗算演算子</translation>
+        <translation>乗算演算子</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="333"/>
@@ -21104,7 +21110,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="340"/>
         <source>Power operator</source>
-        <translation type="unfinished">累乗演算子</translation>
+        <translation>累乗演算子</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="343"/>
@@ -21114,7 +21120,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="350"/>
         <source>String Concatenation</source>
-        <translation type="unfinished"></translation>
+        <translation>文字列連結</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="353"/>
@@ -21124,7 +21130,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="372"/>
         <source>Open Bracket </source>
-        <translation type="unfinished"></translation>
+        <translation>左かっこ</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="375"/>
@@ -21134,7 +21140,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="382"/>
         <source>Close Bracket </source>
-        <translation type="unfinished"></translation>
+        <translation>右かっこ</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="385"/>
@@ -26893,7 +26899,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/app/qgshtmlannotationdialog.cpp" line="26"/>
         <source>HTML annotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Htmlアノテーション</translation>
     </message>
     <message>
         <location filename="../src/app/qgshtmlannotationdialog.cpp" line="38"/>
@@ -28417,7 +28423,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1286"/>
         <source>Font is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントが欠落しています.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1336"/>
@@ -30695,8 +30701,8 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
         <location filename="../src/gui/qgsmessagebar.cpp" line="373"/>
         <source>%n more</source>
         <comment>unread messages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n さらに</numerusform>
         </translation>
     </message>
     <message>
@@ -40130,7 +40136,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="472"/>
         <source>Text</source>
-        <translation type="unfinished">テキスト</translation>
+        <translation>テキスト</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="474"/>
@@ -45347,38 +45353,38 @@ Overwrite?</source>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="61"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="63"/>
         <source>Type here to filter symbols...</source>
-        <translation type="unfinished"></translation>
+        <translation>シンボルをフィルタするためにここに入力して下さい...</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="80"/>
         <source>Share Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>共有メニュー</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="81"/>
         <source>Export</source>
-        <translation type="unfinished">エクスポート</translation>
+        <translation>エクスポート</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="82"/>
         <source>Import</source>
-        <translation type="unfinished">インポート</translation>
+        <translation>インポート</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="109"/>
         <source>Group Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>グループアクション</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="110"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1033"/>
         <source>Group Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>グループシンボル</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="111"/>
         <source>Edit Smart Group</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループの編集</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="194"/>
@@ -45515,7 +45521,7 @@ Select the &apos;Smart Group&apos; to create a new group.</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="925"/>
         <source>New Group</source>
-        <translation type="unfinished">新しいグループ</translation>
+        <translation>新しいグループ</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="951"/>
@@ -45544,7 +45550,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1070"/>
         <source>Finish Grouping</source>
-        <translation type="unfinished"></translation>
+        <translation>グルーピングの終了</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1109"/>
@@ -45560,31 +45566,31 @@ There was a problem with your symbol database.</source>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1270"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1292"/>
         <source>Edit Group</source>
-        <translation type="unfinished"></translation>
+        <translation>グループの編集</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1274"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1280"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1288"/>
         <source>Add Group</source>
-        <translation type="unfinished"></translation>
+        <translation>グループの追加</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1276"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1290"/>
         <source>Remove Group</source>
-        <translation type="unfinished"></translation>
+        <translation>グループの削除</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1303"/>
         <source>Apply Group</source>
-        <translation type="unfinished"></translation>
+        <translation>グループの適用</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1311"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1324"/>
         <source>Un-group</source>
-        <translation type="unfinished"></translation>
+        <translation>グループ化解除</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1348"/>
