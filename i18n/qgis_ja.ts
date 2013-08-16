@@ -11835,56 +11835,32 @@ Error: %1</source>
         <translation>ラスタレイヤ</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8719"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8721"/>
->>>>>>> .theirs
         <source>This project file was saved by an older version of QGIS</source>
         <translation>このプロジェクトファイルは古いバージョンのQGISで保存されています</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8860"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8862"/>
->>>>>>> .theirs
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8861"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8863"/>
->>>>>>> .theirs
         <source>This layer doesn&apos;t have a properties dialog.</source>
         <translation>このレイヤはプロパティダイアログがありません.</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8893"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8895"/>
->>>>>>> .theirs
         <source>Authentication required</source>
         <translation>認証が必要です</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8909"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8911"/>
->>>>>>> .theirs
         <source>Proxy authentication required</source>
         <translation>プロキシの認証が必要です</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8920"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8922"/>
->>>>>>> .theirs
         <source>SSL errors occured accessing URL %1:</source>
         <translation>URL%1アクセス中にSSLエラーが発生しました:</translation>
     </message>
@@ -11926,30 +11902,18 @@ Errors: %2
 エラー:%2</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="6520"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="6522"/>
->>>>>>> .theirs
         <source>Unable to communicate with QGIS Version server
 %1</source>
         <translation>QGISバージョンサーバーと通信できません %1 　</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8567"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8569"/>
->>>>>>> .theirs
         <source>%1 is not a supported raster data source</source>
         <translation>%1はサポートされているラスタデータソースではありません</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgisapp.cpp" line="8697"/>
-=======
         <location filename="../src/app/qgisapp.cpp" line="8699"/>
->>>>>>> .theirs
         <source>&lt;p&gt;This project file was saved by an older version of QGIS. When saving this project file, QGIS will update it to the latest version, possibly rendering it useless for older versions of QGIS.&lt;p&gt;Even though QGIS developers try to maintain backwards compatibility, some of the information from the old project file might be lost. To improve the quality of QGIS, we appreciate if you file a bug report at %3. Be sure to include the old project file, and state the version of QGIS you used to discover the error.&lt;p&gt;To remove this warning when opening an older project file, uncheck the box &apos;%5&apos; in the %4 menu.&lt;p&gt;Version of the project file: %1&lt;br&gt;Current version of QGIS: %2</source>
         <translation>&lt;p&gt;このプロジェクトファイルは別の古いバージョンのQGISで保存されています. このプロジェクトが保存される時にQGISはプロジェクトファイルを最新の版で保存します.その場合古いバージョンのQGISでは利用できない表現に更新されます.&lt;p&gt;QGISの開発者はバックワードコンパチビリティを保守しようとしていますが古いプロジェクトの情報のいくつかは失われるでしょう. QGISの品質を向上させるために%3にバグレポートをしていただけると感謝いたします. その場合古いプロジェクトファイルとエラーを発見したQGISのバージョンを含めることを忘れないでください.&lt;p&gt;古いプロジェクトファイルが開かれる度にこの警告が表示されることを停止するためには%4メニューの&apos;%5&apos;ボックスのチェックをはずして下さい.&lt;p&gt;プロジェクトファイルのバージョン: %1&lt;br&gt; QGISのバージョン: %2</translation>
     </message>
@@ -29825,20 +29789,12 @@ not displayed</source>
 <context>
     <name>QgsMapToolCapture</name>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgsmaptoolcapture.cpp" line="356"/>
-=======
         <location filename="../src/app/qgsmaptoolcapture.cpp" line="372"/>
->>>>>>> .theirs
         <source>Validation started.</source>
         <translation>検証が開始されました.</translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/app/qgsmaptoolcapture.cpp" line="392"/>
-=======
         <location filename="../src/app/qgsmaptoolcapture.cpp" line="408"/>
->>>>>>> .theirs
         <source>Validation finished.</source>
         <translation>検証が終了しました.</translation>
     </message>
@@ -30698,16 +30654,6 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
-<<<<<<< .mine
-    <message numerus="yes">
-        <location filename="../src/gui/qgsmessagebar.cpp" line="373"/>
-        <source>%n more</source>
-        <comment>unread messages</comment>
-        <translation>
-            <numerusform>%n さらに</numerusform>
-        </translation>
-    </message>
-=======
     <message numerus="yes">
         <location filename="../src/gui/qgsmessagebar.cpp" line="321"/>
         <source>%n more</source>
@@ -30716,7 +30662,6 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
             <numerusform>%n さらに</numerusform>
         </translation>
     </message>
->>>>>>> .theirs
     <message>
         <source>more</source>
         <translation type="obsolete">さらに</translation>
@@ -60306,42 +60251,6 @@ Returns the largest value in a set of values.
 </translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1042"/>
-        <source>&lt;h3&gt;regexp_substr() function&lt;/h3&gt;
-Returns the portion of a string which matches a supplied regular expression.
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The input string.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to match against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character). Non-greedy regular expressions are not supported.&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
-</source>
-        <translation>&lt;h3&gt;regexp_substr() 関数&lt;/h3&gt;
-指定された正規表現に合致する文字列の一部を返します.
-
-&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
-     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列.  入力文字列.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; は文字列.  合致する正規表現. バックスラッシュはダブルエスケープされることが必要 (例 &quot;&amp;#92;&amp;#92;s&quot; はスペース文字に合致). 最短マッチを行う正規表現はサポートされていません.&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
-</translation>
-    </message>
-    <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1107"/>
-=======
         <location filename="../src/core/qgsexpression_texts.cpp" line="833"/>
         <source>&lt;h3&gt;regexp_substr() function&lt;/h3&gt;
 Returns the portion of a string which matches a supplied regular expression.
@@ -60376,7 +60285,6 @@ Returns the portion of a string which matches a supplied regular expression.
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="218"/>
->>>>>>> .theirs
         <source>&lt;h3&gt;acos() function&lt;/h3&gt;
 Returns arcuscosinus of a value in radians.
 
@@ -60404,77 +60312,6 @@ Returns arcuscosinus of a value in radians.
 </translation>
     </message>
     <message>
-<<<<<<< .mine
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1253"/>
-        <source>&lt;h3&gt;regexp_match() function&lt;/h3&gt;
-Returns true if any part of a string matches the supplied regular expression.
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The string to test against the regular expression.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to test against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character). Non-greedy regular expressions are not supported.&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
-</source>
-        <translation>&lt;h3&gt;regexp_match() 関数&lt;/h3&gt;
-文字列の任意の部分が指定された正規表現に合致する場合 true が返されます.
-
-&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
-     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列.  正規表現で評価する文字列.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; は文字列. 評価に利用する正規表現. バックスラッシュはダブルエスケープする必要があります (例 &quot;&amp;#92;&amp;#92;s&quot; は空白に合致します). 最短マッチを行う正規表現はサポートされていません.&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
-</translation>
-    </message>
-    <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1271"/>
-        <source>&lt;h3&gt;regexp_replace() function&lt;/h3&gt;
-Returns a string with the supplied regular expression replaced.
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The start string.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to replace. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character). Non-greedy regular expressions are not supported.&lt;br&gt;
-&lt;i&gt;  after&lt;/i&gt; &amp;rarr; is string.  The string that will replace any matching occurences of the supplied regular expression. Captured groups can be inserted into the replacement string using &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2, etc. &lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
-</source>
-        <translation>&lt;h3&gt;regexp_replace() 関数&lt;/h3&gt;
-指定された正規表現で置き換えを行われた文字列を返します.
-
-&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
-     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列です.  元の文字列.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; は文字列です.  置き換えを行うための正規表現. バックスラッシュはダブルエスケープされる必要があります (例 &quot;&amp;#92;&amp;#92;s&quot; は空白文字に合致します). 最短マッチを行う正規表現はサポートされていません.&lt;br&gt;
-&lt;i&gt;  after&lt;/i&gt; &amp;rarr; は文字列です.  文字列は指定された正規表現と合致する箇所が置き換えられます. キャプチャされたグループは &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2, 等を利用して置き換え文字列に挿入されます. &lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
-</translation>
-    </message>
-    <message>
-        <location filename="../src/core/qgsexpression_texts.cpp" line="1357"/>
-=======
         <location filename="../src/core/qgsexpression_texts.cpp" line="157"/>
         <source>&lt;h3&gt;regexp_match() function&lt;/h3&gt;
 Returns true if any part of a string matches the supplied regular expression.
@@ -60544,7 +60381,6 @@ Returns a string with the supplied regular expression replaced.
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="11"/>
->>>>>>> .theirs
         <source>&lt;h3&gt;title() function&lt;/h3&gt;
 Converts all words of a string to title case (all words lower case with leading
 capital letter).
