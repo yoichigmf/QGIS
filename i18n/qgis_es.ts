@@ -6598,7 +6598,7 @@ Error de geoprocesamiento GEOS: uno o más objetos espaciales de entrada tiene u
     </message>
     <message>
         <source>Add WMS/WMTS Layer...</source>
-        <translation type="unfinished">Añadir capa WMS...</translation>
+        <translation>Añadir capa WMS/WMTS...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
@@ -8684,6 +8684,68 @@ use el objeto qgis.utils.iface (instancia de la clase QgisInterface).
     <message>
         <source>Remove API path</source>
         <translation>Eliminar ruta de la API</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;&quot;{0}&quot;&lt;/b&gt; was not found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> [Temporary file saved in {0}]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>## Script error: {0}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>## Script executed successfully: {0}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot execute file {0}. Error: {1}
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; has been deleted or is not accessible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; has been changed and reloaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file &lt;b&gt;&quot;{0}&quot;&lt;/b&gt; is read only, please save to different file first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file {0} could not be opened. Error: {1}
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Untitled-{0}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file &lt;b&gt;&apos;{0}&apos;&lt;/b&gt; has been modified, save changes?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to restore the file: 
+{0}
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Python {0} on {1}
+## Type help(iface) for more info and list of methods.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file &lt;b&gt;{0}&lt;/b&gt; could not be saved. Error: {1}</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10789,7 +10851,7 @@ Error(%2): %3</translation>
     </message>
     <message>
         <source>dangling end</source>
-        <translation type="unfinished"></translation>
+        <translation>extremo suelto</translation>
     </message>
     <message>
         <source>duplicate geometry</source>
@@ -14449,7 +14511,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>License </source>
-        <translation type="unfinished"></translation>
+        <translation>Licencia </translation>
     </message>
 </context>
 <context>
@@ -20552,7 +20614,7 @@ y el archivo actual es [%3]</translation>
     </message>
     <message>
         <source>Realm</source>
-        <translation type="unfinished"></translation>
+        <translation>Dominio</translation>
     </message>
 </context>
 <context>
@@ -20881,7 +20943,7 @@ y el archivo actual es [%3]</translation>
     </message>
     <message>
         <source>Data defined override</source>
-        <translation type="unfinished"></translation>
+        <translation>Anulación definida por datos</translation>
     </message>
     <message>
         <source>expression</source>
@@ -20933,7 +20995,7 @@ y el archivo actual es [%3]</translation>
     </message>
     <message>
         <source>&lt;b&gt;&lt;u&gt;Data defined override&lt;/u&gt;&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;&lt;u&gt;Anulación definida por datos&lt;/u&gt;&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Active: &lt;/b&gt;%1&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;i&gt;(ctrl|right-click toggles)&lt;/i&gt;&lt;br&gt;</source>
@@ -23490,39 +23552,39 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Equal operator</source>
-        <translation type="unfinished">Operador de igualdad</translation>
+        <translation>Operador de igualdad</translation>
     </message>
     <message>
         <source>Addition operator</source>
-        <translation type="unfinished">Operador de suma</translation>
+        <translation>Operador de suma</translation>
     </message>
     <message>
         <source>Subtraction operator</source>
-        <translation type="unfinished">Operador de resta</translation>
+        <translation>Operador de resta</translation>
     </message>
     <message>
         <source>Division operator</source>
-        <translation type="unfinished">Operador de división</translation>
+        <translation>Operador de división</translation>
     </message>
     <message>
         <source>Multiplication operator</source>
-        <translation type="unfinished">Operador de multiplicación</translation>
+        <translation>Operador de multiplicación</translation>
     </message>
     <message>
         <source>Power operator</source>
-        <translation type="unfinished">Operador de potencia</translation>
+        <translation>Operador de potencia</translation>
     </message>
     <message>
         <source>String Concatenation</source>
-        <translation type="unfinished"></translation>
+        <translation>Concatenación de cadenas</translation>
     </message>
     <message>
         <source>Open Bracket </source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir paréntesis </translation>
     </message>
     <message>
         <source>Close Bracket </source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrar paréntesis </translation>
     </message>
 </context>
 <context>
@@ -28548,7 +28610,7 @@ en la línea %2 columna %3</translation>
     </message>
     <message>
         <source>HTML annotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Anotación HTML</translation>
     </message>
 </context>
 <context>
@@ -29497,7 +29559,7 @@ Puede haber un problema en su conexión a la red o en el servidoor WMS.</numerus
     </message>
     <message>
         <source>Text/Buffer sample</source>
-        <translation type="unfinished"></translation>
+        <translation>Muestra de texto/buffer</translation>
     </message>
     <message>
         <source> @ %1 pts (using map units)</source>
@@ -30248,7 +30310,7 @@ Puede haber un problema en su conexión a la red o en el servidoor WMS.</numerus
     </message>
     <message>
         <source>Drop shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Quitar sombra</translation>
     </message>
     <message>
         <source>Offset</source>
@@ -30416,7 +30478,7 @@ Puede haber un problema en su conexión a la red o en el servidoor WMS.</numerus
     </message>
     <message>
         <source>Text/Buffer Sample</source>
-        <translation type="unfinished"></translation>
+        <translation>Muestra de texto/buffer</translation>
     </message>
     <message>
         <source>Formatting</source>
@@ -30588,7 +30650,7 @@ Puede haber un problema en su conexión a la red o en el servidoor WMS.</numerus
     </message>
     <message>
         <source>Font is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Falta el tipo de letra.</translation>
     </message>
 </context>
 <context>
@@ -31968,189 +32030,189 @@ mo se muestran</translation>
     <name>QgsMapserverExportBase</name>
     <message>
         <source>Map file</source>
-        <translation>Archivo de mapa</translation>
+        <translation type="obsolete">Archivo de mapa</translation>
     </message>
     <message>
         <source>Map</source>
-        <translation>Mapa</translation>
+        <translation type="obsolete">Mapa</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nombre</translation>
+        <translation type="obsolete">Nombre</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Altura</translation>
+        <translation type="obsolete">Altura</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation>Unidades</translation>
+        <translation type="obsolete">Unidades</translation>
     </message>
     <message>
         <source>Image type</source>
-        <translation>Tipo de imagen</translation>
+        <translation type="obsolete">Tipo de imagen</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation>Anchura</translation>
+        <translation type="obsolete">Anchura</translation>
     </message>
     <message>
         <source>Header</source>
-        <translation>Encabezado</translation>
+        <translation type="obsolete">Encabezado</translation>
     </message>
     <message>
         <source>Footer</source>
-        <translation>Pie de página</translation>
+        <translation type="obsolete">Pie de página</translation>
     </message>
     <message>
         <source>Template</source>
-        <translation>Plantilla</translation>
+        <translation type="obsolete">Plantilla</translation>
     </message>
     <message>
         <source>Path to the MapServer template file</source>
-        <translation>Ruta al archivo de plantilla de MapServer</translation>
+        <translation type="obsolete">Ruta al archivo de plantilla de MapServer</translation>
     </message>
     <message>
         <source>Prefix attached to map, scalebar and legend GIF filenames created using this MapFile</source>
-        <translation>Prefijo añadido al nombre de los archivos GIF del mapa, la barra de escala y la leyenda creados usando este archivo de mapa</translation>
+        <translation type="obsolete">Prefijo añadido al nombre de los archivos GIF del mapa, la barra de escala y la leyenda creados usando este archivo de mapa</translation>
     </message>
     <message>
         <source>Name for the map file to be created from the QGIS project file</source>
-        <translation>Nombre para el archivo de mapa que se va a crear a partir del proyecto de QGIS</translation>
+        <translation type="obsolete">Nombre para el archivo de mapa que se va a crear a partir del proyecto de QGIS</translation>
     </message>
     <message>
         <source>Full path to the QGIS project file to export to MapServer map format</source>
-        <translation>Ruta completa al proyecto de QGIS para exportar al formato de mapa de MapServer</translation>
+        <translation type="obsolete">Ruta completa al proyecto de QGIS para exportar al formato de mapa de MapServer</translation>
     </message>
     <message>
         <source>If checked, only the layer information will be processed</source>
-        <translation>Si se marca, sólo será procesada la información de la capa</translation>
+        <translation type="obsolete">Si se marca, sólo será procesada la información de la capa</translation>
     </message>
     <message>
         <source>Forces labels on, regardless of collisions. Available only for cached labels.</source>
-        <translation>Fuerza la colocación de etiquetas, sin tener en cuenta las colisiones. Sólo disponible para etiquetas en caché.</translation>
+        <translation type="obsolete">Fuerza la colocación de etiquetas, sin tener en cuenta las colisiones. Sólo disponible para etiquetas en caché.</translation>
     </message>
     <message>
         <source>Check to allow MapServer to return data in GML format. Useful when used with WMS GetFeatureInfo operations.</source>
-        <translation>Marcar para permitir a MapServer devolver los datos en formato GML. Útil cuando se usa con operaciones WMS GetFeatureInfo.</translation>
+        <translation type="obsolete">Marcar para permitir a MapServer devolver los datos en formato GML. Útil cuando se usa con operaciones WMS GetFeatureInfo.</translation>
     </message>
     <message>
         <source>Force</source>
-        <translation>Forzar</translation>
+        <translation type="obsolete">Forzar</translation>
     </message>
     <message>
         <source>Should text be antialiased? Note that this requires more available colors, decreases drawing performance, and results in slightly larger output images.</source>
-        <translation>¿Se debe suavizar el texto? Tenga en cuenta que esto requiere más colores disponibles, disminuye las prestaciones del dibujado y produce imágenes ligeramente más grandes.</translation>
+        <translation type="obsolete">¿Se debe suavizar el texto? Tenga en cuenta que esto requiere más colores disponibles, disminuye las prestaciones del dibujado y produce imágenes ligeramente más grandes.</translation>
     </message>
     <message>
         <source>Anti-alias</source>
-        <translation>Suavizado</translation>
+        <translation type="obsolete">Suavizado</translation>
     </message>
     <message>
         <source>Can text run off the edge of the map?</source>
-        <translation>¿Puede salirse el texto del borde del mapa?</translation>
+        <translation type="obsolete">¿Puede salirse el texto del borde del mapa?</translation>
     </message>
     <message>
         <source>Partials</source>
-        <translation>Parciales</translation>
+        <translation type="obsolete">Parciales</translation>
     </message>
     <message>
         <source>Dump</source>
-        <translation>Basura</translation>
+        <translation type="obsolete">Basura</translation>
     </message>
     <message>
         <source>Paths</source>
-        <translation>Rutas</translation>
+        <translation type="obsolete">Rutas</translation>
     </message>
     <message>
         <source>MapServer url</source>
-        <translation>URL de MapServer</translation>
+        <translation type="obsolete">URL de MapServer</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation>Explorar...</translation>
+        <translation type="obsolete">Explorar...</translation>
     </message>
     <message>
         <source>Save As...</source>
-        <translation>Guardar como...</translation>
+        <translation type="obsolete">Guardar como...</translation>
     </message>
     <message>
         <source>MapServer Export: Save project to MapFile</source>
-        <translation>Exportación de MapServer: guardar proyecto a archivo MapFile</translation>
+        <translation type="obsolete">Exportación de MapServer: guardar proyecto a archivo MapFile</translation>
     </message>
     <message>
         <source>Use current project</source>
-        <translation>Usar el proyecto actual</translation>
+        <translation type="obsolete">Usar el proyecto actual</translation>
     </message>
     <message>
         <source>LAYER information only</source>
-        <translation>Sólo información de CAPA</translation>
+        <translation type="obsolete">Sólo información de CAPA</translation>
     </message>
     <message>
         <source>Rendering</source>
-        <translation>Representar</translation>
+        <translation type="obsolete">Representar</translation>
     </message>
     <message>
         <source>The URL to the mapserver executable.
 
 For example: 
 http://my.host.com/cgi-bin/mapserv.exe</source>
-        <translation>URL del ejecutable de mapserver.
+        <translation type="obsolete">URL del ejecutable de mapserver.
 
 Por ejemplo:
 http://my.host.com/cgi-bin/mapserv.exe</translation>
     </message>
     <message>
         <source>Inline</source>
-        <translation>En línea</translation>
+        <translation type="obsolete">En línea</translation>
     </message>
     <message>
         <source>Symbolset</source>
-        <translation>Conjuto de símbolos</translation>
+        <translation type="obsolete">Conjuto de símbolos</translation>
     </message>
     <message>
         <source>Use templates</source>
-        <translation>Usar plantillas</translation>
+        <translation type="obsolete">Usar plantillas</translation>
     </message>
     <message>
         <source>The file name of the fonts file.</source>
-        <translation>Nombre del archivo de tipos de letra.</translation>
+        <translation type="obsolete">Nombre del archivo de tipos de letra.</translation>
     </message>
     <message>
         <source>Fontset</source>
-        <translation>Conjunto de tipos de letra</translation>
+        <translation type="obsolete">Conjunto de tipos de letra</translation>
     </message>
     <message>
         <source>The file name of the symbols file.</source>
-        <translation>Nombre del archivo de símbolos.</translation>
+        <translation type="obsolete">Nombre del archivo de símbolos.</translation>
     </message>
     <message>
         <source>Layer/label options</source>
-        <translation>Opciones de capa/etiqueta</translation>
+        <translation type="obsolete">Opciones de capa/etiqueta</translation>
     </message>
     <message>
         <source>meters</source>
-        <translation>metros</translation>
+        <translation type="obsolete">metros</translation>
     </message>
     <message>
         <source>dd</source>
-        <translation>dd</translation>
+        <translation type="obsolete">dd</translation>
     </message>
     <message>
         <source>feet</source>
-        <translation>pies</translation>
+        <translation type="obsolete">pies</translation>
     </message>
     <message>
         <source>miles</source>
-        <translation>millas</translation>
+        <translation type="obsolete">millas</translation>
     </message>
     <message>
         <source>inches</source>
-        <translation>pulgadas</translation>
+        <translation type="obsolete">pulgadas</translation>
     </message>
     <message>
         <source>kilometers</source>
-        <translation>kilómetros</translation>
+        <translation type="obsolete">kilómetros</translation>
     </message>
 </context>
 <context>
@@ -32371,9 +32433,9 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message numerus="yes">
         <source>%n more</source>
         <comment>unread messages</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>1 más</numerusform>
+            <numerusform>%n más</numerusform>
         </translation>
     </message>
 </context>
@@ -41178,7 +41240,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">Texto</translation>
+        <translation>Texto</translation>
     </message>
 </context>
 <context>
@@ -44276,7 +44338,7 @@ desviación estándar ×</translation>
     <name>QgsSaveToDBDialog</name>
     <message>
         <source>Add column</source>
-        <translation>Añadir columna</translation>
+        <translation type="obsolete">Añadir columna</translation>
     </message>
     <message>
         <source>Description</source>
@@ -44301,6 +44363,10 @@ desviación estándar ×</translation>
     <message>
         <source>Optionally pick an input form for attribute editing (QT Designer UI format), it will be stored in the database</source>
         <translation>De forma opcional tomar un formulario de entrada para la edición de atributos (formato UI de Qt Designer). Se guardará en la base de datos.</translation>
+    </message>
+    <message>
+        <source>Save style</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -46833,7 +46899,7 @@ Overwrite?</source>
     </message>
     <message>
         <source>Type here to filter symbols ...</source>
-        <translation>Escriba aquí para filtrar los símbolos...</translation>
+        <translation type="obsolete">Escriba aquí para filtrar los símbolos...</translation>
     </message>
     <message>
         <source>cpt-city</source>
@@ -46958,6 +47024,62 @@ Hubo un problema con su base de datos de símbolos.</translation>
     <message>
         <source>There was some error while editing the smart group.</source>
         <translation>Hubo algún error mientras se editaba el Grupo Inteligente</translation>
+    </message>
+    <message>
+        <source>Type here to filter symbols...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Share Menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation type="unfinished">Exportar</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation type="unfinished">Importar</translation>
+    </message>
+    <message>
+        <source>Group Actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group Symbols</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit Smart Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Group</source>
+        <translation type="unfinished">Nuevo Grupo</translation>
+    </message>
+    <message>
+        <source>Finish Grouping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Un-group</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -54200,15 +54322,15 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 
 &lt;/ul&gt;
 </source>
-        <translation type="unfinished">&lt;h3&gt;Crear una nueva conexión a PostgreSQL&lt;/h3&gt;
+        <translation>&lt;h3&gt;Crear una nueva conexión a PostgreSQL&lt;/h3&gt;
 Este diálogo le permite definir la configuración para una conexión a una base de datos PostgreSQL.
 &lt;p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;Nombre&lt;/label&gt; Un nombre para identificar configuración de la conexión.
+&lt;li&gt;&lt;label&gt;Nombre&lt;/label&gt; Un nombre para identificar la configuración de la conexión.
 
 &lt;li&gt;&lt;label&gt;Servicio&lt;/label&gt; Un nombre de un servicio listado en el &lt;a href=&quot;http://www.postgresql.org/docs/current/static/libpq-pgservice.html&quot;&gt;Archivo de Servicio de Conexión&lt;/a&gt;.
 
-&lt;li&gt; &lt;label&gt;Servidor&lt;/label&gt;Nombre o dirección IP del ordenador que aloja el servidor de base de datos (dejar en blanco para conexiones o servicios locales).
+&lt;li&gt; &lt;label&gt;Servidor&lt;/label&gt;Nombre o dirección IP del ordenador que aloja el servidor de bases de datos (dejar en blanco para conexiones o servicios locales).
 
 &lt;li&gt;&lt;label&gt;Puerto&lt;/label&gt; Puerto IP usado por el servidor de bases de datos (dejar en blanco para conexiones locales o para usar el puerto prederminado 5432).
 
@@ -54219,7 +54341,7 @@ Este diálogo le permite definir la configuración para una conexión a una base
 &lt;li&gt; &lt;label&gt;Nombre de usuario&lt;/label&gt; Nombre de usuario de la base de datos.
 &lt;li&gt; &lt;label&gt;Contraseña&lt;/label&gt; Contraseña de la base de datos.
 
-&lt;li&gt; &lt;label&gt;Guardar usuario&lt;/label&gt; Indica si guardar nombre de usuario de la base de datos en la configuración de la conexión.
+&lt;li&gt; &lt;label&gt;Guardar usuario&lt;/label&gt; Indica si guardar el nombre de usuario de la base de datos en la configuración de la conexión.
 
 &lt;li&gt; &lt;label&gt;Guardar contraseña&lt;/label&gt; Indica si guardar la contraseña de la base de datos en la configuración de la conexión. &lt;font color=&quot;red&quot;&gt;¡Las contraseñas se guardan en &lt;strong&gt;texto plano&lt;/strong&gt; en la configuración del sistema y en los archivos de proyecto!&lt;/font&gt;
 
@@ -54229,7 +54351,7 @@ Este diálogo le permite definir la configuración para una conexión a una base
 
 &lt;li&gt; &lt;label&gt;Listar también tablas sin geometría&lt;/label&gt;  Indica que las tablas sin geometría se listen también por omisión.
 
-&lt;li&gt; &lt;label&gt;Usar metadatos de tabla estimados&lt;/label&gt; Al inicializar tablas pueden ser necesarioas varias consultas para establecer las características de las geometrías guardades en la tabla de la base de datos. Cuando esta opción está marcada, estas consultas examinan solo una muestra de las filas y usan las estadísticas de la tablam en vez de toda la tabla. Esto puede acelerar drásticamente las operaciones en grandes conjuntos de datos, pero puede dar una caracterización incorrecta de las capas (ej. la &lt;font color=&quot;red&quot;&gt;cuenta de objetos espaciales&lt;/font&gt; de capas filtradas no se determinará con precisión).
+&lt;li&gt; &lt;label&gt;Usar metadatos de tabla estimados&lt;/label&gt; Al inicializar tablas pueden ser necesarias varias consultas para establecer las características de las geometrías guardades en la tabla de la base de datos. Cuando esta opción está marcada, estas consultas examinan solo una muestra de las filas y usan las estadísticas de la tabla en vez de toda la tabla. Esto puede acelerar drásticamente las operaciones en grandes conjuntos de datos, pero puede dar una caracterización incorrecta de las capas (ej. la &lt;font color=&quot;red&quot;&gt;cuenta de objetos espaciales&lt;/font&gt; de capas filtradas no se determinará con precisión).
 
 &lt;/ul&gt;
 </translation>
@@ -54255,7 +54377,18 @@ You can also define the width and precision of the new attribute column.
 &lt;h4&gt;Attributes list&lt;/h4&gt;
 In this section you can see the list of attributes. To delete one of them, click on it and choose &lt;label&gt;Remove selected attribute&lt;/label&gt; button.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Crear nueva capa vectorial&lt;/h3&gt;
+Para crear una capa nueva para editar, seleccione &lt;label&gt;Capa vectorial nueva&lt;/label&gt; del menú &lt;label&gt;Capa&lt;/label&gt;.&lt;br/&gt;
+COn este diálogo puede crear una capa de archivo shape.
+&lt;h4&gt;Tipo&lt;/h4&gt;
+Seleccione el tipo de capa &lt;label&gt;Punto&lt;/label&gt;, &lt;label&gt;Línea&lt;/label&gt; o &lt;label&gt;Polígono&lt;/label&gt;.&lt;br/&gt;
+Si es necesario, pulse el botón &lt;label&gt;Especificar SRC&lt;/label&gt; para cambiar el sistema de referencia de coordenadas de la capa.
+&lt;h4&gt;Nuevo atributo&lt;/h4&gt;
+Añada los atributos que desee haciendo clic en el botón &lt;label&gt;Añadir a la lista de atributos&lt;/label&gt; después de que haya especificado un nombre y tipo para el atributo. Solo se adminten atributos de tipo real, entero o cadena.&lt;br/&gt;
+También puede definir la anchura y precisión de la columna del nuevo atributo.
+&lt;h4&gt;Lista de atributos&lt;/h4&gt;
+En esta sección puede ver la lista de atributos. Para borrar uno de ellos, pulse en él y seleccione el botón &lt;label&gt;Eliminar el atributo seleccionado&lt;/label&gt;.
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;Vector Layer Properties&lt;/h3&gt;
@@ -54467,28 +54600,28 @@ In this section you can see the list of attributes. To delete one of them, click
 &lt;p&gt;
 Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.  Clicking &lt;label&gt;Apply&lt;/label&gt; also creates the layer, but keeps the dialog open, thereby allowing you to create more similar layers. &lt;label&gt;Cancel&lt;/label&gt; will close the layer without further changes.
 </source>
-        <translation type="unfinished">&lt;h3&gt;Crear nueva capa SpatiaLite&lt;/h3&gt;
-Se puede usar este cuadro de diálogo para crear una nueva base de datos SpatiaLite y/o una capa vacía SpatiaLite para edición. Vea más adelante una explición de las entradas del cuadro de diálogo.
+        <translation>&lt;h3&gt;Crear una nueva capa SpatiaLite&lt;/h3&gt;
+Puede usar este cuadro de diálogo para crear una nueva base de datos SpatiaLite y/o una capa vacía SpatiaLite para edición. Vea más adelante una explicaión de las entradas del diálogo.
 &lt;h4&gt;Base de datos&lt;/h4&gt;
-Elija la base de datos de la lista desplegable. Esta lista se crea desde sus conexiones guardadas de SpatiaLite. Si no tiene ninguna conexión guardada o si quiere crear una nueva base de datos, haga clic en el botón (&lt;label&gt;...&lt;/label&gt;) a la derecha de la lista desplegable.
+Elija la base de datos de la lista desplegable. Esta lista se crea desde sus conexiones de SpatiaLite guardadas. Si no tiene ninguna conexión guardada o si quiere crear una nueva base de datos, haga clic en el botón (&lt;label&gt;...&lt;/label&gt;) a la derecha de la lista desplegable.
 &lt;h4&gt;Nombre de la capa&lt;/h4&gt;
-Ingrese el nombre de la capa que desea crear. El nombre debe tener una sola palabra. Si lo desea puede utilizar guiones bajos en el nombre.
+Introduzca un nombre para la capa que desee crear. El nombre debe tener una sola palabra. Si lo desea puede utilizar guiones bajos en el nombre.
 &lt;h4&gt;Columna de geometría&lt;/h4&gt;
-Ingrese el nombre de la columna de geometría o acepte el que viene por omisión.
+Introduzca un nombre para la columna de geometría o acepte el que viene por omisión.
 &lt;h4&gt;Tipo&lt;/h4&gt;
 Elija el tipo de capa que desea crear. 
 &lt;h4&gt;SRID EPSG&lt;/h4&gt;
-Ingrese el código EPSG para el ID de referencia espacial (SRID). Por omisión se seleccionará el SRID para WGS 84. Haga clic sobre el botón &lt;label&gt;Buscar SRID&lt;/label&gt; para cambiar el sistema de referencia de coordenadas de la capa, si así se require. El SRID debe existir dentro de spatial_ref_sys en su base de datos SpatiaLite. Puede buscar el SRID utilizando concordancias parciales tanto en el nombre como en el SRID.
+Introduzca el código EPSG para el ID de referencia espacial (SRID). Por omisión se seleccionará el SRID para WGS 84. Haga clic sobre el botón &lt;label&gt;Buscar SRID&lt;/label&gt; para cambiar el sistema de referencia de coordenadas de la capa, si así se require. El SRID debe existir dentro del spatial_ref_sys de su base de datos SpatiaLite. Puede buscar el SRID utilizando concordancias parciales tanto en el nombre como en el SRID.
 &lt;h4&gt;Crear una clave primaria autonumérica&lt;/h4&gt;
-Al hacer clic sobre esta casilla se agregará una clave primaria para la nueva capa. Este campo clave será autonumérico, lo que significa que no será necesario ingresar valores en él cuando agregue objetos a la tabla de atributos de la capa.
+Al marcar esta casilla se agregará una clave primaria para la nueva capa. Este campo clave será autonumérico, lo que significa que no será necesario Introducir valores en él cuando añada objetos espaciales a la tabla de atributos de la capa.
 &lt;h4&gt;Nuevo atributo&lt;/h4&gt;
-Agregue los atributos necesarios haciendo clic en el botón &lt;label&gt;Añadir a la lista de atributos&lt;/label&gt;, después de haber especificado un nombre y un tipo para el atributo. Sólo se admiten atributos de tipo real, entero y cadena (string).&lt;br/&gt;
+Añada los atributos necesarios haciendo clic en el botón &lt;label&gt;Añadir a la lista de atributos&lt;/label&gt;, después de haber especificado un nombre y un tipo para el atributo. Sólo se admiten atributos de tipo real, entero y cadena.&lt;br/&gt;
 El ancho y la precisión son irrelevantes en una base de datos SpatiaLite, por lo que no se requiere especificarlos.
 &lt;h4&gt;Lista de atributos&lt;/h4&gt;
 En esta sección se puede observar la lista de atributos. Para borrar uno de ellos, haga clic sobre él y seleccione el botón &lt;label&gt;Eliminar atributo seleccionado&lt;/label&gt;.
 
 &lt;p&gt;
-Haga clic sobre &lt;label&gt;Aceptar&lt;/label&gt; para crear la capa y cerrar el cuadro de diálogo. Al hacer clic sobre &lt;label&gt;Aplicar&lt;/label&gt; también se crea la capa, pero se mantiene el cuadro de diálogo abierto, lo que permite crear más capas similares. &lt;label&gt;Cancelar&lt;/label&gt; cerrará la capa sin cambios adicionales.
+Pulse &lt;label&gt;Aceptar&lt;/label&gt; para crear la capa y cerrar el cuadro de diálogo. Al pulsar &lt;label&gt;Aplicar&lt;/label&gt; también se crea la capa, pero se mantiene el cuadro de diálogo abierto, lo que permite crear más capas similares. &lt;label&gt;Cancelar&lt;/label&gt; cerrará la capa sin cambios adicionales.
 </translation>
     </message>
     <message>
@@ -54605,7 +54738,44 @@ On this tab you can search for WMS servers. It is possible to enter a search-str
 To visualize the results, select an table entry, press the &lt;label&gt;Add selected row to WMS list&lt;/label&gt; button and change back to the &lt;label&gt;Servers&lt;/label&gt; tab.&lt;p&gt;
 You only need to request the list of layers by clicking the &lt;label&gt;Connect&lt;/label&gt; button.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Crear una nueva conexión WMS&lt;/h3&gt;
+Se pueden añadir capas WMS de forma muy sencilla, con tal de que se sepa la URL para acceder al servidor WMS, se tenga una conexion en servicio con ese servidor y el servidor entienda HTML como mecanismo de transporte de datos.&lt;p&gt;
+QGIS actualmente puede comportarse como un cliente WMS que entiende servidores WMS 1.1, 1.1 y 1.3.
+&lt;p&gt;
+&lt;a href=&quot;#serv&quot;&gt;Servidores&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#load&quot;&gt;Cargar capas WMS&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#lay&quot;&gt;Orden de las capas&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;Búsqueda de servidores&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;serv&quot;&gt;
+&lt;h4&gt;Servidores&lt;/h4&gt;
+&lt;/a&gt;
+Para definir un nuevo servidor WMS en la sección &lt;label&gt;Conexiones a servidores&lt;/label&gt; seleccione &lt;label&gt;Nuevo&lt;/label&gt;. Luego introduzca los parámetros para conectarse con su servidor WMS preferido.&lt;p&gt;
+Puede añadir algunos servidores para jugar con ellos haciendo clic en el botón &lt;label&gt;Añadir servidores predeterminados&lt;/label&gt;. Esto añadirá al menos tres servidores WMS para que los use.&lt;p&gt;
+Una vez que se ha creado la conexión a un nuevo servidor WMS, se guardará para posteriores sesiones de QGIS.
+
+&lt;a name=&quot;load&quot;&gt;
+&lt;h5&gt;Cargar capas WMS&lt;/h5&gt;
+&lt;/a&gt;
+Seleccione el botón &lt;label&gt;Conectar&lt;/label&gt; para obtener las capacidades del servidor seleccionado. Esto incluye la codificación de imágenes, capas, estilos de capas y proyecciones.&lt;br/&gt;
+Mientras se descargan datos del servidor WMS, el progreso de la descarga se visualiza en la parte inferior izquierda del diálogo del complemento WMS.&lt;p&gt;
+La sección &lt;label&gt;codificación de imágenes&lt;/label&gt; ahora lista los formatos que son admitidos tanto por el cliente como por el servidor.&lt;br/&gt;
+Seleccione una dependiendo de sus requisitos de precisión para las imágenes.&lt;p&gt;
+Puede seleccionar varias capas a la vez, se combinarán en el servidor WMS y se transmitirán a QGIS de una sola vez.&lt;p&gt;
+Cada capa WMS se puede presentar en múltiples SRC, dependiendo de la capacidad del servidor WMS. Para elegir un SRC, seleccione &lt;label&gt;Cambiar...&lt;/label&gt;
+
+&lt;a name=&quot;lay&quot;&gt;
+&lt;h4&gt;Orden de las capas&lt;/h4&gt;
+&lt;/a&gt;
+En esta pestaña puede cambiar el orden de las capas WMS cargadas.
+
+&lt;a name=&quot;search&quot;&gt;
+&lt;h4&gt;Búsqueda de servidores&lt;/h4&gt;
+&lt;/a&gt;
+En esta pestaña puede buscar servidores WMS. Es posible introducir una cadena de búsqueda en el campo de texoto y pulsar el botón &lt;label&gt;Buscar&lt;/label&gt;&lt;p&gt;
+Para visualizar los resultados, seleccione una entrada de la tabla, pulse el botón &lt;label&gt;Añadir la fila seleccionada a la lista de WMS&lt;/label&gt; y vuelva a la pestaña &lt;label&gt;Servidores&lt;/label&gt;&lt;p&gt;
+Solo necesita solicitar la lista de capas haciendo clic en el botón &lt;label&gt;Conectar&lt;/label&gt;.
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;Database connection&lt;/h3&gt;
@@ -55731,78 +55901,6 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;Python Plugin Installer&lt;/h3&gt;
-Downloads and installs plugins from remote repositories.
-&lt;br/&gt;&lt;br/&gt;
-&lt;a href=&quot;#pltab&quot;&gt;Plugins tab&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#retab&quot;&gt;Repositories tab&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#optab&quot;&gt;Options tab&lt;/a&gt;&lt;br/&gt;
-
-&lt;a name=&quot;pltab&quot;&gt;
-&lt;h4&gt;Plugins tab&lt;/h4&gt;
-&lt;/a&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-The &lt;label&gt;Plugins&lt;/label&gt; tab contains a list of all locally installed Python plugins, as well as plugins available in 
-remote repositories. Each plugin can be either:
-&lt;dl&gt;
-&lt;dt&gt;not installed&lt;/dt&gt;&lt;dd&gt;this means the plugin is available in the repository, but is not installed yet. In order to install it, select the plugin from the list and click the &lt;label&gt;Install plugin&lt;/label&gt; button.&lt;/dd&gt;
-&lt;dt&gt;new&lt;/dt&gt;&lt;dd&gt;this means that the plugin is newly available in the repository.&lt;/dd&gt;
-&lt;dt&gt;installed&lt;/dt&gt;&lt;dd&gt;this indicates that the plugin is already installed. If it is also available in any repository the &lt;label&gt;Reinstall plugin&lt;/label&gt; button will be enabled. If the available version is older than the installed version, the &lt;label&gt;Downgrade plugin&lt;/label&gt; button will appear instead.&lt;/dd&gt;
-&lt;dt&gt;upgradeable&lt;/dt&gt;&lt;dd&gt;this means that the plugin is installed, but there is an updated version available. In this case, the &lt;label&gt;Upgrade plugin&lt;/label&gt; button will be enabled.&lt;/dd&gt;
-&lt;dt&gt;invalid&lt;/dt&gt;&lt;dd&gt;this means that the plugin is installed, but is unavailable or broken. The reason will be explained in the plugin description field.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/p&gt;
-
-To install a plugin, select it from the list and click the &lt;label&gt;Install plugin&lt;/label&gt; button. The plugin is installed in its own directory in:
-&lt;table border=1&gt;
-&lt;tr&gt;&lt;th&gt;OS&lt;/th&gt;&lt;th&gt;system plugins&lt;/th&gt;&lt;th&gt;plugins installed by user&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Linux and other unices&lt;/td&gt;&lt;td&gt;./share/qgis/python/plugins&lt;/td&gt;&lt;td rowspan=2&gt;$HOME/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Mac OS X&lt;/td&gt;&lt;td&gt;./Contents/MacOS/share/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Windows&lt;/td&gt;&lt;td&gt;(QGIS install directory)&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;td&gt;%USERPROFILE%&amp;#92;.qgis&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-If the installation is successful, a confirmation message will appear. The plugin is ready to use.
-&lt;/p&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-If the installation fails, the reason for the failure will be displayed in a warning dialog. Most often, errors are the result of connection problems and/or missing Python modules. In the former case you will likely need to wait before trying the install again, in the latter case, you should install the missing modules relevant to your operating system prior to using the plugin. For Linux, most required modules should be available via a package manager. For install instructions in Windows visit the module home page. If you are using a proxy, you may need to configure it under &lt;label&gt;Edit&lt;/label&gt; &gt; &lt;label&gt;Options&lt;/label&gt; (Gnome, OSX) or &lt;label&gt;Settings&lt;/label&gt; &gt; &lt;label&gt;Options&lt;/label&gt; (KDE, Windows) on the &lt;label&gt;Proxy&lt;/label&gt; tab.&lt;/p&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-The &lt;label&gt;Uninstall plugin&lt;/label&gt; button is enabled only if the selected plugin is installed and is not a core plugin. Note that if you have installed an update to a core plugin, you can uninstall this update with the &lt;label&gt;Uninstall plugin&lt;/label&gt; and revert to the version shipped with QGIS. This default version however, cannot be uninstalled.&lt;/p&gt;
-
-&lt;a name=&quot;retab&quot;&gt;
-&lt;h4&gt;Repositories tab&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p align=&apos;justify&apos;&gt;
-The second tab &lt;label&gt;Repositories&lt;/label&gt;, contains a list of plugin repositories available for the Plugin Installer. By default, only the QGIS Official Repository is enabled. You can add several user-contributed repositories, including the central QGIS Contributed Repository and other external repositories by clicking the &lt;label&gt;Add 3rd party repositories&lt;/label&gt; button. The added repositories contain a large number of useful plugins which are not maintained by the QGIS Development Team. As such, we cannot take any responsibility for them. You can also manage the repository list manually, that is add, remove, and edit the entries. Temporarily disabling a particular repository is possible by clicking the &lt;label&gt;Edit...&lt;/label&gt; button.&lt;/p&gt;
-
-&lt;a name=&quot;optab&quot;&gt;
-&lt;h4&gt;Options tab&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p align=&apos;justify&apos;&gt;
-The &lt;label&gt;Options&lt;/label&gt; tab is where you can configure the settings of the Plugin Installer. The &lt;label&gt;x Check for updates on start up&lt;/label&gt; check box tells QGIS to automatically look for plugin updates and news. By default, if this feature is enabled all repositories listed and enabled in the &lt;label&gt;Repositories&lt;/label&gt; tab are checked for updates each time the program is started. The frequency of update checking can be adjusted using the drop down menu, and may be adjusted from once a day right up to once a month. If a new plugin or update is available for one of the installed plugins, a notification will appear in the Status Bar. If the check box is disabled, looking for updates and news is performed only when the Plugin Installer is manually launched from the menu.&lt;/p&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-Some Internet connections will cause problems when attempting to automatically check for updates.  In these cases, a &lt;i&gt;Looking for new plugins...&lt;/i&gt; indicator will remain visible in the Status Bar during your entire QGIS session, and may cause a program crash when exiting. In this case please disable the check box.&lt;/p&gt;
-
-In addition, you may specify the type of plugins that are displayed by the Plugin Installer. Under &lt;i&gt;Allowed plugins&lt;/i&gt;, you can specify whether you would like to:
-&lt;ul&gt;
-&lt;li&gt; Only show plugins from the official repository&lt;/li&gt;
-&lt;li&gt; Show all plugins except those marked as experimental,&lt;/li&gt;
-&lt;li&gt; or Show all plugins, even those marked as experimental.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;br/&gt;
-&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
-Note: Experimental plugins are generally unsuitable for production use. These plugins are in the early stages of development, and should be considered &quot;incomplete&quot; or &quot;proof of concept&quot; tools. The QGIS development team does not recommend installing these plugins unless you intend to use them for testing purposes.
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&lt;h3&gt;Delimited Text File Layer&lt;/h3&gt;
 Loads and displays delimited text files
 &lt;p&gt;
@@ -56573,7 +56671,7 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
     <message>
         <source>&lt;h3&gt;Identify&lt;/h3&gt;
 </source>
-        <translation type="obsolete">&lt;h3&gt;Identificar&lt;/h3&gt;
+        <translation type="unfinished">&lt;h3&gt;Identificar&lt;/h3&gt;
 </translation>
     </message>
 </context>
@@ -57665,7 +57763,20 @@ Concatenates several strings to one.
 &lt;!-- Show example of function.--&gt;
      concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función concat()&lt;/h3&gt;
+Concatena varias cadenas en una.
+
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+     concat(&lt;i&gt;string&lt;i&gt;[,&lt;i&gt;string&lt;/i&gt;...])
+
+&lt;h4&gt;Argumentos&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; es cadena.  una cadena.&lt;br&gt;
+
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;$scale function&lt;/h3&gt;
@@ -57681,7 +57792,19 @@ Note: This function is only available in some contexts and will be 0 otherwise.
 
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función $scale&lt;/h3&gt;
+Devuelve la escala actual del lienzo del mapa.
+&lt;br&gt;
+Nota: esta función sólo está disponible en algunos contextos y será 0 en caso contrario.
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+&lt;code&gt;$scale&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;$scale &amp;rarr; 10000&lt;/code&gt;&lt;br&gt;
+
+
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;age() function&lt;/h3&gt;
@@ -57717,7 +57840,39 @@ use &lt;code&gt;day&lt;/code&gt; to extract number of days&lt;br&gt;
 &lt;code&gt;day(age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;)) &amp;rarr; 10&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función age()&lt;/h3&gt;
+Devuelve la direrencia entre dos fechas.
+&lt;br&gt;&lt;br&gt;
+La direrencia es devuelta como un &lt;code&gt;Intervalo&lt;/code&gt; 
+y necesita que se use en uno de las siguientes funciones
+para extraer información útil:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;year&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;month&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;week&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;day&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;hour&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;minute&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;second&lt;/code&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+&lt;code&gt;age(cadena,cadena)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(fecha,fecha)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(cadena,fecha)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(fecha,cadena)&lt;/code&gt;&lt;br&gt;
+o
+&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;code&gt;cadena&lt;/code&gt; - es cadena. Una cadena en formato fecha.
+&lt;br&gt;
+&lt;code&gt;fecha&lt;/code&gt; - es fecha o fecha y hora. Un tipo fecha o fecha y hora.
+
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;) &amp;rarr; Intervalo&lt;/code&gt;&lt;br&gt;
+use &lt;code&gt;day&lt;/code&gt; para extraer el número de días&lt;br&gt;
+&lt;code&gt;day(age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;)) &amp;rarr; 10&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;year() function&lt;/h3&gt;
@@ -57740,7 +57895,26 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;year(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1.9986..&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función year()&lt;/h3&gt;
+Extrae la parte año de una fecha o el número de años
+de un &lt;code&gt;Intervalo&lt;/code&gt;
+
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+&lt;code&gt;year(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumentos&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - es fecha o fecha y hora. La fecha de la que extraer el año.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - es Intervalo. El Intervalo del que devolver el número de años.
+
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;year(&apos;2012-05-12&apos;) &amp;rarr; 2012&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(tointerval(&apos;3 Years&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1.9986..&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;atan() function&lt;/h3&gt;
@@ -57756,7 +57930,19 @@ Returns arcustanget of a value in radians.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función atan()&lt;/h3&gt;
+Devuelve la arcotangente de un valor en radianes.
+
+
+&lt;p&gt;&lt;h4&gt;Sintaxis&lt;/h4&gt;
+     atan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumentos&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; arcotangente de un ángulo.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Ejemplo&lt;/h4&gt;
+     atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;minute() function&lt;/h3&gt;
@@ -57780,7 +57966,27 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;minute(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1051200&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función minute()&lt;/h3&gt;
+Extrae los minutos de una fecha y hora u hora, o el número de minutos de un
+ &lt;code&gt;Intervalo&lt;/code&gt;
+
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+&lt;code&gt;minute(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumentos&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - es fecha y hora u hora. La fecha de la que extraer los minutos.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - es Intervalo. El intervalo del que devolver el número de minutos.
+
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;minute(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 24&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(tointerval(&apos;3 minutes&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(age(&apos;2012-07-22T00:20:00&apos;,&apos;2012-07-22T00:00:00&apos;)) &amp;rarr; 20&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1051200&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;$length function&lt;/h3&gt;
@@ -57795,14 +58001,28 @@ None
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Función $length&lt;/h3&gt;
+Devuelve la longitud del objeto espacial actual.
+
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+&lt;pre&gt;$length&lt;/pre&gt;
+
+&lt;h4&gt;Argumentos&lt;/h4&gt;
+Ninguno
+
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
+&lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <source>
 &lt;h3&gt;Color Group&lt;/h3&gt;
 This group contains functions for manipulating colors
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;Grupo Color&lt;/h3&gt;
+Este grupo contiene funciones para manipular colores
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;log10() function&lt;/h3&gt;
@@ -57821,25 +58041,22 @@ This function takes one argument.
 &lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;regexp_substr() function&lt;/h3&gt;
-Returns the portion of a string which matches a supplied regular expression.
+        <translation>&lt;h3&gt;Función log10()&lt;/h3&gt;
+Devuelve el valor del logaritmo en base 10 de la expresión pasada.
+&lt;br&gt;
+Esa funcion toma un argumento.
+&lt;h4&gt;Sintaxis&lt;/h4&gt;
+&lt;code&gt;log10(value)&lt;/code&gt;&lt;br&gt;
 
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+&lt;h4&gt;Argumentos&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - cualquier número positivo.
+&lt;br&gt;
 
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The input string.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to match against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character).&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;h4&gt;Ejemplo&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
-     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
-</source>
-        <translation type="unfinished"></translation>
+&lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h3&gt;left() function&lt;/h3&gt;
@@ -58290,25 +58507,6 @@ using the fill character.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;regexp_replace() function&lt;/h3&gt;
-Returns a string with the supplied regular expression replaced.
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The start string.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to replace. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character).&lt;br&gt;
-&lt;i&gt;  after&lt;/i&gt; &amp;rarr; is string.  The string that will replace any matching occurences of the supplied regular expression. Captured groups can be inserted into the replacement string using &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2, etc. &lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&lt;h3&gt;upper() function&lt;/h3&gt;
 Converts a string to upper case letters.
 
@@ -58438,24 +58636,6 @@ Returns a string representation of a color based on its hue, saturation, lightne
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
      color_hsla(100,50,70,200) &amp;rarr; &apos;166,217,140,200&apos;&lt;/p&gt;
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;regexp_match() function&lt;/h3&gt;
-Returns true if any part of a string matches the supplied regular expression.
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The string to test against the regular expression.&lt;br&gt;
-&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to test against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character).&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -59423,6 +59603,61 @@ actually inserted, ie. when building queries.
 </source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>&lt;h3&gt;regexp_match() function&lt;/h3&gt;
+Returns true if any part of a string matches the supplied regular expression.
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The string to test against the regular expression.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to test against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character). Non-greedy regular expressions are not supported.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;regexp_replace() function&lt;/h3&gt;
+Returns a string with the supplied regular expression replaced.
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The start string.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to replace. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character). Non-greedy regular expressions are not supported.&lt;br&gt;
+&lt;i&gt;  after&lt;/i&gt; &amp;rarr; is string.  The string that will replace any matching occurences of the supplied regular expression. Captured groups can be inserted into the replacement string using &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2, etc. &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;regexp_substr() function&lt;/h3&gt;
+Returns the portion of a string which matches a supplied regular expression.
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string.  The input string.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; is string.  The regular expression to match against. Backslash characters must be double escaped (eg &quot;&amp;#92;&amp;#92;s&quot; to match a white space character). Non-greedy regular expressions are not supported.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>geometryThread</name>
@@ -59667,7 +59902,7 @@ actually inserted, ie. when building queries.
     </message>
     <message>
         <source>Change the type of boundary dangle to line</source>
-        <translation type="unfinished">Cambiar el tipo de borde (dangle) en el extremo a línea</translation>
+        <translation>Cambiar el tipo de extremo suelto de borde a línea</translation>
     </message>
     <message>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
@@ -60915,7 +61150,7 @@ actually inserted, ie. when building queries.
     </message>
     <message>
         <source>Remove dangles</source>
-        <translation type="unfinished">Eliminar extremos sin borde (dangles)</translation>
+        <translation>Eliminar extremos sueltos</translation>
     </message>
     <message>
         <source>Remove duplicate area centroids</source>
@@ -61436,11 +61671,11 @@ actually inserted, ie. when building queries.
     </message>
     <message>
         <source>First geometry invalid in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Primera geometría no válida en el test de líneas con extremos sueltos.</translation>
     </message>
     <message>
         <source>Failed to import first geometry into GEOS in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se pudo importar la primera geometría a GEOS en el test de líneas con extremos sueltos.</translation>
     </message>
     <message>
         <source>Invalid second geometry in duplicate geometry test.</source>
