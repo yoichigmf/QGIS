@@ -2566,7 +2566,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/processing/ui/DlgConfig.ui" line="14"/>
         <source>Processing options</source>
-        <translation type="unfinished"></translation>
+        <translation>プロセッシングオプション</translation>
     </message>
     <message>
         <location filename="../python/plugins/processing/ui/DlgConfig.ui" line="26"/>
@@ -2775,7 +2775,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/processing/ui/DlgModeler.ui" line="14"/>
         <source>Processing modeler</source>
-        <translation type="unfinished"></translation>
+        <translation>プロセッシングモデラー</translation>
     </message>
     <message>
         <location filename="../python/plugins/processing/ui/DlgModeler.ui" line="40"/>
@@ -6775,7 +6775,7 @@ Shift+クリックで非表示
     </message>
     <message>
         <source>Processing models (*.model)</source>
-        <translation type="unfinished"></translation>
+        <translation>プロセッシングモデル (*.model)</translation>
     </message>
     <message>
         <source>SEXTANTE models (*.model)</source>
@@ -6938,31 +6938,31 @@ Wrong line: %1</source>
     <name>Processing</name>
     <message>
         <source>Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>プロセッシング</translation>
     </message>
     <message>
         <source>Toolbox</source>
-        <translation type="unfinished"></translation>
+        <translation>ツールボックス</translation>
     </message>
     <message>
         <source>Graphical modeler</source>
-        <translation type="unfinished"></translation>
+        <translation>グラフィカルモデラー</translation>
     </message>
     <message>
         <source>History and log</source>
-        <translation type="unfinished">ヒストリとログ</translation>
+        <translation>ヒストリとログ</translation>
     </message>
     <message>
         <source>Options and configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>オプションと構成</translation>
     </message>
     <message>
         <source>&amp;Results viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>結果ビューア(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Commander</source>
-        <translation type="unfinished"></translation>
+        <translation>コマンダ(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -6970,32 +6970,32 @@ Wrong line: %1</source>
     <message>
         <location filename="../python/plugins/processing/ui/ProcessingToolbox.ui" line="14"/>
         <source>Processing Toolbox</source>
-        <translation type="unfinished"></translation>
+        <translation>プロセッシングツールボックス</translation>
     </message>
     <message>
         <location filename="../python/plugins/processing/ui/ProcessingToolbox.ui" line="27"/>
         <source>Enter algorithm name to filter list</source>
-        <translation type="unfinished">リストをフィルタするためのアルゴリズム名を入力してください</translation>
+        <translation>リストをフィルタするためのアルゴリズム名を入力してください</translation>
     </message>
     <message>
         <source>Search...</source>
-        <translation type="unfinished">検索...</translation>
+        <translation>検索...</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation type="unfinished">実行</translation>
+        <translation>実行</translation>
     </message>
     <message>
         <source>Execute as batch process</source>
-        <translation type="unfinished">バッチプロセスとして実行</translation>
+        <translation>バッチプロセスとして実行</translation>
     </message>
     <message>
         <source>Edit rendering styles for outputs</source>
-        <translation type="unfinished">出力のためのレンダリングスタイルを編集</translation>
+        <translation>出力のためのレンダリングスタイルを編集</translation>
     </message>
     <message>
         <source>Recently used algorithms</source>
-        <translation type="unfinished">最近使用したアルゴリズム</translation>
+        <translation>最近使用したアルゴリズム</translation>
     </message>
 </context>
 <context>
@@ -7429,7 +7429,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Import Processing class</source>
-        <translation type="unfinished"></translation>
+        <translation>プロセッシングクラスのインポート</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;{0}&lt;/b&gt; could not be saved. Error: {1}</source>
