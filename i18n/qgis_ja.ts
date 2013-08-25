@@ -11605,12 +11605,12 @@ Always ignore these errors?</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="2346"/>
         <source>Compiled against GEOS</source>
-        <translation type="unfinished"></translation>
+        <translation>コンパイル時のGEOSバージョン</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="2347"/>
         <source>Running against GEOS</source>
-        <translation type="unfinished"></translation>
+        <translation>実行時のGEOSバージョン</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4252"/>
