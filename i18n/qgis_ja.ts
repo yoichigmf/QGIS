@@ -45,55 +45,55 @@
     <name>CoordinateCapture</name>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="96"/>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="160"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="102"/>
         <source>Coordinate Capture</source>
         <translation>座標キャプチャ</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="98"/>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="144"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="106"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="153"/>
         <source>Click on the map to view coordinates and capture to clipboard.</source>
         <translation>地図をクリックするとその地点の座標を表示してクリップボードに格納します。</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="101"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="109"/>
         <source>&amp;Coordinate Capture</source>
         <translation>座標キャプチャ(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="116"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="125"/>
         <source>Click to select the CRS to use for coordinate display</source>
         <translation>クリックすると座標を表示するためのCRSを選択できます</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="124"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="133"/>
         <source>Coordinate in your selected CRS (lat,lon or east,north)</source>
         <translatorcomment>経度,緯度の順は実際の表示順に合わせました</translatorcomment>
         <translation>選択されたCRSの座標(経度,緯度または東,北)</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="128"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="137"/>
         <source>Coordinate in map canvas coordinate reference system (lat,lon or east,north)</source>
         <translatorcomment>経度,緯度の順は実際の表示順に合わせました</translatorcomment>
         <translation>マップキャンバスが参照する座標系の座標(経度,緯度または東,北)</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="131"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="140"/>
         <source>Copy to clipboard</source>
         <translation>クリップボードへコピー</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="136"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="145"/>
         <source>Click to enable mouse tracking. Click the canvas to stop</source>
         <translation>クリックするとマウストラッキングが開始。キャンバスクリックで終了</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="141"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="150"/>
         <source>Start capture</source>
         <translation>キャプチャ開始</translation>
     </message>
     <message>
-        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="142"/>
+        <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="151"/>
         <source>Click to enable coordinate capture</source>
         <translation>クリックすると座標キャプチャを有効にする</translation>
     </message>
@@ -5213,6 +5213,9 @@ GEOS空間演算エラー:1個またはそれ以上の数の地物のジオメ�
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="213"/>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="214"/>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="215"/>
+        <location filename="../src/plugins/globe/globe_plugin.cpp" line="781"/>
+        <location filename="../src/plugins/globe/globe_plugin.cpp" line="782"/>
+        <location filename="../src/plugins/globe/globe_plugin.cpp" line="783"/>
         <source>&amp;Globe</source>
         <translation>地球儀(&amp;G)</translation>
     </message>
@@ -8826,19 +8829,19 @@ Error(%2): %3</source>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1118"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1576"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1582"/>
         <source>Arc/Info ASCII Coverage</source>
         <translation>Arc/Info ASCIIカバレッジ</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1125"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1581"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1587"/>
         <source>Atlas BNA</source>
         <translation>Atlas BNA</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1132"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1586"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1592"/>
         <source>Comma Separated Value</source>
         <translation>コンマ区切りファイル</translation>
     </message>
@@ -8854,44 +8857,44 @@ Error(%2): %3</source>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1153"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1614"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1616"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1620"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1622"/>
         <source>FMEObjects Gateway</source>
         <translation>FMEObjects Gateway</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1160"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1622"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1628"/>
         <source>GeoJSON</source>
         <translation>GeoJSON</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1167"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1627"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1633"/>
         <source>GeoRSS</source>
         <translation>GeoRSS</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1174"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1632"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1638"/>
         <source>Geography Markup Language [GML]</source>
         <translation>Geography Markup Language [GML]</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1181"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1637"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1643"/>
         <source>Generic Mapping Tools [GMT]</source>
         <translation>Generic Mapping Tools [GMT]</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1188"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1642"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1648"/>
         <source>GPS eXchange Format [GPX]</source>
         <translation>GPS eXchange Format [GPX]</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1209"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1669"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1675"/>
         <source>Keyhole Markup Language [KML]</source>
         <translation>Keyhole Markup Language [KML]</translation>
     </message>
@@ -8907,7 +8910,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1245"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1714"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1720"/>
         <source>Spatial Data Transfer Standard [SDTS]</source>
         <translation>Spatial Data Transfer Standard [SDTS]</translation>
     </message>
@@ -8920,7 +8923,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1281"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1595"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1601"/>
         <source>ESRI FileGDB</source>
         <translation>ESRI FileGDB</translation>
     </message>
@@ -8931,48 +8934,48 @@ Error(%2): %3</source>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1195"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1655"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1661"/>
         <source>INTERLIS 1</source>
         <translation>INTELIS 1</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1202"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1660"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1666"/>
         <source>INTERLIS 2</source>
         <translation>INTELIS 2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1674"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1680"/>
         <source>Mapinfo File</source>
         <translation>Mapinfo File</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1231"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1679"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1685"/>
         <source>Microstation DGN</source>
         <translation>Microstation DGN</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1238"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1708"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1714"/>
         <source>S-57 Base file</source>
         <translation>S-57 Base file</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1252"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1720"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1726"/>
         <source>SQLite</source>
         <translation>SQLite</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1267"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1750"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1756"/>
         <source>AutoCAD DXF</source>
         <translation>AutoCAD DXF</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1274"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1745"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1751"/>
         <source>Geoconcept</source>
         <translation>Geoconcept</translation>
     </message>
@@ -9251,28 +9254,28 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <translation>SQL Anywhereデータデータベースにベクタレイヤを格納します</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1572"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1578"/>
         <source>Arc/Info Binary Coverage</source>
         <translation>Arc/Info Binary Coverage</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1589"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1595"/>
         <source>DODS</source>
         <translation>DODS</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1599"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1601"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1605"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1607"/>
         <source>ESRI Personal GeoDatabase</source>
         <translation>ESRI Personal Geo Database</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1607"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1613"/>
         <source>ESRI ArcSDE</source>
         <translation>ESRI ArcSDE</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1611"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1617"/>
         <source>ESRI Shapefiles</source>
         <translation>ESRI Shapefiles</translation>
     </message>
@@ -9293,14 +9296,14 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="694"/>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="712"/>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="64"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1564"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1941"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1958"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2006"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2033"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2096"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1570"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1947"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1964"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2012"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2039"/>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2102"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2120"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2108"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2126"/>
         <source>OGR</source>
         <translation>OGR</translation>
     </message>
@@ -9310,113 +9313,113 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <translation>データソースを作成できません.%1は存在していて上書きフラグがfalseです.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1564"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1570"/>
         <source>Unable to get driver %1</source>
         <translation>%1ドライバを取得できません</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1647"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1653"/>
         <source>Grass Vector</source>
         <translation>Grass Vector</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1651"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1657"/>
         <source>Informix DataBlade</source>
         <translation>Informix DataBlade</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1665"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1671"/>
         <source>Ingres</source>
         <translation>Ingres</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1684"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1690"/>
         <source>MySQL</source>
         <translation>MySQL</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1688"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1694"/>
         <source>MSSQL</source>
         <translation>MSSQL</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1692"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1698"/>
         <source>Oracle Spatial</source>
         <translation>Oracle Spatial</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1696"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1702"/>
         <source>ODBC</source>
         <translation>ODBC</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1700"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1706"/>
         <source>OGDI Vectors</source>
         <translation>OGDI Vectors</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1704"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1710"/>
         <location filename="../src/providers/postgres/qgspostgresfeatureiterator.cpp" line="261"/>
         <source>PostgreSQL</source>
         <translation>PostgreSQL</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1941"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1947"/>
         <source>Duplicate field (10 significant characters): %1</source>
         <translation>フィールド重複(10文字の有意文字): %1</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1958"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1964"/>
         <source>Creating the data source %1 failed: %2</source>
         <translation>ファイルデータソース %1 の作成に失敗しました:%2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2006"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2012"/>
         <source>Unknown vector type of %1</source>
         <translation>不明なベクタタイプ %1</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2033"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2039"/>
         <source>Creation of OGR data source %1 failed: %2</source>
         <translation>OGRデータソース %1 の作成に失敗しました: %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2096"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2102"/>
         <source>field %1 with unsupported type %2 skipped</source>
         <translation>フィールド%1はサポートされていない型%2なのでスキップされました</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2102"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2108"/>
         <source>creation of field %1 failed</source>
         <translation>フィールド%1の作成に失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2120"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2126"/>
         <source>Couldn&apos;t create file %1.qpj</source>
         <translation>%1.qpjファイルの作成に失敗しました</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1725"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1731"/>
         <source>UK. NTF2</source>
         <translation>UK NTF2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1729"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1735"/>
         <source>U.S. Census TIGER/Line</source>
         <translation>US Census TIGER/Line</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1733"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1739"/>
         <source>VRT - Virtual Datasource</source>
         <translation>VRT - Virtual Datasource</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1739"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1745"/>
         <source>X-Plane/Flightgear</source>
         <translation>X-Plane/Flightgear</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1778"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1784"/>
         <source>All files</source>
         <translation>全ファイル</translation>
     </message>
@@ -9452,7 +9455,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     </message>
     <message>
         <location filename="../src/providers/gdal/qgsgdalprovider.cpp" line="2002"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1770"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1776"/>
         <source>GDAL/OGR VSIFileHandler</source>
         <translation>GDAL/OGR VSIファイルハンドラ</translation>
     </message>
@@ -12117,27 +12120,27 @@ p, li { white-space: pre-wrap; }
         <translation>私たちのユーザーメーリングリストに参加してください</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsabout.cpp" line="129"/>
+        <location filename="../src/app/qgsabout.cpp" line="131"/>
         <source>&lt;p&gt;For a list of individuals and institutions who have contributed money to fund QGIS development and other project costs see &lt;a href=&quot;http://qgis.org/en/sponsorship/donors.html&quot;&gt;http://qgis.org/en/sponsorship/donors.html&lt;/a&gt;&lt;/p&gt;</source>
         <translation>&lt;p&gt;QGISの開発とその他のプロジェクトにかかる費用を寄付した個人と機関のリストは次のWEBページで閲覧できます &lt;a href=&quot;http://qgis.org/en/sponsorship/donors.html&quot;&gt;http://qgis.org/en/sponsorship/donors.html&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsabout.cpp" line="228"/>
+        <location filename="../src/app/qgsabout.cpp" line="230"/>
         <source>Available QGIS Data Provider Plugins</source>
         <translation>利用可能なQGISデータプロバイダプラグイン</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsabout.cpp" line="231"/>
+        <location filename="../src/app/qgsabout.cpp" line="233"/>
         <source>Available Qt Database Plugins</source>
         <translation>利用可能なQtデータベースプラグイン</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsabout.cpp" line="237"/>
+        <location filename="../src/app/qgsabout.cpp" line="239"/>
         <source>Available Qt Image Plugins</source>
         <translation>利用可能なQtイメージプラグイン</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsabout.cpp" line="238"/>
+        <location filename="../src/app/qgsabout.cpp" line="240"/>
         <source>Qt Image Plugin Search Paths &lt;br&gt;</source>
         <translation>Qtイメージプラグインサーチパス&lt;br&gt;</translation>
     </message>
@@ -12150,12 +12153,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QgsAddAttrDialog</name>
     <message>
-        <location filename="../src/app/qgsaddattrdialog.cpp" line="94"/>
+        <location filename="../src/app/qgsaddattrdialog.cpp" line="91"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../src/app/qgsaddattrdialog.cpp" line="95"/>
+        <location filename="../src/app/qgsaddattrdialog.cpp" line="92"/>
         <source>Invalid field name. This field name is reserved and cannot be used.</source>
         <translation>不正なフィールド名.このフィールド名は利用されていて利用できません.</translation>
     </message>
@@ -20717,22 +20720,22 @@ Leave empty to automatically apply the maximum value.</source>
 <context>
     <name>QgsDualView</name>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="280"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="281"/>
         <source>Attributes changed</source>
         <translation>属性が変更されました</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="299"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="300"/>
         <source>Expression based preview</source>
         <translation>式に基づくプレビュー</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="319"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="320"/>
         <source>Could not set preview column</source>
         <translation>プレビューカラムを設定できません</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="320"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="321"/>
         <source>Could not set column &apos;%1&apos; as preview column.
 Parser error:
 %2</source>
@@ -20741,33 +20744,33 @@ Parser error:
 %2</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="361"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="362"/>
         <source>Run action</source>
         <translation>アクション実行</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="376"/>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="377"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="378"/>
         <source>Open form</source>
         <translation>フォームのオープン</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="416"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="417"/>
         <source>Loading features...</source>
         <translation>地物をロードしています...</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="416"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="417"/>
         <source>Abort</source>
         <translation>取り消し</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="417"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="418"/>
         <source>Attribute table</source>
         <translation>属性テーブル</translation>
     </message>
     <message>
-        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="423"/>
+        <location filename="../src/gui/attributetable/qgsdualview.cpp" line="424"/>
         <source>%1 features loaded.</source>
         <translation>%1地物ロード済.</translation>
     </message>
@@ -29263,22 +29266,22 @@ not displayed</source>
 <context>
     <name>QgsLinePatternFillSymbolLayerWidget</name>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1540"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1558"/>
         <source>Angle</source>
         <translation>角度</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1542"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1560"/>
         <source>Distance</source>
         <translation>距離</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1544"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1562"/>
         <source>Line width</source>
         <translation>線幅</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1546"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1564"/>
         <source>Color</source>
         <translation>色</translation>
     </message>
@@ -31950,7 +31953,7 @@ Extended error information:
         <translation>Mapinfo ファイル</translation>
     </message>
     <message>
-        <location filename="../src/gui/qgsnewvectorlayerdialog.cpp" line="242"/>
+        <location filename="../src/gui/qgsnewvectorlayerdialog.cpp" line="243"/>
         <source>Save As</source>
         <translation>名前をつけて保存</translation>
     </message>
@@ -32952,11 +32955,11 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="347"/>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="352"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="946"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1245"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1264"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1272"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1470"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="952"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1251"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1270"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1278"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1476"/>
         <source>OGR</source>
         <translation>OGR</translation>
     </message>
@@ -32986,131 +32989,131 @@ Always network: always load from network and do not check if the cache has a val
         <translation>日付</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="360"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="366"/>
         <source>Date &amp; Time</source>
         <translation>日付と時刻</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="405"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="411"/>
         <source>OGR[%1] error %2: %3</source>
         <translation>OGR[%1] エラー %2: %3</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="542"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="548"/>
         <source>Unknown</source>
         <translation>不明</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="879"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="885"/>
         <source>OGR error creating wkb for feature %1: %2</source>
         <translation>wkb地物作成OGRエラー %1.%2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="946"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="952"/>
         <source>type %1 for attribute %2 not found</source>
         <translation>型%1の属性%2が見つかりません</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="954"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="960"/>
         <source>OGR error creating feature %1: %2</source>
         <translation>地物作成OGRエラー %1:.%2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1018"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1024"/>
         <source>type %1 for field %2 not found</source>
         <translation>型%1のフィールド%2が見つかりません</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1029"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1035"/>
         <source>OGR error creating field %1: %2</source>
         <translation>OGR エラー フィールド作成 %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1049"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1055"/>
         <source>OGR error deleting field %1: %2</source>
         <translation>OGR エラー フィールド削除 %1: %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1057"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1063"/>
         <source>Deleting fields is not supported prior to GDAL 1.9.0</source>
         <translation>GDAL 1.9.0より前ではフィールド削除はサポートされていません</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1078"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1172"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1347"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1084"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1178"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1353"/>
         <source>OGR error on feature %1: id too large</source>
         <translation>OGRエラー 地物　%1　idが大きすぎます</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1086"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1092"/>
         <source>Feature %1 for attribute update not found.</source>
         <translation>地物 %1 更新属性がありません.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1099"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1105"/>
         <source>Field %1 of feature %2 doesn&apos;t exist.</source>
         <translation>地物%2のフィールド%1が存在しません.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1142"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1148"/>
         <source>Type %1 of attribute %2 of feature %3 unknown.</source>
         <translation>地物%3の属性%2の持つ型%1が不明です.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1150"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1213"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1156"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1219"/>
         <source>OGR error setting feature %1: %2</source>
         <translation>OGRエラー 地物設定 %1 %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1156"/>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2332"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1162"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2338"/>
         <source>OGR error syncing to disk: %1</source>
         <translation>QGR ディスクとの同期エラー %1</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1179"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1185"/>
         <source>OGR error changing geometry: feature %1 not found</source>
         <translation>OGRエラー ジオメトリの変更　地物%1がみつかりません</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1189"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1195"/>
         <source>OGR error creating geometry for feature %1: %2</source>
         <translation>OGRエラー ジオメトリの作成　地物%1 %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1197"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1203"/>
         <source>OGR error in feature %1: geometry is null</source>
         <translation>OGRエラー 地物%1 のジオメトリがnullです</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1204"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1210"/>
         <source>OGR error setting geometry of feature %1: %2</source>
         <translation>OGRエラー ジオメトリの設定　地物%1 %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1245"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1251"/>
         <source>Possible corruption after REPACK detected. %1 still exists. This may point to a permission or locking problem of the original DBF.</source>
         <translation>詰め替えを行った後に破損の可能性が検出されました.%1はまだ存在します.この問題はアクセス権限か元DBFのロックの問題のの可能性があります.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1264"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1270"/>
         <source>Original layer could not be reopened.</source>
         <translation>オリジナルレイヤを再オープンできませんでした.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1272"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1278"/>
         <source>Original datasource could not be reopened.</source>
         <translation>オリジナルデータソースを再オープンできませんでした.</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1353"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1359"/>
         <source>OGR error deleting feature %1: %2</source>
         <translation>OGRエラー 地物削除 %1 %2</translation>
     </message>
     <message>
-        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1470"/>
+        <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1476"/>
         <source>Shapefiles without attribute are considered read-only.</source>
         <translation>属性の無いシェープファイルはread-onlyとみなされます.</translation>
     </message>
@@ -36307,59 +36310,59 @@ Error: %2</source>
         <translation>接続情報</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="66"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="72"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="86"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="92"/>
         <source>Host</source>
         <translation>ホスト</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="106"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="112"/>
         <source>Database</source>
         <translation>データベース</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="96"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="102"/>
         <source>Port</source>
         <translation>ポート</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="126"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="132"/>
         <source>Username</source>
         <translation>ユーザ名</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="136"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="142"/>
         <source>Password</source>
         <translation>パスワード</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="196"/>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="281"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="202"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="287"/>
         <source>Restrict the displayed tables to those that are in the layer registries.</source>
         <translation>レイヤレジストリにあるテーブルのみ表示する.</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="199"/>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="284"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="205"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="290"/>
         <source>Restricts the displayed tables to those that are found in the layer registries (geometry_columns, geography_columns, topology.layer). This can speed up the initial display of spatial tables.</source>
         <translation>レイヤレジストリ(geometry_columns, geography_columns, topology.layer)に見つかったテーブルのみ表示します.これによって空間テーブルの初期表示を高速化できます.</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="202"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="208"/>
         <source>Only look in the layer registries</source>
         <translation>レイヤレジストリのみ参照する</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="250"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="256"/>
         <source>Use estimated table statistics for the layer metadata.</source>
         <translation>レイヤメタデータに概算されたテーブル統計値を利用する.</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="253"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="259"/>
         <source>&lt;html&gt;
 &lt;body&gt;
 &lt;p&gt;When the layer is setup various metadata is required for the PostGIS table. This includes information such as the table row count, geometry type and spatial extents of the data in the geometry column. If the table contains a large number of rows determining this metadata is time consuming.&lt;/p&gt;
@@ -36380,67 +36383,67 @@ Error: %2</source>
 &lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="264"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="270"/>
         <source>Use estimated table metadata</source>
         <translation>概算されたテーブルメタデータを利用する</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="287"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="293"/>
         <source>Don&apos;t resolve type of unrestricted columns (GEOMETRY)</source>
         <translation>制限のないカラムのタイプ(GEOMETRY)を解決しない</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="116"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="122"/>
         <source>SSL mode</source>
         <translation>SSLモード</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="156"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="162"/>
         <source>Name of the new connection</source>
         <translation>新規接続の名称</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="169"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="175"/>
         <source>5432</source>
         <translation>5432</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="227"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="233"/>
         <source>Save Username</source>
         <translation>ユーザ名の保存</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="241"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="247"/>
         <source>Save Password</source>
         <translation>パスワード保存</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="234"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="240"/>
         <source>&amp;Test Connect</source>
         <translation>接続テスト(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="76"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="82"/>
         <source>Service</source>
         <translation>サービス</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="209"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="215"/>
         <source>Restrict the search to the public schema for spatial tables not in the geometry_columns table</source>
         <translation>geometry_columnsテーブルに無い空間テーブルの公開スキーマ検索を制限します</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="212"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="218"/>
         <source>When searching for spatial tables that are not in the geometry_columns tables, restrict the search to tables that are in the public schema (for some databases this can save lots of time)</source>
         <translation>geometry_columnsテーブルに無い空間情報テーブルを検索する時にパブリックスキーマにあるテーブルの検索を制限します（いくつかのデータベースではこの処理に大量に時間がかかるからです）</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="215"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="221"/>
         <source>Only look in the &apos;public&apos; schema</source>
         <translation>&apos;public&apos;スキーマのみ参照する</translation>
     </message>
     <message>
-        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="271"/>
+        <location filename="../src/ui/qgspgnewconnectionbase.ui" line="277"/>
         <source>Also list tables with no geometry</source>
         <translation>ジオメトリを持たないテーブルもリストする</translation>
     </message>
@@ -38328,22 +38331,22 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QgsPointPatternFillSymbolLayerWidget</name>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1689"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1707"/>
         <source>Horizontal distance</source>
         <translation>水平距離</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1691"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1709"/>
         <source>Vertical distance</source>
         <translation>垂直距離</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1693"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1711"/>
         <source>Horizontal displacement</source>
         <translation>水平方向配置</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1695"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1713"/>
         <source>Vertical displacement</source>
         <translation>垂直方向配置</translation>
     </message>
@@ -40570,7 +40573,7 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="284"/>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="294"/>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1578"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1576"/>
         <source>Raster</source>
         <translation>ラスタ</translation>
     </message>
@@ -40580,177 +40583,177 @@ Click on help button to get valid creation options for this format.</source>
         <translation>レイヤの領域を再投影できません: %1</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="467"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="465"/>
         <source>Driver</source>
         <translation>ドライバー</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="493"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="491"/>
         <source>Data Type</source>
         <translation>データタイプ</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="500"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="498"/>
         <source>Byte - Eight bit unsigned integer</source>
         <translation>Byte - 8ビット符号なし整数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="503"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="501"/>
         <source>UInt16 - Sixteen bit unsigned integer </source>
         <translation>UInt16 - 16ビット符号なし整数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="506"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="504"/>
         <source>Int16 - Sixteen bit signed integer </source>
         <translation>Int16 - 16ビット符号つき整数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="509"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="507"/>
         <source>UInt32 - Thirty two bit unsigned integer </source>
         <translation>UInt32 - 32ビット符号なし整数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="512"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="510"/>
         <source>Int32 - Thirty two bit signed integer </source>
         <translation>Int32 - 32ビット符号つき整数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="515"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="513"/>
         <source>Float32 - Thirty two bit floating point </source>
         <translation>Float32 - 32ビット浮動小数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="518"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="516"/>
         <source>Float64 - Sixty four bit floating point </source>
         <translation>Float64 - 64ビット浮動小数</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="521"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="519"/>
         <source>CInt16 - Complex Int16 </source>
         <translation>CInt16 - 複素数 Int16</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="524"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="522"/>
         <source>CInt32 - Complex Int32 </source>
         <translation>CInt32 - 複素数 Int32</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="527"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="525"/>
         <source>CFloat32 - Complex Float32 </source>
         <translation>CFloat32 - 複素数 Float32</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="530"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="528"/>
         <source>CFloat64 - Complex Float64 </source>
         <translation>CFloat64 - 複素数 Float64</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="538"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="536"/>
         <source>Pyramid overviews</source>
         <translation>ピラミッドオーバービュー</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="543"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="541"/>
         <source>Layer Spatial Reference System</source>
         <translation>レイヤ空間参照システム</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="550"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="548"/>
         <source>Layer Extent (layer original source projection)</source>
         <translation>レイヤ領域（レイヤのオリジナルプロジェクション)</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="560"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="558"/>
         <source>Project Spatial Reference System</source>
         <translation>プロジェクト空間参照システム</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="576"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="574"/>
         <source>Band</source>
         <translation>バンド</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="583"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="581"/>
         <source>Band No</source>
         <translation>バンド番号</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="595"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="593"/>
         <source>No Stats</source>
         <translation>未統計化</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="598"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="596"/>
         <source>No stats collected yet</source>
         <translation>まだ統計化されていません</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="608"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="606"/>
         <source>Min Val</source>
         <translation>最小値</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="616"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="614"/>
         <source>Max Val</source>
         <translation>最大値</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="624"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="622"/>
         <source>Range</source>
         <translation>範囲</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="632"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="630"/>
         <source>Mean</source>
         <translation>平均値</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="640"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="638"/>
         <source>Sum of squares</source>
         <translation>スクエア合計</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="648"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="646"/>
         <source>Standard Deviation</source>
         <translation>標準偏差</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="656"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="654"/>
         <source>Sum of all cells</source>
         <translation>セル数合計</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="664"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="662"/>
         <source>Cell Count</source>
         <translation>セル数を数える</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="801"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="799"/>
         <source>Cannot instantiate the &apos;%1&apos; data provider</source>
         <translation>&apos;%1&apos; データプロバイダが挙げられません</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="811"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="809"/>
         <source>Provider is not valid (provider: %1, URI: %2</source>
         <translation>プロバイダが不正です (プロバイダ: %1, URI: %2</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1578"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="1576"/>
         <source>&lt;maplayer&gt; not found.</source>
         <translation>&lt;maplayer&gt; が見つかりません.</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="533"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="531"/>
         <source>Could not determine raster data type.</source>
         <translation>ラスタデータのタイプが判定できません。</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="477"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="475"/>
         <source>No Data Value</source>
         <translation>データ無しとする値</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="487"/>
+        <location filename="../src/core/raster/qgsrasterlayer.cpp" line="485"/>
         <source>NoDataValue not set</source>
         <translation>データ無しとする値は設定されていません</translation>
     </message>
@@ -42005,24 +42008,49 @@ standard deviation ×</source>
         <translation>ユーザー定義</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="197"/>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="201"/>
         <source>Estimated</source>
         <translation>推定された</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="201"/>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="205"/>
         <source>Exact</source>
         <translation>厳密</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="208"/>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="210"/>
         <source>min / max</source>
         <translation>最小/最大</translation>
     </message>
     <message>
-        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="219"/>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="214"/>
+        <source>cumulative cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="218"/>
+        <source>standard deviation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="223"/>
+        <source>full extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="227"/>
+        <source>sub extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="230"/>
+        <source>%1 %2 of %3.</source>
+        <comment>min/max origin label in raster properties, where %1 - estimated/exact, %2 - values (min/max, stddev, etc.), %3 - extent</comment>
+        <translation type="unfinished">%1 / %3. {1 %2 ?}</translation>
+    </message>
+    <message>
         <source> of </source>
-        <translation>の</translation>
+        <translation type="obsolete">の</translation>
     </message>
 </context>
 <context>
@@ -42817,37 +42845,37 @@ standard deviation ×</source>
 <context>
     <name>QgsSVGFillSymbolLayerWidget</name>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1205"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1223"/>
         <source>Select svg texture file</source>
         <translation>svgテクスチャファイルの選択</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1383"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1401"/>
         <source>Texture width</source>
         <translation>テクスチャ幅</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1385"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1403"/>
         <source>SVG file</source>
         <translation>SVGファイル</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1387"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1405"/>
         <source>Rotation</source>
         <translation>回転</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1389"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1407"/>
         <source>Color</source>
         <translation>色</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1391"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1409"/>
         <source>Border color</source>
         <translation>ボーダーカラー</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1393"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1411"/>
         <source>Border width</source>
         <translation>ボーダー太さ</translation>
     </message>
@@ -43553,6 +43581,39 @@ enhancement</source>
     </message>
 </context>
 <context>
+    <name>QgsSmartGroupCondition</name>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="33"/>
+        <source>has the tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="34"/>
+        <source>is a member of group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="35"/>
+        <source>has a part of name matching</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="36"/>
+        <source>does NOT have the tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="37"/>
+        <source>is NOT a member of group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="38"/>
+        <source>has NO part of name matching</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsSmartGroupConditionWidget</name>
     <message>
         <location filename="../src/ui/qgssmartgroupconditionwidget.ui" line="14"/>
@@ -43567,6 +43628,16 @@ enhancement</source>
 </context>
 <context>
     <name>QgsSmartGroupEditorDialog</name>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="86"/>
+        <source>ALL the constraints</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="87"/>
+        <source>any ONE of the constraints</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="204"/>
         <source>Invalid name</source>
@@ -45840,47 +45911,47 @@ There was a problem with your symbol database.</source>
 <context>
     <name>QgsSvgMarkerSymbolLayerV2Widget</name>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1011"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1029"/>
         <source>Select SVG file</source>
         <translation>SVGファイルの選択</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1013"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1031"/>
         <source>SVG files</source>
         <translation>SVGファイル</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1121"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1139"/>
         <source>Size</source>
         <translation>大きさ</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1123"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1141"/>
         <source>Border width</source>
         <translation>ボーダー太さ</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1125"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1143"/>
         <source>Angle</source>
         <translation>角度</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1127"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1145"/>
         <source>Offset</source>
         <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1129"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1147"/>
         <source>SVG file</source>
         <translation>SVGファイル</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1131"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1149"/>
         <source>Color</source>
         <translation>色</translation>
     </message>
     <message>
-        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1133"/>
+        <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1151"/>
         <source>Border color</source>
         <translation>ボーダーカラー</translation>
     </message>
@@ -45995,6 +46066,16 @@ There was a problem with your symbol database.</source>
 </context>
 <context>
     <name>QgsSymbolsListWidget</name>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssymbolslistwidget.cpp" line="74"/>
+        <source>Style Manager</source>
+        <translation type="unfinished">スタイルマネージャ</translation>
+    </message>
+    <message>
+        <location filename="../src/gui/symbology-ng/qgssymbolslistwidget.cpp" line="76"/>
+        <source>Save in symbol library...</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbolslistwidget.cpp" line="223"/>
         <source>Symbol name</source>
