@@ -54057,7 +54057,13 @@ The field calculator allows you to update fields with expressions.
 </translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1053"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="154"/>
+        <source>&lt;h3&gt;Identify&lt;/h3&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="741"/>
         <source>&lt;h3&gt;Identify Features&lt;/h3&gt;
 &lt;p&gt;
 The results dialog shows all the features identified within the search tolerance. To see the results details, expand the feature information on the left of each feature.
