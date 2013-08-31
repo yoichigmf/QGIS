@@ -39158,7 +39158,7 @@ Proceed?</source>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1452"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1453"/>
         <source>Select %1 from pull-down menu to adjust radii</source>
-        <translation type="unfinished"></translation>
+        <translation>半径の調整のためにプルダウンメニューから%1を選択する</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1465"/>
@@ -42025,28 +42025,28 @@ standard deviation ×</source>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="214"/>
         <source>cumulative cut</source>
-        <translation type="unfinished"></translation>
+        <translation>累積カット</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="218"/>
         <source>standard deviation</source>
-        <translation type="unfinished"></translation>
+        <translation>標準偏差</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="223"/>
         <source>full extent</source>
-        <translation type="unfinished"></translation>
+        <translation>全領域</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="227"/>
         <source>sub extent</source>
-        <translation type="unfinished"></translation>
+        <translation>一部領域</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="230"/>
         <source>%1 %2 of %3.</source>
         <comment>min/max origin label in raster properties, where %1 - estimated/exact, %2 - values (min/max, stddev, etc.), %3 - extent</comment>
-        <translation type="unfinished">%1 / %3. {1 %2 ?}.</translation>
+        <translation>%3のうち%1 %2 .</translation>
     </message>
     <message>
         <source> of </source>
@@ -52109,7 +52109,51 @@ which are described and illustrated on &lt;a href=&quot;http://en.wikipedia.org/
 &lt;p&gt;Contact the author through aruntheguy at gmail dot com&lt;/p&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h1&gt;ヒートマッププラグインヘルプ&lt;/h1&gt;
+&lt;p&gt;ヒートマッププラグインはラスタの密度（ヒートマップ）作成に入力ポイントベクタレイヤのカーネル密度推定を利用しています.  密度は場所の点の数をベースにして計算され多数のポイントの集積は大きな値を算出します. ヒートマップは&quot;ホットスポット&quot;や点の集まりを判別しやすくする手法です.&lt;/p&gt;
+
+&lt;h2&gt;ダイアログパラメータ&lt;/h2&gt;
+
+&lt;h3&gt;入力ポイントレイヤ&lt;/h3&gt;
+&lt;p&gt;入力は常に点のタイプのベクタレイヤです. ドロップダウンリストに現在キャンバスにロードされているすべてのポイントベクタレイヤのリストが表示されます. ドロップダウンボタンをクリックしてお望みのレイヤを選択して下さい.&lt;/p&gt;
+
+&lt;h3&gt;出力ラスタ&lt;/h3&gt;
+&lt;p&gt;出力ラスタの場所とファイル名はラスタテキストボックスの隣にある&lt;label&gt;...&lt;/label&gt;ボタンをクリックして 指定して下さい.&lt;br/&gt;
+&lt;b&gt;注:&lt;/b&gt; ファイル形式は特別に指定されない場合選択された形式にしたがって自動的に追加されます.&lt;/p&gt;
+
+&lt;h3&gt;出力形式&lt;/h3&gt;
+&lt;p&gt;すべてのファイルはドロップダウンリストで指定できるGDALがサポートする形式で作成できます. 利用したい出力ファイル形式をクリックして選択して下さい.&lt;br/&gt;
+&lt;b&gt;注:&lt;/b&gt; GeoTiff と ERDAS Imagine .img 形式が推奨されています. いくつかの形式を使うとアプリケーションがクラッシュします. クラッシュする問題が解決するまでは推奨形式を利用するか、あなたがGDALのサポートをよく知っているなら他の形式をつかってもいいかもしれません.&lt;/p&gt;
+
+&lt;h3&gt;半径 (バンド幅)&lt;/h3&gt;
+&lt;p&gt;ヒートマップ検索半径 (またはカーネルバンド幅)をメーターまたは地図上の単位で指定できます. 半径の指定は点からの距離でポイントが影響を受ける領域を指定します.大きな値を指定すると結果がスムーズになりますが小さい値を指定すると詳細で多彩な点密度を作れます.&lt;/p&gt;
+
+&lt;h3&gt;先進的オプション&lt;/h3&gt;
+
+&lt;h4&gt;行とカラム&lt;/h4&gt;
+&lt;p&gt;この機能で出力ラスタファイルの次元を変えることができます. これらの値は&lt;b&gt;セルサイズ X&lt;/b&gt; と &lt;b&gt;セルサイズ Y&lt;/b&gt;の値にもリンクしています. 
+行またはカラムの値を大きくするとセルサイズは減少して出力ファイルのサイズは増加します. 行とカラムの値はリンクされています,ですから行の数を倍にすると自動的にカラムの数も倍になりセルサイズも半減します. 出力ラスタの地理的領域は変わりません!&lt;/p&gt;
+
+&lt;h4&gt;セルサイズ X と Y&lt;/h4&gt;
+&lt;p&gt;出力ラスタのそれぞれのピクセルの地理的サイズを管理します. これらの値を変えると出力ラスタの行とカラムの値も変わります.&lt;/p&gt;
+  
+&lt;h4&gt;Kernel shape&lt;/h4&gt;
+&lt;p&gt;カーネルshape は点からの距離の増大の影響で点が減少する影響のレートを管理します. 異なるレートで異なるカーネル減衰を実行します、たとえばtriweightカーネルはEpanechnikov カーネルよりポイントに近い距離に大きなウェイトを与えます. その結果としてtriweightの結果は &quot;シャープ&quot; なホットスポットを作り,  Epanechnikovの結果は &quot;スムーズ&quot;なホットスポットを表します. 標準的なカーネル機能はQGISで利用できます,
+それらは次の &lt;a href=&quot;http://en.wikipedia.org/wiki/Kernel_(statistics)#Kernel_functions_in_common_use&quot;&gt;Wikipedia&lt;/a&gt;で解説、図示されています.&lt;/p&gt;
+
+&lt;h4&gt;減衰率&lt;/h4&gt;
+&lt;p&gt;triangularカーネルでは減衰率はバッファ半径内のもっとも外側のピクセルに適用する影響量を定義します. 標準 triangularカーネルで値0は指定半径まで距離が近づくにつれて値が0になることを示します.対照的に値1は点からの距離が増加するにつれて減衰が発生しないことを示しています.&lt;/p&gt;
+
+&lt;h4&gt;フィールド値を半径に使う&lt;/h4&gt;
+&lt;p&gt;オプションで入力レイヤの各ポイントのフィールド値をカーネル半径の制御に利用できます.&lt;/p&gt;
+
+&lt;h4&gt;フィールド値をウェイトに使う&lt;/h4&gt;
+&lt;p&gt;オプションでポイントに対するウェイトの属性を入力レイヤのいくつかのポイントの値から利用することができます.&lt;/p&gt;
+
+&lt;h2&gt;詳細情報&lt;/h2&gt;
+&lt;p&gt;作者に連絡して下さい aruntheguy at gmail dot com&lt;/p&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="265"/>
@@ -53080,7 +53124,166 @@ that will be automatically deleted after running.&lt;/li&gt;
 	from the close button. This allows you to save the geometry to be restored to the next start.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;style&gt;
+	#toolbarConsole td{
+		background: #f6f6f6;
+	}
+&lt;/style&gt;
+&lt;h3&gt;QGIS Python コンソール&lt;/h3&gt;
+&lt;a href=&quot;#console&quot;&gt;コンソール&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#editor&quot;&gt;エディタ&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#settings&quot;&gt;設定&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;p align=&apos;justify&apos;&gt;
+				QGIS Python コンソールはpythonコマンドを実行するための対話型シェルです. 
+				またpython ファイルエディタを使ってpythonスクリプトを編集,保存することができます. 
+				コンシールとエディタの両方はPyQScintilla2 パッケージで作成されています.&lt;br&gt;
+				コンソールは2個のペインに分割されていて上下のペインは水平分割線で大きさを変えられます. 
+　　　　　　　　　　　　　　　　ペインの表示エリアはリードオンリーでコマンドの出力を表示します. 
+                                入力エリアに対してテキストをドラッグアンドドロップやコピーアンドペーストできます.
+				またテキストを選択してコンテキストメニューの&lt;label&gt;Enter selected&lt;/label&gt;コマンドをクリックすると
+　　　　　　　　　　　　　　　　コードスニペッツを実行できます. 
+				選択テキストがインタプリタプロンプト (&gt;&gt;&gt;, ...)を含んでいても問題ありません. 入力エリアペインは入力コマンド用対話型pythonシェルです.&lt;br&gt;pythonファイルエディタを利用する場合ツールバーの
+				&lt;label&gt;Show editor&lt;/label&gt; ボタンを使って下さい.
+　　　　　　　　　　　　　　　　 エディタを使うとpythonファイルを編集と保存できコードを管理するための基本機能が提供されます (コードのコメントとアンコメント,文法にチェック,codepad.orgを使ったコード共有等).
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;console&quot;&gt;
+&lt;h4&gt;コンソール&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;主な機能:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;コードの補完,以下のAPIについての文法によるハイライトとコールチップス:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Alt+Space&lt;/label&gt; 自動補完リストの表示.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Shift+Space&lt;/label&gt; コマンドヒストリリストの表示.&lt;/li&gt;
+			&lt;br&gt;
+                        &lt;li&gt;出力ペインで &lt;label&gt;Enter selected&lt;/label&gt; コマンドを選んでコードすにっぷすの実行.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;_api&lt;/label&gt;という入力でQGIS API文書を開けますく.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;_pyqgis&lt;/label&gt;と入力するとPyQGIS Cookbookを開けます.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;入力ペインのコンテキストメニューでコマンドヒストリの保存とクリアができます. 
+			ヒストリはファイル ~/.qgis2/console_history.txt に保存されます&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+		&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;b&gt;&lt;i&gt;ツールバー:&lt;/i&gt;&lt;/b&gt;
+	&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;pythonコンソールのクリア&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconProcessingConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;プロセッシングクラスのインポート&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtCore クラスのインポート&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;PyQt4.QtGuiクラスのインポート&lt;/td&gt;
+		&lt;/tr&gt;
+                &lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;コマンドの実行 (Enter キーを押すのに似ています)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;設定&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;ヘルプ&lt;/td&gt;
+		&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;editor&quot;&gt;
+&lt;h4&gt;編集&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;主な機能:&lt;/i&gt;&lt;/b&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
+			&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;ul&gt;
+			&lt;li&gt;コードの補完,以下のAPIについての文法によるハイライトとコールチップス:
+				&lt;ol&gt;
+				&lt;li&gt;Python&lt;/li&gt;
+				&lt;li&gt;PyQGIS&lt;/li&gt;
+				&lt;li&gt;PyQt4&lt;/li&gt;
+				&lt;li&gt;QScintilla2&lt;/li&gt;
+				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+Space&lt;/label&gt; 自動補完リストの表示.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;codepad.orgを使ったコードスニペットの共有.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Ctrl+4&lt;/label&gt; 文法のチェック.&lt;/li&gt; 
+			&lt;br&gt;
+			&lt;li&gt;オブジェクトインスペクタ: クラスと関数のブラウザ.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;マウスクリックでオブジェクト定義に移動します. (オブジェクトインスペクタから)&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Enter selected&lt;/label&gt; コマンドでコードスニペッツを実行します.&lt;/li&gt;
+			&lt;br&gt;
+			&lt;li&gt;&lt;label&gt;Run script&lt;/label&gt; コマンドでスクリプト全体を実行します
+			(このコマンドを実行すると .pycという拡張子のバイトコンパイルされたファイルを生成します)&lt;/li&gt;
+			&lt;br&gt;
+			&lt;/ul&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a name=&quot;settings&quot;&gt;
+&lt;h4&gt;設定&lt;/h4&gt;
+&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;pythonコンソールの追加設定:&lt;/i&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;自動補完:&lt;/label&gt; チェックされているとコード補完が有効になります. インストールされているAPIとカレントAPIドキュメントを利用してコード自動補完が行われます&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;自動補完スレッショルド:&lt;/label&gt; 自動補完リストを表示するスレッショルド(タイプされた文字中)&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;自動括弧挿入:&lt;/label&gt; チェックされていると括弧を自動的に閉じます&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;スクリプト実行前に自動保存:&lt;/label&gt; 編集を行った後のスクリプトファイルを実行時に自動的に保存します.この機能は実行後に自動的に削除される作業用フォルダの作業用ファイルにスクリプトを保存します.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;事前ロードされたAPIファイルの利用:&lt;/label&gt; 事前ロードされたAPIファイルかあなたのシステムに保存されている他のAPIファイルを利用するか選択することができます.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;事前準備されたAPIファイルの利用:&lt;/label&gt; チェックされていると *.pap ファイルがコード補完に利用されます. 事前準備されたAPIファイルを作成するためには*.api ファイルをロードして &lt;label&gt;Compile Apis...&lt;/label&gt;ボタンをクリックしてコンパイルして下さい.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&apos;border: 1px solid; background:#f6f6f6;&apos; align=&apos;justify&apos;&gt;
+	&lt;b&gt;注:&lt;/b&gt; コンソールウィジェットの状態を保存したい場合Python コンソールをクローズボタンで閉じて下さい. これによって次回起動時に保存されたコンソールの位置が復元されます.
+&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="998"/>
@@ -58637,7 +58840,20 @@ Rounds a number upwards.
 &lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;ceil() 関数&lt;/h3&gt;
+数値を切り上げます.
+
+&lt;h4&gt;文法&lt;/h4&gt;
+&lt;code&gt;ceil(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;引数&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 数値.
+&lt;br&gt;
+
+&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="562"/>
@@ -58655,7 +58871,19 @@ Converts a string to real number. Nothing changed if a value cannot be converted
 &lt;!-- Show example of function.--&gt;
      toreal(&apos;123.45&apos;) &amp;rarr; 123.45&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;toreal() 関数&lt;/h3&gt;
+文字列を実数に変換します. 値を実数に変換できない場合は何も変換しません (例 &apos;123.56asd&apos; は不正です). 精度が変換結果の精度より小さい場合数値は保存後丸められます.
+
+&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
+     toreal(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; 文字列.  文字列を実数数値に変換します.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toreal(&apos;123.45&apos;) &amp;rarr; 123.45&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="301"/>
@@ -58671,7 +58899,17 @@ Retrieves a x coordinate of the current feature
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;xat() 関数&lt;/h3&gt;
+カレント地物のx座標を取得します
+
+&lt;h4&gt;文法&lt;/h4&gt;
+&lt;code&gt;xat(i)&lt;/code&gt;
+
+&lt;h4&gt;引数&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - 整数. ライン中の点のインデックス (0インデックスは0が先頭; 負の値は最後の要素のインデックスをさします).
+
+&lt;h4&gt;例&lt;/h4&gt;
+&lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1340"/>
@@ -58736,7 +58974,20 @@ Rounds a number downwards.
 &lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;floor() 関数&lt;/h3&gt;
+数値を切り捨て.
+
+&lt;h4&gt;文法&lt;/h4&gt;
+&lt;code&gt;floor(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;引数&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 数値.
+&lt;br&gt;
+
+&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1388"/>
@@ -58754,7 +59005,19 @@ Converts a string to integer number. Nothing changed if a value cannot be conver
 &lt;!-- Show example of function.--&gt;
      toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;toint() 関数&lt;/h3&gt;
+文字列を整数値に変換します.値を整数値に変換できない場合は何も変換しません (例 &apos;123asd&apos; は不正です).
+
+&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
+     toint(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; は文字列です.  この文字列は整数値に変換されます.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="81"/>
@@ -58770,7 +59033,18 @@ Retrieves a y coordinate of the current feature
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;yat() 関数&lt;/h3&gt;
+カレント地物のy座標を取得します
+
+&lt;h4&gt;文法&lt;/h4&gt;
+&lt;code&gt;yat(i)&lt;/code&gt;
+
+&lt;h4&gt;引数&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - 整数. ライン中の点のインデックス (0インデックスは0が先頭; 負の値は最後の要素のインデックスをさします).
+
+&lt;h4&gt;例&lt;/h4&gt;
+&lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1208"/>
@@ -58817,7 +59091,19 @@ Converts a number to string.
 &lt;!-- Show example of function.--&gt;
      tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;tostring() 関数&lt;/h3&gt;
+数値を文字列に変換します.
+
+&lt;p&gt;&lt;h4&gt;文法&lt;/h4&gt;
+     tostring(&lt;i&gt;number&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;引数&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;number&lt;/i&gt; &amp;rarr; は整数値または実数値.  この数値を文字列に変換します.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="811"/>
@@ -59395,7 +59681,21 @@ This function takes one argument.
 &lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;ln() 関数&lt;/h3&gt;
+渡された式の自然対数の値を返します.
+&lt;br&gt;
+この関数は1個の引数が必要です.
+&lt;h4&gt;文法&lt;/h4&gt;
+&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;引数&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 任意の正の数.
+&lt;br&gt;
+
+&lt;h4&gt;例&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1385"/>
