@@ -43549,7 +43549,7 @@ Sprawdź czy masz uprawnienia SELECT do tabeli zawierającej geometrię PostGIS.
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="148"/>
         <source>Enter...</source>
-        <translation type="unfinished">Enter...</translation>
+        <translation>Enter...</translation>
     </message>
 </context>
 <context>
@@ -44993,12 +44993,12 @@ Rezultat: %3 (%4)</translation>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1524"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1534"/>
         <source>Query could not be canceled [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapytanie nie mogło zostać przerwane [%1]</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1524"/>
         <source>PQgetCancel failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PQgetCancel nie powiodło się</translation>
     </message>
 </context>
 <context>
@@ -45088,12 +45088,12 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="133"/>
         <source>invalid PostgreSQL topology layer</source>
-        <translation type="unfinished"></translation>
+        <translation>niepoprawna warstwa topologii PostgreSQL</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="145"/>
         <source>PostgreSQL layer has no primary key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warstwa PostgreSQL nie posiada klucza głównego.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="163"/>
@@ -45129,7 +45129,7 @@ Błąd bazy danych: %2</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="574"/>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished">BŁĄD: Brak pola %1.</translation>
+        <translation>BŁĄD: Brak pola %1.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="792"/>
@@ -45153,17 +45153,17 @@ Błąd bazy danych: %2</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="204"/>
         <source>PostgreSQL layer has unknown primary key type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warstwa PostgreSQL posiada nieznany typ klucza głównego.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="811"/>
         <source>Field %1 ignored, because of unsupported type type %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Pole %1 zignorowano z powodu nieobsługiwanego typu %2</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1060"/>
         <source>The table has no column suitable for use as a key. QGIS requires a primary key, a PostgreSQL oid column or a ctid for tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabela nie posiada kolumn mogących być kluczem głównym. QGIS wymaga klucza głównego, kolumny oid lub ctid PostgreSQL.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1088"/>
@@ -45188,7 +45188,7 @@ Błąd bazy danych: %2</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1460"/>
         <source>Could not find topology of layer %1.%2.%3</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można odnaleźć topologii warstwy %1.%2.%3</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1786"/>
@@ -45243,7 +45243,7 @@ Błąd bazy danych: %2</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3107"/>
         <source>PostgreSQL version: unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Wersja PostgreSQL: nieznana</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3108"/>
@@ -45253,14 +45253,16 @@ Błąd bazy danych: %2</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3128"/>
         <source>PostgreSQL not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak połączenia z PostgreSQL</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3131"/>
         <source>PostgreSQL/PostGIS provider
 %1
 PostGIS %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Źródło danych PostgreSQL/PostGIS
+%1
+PostGIS %2</translation>
     </message>
     <message>
         <source>No PostGIS Support!</source>
@@ -45619,12 +45621,12 @@ Poszukać brakujących warstw?</translation>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="143"/>
         <source>Recursive embedding not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Zagnieżdżenie rekurencyjne jest niemożliwe</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="143"/>
         <source>It is not possible to embed layers / groups from the current project.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zagnieżdżać warstw/grup z aktualnego projektu.</translation>
     </message>
 </context>
 <context>
@@ -45696,24 +45698,24 @@ Poszukać brakujących warstw?</translation>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="813"/>
         <source>Measure tool (CRS transformation: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Narzędzie pomiaru (transformacja układu współrzędnych: %1)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="814"/>
         <source>Canvas units (CRS transformation: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Jednostki obszaru mapy (transformacja układu współrzędnych: %1)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="823"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="824"/>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>wyłączona</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="834"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="835"/>
         <source>ON</source>
-        <translation type="unfinished"></translation>
+        <translation>włączona</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="964"/>
@@ -45745,7 +45747,7 @@ Kontynuować?</translation>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1040"/>
         <source>Select restricted layers and groups</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Wybierz (restricted) warstwy i grupy</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1096"/>
@@ -45784,12 +45786,12 @@ Kontynuować?</translation>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1452"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1453"/>
         <source>Select %1 from pull-down menu to adjust radii</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz %1 z menu rozwijalnego aby dostosować promień</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1465"/>
         <source>Can only use ellipsoidal calculations when CRS transformation is enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Przy włączonej transformacji układów w locie, mogą być wykonywane tylko obliczenia po elipsie</translation>
     </message>
     <message>
         <source>Transparency %1%</source>
@@ -45798,12 +45800,12 @@ Kontynuować?</translation>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1296"/>
         <source>Select a valid symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz dopuszczalny symbol</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1302"/>
         <source>Invalid symbol : </source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawny symbol: </translation>
     </message>
 </context>
 <context>
@@ -49574,22 +49576,22 @@ od średniej +/-</translation>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="214"/>
         <source>cumulative cut</source>
-        <translation type="unfinished"></translation>
+        <translation>skumulowany poziom odcięcia</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="218"/>
         <source>standard deviation</source>
-        <translation type="unfinished"></translation>
+        <translation>odchylenie standardowe</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="223"/>
         <source>full extent</source>
-        <translation type="unfinished"></translation>
+        <translation>pełny zakres</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="227"/>
         <source>sub extent</source>
-        <translation type="unfinished"></translation>
+        <translation>podzakres</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="230"/>
@@ -50681,27 +50683,27 @@ od średniej +/-</translation>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="50"/>
         <source>A name is mandatory</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa jest obligatoryjna</translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="61"/>
         <source>Attach Qt Designer UI file</source>
-        <translation type="unfinished"></translation>
+        <translation>Podłącz plik Qt Designer UI</translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="61"/>
         <source>Qt Designer UI file .ui</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik UI Qt Designer .ui</translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="82"/>
         <source>Wrong file</source>
-        <translation type="unfinished"></translation>
+        <translation>Niewłaściwy plik</translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="83"/>
         <source>The selected file does not appear to be a valid Qt Designer UI file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybrany plik prawdopodobnie nie jest poprawnym plikiem Qt Designer UI.</translation>
     </message>
 </context>
 <context>
@@ -50739,7 +50741,7 @@ od średniej +/-</translation>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="97"/>
         <source>Optionally pick an input form for attribute editing (QT Designer UI format), it will be stored in the database</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcjonalnie pobierz formularz wejściowy do edycji atrybutów (w formacie Qt Designer UI). Zostanie on zapisany w bazie.</translation>
     </message>
 </context>
 <context>
@@ -51178,12 +51180,12 @@ Komunikat błędu:%2</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="204"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Przesunięcie</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="206"/>
         <source>Dash pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>Styl linii</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="207"/>
@@ -51231,7 +51233,7 @@ Komunikat błędu:%2</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="422"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Przesunięcie</translation>
     </message>
 </context>
 <context>
@@ -51361,7 +51363,7 @@ kontrastu</translation>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="384"/>
         <source>The color map for band %1 has no entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapa kolorów dla kanału %1 nie posiada wartości</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="395"/>
@@ -51484,7 +51486,7 @@ kontrastu</translation>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="76"/>
         <source>Sort colormap items</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj kolory</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="104"/>
@@ -51673,32 +51675,32 @@ kontrastu</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="33"/>
         <source>has the tag</source>
-        <translation type="unfinished"></translation>
+        <translation>posiada tag</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="34"/>
         <source>is a member of group</source>
-        <translation type="unfinished"></translation>
+        <translation>jest członkiem grupy</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="35"/>
         <source>has a part of name matching</source>
-        <translation type="unfinished"></translation>
+        <translation>ma pasującą część nazwy</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="36"/>
         <source>does NOT have the tag</source>
-        <translation type="unfinished"></translation>
+        <translation>NIE posiada tagu</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="37"/>
         <source>is NOT a member of group</source>
-        <translation type="unfinished"></translation>
+        <translation>NIE jest członkiem grupy</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="38"/>
         <source>has NO part of name matching</source>
-        <translation type="unfinished"></translation>
+        <translation>NIE ma pasującej części nazwy</translation>
     </message>
 </context>
 <context>
@@ -51729,12 +51731,12 @@ kontrastu</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="204"/>
         <source>Invalid name</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna nazwa</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="204"/>
         <source>The smart group name field is empty. Kindly provide a name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa cwanej grupy jest pusta. Należy ją uzupełnić.</translation>
     </message>
 </context>
 <context>
@@ -51742,27 +51744,27 @@ kontrastu</translation>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="14"/>
         <source>Smart Group Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytor cwanej grupy</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="20"/>
         <source>Smart Group Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa cwanej grupy</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="30"/>
         <source>Condition matches</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopasowanie warunków</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="40"/>
         <source>Add Condition</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj warunek</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="47"/>
         <source>Conditions</source>
-        <translation type="unfinished"></translation>
+        <translation>Warunki</translation>
     </message>
 </context>
 <context>
@@ -51857,7 +51859,7 @@ kontrastu</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="90"/>
         <source>obsolete libspatialite: connecting to this DB requires using v.4.0 (or any subsequent)</source>
-        <translation type="unfinished"></translation>
+        <translation>przestarzał biblioteka libspatialite: połączenie z tą bazą wymaga wersji 4.0, lub nowszej</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="379"/>
@@ -51869,13 +51871,13 @@ kontrastu</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="294"/>
         <source>obsolete libspatialite: AbstractInterface is unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>przestarzała biblioteka libspatialite: AbstractInterface nie jest obsługiwany</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="190"/>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="226"/>
         <source>table info on %1 failed</source>
-        <translation type="unfinished"></translation>
+        <translation>problem z informacją o tabeli %1</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="318"/>
@@ -51933,12 +51935,12 @@ kontrastu</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="571"/>
         <source>Binary object (BLOB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Obiekt binarny (BLOB)</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="573"/>
         <source>Decimal number (double)</source>
-        <translation>Liczba zmiennoprzecinkowa (podwójnej precyzji)</translation>
+        <translation>Liczba zmiennoprzecinkowa podwójnej precyzji (double)</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="574"/>
@@ -51948,12 +51950,12 @@ kontrastu</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="679"/>
         <source>Retrieval of spatialite version failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie udało się ustalić wersji PostGIS</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="694"/>
         <source>Could not parse spatialite version string &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie powiodo się odczytanie wersji PostGIS &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="784"/>
@@ -52052,7 +52054,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="56"/>
         <source>&amp;Update statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aktualizuj statystyki</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="60"/>
@@ -52066,7 +52068,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="64"/>
         <source>&amp;Set Filter</source>
-        <translation type="unfinished">Ustaw &amp;filtr</translation>
+        <translation>Ustaw &amp;filtr</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="81"/>
@@ -52116,28 +52118,31 @@ SQL: %1</translation>
 
 This could take a long time (depending on the DB size),
 but implies better performance thereafter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Czy na pewno chcesz zaktualizować wewnętrzne statystyki baay danych: %1?
+
+W zależności od rozmiaru bazy może to chwilę potrwać,
+ale spowoduje lepszą wydajność bazy.</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="151"/>
         <source>Confirm Update Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Potwierdź aktualizację statystyk</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="159"/>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="164"/>
         <source>Update Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualizuj statystyki</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="160"/>
         <source>Internal statistics successfully updated for: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomyślnie zaktualizowano wewnętrzne statystyki dla: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="165"/>
         <source>Error while updating internal statistics for: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Przy aktualizaji wewnętrznych statystyk wystąpił błąd: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="266"/>
@@ -53310,7 +53315,11 @@ Czy chcesz nadpisać relację [%2]?</translation>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt;&quot;&gt;We work really hard to make this nice software for you. See all the cool features it has? Get a warm fuzzy feeling when you use it? QGIS is a labour of love by a dedicated team of developers. We want you to copy &amp;amp; share it and put it in the hands of as many people as possible. If QGIS is saving you money or you like our work and have the financial ability to help, please consider sponsoring the development of QGIS. We use money from sponsors to pay for travel and costs related to our bi-annual hackfests, and to generally support the goals of our project.  Please see the &lt;/span&gt;&lt;a href=&quot;http://qgis.org/en/sponsorship.html&quot;&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;QGIS Sponsorship Web Page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt;&quot;&gt; for more details. In the &lt;/span&gt;&lt;a href=&quot;http://qgis.org/en/sponsorship/sponsors.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Sponsors page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt;&quot;&gt; you can see the fine people and companies that are helping us financially - a great big &apos;thank you&apos; to you all!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt;&quot;&gt;Ciężko pracujemy, abyś mógł korzystać z tego programu. Zauważyłeś jak wiele zmian nastąpiło w ostatnich wersjach? QGIS to praca zespołowa wielu osób i chcemy, abyś jej efektami podzielił się również z innymi. Jeśli dzięki QGIS udało Ci się zaoszczędzić pieniądze, lub po prostu podoba Ci się to co robimy i jednoczesnie masz taką możliwość, rozważ proszę możliwość wsparcia rozwoju projektu QGIS. Pieniądze od sponsorów wykorzystujemy na opłacenie kosztów organizowanych dwa razy do roku hackfestów, oraz koszty funkcjonowania projektu. Zobacz &lt;/span&gt;&lt;a href=&quot;http://qgis.org/en/sponsorship.html&quot;&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;stronę sponsorów QGIS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt;&quot;&gt;, aby poznać szczgóły. Na &lt;/span&gt;&lt;a href=&quot;http://qgis.org/en/sponsorship/sponsors.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;stronie sponsorów&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; font-size:10pt;&quot;&gt;  widnieją osoby oraz instytucje, które wsparły nas finansowo - wielkie &apos;dzięki&apos; im za to!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message utf8="true">
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -53580,17 +53589,17 @@ Aktualizacje geometrii moga być niedostępne, a wydajność zapytań mizerna z 
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="61"/>
         <source>Import style(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Import stylów</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="63"/>
         <source>file specified below</source>
-        <translation type="unfinished"></translation>
+        <translation>plik podany poniżej</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="65"/>
         <source>URL specified below</source>
-        <translation type="unfinished"></translation>
+        <translation>URL podany poniżej</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="78"/>
@@ -53605,7 +53614,7 @@ Aktualizacje geometrii moga być niedostępne, a wydajność zapytań mizerna z 
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="83"/>
         <source>Export style(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksport stylów</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="93"/>
@@ -53655,37 +53664,37 @@ Aktualizacje geometrii moga być niedostępne, a wydajność zapytań mizerna z 
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="227"/>
         <source>Group Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa grupy</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="228"/>
         <source>Please enter a name for new group:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa nowej grupy:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="230"/>
         <source>imported</source>
-        <translation type="unfinished"></translation>
+        <translation>zaimportowane</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="234"/>
         <source>New Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowa grupa</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="235"/>
         <source>New group cannot be created without a name. Kindly enter a name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowa grupa nie może zostać utworzona bez nazwy. Podaj proszę nazwę.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="241"/>
         <source>New group</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowa grupa</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="242"/>
         <source>Cannot create a group without name. Enter a name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowa grupa nie może zostać utworzona bez nazwy. Podaj proszę nazwę.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="277"/>
@@ -53720,7 +53729,7 @@ Nadpisać ją?</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="454"/>
         <source>Downloading style ... </source>
-        <translation type="unfinished"></translation>
+        <translation>Pobieram style...</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="481"/>
@@ -53818,7 +53827,7 @@ Nadpisać ją?</translation>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="61"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="63"/>
         <source>Type here to filter symbols...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wpisz tutaj filtr symboli...</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="80"/>
@@ -53838,18 +53847,18 @@ Nadpisać ją?</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="109"/>
         <source>Group Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupa akcji</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="110"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1033"/>
         <source>Group Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupa symboli</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="111"/>
         <source>Edit Smart Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj cwaną grupę</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="194"/>
@@ -53875,17 +53884,17 @@ Nadpisać ją?</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="340"/>
         <source>new marker</source>
-        <translation type="unfinished"></translation>
+        <translation>nowy znacznik</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="344"/>
         <source>new line</source>
-        <translation type="unfinished"></translation>
+        <translation>nowa linia</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="348"/>
         <source>new fill symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>nowe wypełnienie</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="373"/>
@@ -53895,12 +53904,12 @@ Nadpisać ją?</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="374"/>
         <source>Please enter a name for new symbol:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa nowego symbolu:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="385"/>
         <source>Cannot save symbol without name. Enter a name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zapisać symbolu bez nazwy. Podaj nazwę.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="422"/>
@@ -53915,86 +53924,89 @@ Nadpisać ją?</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="428"/>
         <source>new ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>nowa paleta</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="441"/>
         <source>new gradient ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>nowy gradient</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="453"/>
         <source>new random ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>nowa losowa paleta</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="502"/>
         <source>Color Ramp Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa palety kolorów</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="503"/>
         <source>Please enter a name for new color ramp:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa nowej palety kolorów:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="513"/>
         <source>Save Color Ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz paletę kolorów</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="514"/>
         <source>Cannot save color ramp without name. Enter a name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zapisać palety kolorów bez nazwy. Podaj nazwę.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="518"/>
         <source>Save color ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz paletę kolorów</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="519"/>
         <source>Color ramp with name &apos;%1&apos; already exists. Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Paleta kolorów o nazwie &apos;%1&apos; już istnieje. Nadpisać ją?</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="889"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1347"/>
         <source>Invalid Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieprawidłowy wybór</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="890"/>
         <source>The parent group you have selected is not user editable.
 Kindly select a user defined group.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybrana grupa nadrzędna nie jest edytowalna. 
+Wybierz grupę użytkownika.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="899"/>
         <source>Operation Not Allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Niedozwolona operacja</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="900"/>
         <source>Creation of nested smart groups are not allowed
 Select the &apos;Smart Group&apos; to create a new group.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można tworzyć zagnieżdżonych cwanych grup.
+Wybierz &apos;Cwana grupa&apos;, aby stworzyć nową grupę.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="925"/>
         <source>New Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowa grupa</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="951"/>
         <source>Invalid selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieprawidłowy wybór</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="952"/>
         <source>Cannot delete system defined categories.
 Kindly select a group or smart group you might want to delete.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można usunąć kategorii systemowych.
+Wybierz grupę lub cwaną grupę, którą chcesz usunąć.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="997"/>
@@ -54005,12 +54017,13 @@ Kindly select a group or smart group you might want to delete.</source>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="998"/>
         <source>New group could not be created.
 There was a problem with your symbol database.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie udało się utworzyć nowej grupy.
+Pojawił się problem z bazą danych symboli.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1070"/>
         <source>Finish Grouping</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakończ grupowanie</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1109"/>
@@ -54020,52 +54033,52 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1110"/>
         <source>There was a problem with the Symbols database while regrouping.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przy przegrupowaniu bazy symboli wystąpił problem.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1270"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1292"/>
         <source>Edit Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj grupę</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1274"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1280"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1288"/>
         <source>Add Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj grupę</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1276"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1290"/>
         <source>Remove Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuń grupę</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1303"/>
         <source>Apply Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastosuj grupę</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1311"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1324"/>
         <source>Un-group</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozgrupuj</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1348"/>
         <source>You have not selected a Smart Group. Kindly select a Smart Group to edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie wybrano cwanej grupy. Wybierz cwaną grupę do edycji.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1366"/>
         <source>Database Error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd bazy danych!</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="1367"/>
         <source>There was some error while editing the smart group.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wystąpił błąd przy edycji cwanej grupy.</translation>
     </message>
     <message>
         <source>Color ramp name</source>
@@ -54259,7 +54272,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/core/symbology-ng/qgssvgcache.cpp" line="308"/>
         <source>SVG request failed [error: %1 - url: %2]</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd pobierania SVG [błąd: %1; URL:%2]</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssvgcache.cpp" line="308"/>
@@ -54270,7 +54283,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/core/symbology-ng/qgssvgcache.cpp" line="331"/>
         <source>SVG request error [status: %1 - reason phrase: %2]</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd pobierania SVG (Status: %1; Przyczyna: %2)</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssvgcache.cpp" line="744"/>
@@ -54308,12 +54321,12 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1145"/>
         <source>Offset</source>
-        <translation type="unfinished">Przesunięcie</translation>
+        <translation>Przesunięcie</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1147"/>
         <source>SVG file</source>
-        <translation type="unfinished">Plik SVG</translation>
+        <translation>Plik SVG</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1149"/>
@@ -54331,12 +54344,12 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgssvgselectorwidget.cpp" line="104"/>
         <source>App Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Symbole aplikacji</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssvgselectorwidget.cpp" line="108"/>
         <source>User Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Symbole użytkownika</translation>
     </message>
 </context>
 <context>
@@ -54424,12 +54437,12 @@ Im niższy numer, tym wcześniej rysowana jest warstwa.</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbolv2selectordialog.cpp" line="404"/>
         <source>Invalid Selection!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieprawidłowy wybór!</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbolv2selectordialog.cpp" line="404"/>
         <source>Kindly select a symbol to add layer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz symbol, aby dodać warstwę.</translation>
     </message>
 </context>
 <context>
@@ -54547,12 +54560,12 @@ Im niższy numer, tym wcześniej rysowana jest warstwa.</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbolslistwidget.cpp" line="74"/>
         <source>Style Manager</source>
-        <translation type="unfinished">Zarządzanie stylem</translation>
+        <translation>Zarządzanie stylem</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbolslistwidget.cpp" line="76"/>
         <source>Save in symbol library...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz w bibliotece symboli...</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbolslistwidget.cpp" line="223"/>
@@ -57214,7 +57227,7 @@ Czy aktualne klasy powinny zostać usunięte przed klasyfikacją?</translation>
     <message>
         <location filename="../src/providers/wfs/qgswfscapabilities.cpp" line="213"/>
         <source>Either the WFS server does not support WFS version 1.0.0 or the WFS url is wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Serwer WFS nie obsługuje WFS 1.0.0, lub adres URL jest niepoprawny.</translation>
     </message>
 </context>
 <context>
@@ -57272,7 +57285,7 @@ Czy aktualne klasy powinny zostać usunięte przed klasyfikacją?</translation>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="98"/>
         <source>DescribeFeatureType failed for url %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd DescribeFeatureType dla URL %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="98"/>
@@ -57462,7 +57475,7 @@ Czy aktualne klasy powinny zostać usunięte przed klasyfikacją?</translation>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="96"/>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="99"/>
         <source>Display WFS FeatureTypes containing this word in the title, name or abstract</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetl WFS FeatureTypes zawierające tę frazę w tytule, nazwie lub abstrakcie</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="122"/>
@@ -57902,7 +57915,7 @@ Może to wskazywać na błędną konfigurację serwera. Czy mam go użyć mimo w
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="382"/>
         <source>Tileset</source>
-        <translation type="unfinished"></translation>
+        <translation>Kafel</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="396"/>
@@ -58098,12 +58111,12 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="474"/>
         <source>Version not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie obsługiwana wersja</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="476"/>
         <source>WCS server version %1 is not supported by QGIS (supported versions: 1.0.0, 1.1.0, 1.1.2)</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS serwer w wersji %1 nie jest obsługiwany przez QGIS. Obsługiwane wersje to 1.00, 1.1.0 oraz 1.1.2.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="738"/>
@@ -58230,7 +58243,7 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="980"/>
         <source>Content-Transfer-Encoding %1 not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Content-Transfer-Encoding %1 nie jest obsługiwane</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1000"/>
@@ -58581,7 +58594,7 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3282"/>
         <source>Extent for layer %1 not found in capabilities</source>
-        <translation type="unfinished"></translation>
+        <translation>Zasięg warstwy %1 nie został odnaleziony w Capabilities</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3388"/>
@@ -58614,7 +58627,7 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="120"/>
         <source>Cannot parse URI</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można sparsować URI</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="126"/>
@@ -58624,7 +58637,7 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="213"/>
         <source>Cannot set CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można przypisać układu współrzędnych</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="374"/>
@@ -58634,17 +58647,17 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="455"/>
         <source>Number of tile layers must be one</source>
-        <translation type="unfinished"></translation>
+        <translation>Musi być jedna warstwa kafli</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="467"/>
         <source>Tile layer not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie znaleziono warstwy kafli</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="523"/>
         <source>Tile layer or tile matrix set not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie znaleziono warstwy kafli lub macierzy kafli</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="978"/>
@@ -58700,12 +58713,12 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1473"/>
         <source>Redirect loop detected: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Wykryto pętlę przekierowania: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3096"/>
         <source>Service Exception</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyjątek usługi</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3420"/>
@@ -58717,7 +58730,7 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3569"/>
         <source>Tile Layer Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Właściwości warstwy kafli</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3624"/>
@@ -58981,22 +58994,22 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3694"/>
         <source>Tile Layer Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Liczba warstw kafli</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3726"/>
         <source>GetTileUrl</source>
-        <translation type="unfinished"></translation>
+        <translation>GetTileUrl</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3735"/>
         <source>Tile templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Szablony kafli</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3747"/>
         <source>FeatureInfo templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Szablony FeatureInfo</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3809"/>
@@ -59011,12 +59024,12 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3840"/>
         <source>Available Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostepne style</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3867"/>
         <source>Available Tilesets</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostepne kafle</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3938"/>
@@ -59026,17 +59039,17 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4119"/>
         <source>Get feature info request error (Title:%1; Error:%2; URL: %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd pobierania informacji (Tytuł:%1; Błąd:%2; URL: %3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4223"/>
         <source>GML schema is not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>Schemat GML jest niepoprawny</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4229"/>
         <source>GML is not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>GML jest niepoprawny</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4344"/>
@@ -59046,7 +59059,7 @@ Odpowiedź:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4355"/>
         <source>Cannot parse getfeatureinfo: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można sparsować getfeatureinfo: %1</translation>
     </message>
     <message>
         <source>ERROR: GetFeatureInfo failed</source>
@@ -59275,7 +59288,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1308"/>
         <source>Map request error (Status: %1; Response: %2; Content-Type: %3; URL:%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd pobierania mapy (Status: %1; Odpowiedź: %2; Typ zawartości: %3; URL:%4)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3703"/>
@@ -59736,7 +59749,7 @@ Tried URL: %1</source>
     <name>SLDatabase</name>
     <message>
         <source>Run &amp;Vacuum</source>
-        <translation type="unfinished"></translation>
+        <translation>Uruchom i &amp;uprzątnij bazę</translation>
     </message>
     <message>
         <source>&amp;Database</source>
@@ -60047,7 +60060,7 @@ Opis: %2</translation>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="65"/>
         <source>&amp;Set Filter</source>
-        <translation type="unfinished">Ustaw &amp;filtr</translation>
+        <translation>Ustaw &amp;filtr</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="72"/>
@@ -60370,7 +60383,7 @@ Opis: %3</translation>
         <location filename="../python/console/console_settings.ui" line="105"/>
         <location filename="../python/console/console_settings.ui" line="368"/>
         <source>Get autocompletion from current document</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobieraj autouzupełnianie z bieżacego dokumentu</translation>
     </message>
     <message>
         <location filename="../python/console/console_settings.ui" line="108"/>
@@ -60382,7 +60395,7 @@ Opis: %3</translation>
         <location filename="../python/console/console_settings.ui" line="125"/>
         <location filename="../python/console/console_settings.ui" line="355"/>
         <source>Get autocompletion from installed APIs</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobieraj autouzupełnianie z zainstalowanych API</translation>
     </message>
     <message>
         <location filename="../python/console/console_settings.ui" line="128"/>
@@ -60394,7 +60407,7 @@ Opis: %3</translation>
         <location filename="../python/console/console_settings.ui" line="115"/>
         <location filename="../python/console/console_settings.ui" line="345"/>
         <source>Get autocompletion from current document and installed APIs</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobieraj autouzupełnianie z bieżacego dokumentu i zainstalowanych API</translation>
     </message>
     <message>
         <location filename="../python/console/console_settings.ui" line="118"/>
@@ -61773,12 +61786,12 @@ Czy chcesz dodać go do mapy?
         <location filename="../src/plugins/topology/checkDock.cpp" line="175"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="194"/>
         <source>No errors were found</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie wykryto błędów</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="222"/>
         <source>Invalid first layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna pierwsza warstwa</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="222"/>
@@ -61793,13 +61806,13 @@ Czy chcesz dodać go do mapy?
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="232"/>
         <source>Invalid first geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna pierwsza geometria</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="233"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="266"/>
         <source>Topology test</source>
-        <translation type="unfinished"></translation>
+        <translation>Test topologii</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="233"/>
@@ -61807,17 +61820,19 @@ Czy chcesz dodać go do mapy?
         <source>Feature not found in the layer.
 The layer has probably changed.
 Run topology check again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie znaleziono obiektu na warstwie.
+Prawdopodobnie zmodyfikowano warstwę.
+Uruchom pomownie sprawdzenie topologii.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="256"/>
         <source>Invalid second layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna druga warstwa</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="265"/>
         <source>Invalid second geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna druga geometria</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="284"/>
@@ -61828,27 +61843,27 @@ Run topology check again.</source>
         <location filename="../src/plugins/topology/checkDock.cpp" line="320"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="398"/>
         <source>%1 errors were found</source>
-        <translation type="unfinished"></translation>
+        <translation>wykryto %1 błędów</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="324"/>
         <source>Topology fix error</source>
-        <translation type="unfinished"></translation>
+        <translation>Naprawianie błędów topologii</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="324"/>
         <source>Fixing failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Naprawianie nie powiodło się!</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="339"/>
         <source>Layer %1 not found in registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie odnaleziono warstwy %1 w rejestrze.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="349"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Przerwij</translation>
     </message>
 </context>
 <context>
@@ -65729,7 +65744,19 @@ None
 &lt;pre&gt;$rownum &amp;rarr; 4711&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $rownum&lt;/h3&gt;
+Zwraca numer bieżącego wiersza.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$rownum&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+None
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$rownum &amp;rarr; 4711&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="329"/>
@@ -65751,14 +65778,33 @@ Returns a string representation of a color based on its red, green, blue, and al
 &lt;!-- Show example of function.--&gt;
      color_rgba(255,127,0,200) &amp;rarr; &apos;255,127,0,200&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;funkcja color_rgba()&lt;/h3&gt;
+Zwraca reprezentację tekstową koloru w oparciu o jego składowe (czerwona, zielona, niebieska) oraz przezroczystość (kanał alfa).
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     color_rgba(&lt;i&gt;czerwony, zielony, niebieski, alfa&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  czerwony&lt;/i&gt; &amp;rarr; czerwona składowa w postaci liczby całkowitej od 0 do 255.&lt;br&gt;
+&lt;i&gt;  zielony&lt;/i&gt; &amp;rarr; zielona składowa w postaci liczby całkowitej od 0 do 255.&lt;br&gt;
+&lt;i&gt;  niebieski&lt;/i&gt; &amp;rarr; niebieska składowa w postaci liczby całkowitej od 0 do 255.&lt;br&gt;
+&lt;i&gt;  alfa&lt;/i&gt; &amp;rarr; kanał alfa składowa w postaci liczby całkowitej od 0 (pełna przezroczystość) do 255 (brak przezroczystości)).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_rgba(255,127,0,200) &amp;rarr; &apos;255,127,0,200&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="977"/>
         <source>&lt;h3&gt;Conditionals Group&lt;/h3&gt;
 This group contains functions to handle conditional checks in expressions.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Grupy warunkowe&lt;/h3&gt;
+Te grupy zawierają funkcje do sprawdzania warunków w wyrażeniach.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="319"/>
@@ -65789,7 +65835,18 @@ None
 &lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $feature&lt;/h3&gt;
+Prz generowaniu atlasu,zwraca numer aktuanego obiektu z iteracji.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$feature&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="46"/>
@@ -65820,7 +65877,19 @@ None
 &lt;pre&gt;$numpages &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $numpages&lt;/h3&gt;
+Zwraca liczbę stron kompozycji.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$numpages&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$numpages &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1142"/>
@@ -65837,7 +65906,19 @@ None
 &lt;pre&gt;$perimeter &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funckaj $perimeter&lt;/h3&gt;
+Zwraca długość obwodu aktualnego obiektu.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$perimeter&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+None
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$perimeter &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="718"/>
@@ -65862,7 +65943,20 @@ Concatenates several strings to one.
 &lt;!-- Show example of function.--&gt;
      concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja concat()&lt;/h3&gt;
+Łączy wiele łańcuchów tekstowych w jeden.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+     concat(&lt;i&gt;tekst&lt;i&gt;[,&lt;i&gt;tekst&lt;/i&gt;...])
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  tekst&lt;/i&gt; &amp;rarr; is string.  a string.&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="205"/>
@@ -65879,7 +65973,19 @@ Note: This function is only available in some contexts and will be 0 otherwise.
 
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $scale&lt;/h3&gt;
+Zwraca aktualną skalę obszaru mapy.
+&lt;br&gt;
+Uwaga: Ta funkcja dostępna jest tylko w niektórych kontekstach. W pozostałych zwraca 0. 
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;$scale&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;$scale &amp;rarr; 10000&lt;/code&gt;&lt;br&gt;
+
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="157"/>
@@ -66015,7 +66121,19 @@ Returns arcustanget of a value in radians.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja atan()&lt;/h3&gt;
+Zaraca arcus tangens wartości w radianach.
+
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     atan(&lt;i&gt;liczba rzeczywista&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;i&gt;wartość rzeczywista&lt;/i&gt; &amp;rarr; tangus kąta.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+     atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="123"/>
@@ -66056,7 +66174,18 @@ None
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $length&lt;/h3&gt;
+Zwraca długość aktualnego obiektu.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$length&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1429"/>
@@ -66084,7 +66213,22 @@ This function takes one argument.
 &lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja log10()&lt;/h3&gt;
+Zwraca wartość logarytmu o podstawie 10 dla zadanego wyrażenia.
+&lt;br&gt;
+Funkcja pobiera jeden argument.
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;log10(wartość)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;wartość&lt;/code&gt; - dowolna liczba dodatnia.
+&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="347"/>
@@ -66104,7 +66248,22 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; leftmost characters o
 &lt;code&gt;left(&apos;Hello World&apos;,5) &amp;rarr; &apos;Hello&apos;&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja left()&lt;/h3&gt;
+Zwraca fragment tekstu zawierający &lt;i&gt;n&lt;/i&gt; znaków od strony lewej.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;left(tekst, długość)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;tekst&lt;/code&gt; - ciąg znaków w postaci tekstu.
+&lt;br&gt;
+&lt;code&gt;długość&lt;/code&gt; - liczba całkowita. Liczba zwracanych liczona od lewej.
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;left(&apos;Hello World&apos;,5) &amp;rarr; &apos;Hello&apos;&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="144"/>
@@ -66121,7 +66280,19 @@ Returns tangent of an angle.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja tan()&lt;/h3&gt;
+Zwraca tangens kąta.
+
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     tan(&lt;i&gt;liczba rzeczywista&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;i&gt;liczba rzeczywista&lt;/i&gt; &amp;rarr; kąt w radianach.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="69"/>
@@ -66137,7 +66308,18 @@ Converts a string to lower case letters.
 &lt;p&gt;&lt;h4&gt;  Example&lt;/h4&gt;
      lower(&apos;HELLO World&apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja lower()&lt;/h3&gt;
+Zamienia tekst na małe litery.
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     lower(&lt;i&gt;tekst&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;i&gt;tekst&lt;/i&gt; &amp;rarr; ciąg znaków do zamiany na małe litery.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+     lower(&apos;HELLO World&apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="818"/>
@@ -66156,7 +66338,21 @@ Rounds a number upwards.
 &lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja ceil()&lt;/h3&gt;
+Zwraca zaokrąglenie liczby w górę.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;ceil(wartość)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;wartość&lt;/code&gt; - liczba rzeczywista.
+&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1466"/>
@@ -66190,7 +66386,18 @@ Retrieves a x coordinate of the current feature
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja xat()&lt;/h3&gt;
+Zwraca współrzędną x aktualnego obiektu.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;xat(i)&lt;/code&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - liczba całkowita; numer i-tego wierzchołka segmentu (liczone od 0; wartości ujemne odnoszą się do ostatniego wierzchołka).
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1100"/>
@@ -66211,7 +66418,22 @@ to.
 &lt;code&gt;format_number(10000000.332,2) &amp;rarr; 10,000,000.33&lt;/code&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja format_number()&lt;/h3&gt;
+Zwraca sformatowaną liczbę wraz z separatorem tysięcznym (zgodnie z ustawieniami lokalnymi). 
+Ogranicza części dziesiętne do zadanej dokładności. 
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;format_number(liczba,miejsc_d)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;liczba&lt;/code&gt; - liczba do sformatowania
+&lt;br&gt;
+&lt;code&gt;miejsc_d&lt;/code&gt; - liczba całkowita. Liczba zwracanych miejsc dziesiętnych.
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format_number(10000000.332,2) &amp;rarr; 10,000,000.33&lt;/code&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1219"/>
@@ -66237,7 +66459,21 @@ Rounds a number downwards.
 &lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja floor()&lt;/h3&gt;
+Zwraca liczbę po zaokrągleniu w dół.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;floor(wartość)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;wartość&lt;/code&gt; - liczba.
+&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1155"/>
@@ -66255,7 +66491,20 @@ Converts a string to integer number. Nothing changed if a value cannot be conver
 &lt;!-- Show example of function.--&gt;
      toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja toint()&lt;/h3&gt;
+Zamienia tekst na liczbę całkowitą. Nie zamienia tekstu, który nie ma postaci liczby całkowitej (np. &apos;123asd&apos;).
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     toint(&lt;i&gt;tekst&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  tekst&lt;/i&gt; &amp;rarr; ciąd znaków do zamiany na liczbę całkowitą&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="738"/>
@@ -66271,7 +66520,18 @@ Retrieves a y coordinate of the current feature
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja yat()&lt;/h3&gt;
+Zwraca współrzędną y aktualnego obiektu.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;yat(i)&lt;/code&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - liczba całkowita; numer i-tego wierzchołka segmentu (liczone od 0; wartości ujemne odnoszą się do ostatniego wierzchołka).
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="951"/>
@@ -66288,7 +66548,19 @@ abs(&lt;i&gt;value&lt;/i&gt;)&lt;br&gt;
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;code&gt;abs(-2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja abs()&lt;/h3&gt;
+Zwraca wartość absolutną liczby.&lt;br&gt;
+
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+abs(&lt;i&gt;wartość&lt;/i&gt;)&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;wartość&lt;/code&gt; - liczba&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;code&gt;abs(-2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="379"/>
@@ -66306,7 +66578,20 @@ Converts a number to string.
 &lt;!-- Show example of function.--&gt;
      tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja tostring()&lt;/h3&gt;
+Zamienia liczbę na tekst.
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     tostring(&lt;i&gt;liczba&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;liczba&lt;/i&gt; &amp;rarr; liczba całkowita lub rzeczywista, która podlega zamianie na tekst&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="438"/>
@@ -66324,7 +66609,20 @@ Format a string using supplied arguments.
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;format(&apos;This %1 a %2&apos;,&apos;is&apos;, &apos;test&apos;) &amp;rarr; This is a test&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja format()&lt;/h3&gt;
+Formatuje tekst zgodnie z zadanymi argumentami. 
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;format(&apos;tekst&apos;, arg, [arg...n])&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;tekst&lt;/code&gt; - ciąg znaków z symbolami zastępczymi Qt QString.  Użyj %1, %2, itd. dla każdego z symboli zastępczych. Symbole mogą być powtarzane. 
+&lt;br&gt;
+&lt;code&gt;arg [arg...n]&lt;/code&gt; - dowolny typ. Dowolna liczba argumentów. 
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format(&apos;This %1 a %2&apos;,&apos;is&apos;, &apos;test&apos;) &amp;rarr; This is a test&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1529"/>
@@ -66476,7 +66774,19 @@ None
 &lt;pre&gt;$area &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $area&lt;/h3&gt;
+Zwraca powierzchnię aktualnego obiektu.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$area&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$area &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1548"/>
@@ -66494,7 +66804,20 @@ Removes all leading and trailing whitespace (spaces, tabs, etc) from a string.
 &lt;!-- Show example of function.--&gt;
      trim(&apos;   hello world    &apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja trim()&lt;/h3&gt;
+Usuwa wiodące białe znaki (spacje, tabulatory, itp.) z tekstu.
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     trim(&lt;i&gt;tekst&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  tekst&lt;/i&gt; &amp;rarr; ciąg znaków do wyczyszczenia&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     trim(&apos;   hello world    &apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="868"/>
@@ -66531,7 +66854,19 @@ Convert a string into Qt data time type.
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;todatetime(&apos;2012-05-04 12:50:00&apos;) &amp;rarr; 2012-05-04T12:50:00&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja todatetime()&lt;/h3&gt;
+Zamienia tekst na typ danych Qt.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;todatetime(&apos;tekst&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;tekst&lt;/code&gt; - tekst w formacie daty/czasu Qt.
+&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todatetime(&apos;2012-05-04 12:50:00&apos;) &amp;rarr; 2012-05-04T12:50:00&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="278"/>
@@ -66555,7 +66890,25 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;week(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 104.285...&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja week()&lt;/h3&gt;
+Pobiera numer tygodnia dla daty, lub liczbę tygodni z &lt;code&gt;interwału&lt;/code&gt;
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;week(data)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;week(interwał)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;data&lt;/code&gt; - data, lub data i czas.
+&lt;br&gt;
+&lt;code&gt;interwał&lt;/code&gt; - interwał do określenia liczby tygodni.
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;week(&apos;2012-05-12&apos;) &amp;rarr; 19&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;week(tointerval(&apos;3 weeks&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;week(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 104.285...&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="94"/>
@@ -66605,7 +66958,19 @@ None
 &lt;pre&gt;$id &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $id&lt;/h3&gt;
+Zwraca identyfikator obiektu z aktualnego wiersza.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$id&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$id &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="409"/>
@@ -66625,7 +66990,22 @@ This function takes one argument.
 &lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja ln()&lt;/h3&gt;
+Zwraca logarytm naturalny z wyrażenia.
+&lt;br&gt;
+Ta funkcja pobiera jeden argument.
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;ln(wartość)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;wartość&lt;/code&gt; - dowolna liczba dodatnia.
+&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1268"/>
@@ -66649,7 +67029,19 @@ None
 &lt;pre&gt;$numfeatures &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $numfeatures&lt;/h3&gt;
+Przy generowaniu atlasu zwraca liczbę obiektów w ramach warstwy.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$numfeatures&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$numfeatures &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1047"/>
@@ -66694,7 +67086,24 @@ using the fill character.
 &lt;code&gt;rpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;xxxxxHello&apos;&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja rpad()&lt;/h3&gt;
+Zwraca tekst uzupełniony znakami.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;rpad(tekst, szerokość, znak)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;tekst&lt;/code&gt; - ciąg znaków.
+&lt;br&gt;
+&lt;code&gt;szerokość&lt;/code&gt; - liczba całkowita odpowiadająca docelowej długości tekstu.
+&lt;br&gt;
+&lt;code&gt;znak&lt;/code&gt; - znak, który uzupełni pozostałą przestrzeń. 
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;rpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;xxxxxHello&apos;&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1494"/>
@@ -66716,7 +67125,24 @@ using the fill character.
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;lpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;Helloxxxxx&apos;&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja lpad()&lt;/h3&gt;
+Zwraca tekst uzupełniony znakami.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;lpad(tekst, szerokość, znak)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;tekst&lt;/code&gt; - ciąg znaków.
+&lt;br&gt;
+&lt;code&gt;szerokość&lt;/code&gt; - liczba całkowita odpowiadająca docelowej długości tekstu.
+&lt;br&gt;
+&lt;code&gt;znak&lt;/code&gt; - znak, który uzupełni pozostałą przestrzeń. 
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;lpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; Hello&apos;xxxxx&apos;&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1480"/>
@@ -66734,7 +67160,20 @@ Converts a string to upper case letters.
 &lt;!-- Show example of function.--&gt;
      upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja upper()&lt;/h3&gt;
+Zamienia tekst na duże litery.
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     upper(&lt;i&gt;tekst&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  tekst&lt;/i&gt; &amp;rarr; jest ciągiem znaków do zamiany.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;&apos;xxxxx&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="406"/>
@@ -66761,7 +67200,22 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; rightmost characters 
 &lt;code&gt;right(&apos;Hello World&apos;,5) &amp;rarr; &apos;World&apos;&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja right()&lt;/h3&gt;
+Zwraca fragment tekstu zawierający &lt;i&gt;n&lt;/i&gt; prawych znaków.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;code&gt;right(tekst, długość)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;code&gt;tekst&lt;/code&gt; - ciąg znaków.
+&lt;br&gt;
+&lt;code&gt;długość&lt;/code&gt; - liczb całkowita określająca liczbę znaków liczonych od strony prawej.
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;right(&apos;Hello World&apos;,5) &amp;rarr; &apos;World&apos;&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1086"/>
@@ -66779,7 +67233,20 @@ Returns the length of a string.
 &lt;!-- Show example of function.--&gt;
      length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja length()&lt;/h3&gt;
+Zwraca długość ciągu znaków.
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     length(&lt;i&gt;tekst&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  tekst&lt;/i&gt; &amp;rarr; ciąg znaków do określenia długości.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="901"/>
@@ -66797,7 +67264,20 @@ Returns the smallest value in a set of values.
 &lt;!-- Show example of function.--&gt;
      min(20.5,10,6.2) &amp;rarr; 6.2
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja min()&lt;/h3&gt;
+Zwraca namniejszą wartość z zadanego zbioru.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+     min(&lt;i&gt;wartość&lt;i&gt;[,&lt;i&gt;wartość&lt;/i&gt;...])
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  wartość&lt;/i&gt; &amp;rarr; liczba.&lt;br&gt;
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     min(20.5,10,6.2) &amp;rarr; 6.2
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="884"/>
@@ -66835,7 +67315,19 @@ Returns arcussinus of a value in radians.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      asin(1.0) &amp;rarr; 1.5707963267949&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja asin()&lt;/h3&gt;
+Zwraca arcus sinus wartości w radianach.
+
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     asin(&lt;i&gt;liczba&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;i&gt;liczba&lt;/i&gt; &amp;rarr; sinus kąta.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+     asin(1.0) &amp;rarr; 1.5707963267949&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="465"/>
@@ -66876,7 +67368,19 @@ Returns square root of a value
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      sqrt(9) &amp;rarr; 3&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja sqrt()&lt;/h3&gt;
+Zwraca pierwiastek kwadratowy wartości.
+
+
+&lt;p&gt;&lt;h4&gt;Składnia&lt;/h4&gt;
+     sqrt(&lt;i&gt;wartość&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Argumenty&lt;/h4&gt;
+&lt;i&gt;wartość&lt;/i&gt; &amp;rarr; liczba.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Przykład&lt;/h4&gt;
+     sqrt(9) &amp;rarr; 3&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="692"/>
@@ -66893,7 +67397,19 @@ None
 &lt;pre&gt;$x &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;funkcja $x&lt;/h3&gt;
+Zwraca współrzędną x aktualnego obiektu.
+
+&lt;h4&gt;Składnia&lt;/h4&gt;
+&lt;pre&gt;$x&lt;/pre&gt;
+
+&lt;h4&gt;Argumenty&lt;/h4&gt;
+Brak
+
+&lt;h4&gt;Przykład&lt;/h4&gt;
+&lt;pre&gt;$x &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1296"/>
@@ -70108,7 +70624,7 @@ Convert a string into Qt data type.
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="232"/>
         <source>Invalid second geometry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna druga geometria.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="232"/>
@@ -70138,67 +70654,67 @@ Convert a string into Qt data type.
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="235"/>
         <source>Invalid first geometry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna pierwsza geometria.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="276"/>
         <source>First geometry invalid in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna pierwsza geometria w teście wiszących segmentów.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="282"/>
         <source>Failed to import first geometry into GEOS in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie udało się zaimportować pierwszej geometrii do GEOS w teście wiszących segmentów.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="408"/>
         <source>Invalid second geometry in duplicate geometry test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna druga geometria w teście zduplikowanej geometrii.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="414"/>
         <source>Failed to import second geometry into GEOS in duplicate geometry test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie udało się zaimportować drugiej geometrii do GEOS w teście zduplikowanej geometrii.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="531"/>
         <source>Invalid second geometry in overlaps test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna druga geometria w teście nachodzenia na siebie.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="537"/>
         <source>Failed to import second geometry into GEOS in overlaps test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie udało się zaimportować drugiej geometrii do GEOS w teście nachodzenia na siebie.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="543"/>
         <source>Skipping invalid second geometry of feature %1 in overlaps test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pominięto niepoprawną drugą geometrię obiektu %1 w teście nachodzenia na siebie.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="772"/>
         <source>Skipping invalid first geometry in pseudo line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pominięto niepoprawną pierwszą geometrię w teście pseudo segmentu.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="778"/>
         <source>Failed to import first geometry into GEOS in pseudo line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie udało się zaimportować pierwszej geometrii do GEOS w teście pseudo segmentu.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="873"/>
         <source>Invalid geometry in validity test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna geometria w teście poprawności.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="944"/>
         <source>Invalid geometry in covering test.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawna geometria w teście pokrycia.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1178"/>
         <source>Second geometry missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak drugiej geometrii.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1267"/>
@@ -70206,22 +70722,22 @@ Convert a string into Qt data type.
         <location filename="../src/plugins/topology/topolTest.cpp" line="1443"/>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1517"/>
         <source>Second geometry missing or GEOS import failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak drugiej geometrii lub błąd importu GEOS.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1558"/>
         <source>Missing geometry in multipart check.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak geometrii przy sprawdzeniu wielolinii.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1677"/>
         <source>First layer not found in registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie odnaleziono pierwszej warstwy w rejestrze.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1683"/>
         <source>Second layer not found in registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie odnaleziono drugiej warstwy w rejestrze.</translation>
     </message>
 </context>
 <context>

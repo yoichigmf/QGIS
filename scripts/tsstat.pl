@@ -55,7 +55,7 @@ my $translators= {
 	hr_HR => 'Zoran Jankovic',
 	is => 'Thordur Ivarsson',
 	id => 'Trias Aditya, Januar V. Simarmata, I Made Anombawa',
-	it => 'Roberto Angeletti, Michele Beneventi, Marco Braida, Stefano Campus, Luca Casagrande, Paolo Cavallini, Giuliano Curti, Luca Delucchi, Alessandro Fanna, Matteo Ghetta, Anne Gishla, Maurizio Napolitano, Flavio Rigolon',
+	it => 'Roberto Angeletti, Michele Beneventi, Marco Braida, Stefano Campus, Luca Casagrande, Paolo Cavallini, Giuliano Curti, Luca Delucchi, Alessandro Fanna, Michele Ferretti, Matteo Ghetta, Anne Gishla, Maurizio Napolitano, Flavio Rigolon',
 	ja => 'BABA Yoshihiko, Yoichi Kayama, Minoru Akagi, Takayuki Nuimura, Takayuki Mizutani, Norihiro Yamate',
 	ka_GE => 'Shota Murtskhvaladze, George Machitidze',
 	km => 'Khoem Sokhem',
@@ -69,7 +69,7 @@ my $translators= {
 	nl => 'Richard Duivenvoorde, Raymond Nijssen, Carlo van Rijswijk, Diethard Jansen, Willem Hoffmans',
 	pl_PL => 'Robert Szczepanek, Milena Nowotarska, Borys Jurgiel, Mateusz Łoskot, Tomasz Paul, Andrzej Świąder ',
 	pt_BR => 'Arthur Nanni',
-	pt_PT => 'Giovanni Manghi, Joana Simoes, Duarte Carreira, Alexandre Neto, Pedro Pereira, Pedro Palheiro, Nelson Silva',
+	pt_PT => 'Giovanni Manghi, Joana Simões, Duarte Carreira, Alexandre Neto, Pedro Pereira, Pedro Palheiro, Nelson Silva, Ricardo Sena, Leandro Infantini',
 	ro => 'Lonut Losifescu-Enescu, Bogdan Pacurar',
 	ru => 'Artem Popov',
 	sk => 'Lubos Balazovic, Jana Kormanikova, Ivan Mincik',
@@ -83,7 +83,7 @@ my $translators= {
 	tr => 'Osman Yilmaz',
 	uk => 'Сергей Якунин',
 	vi => 'Phan Anh, Bùi Hữu Mạnh',
-	zh_CN => 'Calvin Ngei, Zhang Jun',
+	zh_CN => 'Calvin Ngei, Zhang Jun, Richard Xie',
 	zh_TW => 'Nung-yao Lin',
 };
 
